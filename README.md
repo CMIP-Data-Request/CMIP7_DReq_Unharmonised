@@ -2,6 +2,10 @@
 
 The repository contains MIP-submitted data requests belonging to the CMIP7 Unharmonised Data Request.
 
+| :warning: WARNING           |
+|:----------------------------|
+| Contents are preliminary and under development   |
+
 ### Overview
 
 To register MIP experiments and create a data request for them, follow these steps:
