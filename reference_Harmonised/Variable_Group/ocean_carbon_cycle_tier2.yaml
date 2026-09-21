@@ -1,0 +1,47 @@
+Name: ocean_carbon_cycle_tier2
+Title: C4MIP variables describing ocean biogeochemical state and fluxes at monthly
+  frequency, medium priority
+Priority Level: Medium
+Justification: These tier 2 variables allow to describe ocean biogeochemical states
+  and fluxes at a finer level than tier 1 variables.
+Notes: ''
+Variables:
+- ocnBgchem.phydiat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chldiat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phymisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.graz.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chlmisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chldiaz.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dmso.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.phypico.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chlpico.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.intppdiat.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.fric.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.froc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppmisc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.epn.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.icfriver.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppdiaz.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppnitrate.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.zmicro.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phycalc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmeso.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chlcalc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.intpppico.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.epp.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.fgdms.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppcalc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.zmisc.tavg-ol-hxy-sea.mon.glb
+- ocean.sf6.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 29
+Themes:
+- Earth System
+- Ocean & Sea-Ice
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

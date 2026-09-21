@@ -1,0 +1,55 @@
+Title: Glacier changes, drivers, and impacts
+Description: This opportunity will allow assessments in the fields of glaciology and
+  glacio-hydrology across timescales in the past, present, and future. It focuses
+  on glaciers in the polar regions (including peripheral glaciers in Greenland and
+  (Sub-)Antarctica that are decoupled from the ice sheets) and mountain glaciers,
+  as identified in the Randolph Glacier Inventory (RGI). These glaciers have been
+  the largest cryospheric driver of sea-level rise in the 20th century. Depending
+  on the scenario (AR6), glaciers are expected to remain the primary drivers of sea-level
+  rise during the 21st century, exceeding the contributions from the two ice sheets.
+  They have significance in sustaining ecosystems, modulating regional hydroclimates,
+  and as a freshwater resource (particularly in, but not limited to, seasonally arid
+  regions like central Asia and the western slopes of the Andes). Through feedbacks
+  in the mass balance response to climate change, glaciers are regional-scale tipping
+  points in the Earth system and are an important element in assessing geohazards
+  (e.g., glacial lake outburst floods, avalanches).
+Expected Impacts: (1) One important use case is the Glacier Model Intercomparison
+  Project (GlacierMIP, under the umbrella of the WCRP CliC project), which is a coordinated
+  intercomparison effort of global-scale glacier models aiming for model improvements
+  and reducing uncertainties in global glacier projections. These involve historical
+  and future simulations of glacier geometry change at century scales. The outputs
+  from GlacierMIP have informed the IPCC Special Report on The Cryosphere and the
+  Oceans in a Warming Climate (Hock et al. 2019) and IPCC AR6 report (Marzeion et
+  al. 2020). (2) Another use is integration of glacier melt in hydrologic models for
+  accurate partitioning between glacier-melt, snow-melt, and baseflow contributions
+  to runoff. This requires variables from terrestrial hydrology and snow processes
+  at daily resolutions for sub-seasonal and seasonal assessments of streamflows. (3)
+  This opportunity will assist in the evaluation of the mountain cryosphere, with
+  a particular emphasis on glaciers as important regional tipping points, which is
+  a focus area of the WCRP CliC project. (4) The opportunity will further support
+  assessments on local to regional-scale geohazards associated with glacier change
+  under different scenarios, including glacial lake outburst floods, slope failures,
+  avalanches and ice falls, etc.
+Justification of Resources: The variables in this opportunity are critical as inputs
+  for the glacier modeling community and to study the impacts of climate change on
+  glaciers and of glacier changes on climate systems.
+Experiment Groups:
+- historical
+- scenarios
+- picontrol
+Variable Groups:
+- baseline_daily
+- baseline_monthly
+- baseline_fixed
+- landice_glaciers_allfreq
+- snow_allfreq
+Opportunity ID: 35
+Themes:
+- Land & Land-Ice
+- Impacts & Adaptation
+MIPs - high priority:
+- PMIP
+- LMIP
+MIPs - lower priority:
+- TIPMIP
+Harmonised DR version: v1.2.2.5

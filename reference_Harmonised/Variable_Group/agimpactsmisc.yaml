@@ -1,0 +1,20 @@
+Name: AgImpactsMisc
+Title: Agricultural impacts Miscellaneous
+Priority Level: Low
+Justification: This variable group includes additional variables requested by the
+  agricultural impacts and adaptation communities. Any of these variables would be
+  useful even if the others are not available. These variables allow for deeper investigations
+  of hazards and adaptation potentials in agricultural systems.
+Notes: ''
+Variables:
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.co2.tavg-h2m-hxy-u.mon.glb
+Number of variables in group: 3
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- ScenarioMIP
+- CMIP
+Harmonised DR version: v1.2.2.5

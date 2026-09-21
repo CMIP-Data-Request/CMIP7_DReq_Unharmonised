@@ -1,0 +1,22 @@
+Name: statistical_downscaling_extended
+Title: Empirical Statistical Downscaling and Emulators (CORDEX) extended
+Priority Level: Low
+Justification: 'This variable is requested for convenience even though it can be calculated
+  from the variables from high priority request. However the latter would require
+  downloading several 3d-fields. At least the following pressure levels are needed
+  (hPa): 1000, 925, 850, 700, 500, 250, 200 The variables are defined on different
+  pressure levels that are needed (we couldn''t define new variables on different
+  vertical coordinates, as there was a variable name conflict).'
+Notes: ''
+Variables:
+- atmos.hur.tavg-p19-hxy-u.day.glb
+Number of variables in group: 1
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+Of interest to MIPs:
+- ScenarioMIP
+- CMIP
+- HighResMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,20 @@
+Name: AgCarbon
+Title: Agricultural Carbon
+Priority Level: Low
+Justification: Carbon sequestration and emissions in agricultural lands are a critical
+  consideration in mitigation and sustainability efforts. These variables help agricultural
+  experts understand carbon stocks and fluxes in agricultural lands.
+Notes: ''
+Variables:
+- land.lai.tavg-u-hxy-lnd.day.glb
+- atmosChem.emich4.tavg-u-hxy-u.mon.glb
+- land.cSoil.tavg-u-hxy-lnd.mon.glb
+- land.fHarvestToAtmos.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 4
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- VIACSAB
+- CMIP
+Harmonised DR version: v1.2.2.5

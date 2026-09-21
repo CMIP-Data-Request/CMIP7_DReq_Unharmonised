@@ -1,0 +1,46 @@
+Name: land_benchmarking_and_landcover_variables_tier1
+Title: Land physical and landcover variables needed for benchmarking and understanding
+  carbon cycle changes at monthly frequency
+Priority Level: High
+Justification: Land variables needed for benchmarking and attribution of carbon and
+  nitrogen cycle changes
+Notes: ''
+Variables:
+- land.tsl.tavg-sl-hxy-lnd.mon.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+- land.mrso.tavg-u-hxy-lnd.mon.glb
+- land.mrsol.tavg-sl-hxy-lnd.mon.glb
+- land.mrsll.tavg-sl-hxy-lnd.mon.glb
+- land.mrsfl.tavg-sl-hxy-lnd.mon.glb
+- land.lai.tavg-u-hxy-lnd.mon.glb
+- land.evspsblsoi.tavg-u-hxy-lnd.mon.glb
+- land.evspsblveg.tavg-u-hxy-lnd.mon.glb
+- land.prveg.tavg-u-hxy-lnd.mon.glb
+- land.tran.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+- land.treeFrac.tavg-u-hxy-u.mon.glb
+- land.shrubFrac.tavg-u-hxy-u.mon.glb
+- land.grassFrac.tavg-u-hxy-u.mon.glb
+- land.cropFrac.tavg-u-hxy-u.mon.glb
+- land.pastureFrac.tavg-u-hxy-u.mon.glb
+- land.vegFrac.tavg-u-hxy-u.mon.glb
+- land.baresoilFrac.tavg-u-hxy-u.mon.glb
+- land.residualFrac.tavg-u-hxy-u.mon.glb
+- land.burntFractionAll.tavg-u-hxy-u.mon.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.mrtws.tavg-u-hxy-lnd.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+- land.albc.tavg-u-hxy-veg.mon.glb
+- land.cnc.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- land.rsds.tavg-u-hxy-sn.mon.glb
+- land.rsus.tavg-u-hxy-sn.mon.glb
+Number of variables in group: 30
+Themes:
+- Earth System
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

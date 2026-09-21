@@ -1,0 +1,38 @@
+Title: Climate impacts on marine biodiversity and ecosystems
+Description: 'Opportunity to provide outputs of interest to marine biodiversity and
+  ecosystem modellers to assess climate change impacts in marine ecosystems and for
+  different ecological groups. The data are essential for running next generation
+  ensemble projections for marine ecosystems within Fish-MIP, the Fisheries and Marine
+  Ecosystem Model Intercomparison Project (Tittensor et al. 2018, DOI: <https://doi.org/10.5194/gmd-11-1421-2018>;
+  Tittensor et al. 2021, DOI: <https://doi.org/10.1038/s41558-021-01173-9>), one of
+  the impact sectors covered within ISIMIP. For the purpose of this opportunity the
+  monthly variable group should have high priority, while the daily and 3h variable
+  groups should have low priority.'
+Expected Impacts: The variables and experiments in this opportunity provide input
+  to a broad set of fisheries and marine ecosystem models within Fish-MIP and beyond.
+  The opportunity thus supports a broad set of use cases to model the positive and
+  negative contributions of Nature to people.
+Justification of Resources: This request will facilitate a broad set of biodiversity
+  and ecosystem services models, and will allow more process-based understanding of
+  Nature’s contributions to people. This will directly contribute to the efforts of
+  IPBES to improve understanding of biodiversity and ecosystem services changes and
+  improve scenario work.
+Experiment Groups:
+- historical
+- scenarios
+- picontrol
+Variable Groups:
+- biodiv_marine_daily
+- ISIMIP_oceanforcing_3hr
+- marine_bgc_baseline
+- marine_bgc_fishmip
+Opportunity ID: 16
+Themes:
+- Impacts & Adaptation
+- Earth System
+MIPs - high priority:
+- FishMIP
+MIPs - lower priority:
+- PMIP
+- FishMIP
+Harmonised DR version: v1.2.2.5

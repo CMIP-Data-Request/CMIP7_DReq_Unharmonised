@@ -1,0 +1,50 @@
+Title: Bias-adjustment for impacts modeling and analysis
+Description: This opportunity request variables that are critical to the pipeline
+  of bias-adjustment and downscaling for impacts model assessment.It includes several
+  outputs groups requested by the Inter-Sectoral Impacts Model Intercomparison Project
+  (ISIMIP) and variables for the Climatologies at High-resolution for the Earth’s
+  Land Surface (CHELSA) project.Daily outputs are needed for the climate impact simulations
+  according to the ISIMIP protocol.3-hourly outputs are needed especially by some
+  regional models that operate at the respective temporal resolution. Deposition variables
+  are useful for ecosystems, agriculture, and water resources analyses. CHELSA uses
+  mechanistical statistical downscaling of global circulation model output to provide
+  such high-resolution climatologies that serve a broad array of impact sectors, for
+  example within ISIMIP.
+Expected Impacts: Facilitating the production of bias-adjusted and higher-resolution
+  climate data will allow driving input data for many fine-scale impact models.ISIMIP’s
+  bias-adjustment approach provides inputs to a prominent community of modelers producing
+  high-profile impact sector projections that are widely cited in publications and
+  assessments such as the IPCC. ISIMIP organization helps consolidate outputs that
+  are of use for multiple impacts and adaptation applications, and their bias-adjusted
+  and spatially disaggregated outputs are of wide use even beyond their formal simulation
+  phases. Requested variable sets also allow for the production of CHELSA high-resolution
+  climatologies, which are of wide use within ISIMIP and beyond.
+Justification of Resources: Outputs enable a vital pipeline for sectoral applications
+  by allowing bias-adjustment and drivers for a large number of impacts sector models
+  (agriculture, water resources, ecosystems, fisheries, health, energy).So far, they
+  disaggregate daily data on their own which is a major source of bias in the respective
+  impact simulations. The data would enable consistency between impact simulations
+  at sub-daily (so far mostly regional) and daily scales. ISIMIP has an established
+  community of modelers and coordinates simulations across multiple sectors so that
+  results may be coherently connected for cross-sectoral implications. High resolution
+  bias-adjustment is of particular use for ecosystem impacts in complex terrain such
+  as mountains coastlines.
+Experiment Groups:
+- historical
+- damip_experiment_group
+- deck
+- scenarios
+- dcpp
+Variable Groups:
+- ISIMIPMinimalAtmos
+- ISIMIP3hourlyAtmos
+- ISIMIP_deposition_variables
+- CHELSA_land_daily
+Opportunity ID: 77
+Themes:
+- Impacts & Adaptation
+MIPs - high priority:
+- ISIMIP
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

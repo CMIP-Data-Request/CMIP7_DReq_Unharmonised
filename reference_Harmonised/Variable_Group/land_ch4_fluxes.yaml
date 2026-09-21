@@ -1,0 +1,28 @@
+Name: land_ch4_fluxes
+Title: Land CH4 fluxes and associated variables at monthly frequency
+Priority Level: Medium
+Justification: This variable group is intended to bring together all of the natural
+  and anthropogenic land CH4 flux variables, as well as key physical properties such
+  as wetland extent.
+Notes: ''
+Variables:
+- atmosChem.emich4.tavg-u-hxy-u.mon.glb
+- land.wetlandCH4.tavg-u-hxy-lnd.mon.glb
+- land.wetlandCH4cons.tavg-u-hxy-lnd.mon.glb
+- land.wetlandCH4prod.tavg-u-hxy-lnd.mon.glb
+- atmosChem.ch4losssoil.tavg-u-hxy-u.mon.glb
+- aerosol.emibbch4.tavg-u-hxy-u.mon.glb
+- atmosChem.emiach4.tavg-u-hxy-u.mon.glb
+- atmosChem.emilkch4.tavg-u-hxy-u.mon.glb
+- land.wetlandFrac.tavg-u-hxy-u.mon.glb
+Number of variables in group: 9
+Themes:
+- Earth System
+- Land & Land-Ice
+- Atmosphere
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- ScenarioMIP
+- C4MIP
+Harmonised DR version: v1.2.2.5

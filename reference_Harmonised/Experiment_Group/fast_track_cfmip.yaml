@@ -1,0 +1,9 @@
+Name: fast-track_cfmip
+Title: CFMIP subset of FastTrack
+Experiments:
+- abrupt-0p5xCO2
+- abrupt-2xCO2
+- amip-p4K
+- amip-piForcing
+Number of experiments in group: 4
+Harmonised DR version: v1.2.2.5

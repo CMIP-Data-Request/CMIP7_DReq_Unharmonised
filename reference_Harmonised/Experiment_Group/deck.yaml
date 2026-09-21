@@ -1,0 +1,15 @@
+Name: deck
+Title: ''
+Experiments:
+- 1pctCO2
+- abrupt-4xCO2
+- amip
+- esm-hist
+- esm-piControl
+- historical
+- piClim-4xCO2
+- piClim-anthro
+- piClim-control
+- piControl
+Number of experiments in group: 10
+Harmonised DR version: v1.2.2.5

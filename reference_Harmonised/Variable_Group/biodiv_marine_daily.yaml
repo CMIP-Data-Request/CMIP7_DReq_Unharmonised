@@ -1,0 +1,42 @@
+Name: biodiv_marine_daily
+Title: Daily climate variables for biodiversity and ecosystem modelling in marine
+  realm
+Priority Level: Low
+Justification: Daily climate variables needed for impact modelling in the marine ecosystems,
+  as part of ISIMIP
+Notes: '[T. Lovato 02/10/24 : modified list of variables and description according
+  to proposer indications]
+
+  [T. Lovato 04/10/24 : modified list of variables according to proposer indications]'
+Variables:
+- ocean.deptho.ti-u-hxy-sea.fx.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.day.glb
+- ocnBgchem.o2min.tavg-u-hxy-sea.day.glb
+- ocnBgchem.o2.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.o2.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.ph.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.phyc.tavg-op20bar-hxy-sea.day.glb
+- ocean.rsdo.tavg-ol-hxy-sea.day.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- ocean.so.tavg-ol-hxy-sea.day.glb
+- ocean.thetao.tavg-op20bar-hxy-sea.day.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocnBgchem.zmeso.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.zmicro.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.zooc.tavg-ol-hxy-sea.day.glb
+- ocean.uos.tavg-u-hxy-sea.day.glb
+- ocean.vos.tavg-u-hxy-sea.day.glb
+- ocean.wo.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.phydiat.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.phydiaz.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.phymisc.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.phynano.tavg-u-hxy-sea.day.glb
+- ocnBgchem.phypico.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.phycalc.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.expcob.tavg-u-hxy-sea.day.glb
+- ocnBgchem.intpoc.tavg-u-hxy-sea.day.glb
+- ocean.mlotst.tavg-u-hxy-sea.day.glb
+Number of variables in group: 27
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,47 @@
+Name: landuse
+Title: Land use information including land use fractions and subgrid output on land
+  use tiles at monthly and yearly timescales
+Priority Level: Medium
+Justification: Set of variables to track land use area fractions and subgrid fluxes
+  and states on land use tiles. The requested variables enable tracking of what models
+  use and/or simulate in terms of land use and land cover types. The requested variables
+  also enable tracking of carbon fluxes and states on subgrid land use tiles as well
+  as selected biogeophysical quantities on subgrid tiles to evaluate the carbon and
+  near-surface climate impacts of land use change.
+Notes: ''
+Variables:
+- land.raLut.tavg-u-hxy-multi.mon.glb
+- land.gppLut.tavg-u-hxy-multi.mon.glb
+- land.laiLut.tavg-u-hxy-multi.mon.glb
+- land.tasLut.tavg-h2m-hxy-multi.mon.glb
+- land.nppLut.tavg-u-hxy-multi.mon.glb
+- land.cSoilLut.tpt-u-hxy-multi.yr.glb
+- land.cVegLut.tpt-u-hxy-multi.yr.glb
+- land.fracLut.tpt-u-hxy-u.mon.glb
+- land.irrLut.tavg-u-hxy-multi.mon.glb
+- land.nbpLut.tavg-u-hxy-multi.mon.glb
+- land.fracLut.tpt-u-hxy-u.yr.glb
+- land.fracInLut.tsum-u-hxy-lnd.yr.glb
+- land.fracOutLut.tsum-u-hxy-lnd.yr.glb
+- land.cLitterLut.tpt-u-hxy-multi.yr.glb
+- land.cProductLut.tpt-u-hxy-multi.yr.glb
+- land.mrsolLut.tavg-d10cm-hxy-multi.mon.glb
+- land.treeFrac.tavg-u-hxy-u.yr.glb
+- land.cropFrac.tavg-u-hxy-u.yr.glb
+- land.grassFrac.tavg-u-hxy-u.yr.glb
+- land.shrubFrac.tavg-u-hxy-u.yr.glb
+- land.treeFracBdlDcd.tavg-u-hxy-u.mon.glb
+- land.baresoilFrac.tavg-u-hxy-u.yr.glb
+- land.hfssLut.tavg-u-hxy-multi.mon.glb
+- land.fLulccAtmLut.tavg-u-hxy-multi.mon.glb
+- land.hflsLut.tavg-u-hxy-multi.mon.glb
+- land.tsLut.tavg-u-hxy-multi.mon.glb
+- land.rhLut.tavg-u-hxy-multi.mon.glb
+Number of variables in group: 27
+Themes:
+- Land & Land-Ice
+Of interest to MIPs:
+- LUMIP
+- ScenarioMIP
+- LMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,76 @@
+Name: marine_bgc_baseline
+Title: Marine Biogeochemistry Baseline
+Priority Level: High
+Justification: This is the baseline list of variables that is needed to fully characterise
+  the marine ecosystem. Each one plays an important role in validation, monitoring,
+  comparison against observations, and understanding ecosystem services.
+Notes: '[TL 04/10/24: modified according to the merge discussion on github]'
+Variables:
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.tob.tavg-u-hxy-sea.mon.glb
+- ocean.thetao.tavg-u-hm-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.sob.tavg-u-hxy-sea.mon.glb
+- ocean.so.tavg-u-hm-sea.mon.glb
+- ocean.mlotst.tavg-u-hxy-sea.mon.glb
+- ocean.wo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.thkcello.ti-ol-hxy-sea.fx.glb
+- ocean.masscello.ti-ol-hxy-sea.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.volcello.ti-ol-hxy-sea.fx.glb
+- atmos.co2.tclm-u-hm-u.mon.glb
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.msfty.tavg-ol-ht-sea.mon.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.chl.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.day.glb
+- ocnBgchem.chl.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.phyc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phydiat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phycalc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phymisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phypico.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zooc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmeso.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmicro.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.no3.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.nh4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.po4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.si.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dfe.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissoc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissic.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.ph.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.talk.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.detoc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dmso.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.graz.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.fric.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.froc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-d1000m-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-d1000m-hxy-sea.mon.glb
+- ocnBgchem.fgco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.spco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.dpco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.dpo2.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 55
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- FishMIP
+Of interest to MIPs:
+- DAMIP
+- OMIP
+- CMIP
+- ScenarioMIP
+- ISIMIP
+Harmonised DR version: v1.2.2.5

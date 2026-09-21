@@ -1,0 +1,90 @@
+Name: DCPP_Essential
+Title: Highest-priority variables needed to assess Earth System prediction skill using
+  DCPP hindcasts
+Priority Level: High
+Justification: These variables constitute the highest priority variables needed for
+  the baseline assessment of DCPP hindcasts. The variables largely focus on single
+  level, monthly-mean fields, with a few higher frequency single-level fields. This
+  request reflects the large number of simulated years needed to fulfill the core
+  DCPP-A hindcasts set, and so DCPP_Essential is a balance between science needs and
+  the disk space required to store all hindcast years.
+Notes: ''
+Variables:
+- atmos.zg.tavg-500hPa-hxy-air.day.glb
+- atmos.clt.tavg-u-hxy-u.mon.glb
+- atmos.co2.tclm-u-hm-u.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- atmos.hfls.tavg-u-hxy-u.mon.glb
+- atmos.hfss.tavg-u-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.mon.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.rlut.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rsdt.tavg-u-hxy-u.mon.glb
+- atmos.rsut.tavg-u-hxy-u.mon.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.glb
+- atmos.ta.tavg-p19-hxy-air.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.tas.tmaxavg-h2m-hxy-u.mon.glb
+- atmos.tas.tminavg-h2m-hxy-u.mon.glb
+- atmos.ts.tavg-u-hxy-u.mon.glb
+- atmos.ua.tavg-p19-hxy-air.mon.glb
+- atmos.uas.tavg-h10m-hxy-u.mon.glb
+- atmos.va.tavg-p19-hxy-air.mon.glb
+- atmos.vas.tavg-h10m-hxy-u.mon.glb
+- atmos.zg.tavg-p19-hxy-air.mon.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.pr.tmax-u-hxy-u.day.glb
+- atmos.ta.tavg-850hPa-hxy-air.day.glb
+- atmos.pr.tmax-u-hxy-u.mon.glb
+- atmos.rls.tavg-u-hxy-u.mon.glb
+- atmos.rss.tavg-u-hxy-u.mon.glb
+- atmos.sfcWind.tmaxavg-h10m-hxy-u.mon.glb
+- ocean.t20d.tavg-u-hxy-sea.mon.glb
+- ocean.thetaot.tavg-u-hxy-sea.mon.glb
+- ocean.thetao.tavg-d2000m-hxy-sea.mon.glb
+- ocean.thetao.tavg-d300m-hxy-sea.mon.glb
+- ocean.thetao.tavg-d700m-hxy-sea.mon.glb
+- ocean.zfullo.tavg-ol-hxy-sea.yr.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- landIce.mrfso.tavg-u-hxy-lnd.mon.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.mrso.tavg-u-hxy-lnd.mon.glb
+- land.nbp.tavg-u-hxy-lnd.mon.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocnBgchem.chl.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.dfe.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.fgco2.tavg-u-hxy-sea.mon.glb
+- ocean.hfds.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.mon.glb
+- ocean.mlotst.tavg-u-hxy-sea.mon.glb
+- ocean.msftbarot.tavg-u-hxy-sea.mon.glb
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.vsf.tavg-u-hxy-sea.mon.glb
+- ocean.wfo.tavg-u-hxy-sea.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.sithick.tavg-u-hxy-si.mon.glb
+- ocean.hfbasin.tavg-u-hyb-sea.mon.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+Number of variables in group: 66
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- DCPP
+Of interest to MIPs:
+- FireMIP
+Harmonised DR version: v1.2.2.5

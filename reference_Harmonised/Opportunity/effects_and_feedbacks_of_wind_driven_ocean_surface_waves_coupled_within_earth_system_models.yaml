@@ -1,0 +1,53 @@
+Title: Effects and Feedbacks of Wind-Driven Ocean Surface Waves Coupled Within Earth
+  System Models
+Description: 'One of the majors impact of the global warming are related to coastal
+  regions, due to coastal floodings, coastal erosions, with more than 40% of the world''s
+  population living within 150 kilometers of the coast, with more than 108 million
+  people expose to potential inundation with 1m of (Sea-Level Rise). Surface ocean
+  waves has a huge impact in our modern society, from ship routes (Nielsen & Iknomakis,
+  2021), ports and harbors operations and safety (Nikolaos et. al. 2021), coastal
+  erosion (Pang et al. 2020), and many others. Also wind driven surface gravity waves
+  affects several marine and atmosphere processes like: marine aerosols formations
+  ( Dziembor, 2018), modulation of the air-sea fluxes (Qi et al. , 2024; Wu et al.
+  2022), tropical cyclones maintenance and decay ( Zhang, et al. 2023), ocean mixing
+  layer depths (Kantha & Clayson, 2004), planetary boundary layer profile and stability
+  (Wu, 2022), among others processes. Estimating the role of the ocean''s surface
+  waves in the sea-level rise is under discussion ( Aucan et al., 2019) . Sea-ice
+  also might be affected by ocean waves as well (Alberello et al., 2024; Yang et al.,
+  2024), due to ice and waves interactions, such as wave induced fracturing, lateral
+  and bottom melting (Yang et al., 2024), air-sea-ocean fluxes exchange. General wave
+  parameters (i.e. Significant Wave Height (SWH), Mean Period (MP), Peak Period (PP),
+  mean direction (MD), peak direction (PD)) among partitioned parameters (same but
+  for windsea and swells) are important to better represent all processes listed above.
+  It is nice to mention that the ocean surface wave community has joint efforts to
+  create the COWCLIP (Coordinated Ocean Wave Climate Project). This project aims to
+  raise the profile of wind-waves as a variable in the global climate system to both
+  foster and support determination of the effects of climate variability and change.
+  on the wave climate and the feedback influence of waves on the coupled earth climate
+  system.'
+Expected Impacts: Surface ocean waves variable might have a huge importance at all
+  DECK experiments, DCPP and ScenarioMIP.
+Justification of Resources: Several modelling centers already have wave models in
+  to their capabilities, coupled or uncoupled. The effects of surface wind waves are
+  important in modulating mean climate but also extreme events over the oceans.
+Experiment Groups:
+- deck
+- scenarios
+- historical
+- fast-track
+- scenarios_extensions
+Variable Groups:
+- baseline_monthly
+- baseline_daily
+- baseline_subdaily
+- baseline_fixed
+- sfc_waves
+Opportunity ID: 68
+Themes:
+- Ocean & Sea-Ice
+- Atmosphere
+- Earth System
+- Impacts & Adaptation
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

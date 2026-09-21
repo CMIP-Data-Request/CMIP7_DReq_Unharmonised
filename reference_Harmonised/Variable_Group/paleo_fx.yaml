@@ -1,0 +1,34 @@
+Name: paleo_fx
+Title: geometries and various boundary conditions for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- land.sftgif.ti-u-hxy-u.fx.glb
+- atmos.sftlf.ti-u-hxy-u.fx.glb
+- land.orog.ti-u-hxy-u.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.thkcello.ti-ol-hxy-sea.fx.glb
+- land.sftlaf.ti-u-hxy-u.fx.glb
+- land.depthl.ti-u-hxy-u.fx.glb
+- land.mrsofc.ti-u-hxy-lnd.fx.glb
+- ocean.basin.ti-u-hxy-u.fx.glb
+- ocean.deptho.ti-u-hxy-sea.fx.glb
+- land.slthick.ti-sl-hxy-lnd.fx.glb
+- atmos.areacella.ti-u-hxy-u.fx.glb
+- landIce.lithk.ti-u-hxy-u.fx.glb
+- land.depthsl.ti-u-hxy-u.fx.glb
+Number of variables in group: 15
+Themes:
+- Earth System
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Atmosphere
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

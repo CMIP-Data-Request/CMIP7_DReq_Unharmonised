@@ -1,0 +1,33 @@
+Name: paleo_cryosphere_low_priority
+Title: Low priority quantities of the cryosphere for paleoclimate research
+Priority Level: Low
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. Here we collect all variables that are relevant
+  for improved understanding of the state of the cryosphere, with a focus on sea ice,
+  across time scales.
+Notes: ''
+Variables:
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- seaIce.sidragbot.tavg-u-hxy-si.mon.glb
+- seaIce.sidragtop.tavg-u-hxy-si.mon.glb
+- seaIce.siforcecoriolx.tavg-u-hxy-si.mon.glb
+- seaIce.siforcecorioly.tavg-u-hxy-si.mon.glb
+- seaIce.siforceintstrx.tavg-u-hxy-si.mon.glb
+- seaIce.siforceintstry.tavg-u-hxy-si.mon.glb
+- seaIce.siforcetiltx.tavg-u-hxy-si.mon.glb
+- seaIce.siforcetilty.tavg-u-hxy-si.mon.glb
+- seaIce.simpthick.tavg-u-hxy-simp.mon.glb
+- seaIce.sisali.tavg-u-hxy-si.mon.glb
+- seaIce.simprefrozen.tavg-u-hxy-simp.mon.glb
+- seaIce.sithick.tavg-u-hxy-sir.mon.glb
+Number of variables in group: 14
+Themes:
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

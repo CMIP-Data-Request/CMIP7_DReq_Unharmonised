@@ -1,0 +1,27 @@
+Name: paleo_stable_isotopes
+Title: stable water isotopes for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- ocean.sw18O.tavg-ol-hxy-sea.mon.glb
+- atmos.pr18O.tavg-u-hxy-u.mon.glb
+- atmos.prsn18O.tavg-u-hxy-u.mon.glb
+- atmos.prsn2h.tavg-u-hxy-u.mon.glb
+- ocean.sw2H.tavg-ol-hxy-sea.mon.glb
+- atmos.pr2h.tavg-u-hxy-u.mon.glb
+- ocean.sw17O.tavg-ol-hxy-sea.mon.glb
+- atmos.pr17O.tavg-u-hxy-u.mon.glb
+Number of variables in group: 8
+Themes:
+- Earth System
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

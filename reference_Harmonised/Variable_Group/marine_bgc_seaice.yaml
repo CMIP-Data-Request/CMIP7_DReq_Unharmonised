@@ -1,0 +1,22 @@
+Name: marine_bgc_seaice
+Title: Seaice Biogeochemical Variables at monthly time scale
+Priority Level: Medium
+Justification: This is a minimum set of variables needed to have a comprehensive representation
+  of the seasonal dynamics of sea ice biogeochemistry on a monthly time scale
+Notes: '[TL 04/10/24: modified according to the merge discussion on github]'
+Variables:
+- ocnBgchem.sichl.tavg-u-hxy-si.mon.glb
+- ocnBgchem.sialgc.tavg-u-hxy-si.mon.glb
+- ocnBgchem.sino3.tavg-u-hxy-si.mon.glb
+- ocnBgchem.sisi.tavg-u-hxy-si.mon.glb
+- ocnBgchem.sigpp.tavg-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 7
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- SIMIP
+- OMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,24 @@
+Name: seaice_budget_freshwater_monthly
+Title: Variables needed for assessing the sea ice freshwater budget at monthly timeslices
+Priority Level: Medium
+Justification: This is a request for monthly resolution variables necessary to analyze
+  the evolution of the sea ice freshwater budget and understand the interaction of
+  sea ice with the hydrological cycle of the Earth, thus satisfying the requirements
+  of the "Sea ice changes, drivers and impacts" opportunity.
+Notes: ''
+Variables:
+- seaIce.siflfwbot.tavg-u-hxy-si.mon.glb
+- seaIce.siflfwdrain.tavg-u-hxy-si.mon.glb
+- seaIce.prra.tavg-u-hxy-si.mon.glb
+- seaIce.sfdsi.tavg-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 6
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- CMIP
+- ScenarioMIP
+- OMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,8 @@
+Name: cfmip-additional-nonfasttrack
+Title: Additional CFMIP CMIP7 experiments not in Fast Track
+Experiments:
+- amip-m4K
+- amip-p4K-SST-rad
+- amip-p4K-SST-turb
+Number of experiments in group: 3
+Harmonised DR version: v1.2.2.5

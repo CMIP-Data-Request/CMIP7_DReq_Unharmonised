@@ -1,0 +1,28 @@
+Name: seaice_state_monthly_basic
+Title: Monthly sea ice variables for basic analyses
+Priority Level: High
+Justification: Variables needed for assessment of seasonal cycle and long-term evolution
+  of sea ice state
+Notes: ''
+Variables:
+- seaIce.sitimefrac.tavg-u-hxy-sea.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.siconca.tavg-u-hxy-u.mon.glb
+- seaIce.simass.tavg-u-hxy-si.mon.glb
+- seaIce.sithick.tavg-u-hxy-si.mon.glb
+- seaIce.sieqthick.tavg-u-hxy-si.mon.glb
+- seaIce.snc.tavg-u-hxy-si.mon.glb
+- seaIce.snw.tavg-u-hxy-si.mon.glb
+- seaIce.snd.tavg-u-hxy-sn.mon.glb
+- seaIce.ts.tavg-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 12
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- SIMIP
+- OMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

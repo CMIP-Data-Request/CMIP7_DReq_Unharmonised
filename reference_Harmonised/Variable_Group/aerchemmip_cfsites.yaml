@@ -1,0 +1,29 @@
+Name: aerchemmip_CFsites
+Title: Aerosol composition variables at CF sites at 3 hourly intervals
+Priority Level: High
+Justification: This variable group will be used to evaluate aerosol microphysics against
+  long-term instrumentation in key locations, i.e., CF sites. For this evaluation,
+  aerosol chemical composition is required along side water content, so2, and aerosol
+  number concentration.
+Notes: ''
+Variables:
+- aerosol.conccn.tpt-u-hs-u.3hr.glb
+- aerosol.so2.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrso4.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrss.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrdust.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrbc.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmroa.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrnh4.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmrno3.tpt-h2m-hs-u.3hr.glb
+- aerosol.mmraerh2o.tpt-h2m-hs-u.3hr.glb
+Number of variables in group: 10
+Themes:
+- Atmosphere
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- GeoMIP
+- RFMIP
+- CFMIP
+Harmonised DR version: v1.2.2.5

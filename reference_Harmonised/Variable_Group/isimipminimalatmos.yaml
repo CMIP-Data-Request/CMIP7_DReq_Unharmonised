@@ -1,0 +1,32 @@
+Name: ISIMIPMinimalAtmos
+Title: Minimal Atmospheric Forcings for ISIMIP
+Priority Level: High
+Justification: Variables requested by the Inter-Sectoral Impacts Model Intercomparison
+  Project (ISIMIP). This minimal set are sufficient to drive the bulk of impacts models
+  across the ISIMIP sectors.
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+Number of variables in group: 11
+Themes:
+- Impacts & Adaptation
+MIP ownership:
+- ISIMIP
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- ScenarioMIP
+- DCPP
+- HighResMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

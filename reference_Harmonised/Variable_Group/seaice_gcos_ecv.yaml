@@ -1,0 +1,32 @@
+Name: seaice_gcos_ecv
+Title: Sea ice Essential Climate Variables (ECVs) for Global Climate Observing System
+  (GCOS)
+Priority Level: High
+Justification: GCOS has defined 7 essential climate sea ice variables (paper by Lavergne
+  et al, BAMS 2022). CMIP output will be useful to evaluate observational products
+  with respect to these variables.
+Notes: Albedo was not included as part of the CMIP7 data request. Instead, we ask
+  for the incoming and reflected SW flux terms that allows to calculate surface albedo.
+  We include both fluxes from the atmosphere model and from the sea ice model to allow
+  to calculate surface albedo over the grid cell or over only the sea ice-covered
+  part of the grid cell.
+Variables:
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- seaIce.sithick.tavg-u-hxy-si.day.glb
+- seaIce.siu.tavg-u-hxy-si.day.glb
+- seaIce.siv.tavg-u-hxy-si.day.glb
+- seaIce.sispeed.tavg-u-hxy-si.day.glb
+- seaIce.siage.tavg-u-hxy-si.day.glb
+- seaIce.ts.tavg-u-hxy-si.day.glb
+- seaIce.snd.tavg-u-hxy-sn.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rsus.tavg-u-hxy-u.day.glb
+- seaIce.rsds.tavg-u-hxy-si.day.glb
+- seaIce.rsus.tavg-u-hxy-si.day.glb
+Number of variables in group: 12
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- OMIP
+- CMIP
+Harmonised DR version: v1.2.2.5

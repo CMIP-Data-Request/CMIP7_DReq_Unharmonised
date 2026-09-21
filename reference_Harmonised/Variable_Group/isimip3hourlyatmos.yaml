@@ -1,0 +1,31 @@
+Name: ISIMIP3hourlyAtmos
+Title: 3-hourly atmospheric forcings for ISIMIP
+Priority Level: Medium
+Justification: Sub-daily variables requested by the Inter-Sectoral Impacts Model Intercomparison
+  Project (ISIMIP) in order to run a variety of impacts sector models.
+Notes: ''
+Variables:
+- atmos.huss.tpt-h2m-hxy-u.3hr.glb
+- atmos.hurs.tpt-h2m-hxy-u.3hr.glb
+- atmos.pr.tavg-u-hxy-u.3hr.glb
+- atmos.tas.tpt-h2m-hxy-u.3hr.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.3hr.glb
+- atmos.ps.tpt-u-hxy-u.3hr.glb
+- atmos.prsn.tavg-u-hxy-u.3hr.glb
+- atmos.rsds.tavg-u-hxy-u.3hr.glb
+- atmos.rlds.tavg-u-hxy-u.3hr.glb
+- atmos.ua.tavg-h100m-hxy-u.3hr.glb
+- atmos.va.tavg-h100m-hxy-u.3hr.glb
+Number of variables in group: 11
+Themes:
+- Impacts & Adaptation
+MIP ownership:
+- ISIMIP
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- DAMIP
+- ScenarioMIP
+- HighResMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

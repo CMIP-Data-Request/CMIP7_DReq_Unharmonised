@@ -1,0 +1,89 @@
+Title: Terrestrial Biodiversity
+Description: 'Advancing model-based impact assessments and adaptation planning in
+  the terrestrial biodiversity and ecosystem services sector. This opportunity includes
+  variable groups providing information needed for model-based impact assessments
+  and adaptation planning in the terrestrial biodiversity and ecosystem services sector.The
+  included variable groups will serve a broad range of biodiversity and ecosystem
+  models relevant to IPBES. They cover the needs of a broad and important impact sector
+  aiming to understand past biodiversity and ecosystem changes as well as projecting
+  their future trends, in order to evaluate impacts, risks, and potential adaptations
+  to safeguard biodiversity and ecosystem services and ensuring planetary health and
+  human well-being. The opportunity and variable groups provide the minimum set of
+  monthly variables essential for assessing broad-scale impacts of climate change
+  on biodiversity and ecosystem services as well as advanced sets of variables with
+  daily and sub-daily that are essential for process-based biodiversity models, forest
+  models and biophysical models.The daily resolution is essential to make more robust
+  predictions at the level of individual species and functional types, e.g. by assessing
+  the impacts of extremes (e.g. aridity, extreme fire weather, frost days) on ecological
+  life cycles as well as phenological changes. Biodiversity and ecosystem services
+  are essential for ensuring planetary health and human wellbeing. The essential biodiversity
+  variables (EBVs) cover multiple facets of biodiversity from the genes to ecosystem
+  level (Pereira et al. 2013, DOI: https://doi.org/10.1126/science.1229931). Modelling
+  these EBVs and comparing outputs to observations requires high temporal resolution.Advanced,
+  biophysical models for terrestrial biodiversity need input from physics-based microclimate
+  models to calculate organism heat and water balance at high temporal resolution,
+  and thus requirea minimum set of hourly climate variables to calculate those energy
+  balances.'
+Expected Impacts: 'Climate impact assessments onterrestrial biodiversity and ecosystem
+  services are supported and undertaken by a large and growing community of practice
+  and this opportunity will directly contribute to the efforts of IPBES to improve
+  understanding of biodiversity and ecosystem services changes and improve scenario
+  work. The variable group “biodiv\_land\_monthly” covers typical input needed for
+  coarse-scale biodiversity and ecosystem services models as summarised in the BES-SIM
+  protocols (Kim et al. 2018, DOI: https://doi.org/10.5194/gmd-11-4537-2018; Pereira
+  et al. 2024, DOI: https://doi.org/10.1126/science.adn3441). Additionally, these
+  variables can be used to conduct impact assessments for different ecological groups
+  and realms as e.g. in Hof et al. (2018, DOI: https://doi.org/10.1073/pnas.1807745115)
+  and Zurell et al. (2018, DOI: https://doi.org/10.1038/s41558-018-0312-9). The variable
+  group “biodiv\_land\_daily” provides input variables needed for advanced process-explicit
+  and statistical biodiversity models and process-based forest models. These span
+  models for predicting spatiotemporal distribution and abundances of species or functional
+  types, to models of avian species migration pathways and disease spread. The variable
+  group thus supports a broad set of use cases for model the positive and negative
+  contribution of Nature to people. The variable group “biodiv\_land\_daily\_advanced”
+  provides additional input for process-based forest models. Forests provide many
+  essential ecosystem services to people, mitigate climate change impacts, and suffer
+  from a mix of synergistic global change effects such as climate extremes and climate-induced
+  spread of diseases. The variable group supports advanced process-based forest models
+  through provision of variables related to extreme disturbances. The variable group
+  “biodiv\_microclim\_hourly” serve as input to biophysical models that help to understand
+  and predict climate change impacts on species'' behaviour, phenology, survival,
+  distribution, and abundance. The variables in this variable group constitute typical
+  input needed for microclimate and biophysical models. Biophysical models are uniquely
+  suited to solve global change biology problems that involve predicting and interpreting
+  responses to environmental variability and extremes, multiple or shifting constraints,
+  and novel abiotic or biotic environments (Briscoe et al. 2023, DOI: https://doi.org/10.1111/gcb.16557).'
+Justification of Resources: Understanding past and projecting future trends in biodiversity
+  and ecosystem services is essential for assessing impacts, risks, potential adaptation
+  and migration measures, and ensuring planetary health and human well-being. Impacts
+  to biodiversity is a major concern in the regulated financial sector. Quantification
+  of bioclimatic variables and metrics in a comprehensive and standardized framework
+  from the climate community would be a significant step forward in addressing biodiversity.
+  This request covers several variable groups that are essential inputs to a range
+  of biodiversity and ecosystem services models with varying degree of process detail.
+  These span a minimum set of monthly variables that are absolutely essential for
+  assessing broad-scale impacts of climate change on biodiversity and ecosystem services,
+  daily variables that will facilitate the use of process-based models to simulate
+  different biodiversity facets and essential biodiversity variables as well as long-term
+  forest dynamics, and hourly variables that will facilitate the use of biophysical
+  models. These models and thus this opportunity will directly contribute to the efforts
+  of IPBES to improve understanding of biodiversity and ecosystem services changes
+  and improve scenario work.
+Experiment Groups:
+- scenarios
+- historical
+- picontrol
+- conc-driven-scenario-extensions
+- highresmip2-ia
+Variable Groups:
+- biodiv_land_monthly
+- biodiv_land_daily
+- biodiv_land_daily_advanced
+- biodiv_microclim_hourly
+Opportunity ID: 11
+Themes:
+- Impacts & Adaptation
+MIPs - lower priority:
+- PMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

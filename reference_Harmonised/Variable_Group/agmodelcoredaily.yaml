@@ -1,0 +1,24 @@
+Name: AgModelCoreDaily
+Title: Core daily climate drivers for agricultural modeling
+Priority Level: High
+Justification: This group includes the core set of variables needed to run a typical
+  process-based crop model. While some models require more variables or higher resolutions,
+  this group will have the broadest application for agricultural models and other
+  agricultural impacts applications.
+Notes: ''
+Variables:
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+Number of variables in group: 4
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- DAMIP
+- DCPP
+- ScenarioMIP
+- CMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,46 @@
+Name: baseline_daily
+Title: ESM Baseline Climate Variables
+Priority Level: Core
+Justification: ''
+Notes: "As outlined in Baseline Climate Variables paper: https://doi.org/10.5194/egusphere-2024-2363\
+  \ \n\nPlease note, the number of variables in this group is slightly lower (5 fewer\
+  \ variables) than outlined in the paper. This is due to the harmonisation of pressure\
+  \ levels that occured during the consultation process leading the following five\
+  \ variables to be the same in the 'day' and 'Eday' CMIP6-era tables. Therefore the\
+  \ Eday variants have been removed. \n1. day/Eday.hus\n2. day/Eday.ua\n3. day/Eday.va\n\
+  4. day/Eday.zg\n5. day/Eday.ta"
+Variables:
+- atmos.ps.tavg-u-hxy-u.day.glb
+- ocean.sos.tavg-u-hxy-sea.day.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- atmos.hur.tavg-p19-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.wap.tavg-p19-hxy-u.day.glb
+- ocean.zos.tavg-u-hxy-sea.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+Number of variables in group: 24
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+- Impacts & Adaptation
+Of interest to MIPs:
+- FireMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,11 @@
+Name: scenarios_extensions-low-medium-high
+Title: Just the low, medium, and high scenarios extensions
+Experiments:
+- scen7-h-ext
+- scen7-m-ext
+- scen7-l-ext
+- esm-scen7-h-ext
+- esm-scen7-m-ext
+- esm-scen7-l-ext
+Number of experiments in group: 6
+Harmonised DR version: v1.2.2.5

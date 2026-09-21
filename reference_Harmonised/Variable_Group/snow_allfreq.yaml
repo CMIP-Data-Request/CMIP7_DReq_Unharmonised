@@ -1,0 +1,65 @@
+Name: snow_allfreq
+Title: Variables for snow-related assessments
+Priority Level: Medium
+Justification: These variables are important for opportunities related to land, hydrology,
+  and land ice, encompassing snow-related quantities at fixed, daily, and monthly
+  resolutions.
+Notes: ''
+Variables:
+- atmos.prsn.tavg-u-hxy-u.6hr.glb
+- atmos.prsn.tavg-u-hxy-u.3hr.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.day.glb
+- landIce.snd.tavg-u-hxy-lnd.day.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- seaIce.snd.tavg-u-hxy-sn.day.glb
+- seaIce.snd.tavg-u-hxy-sn.mon.glb
+- landIce.snm.tavg-u-hxy-lnd.day.glb
+- landIce.snm.tavg-u-hxy-lnd.mon.glb
+- landIce.tsn.tavg-u-hxy-lnd.day.glb
+- landIce.tsn.tavg-u-hxy-lnd.mon.glb
+- landIce.sbl.tavg-u-hxy-u.day.glb
+- landIce.sbl.tavg-u-hxy-u.mon.glb
+- landIce.sbl.tavg-u-hxy-lnd.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.day.glb
+- landIce.hfdsn.tavg-u-hxy-lnd.day.glb
+- landIce.hfdsn.tavg-u-hxy-lnd.mon.glb
+- seaIce.prsn.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassgrowthsi.tavg-u-hxy-si.mon.glb
+- seaIce.snc.tavg-u-hxy-si.mon.glb
+- seaIce.snm.tavg-u-hxy-si.mon.glb
+- landIce.lwsnl.tavg-u-hxy-lnd.day.glb
+- landIce.lwsnl.tavg-u-hxy-lnd.mon.glb
+- seaIce.sisnhc.tavg-u-hxy-si.day.glb
+- seaIce.sisnhc.tavg-u-hxy-si.mon.glb
+- seaIce.sitempsnic.tavg-u-hxy-si.day.glb
+- seaIce.sitempsnic.tavg-u-hxy-si.mon.glb
+- seaIce.sisndmasssi.tavg-u-hxy-si.mon.glb
+- seaIce.sbl.tavg-u-hxy-si.mon.glb
+- seaIce.siitdsnthick.tavg-u-hxy-si.mon.glb
+- landIce.agesno.tavg-u-hxy-lnd.mon.glb
+- atmos.prsnc.tavg-u-hxy-lnd.day.glb
+- land.sweLut.tavg-u-hxy-multi.mon.glb
+- landIce.sootsn.tavg-u-hxy-lnd.mon.glb
+- atmos.ts.tavg-u-hxy-lnd.day.glb
+- land.esn.tavg-u-hxy-lnd.day.glb
+- land.dsn.tavg-u-hxy-lnd.day.glb
+- atmos.hfdsnb.tavg-u-hxy-lnd.day.glb
+- atmos.snwc.tavg-u-hxy-lnd.day.glb
+- atmos.snrefr.tavg-u-hxy-lnd.day.glb
+- seaIce.sisndmassdyn.tavg-u-hxy-si.mon.glb
+- seaIce.sisndmasswind.tavg-u-hxy-si.mon.glb
+- atmos.prrsn.tavg-u-hxy-lnd.day.glb
+- atmos.prsnsn.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 48
+Themes:
+- Land & Land-Ice
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- Other
+Harmonised DR version: v1.2.2.5

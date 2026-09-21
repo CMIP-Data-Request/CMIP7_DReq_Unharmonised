@@ -1,0 +1,31 @@
+Name: biodiv_freshwater_daily
+Title: Daily climate variables essential for freshwater biodiversity modelling
+Priority Level: High
+Justification: Minimal variable set to allow model-based impact assessments on freshwater
+  ecosystems
+Notes: ''
+Variables:
+- land.areacellr.ti-u-hxy-u.fx.glb
+- land.rivi.tavg-u-hxy-lnd.day.glb
+- land.rivo.tavg-u-hxy-lnd.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- land.mrsol.tavg-sl-hxy-lnd.day.glb
+- land.dslw.tavg-u-hxy-lnd.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- land.mrsow.tavg-u-hxy-lnd.day.glb
+- land.dcw.tavg-u-hxy-lnd.day.glb
+- land.wtd.tavg-u-hxy-lnd.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+- atmos.pr.tmax-u-hxy-u.day.glb
+- atmos.prra.tavg-u-hxy-lnd.day.glb
+- land.mrtws.tavg-u-hxy-lnd.day.glb
+- land.mrsll.tavg-sl-hxy-lnd.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrsfl.tavg-sl-hxy-lnd.day.glb
+Number of variables in group: 20
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

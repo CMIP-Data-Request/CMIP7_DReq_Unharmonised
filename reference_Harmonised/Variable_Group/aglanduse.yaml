@@ -1,0 +1,25 @@
+Name: AgLandUse
+Title: Agricultural land use
+Priority Level: Low
+Justification: Characteristics of agricultural land use in the models helps agricultural
+  impacts applications understand model configurations and the balance of systems
+  represented in each grid cell. This is important to understanding potentially changing
+  baselines and carbon exchanges.
+Notes: ''
+Variables:
+- land.c3PftFrac.tavg-u-hxy-u.mon.glb
+- land.c4PftFrac.tavg-u-hxy-u.mon.glb
+- land.pastureFrac.tavg-u-hxy-u.mon.glb
+- land.cropFracC3.tavg-u-hxy-u.mon.glb
+- land.cropFracC4.tavg-u-hxy-u.mon.glb
+- land.pastureFracC3.tavg-u-hxy-u.mon.glb
+- land.pastureFracC4.tavg-u-hxy-u.mon.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- ScenarioMIP
+- CMIP
+- LUMIP
+Harmonised DR version: v1.2.2.5

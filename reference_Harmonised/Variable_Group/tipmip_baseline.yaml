@@ -1,0 +1,57 @@
+Name: tipmip_baseline
+Title: Tipping Points Modeling Intercomparison Project baseline variable group
+Priority Level: High
+Justification: These variables are those which will be included as baseline diagnostics
+  within the Tipping Points Modeling Comparison Project.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.ts.tavg-u-hxy-u.mon.glb
+- landIce.acabf.tavg-u-hxy-is.mon.glb
+- atmos.prsn.tavg-u-hxy-is.mon.grl
+- atmos.prra.tavg-u-hxy-is.mon.grl
+- landIce.sbl.tavg-u-hxy-lnd.mon.glb
+- landIce.snicem.tavg-u-hxy-is.mon.grl
+- atmos.hfls.tavg-u-hxy-is.mon.grl
+- land.sftgif.tavg-u-hxy-u.mon.glb
+- landIce.sftgrf.tavg-u-hxy-u.mon.glb
+- landIce.sftflf.tavg-u-hxy-u.mon.glb
+- landIce.orog.tavg-u-hxy-is.mon.glb
+- landIce.hfls.tavg-u-hxy-is.mon.glb
+- landIce.rsds.tavg-u-hxy-is.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- landIce.lithk.ti-u-hxy-is.fx.grl
+- landIce.topg.ti-u-hxy-gis.fx.grl
+- landIce.hfgeoubed.ti-u-hxy-gis.fx.grl
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- ocean.hfds.tavg-u-hxy-sea.mon.glb
+- ocean.mlotst.tavg-u-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.umo.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vmo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 39
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- TIPMIP
+Of interest to MIPs:
+- FireMIP
+Harmonised DR version: v1.2.2.5

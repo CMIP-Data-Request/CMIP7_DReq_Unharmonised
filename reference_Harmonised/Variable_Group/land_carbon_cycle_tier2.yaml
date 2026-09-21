@@ -1,0 +1,58 @@
+Name: land_carbon_cycle_tier2
+Title: Land Carbon Cycle Pools and Fluxes, at monthly frequency, medium priority
+Priority Level: Medium
+Justification: These pools and fluxes are needed to more finely resolve the global
+  carbon budget
+Notes: ''
+Variables:
+- land.cLeaf.tavg-u-hxy-lnd.mon.glb
+- land.cStem.tavg-u-hxy-lnd.mon.glb
+- land.cRoot.tavg-u-hxy-lnd.mon.glb
+- land.cOther.tavg-u-hxy-lnd.mon.glb
+- land.cLitterCwd.tavg-u-hxy-lnd.mon.glb
+- land.cLitterSurf.tavg-u-hxy-lnd.mon.glb
+- land.cLitterSubSurf.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-sl-hxy-lnd.mon.glb
+- land.cSoilPools.tavg-u-hxy-lnd.mon.glb
+- land.nppLeaf.tavg-u-hxy-lnd.mon.glb
+- land.nppStem.tavg-u-hxy-lnd.mon.glb
+- land.nppRoot.tavg-u-hxy-lnd.mon.glb
+- land.nppOther.tavg-u-hxy-lnd.mon.glb
+- land.raLeaf.tavg-u-hxy-lnd.mon.glb
+- land.raStem.tavg-u-hxy-lnd.mon.glb
+- land.raRoot.tavg-u-hxy-lnd.mon.glb
+- land.raOther.tavg-u-hxy-lnd.mon.glb
+- land.fVegFire.tavg-u-hxy-lnd.mon.glb
+- land.fLitterFire.tavg-u-hxy-lnd.mon.glb
+- land.rhLitter.tavg-u-hxy-lnd.mon.glb
+- land.rhSoil.tavg-u-hxy-lnd.mon.glb
+- land.fVegLitterMortality.tavg-u-hxy-lnd.mon.glb
+- land.fVegLitterSenescence.tavg-u-hxy-lnd.mon.glb
+- land.fVegSoilSenescence.tavg-u-hxy-lnd.mon.glb
+- land.fVegSoilMortality.tavg-u-hxy-lnd.mon.glb
+- land.cVeg.tavg-u-hxy-tree.mon.glb
+- land.cVeg.tavg-u-hxy-shb.mon.glb
+- land.cVeg.tavg-u-hxy-ng.mon.glb
+- land.gpp.tavg-u-hxy-tree.mon.glb
+- land.gpp.tavg-u-hxy-ng.mon.glb
+- land.gpp.tavg-u-hxy-shb.mon.glb
+- land.npp.tavg-u-hxy-tree.mon.glb
+- land.npp.tavg-u-hxy-shb.mon.glb
+- land.npp.tavg-u-hxy-ng.mon.glb
+- land.ra.tavg-u-hxy-tree.mon.glb
+- land.ra.tavg-u-hxy-shb.mon.glb
+- land.ra.tavg-u-hxy-ng.mon.glb
+- land.rh.tavg-u-hxy-tree.mon.glb
+- land.rh.tavg-u-hxy-shb.mon.glb
+- land.rh.tavg-u-hxy-ng.mon.glb
+Number of variables in group: 40
+Themes:
+- Earth System
+- Land & Land-Ice
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

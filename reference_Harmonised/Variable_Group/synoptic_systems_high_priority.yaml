@@ -1,0 +1,38 @@
+Name: synoptic_systems_high_priority
+Title: Variables for analysis of synoptic systems and their impacts
+Priority Level: High
+Justification: The proposed high frequency variables are suggested to allow for standard
+  feature tracking algorithms to be used to detect tropical cyclones, extratropical
+  cyclones, blocking events, monsoon depressions, the MJO, and atmospheric rivers
+  as well as to diagnose their surface impacts and the cloud radiative effects associated
+  with them.
+Notes: ''
+Variables:
+- atmos.va.tpt-p3-hxy-air.6hr.glb
+- atmos.ua.tpt-p3-hxy-air.6hr.glb
+- atmos.ta.tpt-p3-hxy-air.6hr.glb
+- atmos.psl.tpt-u-hxy-u.6hr.glb
+- atmos.zg.tpt-p3-hxy-air.6hr.glb
+- atmos.uas.tpt-h10m-hxy-u.6hr.glb
+- atmos.vas.tpt-h10m-hxy-u.6hr.glb
+- atmos.pr.tavg-u-hxy-u.3hr.glb
+- atmos.prsn.tavg-u-hxy-u.3hr.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.rsut.tavg-u-hxy-u.day.glb
+- atmos.rsutcs.tavg-u-hxy-u.day.glb
+- atmos.rlut.tavg-u-hxy-u.day.glb
+- atmos.rlutcs.tavg-u-hxy-u.day.glb
+- atmos.rsdt.tavg-u-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.hus.tpt-p7h-hxy-air.6hr.glb
+- atmos.zg.tpt-p7h-hxy-air.6hr.glb
+- atmos.ta.tavg-700hPa-hxy-air.day.glb
+- atmos.intuaw.tpt-u-hxy-u.6hr.glb
+- atmos.intvaw.tpt-u-hxy-u.6hr.glb
+- atmos.prw.tpt-u-hxy-u.6hr.glb
+Number of variables in group: 24
+Themes:
+- Atmosphere
+Harmonised DR version: v1.2.2.5

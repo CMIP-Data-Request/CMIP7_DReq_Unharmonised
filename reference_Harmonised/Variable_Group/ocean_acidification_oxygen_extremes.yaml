@@ -1,0 +1,30 @@
+Name: ocean_acidification_oxygen_extremes
+Title: Ocean pH and oxygen extremes
+Priority Level: Medium
+Justification: This is important for comparing high resolution and coarse models including
+  biogeochemistry as well as for impacts of compound events.
+Notes: ''
+Variables:
+- ocnBgchem.ph.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.o2.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.chl.tavg-op20bar-hxy-sea.day.glb
+- ocean.so.tavg-ol-hxy-sea.day.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.sos.tavg-u-hxy-sea.day.glb
+- ocean.thetao.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.arag.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.arag.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.calc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.calc.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.dissic.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.talk.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 13
+Themes:
+- Ocean & Sea-Ice
+- Impacts & Adaptation
+Of interest to MIPs:
+- OMIP
+- FAFMIP
+- DCPP
+- C4MIP
+Harmonised DR version: v1.2.2.5

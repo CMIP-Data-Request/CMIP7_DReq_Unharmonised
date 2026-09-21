@@ -1,0 +1,26 @@
+Name: AgAirPollution
+Title: Agriculture and Air Pollution modeling
+Priority Level: Medium
+Justification: The variables in this group are needed to represent key climate influences
+  on agricultural systems related to the effects of air pollution, volcanoes, and
+  geoengineering on agricultural production.
+Notes: ''
+Variables:
+- atmos.rsdsdiff.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- aerosol.sfpm10.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm25.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm1.tavg-h2m-hxy-u.day.glb
+- aerosol.o3.tmax-h2m-hxy-u.day.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- DCPP
+- DAMIP
+- ScenarioMIP
+- HighResMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

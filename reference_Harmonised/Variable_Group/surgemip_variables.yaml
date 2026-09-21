@@ -1,0 +1,39 @@
+Name: surgemip_variables
+Title: SurgeMIP variables
+Priority Level: High
+Justification: Coastal flood damage is primarily the result of extreme sea levels
+  and climate change is expected to drive an increase in these extremes. Extreme sea
+  levels are primarily caused by storm surges often in combination with astronomical
+  tides, waves and/or river overflow. Proper estimation of changes in storm surges
+  is essential to estimate projected changes in extreme sea levels. The SurgeMIP (surge
+  model intercomparison) community has been established to tackle challenges associated
+  with predicting and projecting extreme sea levels which require reliable numerical
+  prediction systems. Critical to this is having relevant climate-scale forcing data
+  at the appropriate spatial and temporal scales. Hourly uas and vas winds (10 m Winds)
+  Hourly psl 3-hourly ice concentration 3-hourly ice velocity 3-hourly surface ocean
+  currents Monthly ocean temperature profile (all levels in top 500m, 1000m, 2000m,
+  bottom) Monthly ocean salinity profile (all levels in top 500m, 1000m, 2000m, bottom)
+Notes: ''
+Variables:
+- atmos.uas.tpt-h10m-hxy-u.1hr.glb
+- atmos.vas.tpt-h10m-hxy-u.1hr.glb
+- atmos.psl.tpt-u-hxy-u.1hr.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- seaIce.siu.tavg-u-hxy-si.day.glb
+- seaIce.siv.tavg-u-hxy-si.day.glb
+- ocean.tos.tpt-u-hxy-sea.3hr.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- seaIce.sithick.tavg-u-hxy-si.day.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 13
+Themes:
+- Impacts & Adaptation
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- HighResMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

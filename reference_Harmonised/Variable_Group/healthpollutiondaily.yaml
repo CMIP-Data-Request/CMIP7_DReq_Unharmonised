@@ -1,0 +1,29 @@
+Name: HealthPollutionDaily
+Title: Daily air pollution health impacts
+Priority Level: High
+Justification: Variables in this group allow health impacts and adaptation experts
+  to track air pollution that are known to be hazardous to human health. Including
+  these variables allows experts to track interactions between the climate system
+  and pollutants that would not be available simply from emissions datasets.
+Notes: ''
+Variables:
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- aerosol.sfpm10.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm1.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm25.tavg-h2m-hxy-u.day.glb
+- aerosol.o3.tmax-h2m-hxy-u.day.glb
+Number of variables in group: 8
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- HighResMIP
+- VIACSAB
+- CMIP
+- DCPP
+- DAMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,55 @@
+Title: Assessments for Hydrological Processes, Water Resources, and Freshwater Systems
+Description: This opportunity is aimed at leveraging CMIP data for assessments of
+  hydrological processes, water resources, and freshwater systems (i.e., rivers and
+  estuaries, lakes and inland water bodies, groundwater, snowpack, permafrost, and
+  glaciers). In addition to their application as input data for related modeling exercises
+  (e.g., hydrology, lake, or glacier models, etc.), these sets of daily and monthly
+  variables will be useful for (1) assessing the usability of Earth system models
+  for water resources applications, (2) evaluating whether these processes/systems
+  are adequately represented in the modeling frameworks, and (3) offering opportunities
+  for model intercomparisons across these topics.
+Expected Impacts: 'There are multiple use cases for these variables: (1) Variables
+  related to lakes (SST/lake surface water temperatures, lake fraction, lake depth,
+  etc.) have been used in studies related to lake-atmosphere interactions [[1](https://journals.ametsoc.org/view/journals/clim/34/12/JCLI-D-20-0751.1.xml)
+  and [2](https://journals.ametsoc.org/view/journals/atsc/79/5/JAS-D-21-0249.1.xml)]
+  and usability of CMIP models for large lakes [[1](https://www.sciencedirect.com/science/article/pii/S0380133021000289)].
+  (2) Surface runoff variables used to assess model hydrological sensitivity and improve
+  streamflow projections (e.g., [1](https://www-nature-com.cuucar.idm.oclc.org/articles/s41558-019-0639-x#Sec7)]
+  (3) Snow water equivalent and soil moisture to assess terrestrial water storage
+  anomalies [e.g., [1](https://journals.ametsoc.org/view/journals/clim/34/20/JCLI-D-21-0021.1.xml)]
+  (4) Water budget variables are important for assessments related to water availability
+  and security, and hydrometeorological extremes (floods and droughts) (5)A range
+  of variables (e.g., precipitation, PET, etc.) have applications for hydrological
+  simulations using bucket-type/watershed models.'
+Justification of Resources: These variables are of interest to a large number of applications
+  related to water resources and will allow comprehensive assessments for regional
+  hydroclimates. The opportunity is also relevant for climate impact assessments on
+  freshwater resources and water availability.
+Experiment Groups:
+- scenarios
+- historical
+- dcpp
+- picontrol
+- lmip
+- highresmip2-ia
+Variable Groups:
+- baseline_monthly
+- baseline_fixed
+- baseline_daily
+- hydrology
+- WaterResources_daily
+- WaterResources_subdaily
+- WaterResources_monthly
+- snow_allfreq
+Opportunity ID: 38
+Themes:
+- Land & Land-Ice
+- Impacts & Adaptation
+MIPs - high priority:
+- LMIP
+- IRRMIP
+- PMIP
+MIPs - lower priority:
+- DCPP
+- DAMIP
+Harmonised DR version: v1.2.2.5

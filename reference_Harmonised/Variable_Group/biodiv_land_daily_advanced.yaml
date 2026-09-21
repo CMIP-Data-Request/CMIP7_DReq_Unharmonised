@@ -1,0 +1,14 @@
+Name: biodiv_land_daily_advanced
+Title: Advanced set of daily climate variables for biodiversity modelling, including
+  dynamic vegetation models
+Priority Level: Medium
+Justification: Advanced variable set to allow model-based impact assessments on terrestrial
+  ecosystems
+Notes: ''
+Variables:
+- atmosChem.flashrate.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+Number of variables in group: 2
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

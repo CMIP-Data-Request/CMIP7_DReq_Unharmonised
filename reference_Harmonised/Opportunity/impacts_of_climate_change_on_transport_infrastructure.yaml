@@ -1,0 +1,36 @@
+Title: Impacts of climate change on transport infrastructure
+Description: Opportunity to provide outputs of interest to the transport infrastructure
+  communitys looking to CMIP7 for projections in order to evaluate impacts, risks,
+  and potential adaptations . Climate resilience and efficiency of transport infrastructure
+  can also have impacts on mitigation efforts given its role on current emissions.
+Expected Impacts: 'The variables requested under this opportunity support studies
+  focused on the impacts of climate change on the transport sector (railways and road,
+  mainly). The sector is severely impacted by extreme weather events, through multiple
+  hazards such as heat, flooding, extreme winds, coastal erosion and storm surges.
+  Future climate projections are used to inform business planning, adaptation and
+  regulatory submissions by the transport infrastructure sector. This is supported
+  by substantial work in the topic focused on different regions of the world. A few
+  examples listed below: https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcc.728
+  https://link.springer.com/article/10.1007/s10584-013-0810-8#Sec4 https://www.mdpi.com/2071-1050/14/14/8864
+  DOI:10.2791/15504 https://www.theccc.org.uk/wp-content/uploads/2022/07/Understanding-climate-risks-to-UK-infrastructure-Evaluation-of-the-third-round-of-the-Adaptation-Reporting-Power.pdf'
+Justification of Resources: The variables requested under this opportunity support
+  studies focused on the impacts of climate change on the transport sector (railways
+  and road, mainly). The sector is severely impacted by extreme weather events, through
+  multiple hazards such as heat, flooding, extreme winds, coastal erosion and storm
+  surges. Future climate projections are used to inform business planning, adaptation
+  and regulatory submissions by the transport infrastructure sector. This is supported
+  by substantial work in the topic focused on different regions of the world. A few
+  examples listed below https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcc.728
+  https://link.springer.com/article/10.1007/s10584-013-0810-8#Sec4 https://www.mdpi.com/2071-1050/14/14/8864
+  DOI:10.2791/15504 https://www.theccc.org.uk/wp-content/uploads/2022/07/Understanding-climate-risks-to-UK-infrastructure-Evaluation-of-the-third-round-of-the-Adaptation-Reporting-Power.pdf
+Experiment Groups:
+- impact_climserv_core_expt
+- scenarios
+Variable Groups:
+- transport_impacts_essential
+Opportunity ID: 42
+Themes:
+- Impacts & Adaptation
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

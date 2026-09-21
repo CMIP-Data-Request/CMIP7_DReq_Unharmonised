@@ -1,0 +1,29 @@
+Name: transport_impacts_essential
+Title: Essential variables to study impacts of climate change on transport infrastructure
+Priority Level: High
+Justification: These variables were requested to support studies focused on the impacts
+  of climate change on the transport sector (railways and road, mainly). The sector
+  is severely impacted by extreme weather events, through multiple hazards such as
+  heat, flooding, extreme winds, coastal erosion and storm surges. Future climate
+  projections are used to inform business planning, adaptation and regulatory submissions
+  by the transport infrastruture sector. https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcc.728
+  https://link.springer.com/article/10.1007/s10584-013-0810-8#Sec4 https://www.mdpi.com/2071-1050/14/14/8864
+  DOI:10.2791/15504 https://www.theccc.org.uk/wp-content/uploads/2022/07/Understanding-climate-risks-to-UK-infrastructure-Evaluation-of-the-third-round-of-the-Adaptation-Reporting-Power.pdf
+Notes: ''
+Variables:
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- atmos.ts.tpt-u-hxy-u.3hr.glb
+Number of variables in group: 8
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- CMIP
+- DCPP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,48 @@
+Name: temperature_variability_daily_highpriority
+Title: High priority daily average variables that are useful for quantifying daily
+  temperature variability and the processes involved.
+Priority Level: High
+Justification: 'This group of variables consists of those that are required to both
+  quantify daily temperature variability and to understand the processes involved.
+  This group contains the highest priority variables. Lower priority variables are
+  listed int he group "temperature_variability_daily_lowpriority". The following fields
+  are considered high priority: - Basic daily temperature variability that can be
+  used to characterize near surface air temperature variability (tas, tasmin, tasmax)
+  - Daily mid-tropospheric geopotential height for diagnosing the large scale circulation
+  anomalies that accompany heat extremes e.g., blocking high pressures (selected the
+  baseline variable zg but the 500 hPa level would be the highest priority) - Quantities
+  used to evaluate daily mid-tropospheric moist static energy which recent theories
+  have argued is an important quantity for governing the demise of heatwaves (Zhang
+  and Boos 10.1073/pnas.2215278120). I have specified the daily baseline hus, ta,
+  and zg but really only the values at the 500 hPa level are needed for this particular
+  aspect. - Quantities that are useful for examining how water limitations are impacting
+  on heat extremes. huss for quantifying vapor pressure deficit, evspsbl for quantifying
+  evaporation and its the components evspsblsoi and evspsblveg to explore the roles
+  of changing evaporation from soils and vegetation separately in heat extremes. -
+  Quantities for diagnosing the surface energy balance: hfls, hfss, rlds, rlus, rsds,
+  rsus'
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+- land.evspsblsoi.tavg-u-hxy-u.day.glb
+- land.evspsblveg.tavg-u-hxy-u.day.glb
+- atmos.hfls.tavg-u-hxy-u.day.glb
+- atmos.hfss.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rlus.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rsus.tavg-u-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+Number of variables in group: 16
+Themes:
+- Atmosphere
+- Impacts & Adaptation
+- Earth System
+- Land & Land-Ice
+Harmonised DR version: v1.2.2.5

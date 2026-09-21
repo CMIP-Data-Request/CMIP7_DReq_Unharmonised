@@ -1,0 +1,55 @@
+Title: Sea Ice Changes, Drivers and Impacts
+Description: This opportunity provides essential diagnostics for understanding past
+  and future sea ice changes, their drivers, and impacts. It enables the quantification
+  of sea ice’s critical role within the climate system and supports a comprehensive
+  study of the rapid transitions currently underway in the polar regions.
+Expected Impacts: Sea ice diagnostics are essential for describing and interpreting
+  past and future changes in Arctic and Antarctic sea ice and for identifying the
+  key drivers of these changes.For instance, detailed diagnostics can help determine
+  how components of the sea ice mass balance — such as surface, basal, or lateral
+  growth and melt — will change in the evolving Arctic and Antarctic marine regions.
+  These diagnostics also help single out the sources of energy driving these changes
+  (such as anthropogenic forcing or oceanic heat transport), disentangle the contributions
+  from internal vs forced variability, and document the role of contributing feedbacks.
+  Finally, model-based diagnostics can guide the long-term design of sustained observing
+  systems in these remote and rapidly changing environments.
+Justification of Resources: This opportunity requests model outputs to reproduce and
+  expand upon the work carried out during CMIP6. It enables a better understanding
+  of sea ice-related processes and contributes to identifying and, ultimately, reducing
+  biases and errors in sea ice simulations by large-scale climate models. Specifically,
+  it allows researchers to conduct large-scale analyses (sea ice extent, volume, thickness)
+  as well as process-level analysis of the sea ice heat, momentum and mass budgets
+  with the goal to better understand the mechanisms driving sea ice changes.
+Experiment Groups:
+- deck
+- fast-track
+- scenarios
+- scenarios_extensions
+Variable Groups:
+- seaice_budget_mass_monthly
+- seaice_budget_area_monthly
+- seaice_budget_energy_monthly
+- seaice_state_monthly_basic
+- seaice_dynamics_basic
+- seaice_dynamics_advanced
+- seaice_budget_freshwater_monthly
+- seaice_global_monthly_basic
+- seaice_global_daily_basic
+- seaice_global_monthly_advanced
+- seaice_state_monthly_advanced
+- seaice_state_daily_basic
+- seaice_gcos_ecv
+- baseline_monthly
+Opportunity ID: 73
+Themes:
+- Ocean & Sea-Ice
+MIPs - high priority:
+- SIMIP
+MIPs - lower priority:
+- DCPP
+- TIPMIP
+- PMIP
+- FishMIP
+- DAMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

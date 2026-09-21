@@ -1,0 +1,40 @@
+Name: seaice_dynamics_advanced
+Title: Variables needed for a detailed assessment of sea ice dynamics
+Priority Level: Medium
+Justification: 'Sea ice drifts, which has implications on sea ice and how it changes.
+  To understand sea ice drift and its implications, we propose here following Notz
+  et al (2016) three categories of variables: 1) horizontal sea ice + snow mass transport
+  terms, 2) terms of the sea ice horizontal momentum budget, 3) invariants of the
+  stress and strain rate tensors.'
+Notes: ''
+Variables:
+- seaIce.sidmasstranx.tavg-u-hxy-u.mon.glb
+- seaIce.sidmasstrany.tavg-u-hxy-u.mon.glb
+- seaIce.sistrxdtop.tavg-u-hxy-si.mon.glb
+- seaIce.sistrydtop.tavg-u-hxy-si.mon.glb
+- seaIce.sistrxubot.tavg-u-hxy-si.mon.glb
+- seaIce.sistryubot.tavg-u-hxy-si.mon.glb
+- seaIce.sicompstren.tavg-u-hxy-si.mon.glb
+- seaIce.sidivvel.tpt-u-hxy-si.mon.glb
+- seaIce.sishearvel.tpt-u-hxy-si.mon.glb
+- seaIce.sidragtop.tavg-u-hxy-si.mon.glb
+- seaIce.sidragbot.tavg-u-hxy-si.mon.glb
+- seaIce.siforcetiltx.tavg-u-hxy-si.mon.glb
+- seaIce.siforcetilty.tavg-u-hxy-si.mon.glb
+- seaIce.siforcecoriolx.tavg-u-hxy-si.mon.glb
+- seaIce.siforcecorioly.tavg-u-hxy-si.mon.glb
+- seaIce.siforceintstrx.tavg-u-hxy-si.mon.glb
+- seaIce.siforceintstry.tavg-u-hxy-si.mon.glb
+- seaIce.sistressave.tpt-u-hxy-si.mon.glb
+- seaIce.sistressmax.tpt-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 21
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- OMIP
+- SIMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

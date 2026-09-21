@@ -1,0 +1,9 @@
+Name: highresmip2-ia
+Title: Subset of highresmip2 experiments
+Experiments:
+- hist-1950
+- highresSST-p2k-pat
+- highres-future-scen7-m
+- highresSST-p4k-pat
+Number of experiments in group: 4
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,6 @@
+Name: lmip
+Title: Land-only historical and scenario simulations
+Experiments:
+- land-hist
+Number of experiments in group: 1
+Harmonised DR version: v1.2.2.5

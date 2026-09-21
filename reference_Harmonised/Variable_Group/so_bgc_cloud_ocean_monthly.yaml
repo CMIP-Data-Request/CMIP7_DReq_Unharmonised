@@ -1,0 +1,41 @@
+Name: SO_BGC-cloud_ocean_monthly
+Title: Southern Ocean BGC-Cloud Ocean Variables at monthly timeslices
+Priority Level: High
+Justification: Physical ocean and sea ice variables of interest to the Southern Ocean
+  BGC to Clouds opportunity. We want to understand how natural aerosol interact with
+  cloud and radiation. Because of the nature of these aerosol, which are produced
+  by physical processes (eg. waves) and biogeochemical processes (eg. primary productivity),
+  this cannot be fully understood without some knowledge of the background oceanic
+  and sea ice state. This variable group is a subset of the baseline monthly variables.
+Notes: ''
+Variables:
+- ocean.hfds.tavg-u-hxy-sea.mon.30S-90S
+- ocean.mlotst.tavg-u-hxy-sea.mon.30S-90S
+- ocean.sos.tavg-u-hm-sea.mon.30S-90S
+- ocean.so.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.thetao.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.umo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.uo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.vmo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.vo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.wmo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.wo.tavg-ol-hxy-sea.mon.30S-90S
+- ocean.zos.tavg-u-hxy-sea.mon.30S-90S
+- seaIce.siage.tavg-u-hxy-si.mon.30S-90S
+- seaIce.siconc.tavg-u-hxy-u.mon.30S-90S
+- seaIce.snd.tavg-u-hxy-sn.mon.30S-90S
+- seaIce.ts.tavg-u-hxy-si.mon.30S-90S
+- seaIce.sithick.tavg-u-hxy-si.mon.30S-90S
+- seaIce.sitimefrac.tavg-u-hxy-sea.mon.30S-90S
+- seaIce.siu.tavg-u-hxy-si.mon.30S-90S
+- seaIce.siv.tavg-u-hxy-si.mon.30S-90S
+Number of variables in group: 20
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- CFMIP
+- RFMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

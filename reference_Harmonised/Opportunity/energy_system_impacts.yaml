@@ -1,0 +1,160 @@
+Title: Energy System Impacts
+Description: 'This opportunity includes variable groups providing information needed
+  for impacts and adaptation planning in the energy sector.Included are variable groups
+  related to the minimum and extended inputs required to support core activities in
+  renewables assessment and energy system modelling.An emphasis is placed on core
+  sets of high-frequency (sub-daily) outputs as these are widely viewed as essential
+  for high-quality onward impact modelling of energy system infrastructure, supported
+  by addition outputs grouped by sector component or application. This opportunity
+  requests data throughout the entire simulation period. However, if high temporal
+  resolution data is difficult to provide for the entire period, this opportunity
+  can be supported with high resolution data from the following time subsets: hist72
+  and histext + whole timeseries (2021-2100): first preference, hist43 and histext
+  + whole timeseries (2021-2100): second preference, hist43 and histext + scenario30mid
+  + scenario20: third preference, hist43 and histext + scenario20mid + scenario20:
+  fourth preference, hist20 and histext + scenario20mid + scenario20: fifth preference.
+  histext is included because the I&A community would like historical data that are
+  as close to the present as possible.'
+Expected Impacts: This opportunity is therefore to transform the 'state of the art'
+  in energy-climate modelling. By better linking with the modelling needs of the energy
+  community, this opportunity will support improved climate impact risk assessment
+  and adaptation in a sector which is critical to achieving international decarbonisation
+  goals.As there are a very wide range of potential uses of the data, broad outcomes
+  are presented first followed by a brief explanation of the selected variable groups.
+  - Support for future decarbonisation in energy systems at regional, national and
+  international scale (e.g power system operations, planning and integration of renewables,
+  energy storage and transmission requirements, assessingheating/cooling load). -
+  Climate adaptation and resilience assessment (e.g., nuclear site risk assessment,
+  thermal power plant availability, siting of offshore wind power, risk of ‘energy
+  droughts’, network adequacy assessment). - Energy demand in built environment (e.g.,
+  use of heat-pumps, air conditioning, building comfort, health impacts in heat/cold-waves)
+  - Extreme event assessment (e.g., damage to infrastructure, risk to offshore wind)
+  - Supporting climate services to the energy sector _impacts\_climserv\_hourly\_core_-
+  minimum essential variables for detailed modelling of energy system planning, operations
+  and risk assessment for high-levels of renewables (wind and solar) and, to some
+  extent, demand from the built environment. _impacts\_climserv\_hourly\_expanded_-
+  combined with_impacts\_climserv\_hourly\__core, these enable more advanced models
+  of power system components to be used. _Impacts\_energy\_hydropower_- allows minimal
+  models of hydropower availability to be constructed (usually alongside_impacts\_climserv\_hourly\_core_).This
+  is vital for countries/regions where run-of-river or storage hydropower meet a significant
+  fraction of their energy needs (examples include Norway, China, Brazil, Uruguay,
+  Kenya, USA). __ _Impacts\_energy\_building\_demand_– combined with_impacts\_climserv\_hourly\_core_enables
+  enhanced modelling of demand for heating / cooling as well as electrified supply
+  (via air, water, or ground-source heat pumps) and the energy consumption of electric
+  vehicles. _Impact\_enegy\_damaging\_wind_and_impact\_energy\_damaging\_other_provide
+  simple time-aggregated metrics to estimate the risk of damage to key energy system
+  components. _Impacts\_energy\_river\_temperature_- thermal power plants (including
+  nuclear) provide vital services to electricity systems around the world and are
+  likely to continue to do so throughout the process of decarbonisation. This data
+  is important for modelling the availability of cooling water for these plants to
+  maintain operation and assess future climate risk to power sector.
+Justification of Resources: 'Decarbonising energy is central to climate mitigation.
+  Global investment in clean energy reached US$2 trillion in 2024 (IEA World Energy
+  Investment 2024) and this new infrastructure has multi-decadal life-spans.It is
+  therefore essential that good decisions are made.However, many of the changes involved
+  are increasing the exposure of the energy system to weather and climate (e.g. more
+  renewables, electrification of heating).Anticipating and understanding climate risks
+  to energy is therefore vital to for creating a resilient, clean and affordable future.
+  Energy systems have highly complex dependencies on weather due to their highly interconnected
+  nature.Supply (generation) must be balanced with load (demand) across complex geographical
+  networks in near-real time.High-frequency multi-variate time-series are essential
+  for estimating renewable resource variations (e.g., solar, wind, temperature) across
+  an extended spatial domain.This information cannot be readily reconstructed from
+  coarser-frequency climate information (see FAQs 3-5 & 7 below for further detail).
+  A critical minimum set of a handful of surface / near-surface climate variables
+  are identified as being crucial to many power system modelling applications, with
+  hourly-output commonly seen as the minimum frequency required to support detailed
+  assessment of renewables integration (though 3-hourly can also be used in some applications,
+  it introduces significant challenges and compromises for many energy modelling groups
+  – see FAQs 1, 2 & 7 below).A wider set of additional variables – many of which can
+  be provided at lower frequency – enable a broader and more comprehensive view to
+  be taken across a broader range of technologies (e.g., thermal power plants, building
+  energy demand, hydropower).Core outputs are anticipated in terms of characterising
+  rare/extreme events for present and future energy systems, understanding of long-term
+  climate variability (years, decades), and assessing the impacts of projected climate
+  change scenarios. All experiments listed in “impact_climserv_core_expt” requested
+  to provide data throughout entire simulation.Historic experiments (hist* and esm-hist)
+  can use hist72 timeslice.Future scenarios to prioritize data output period to 2100,
+  but extensions beyond this are welcomed where possible (as a lower priority but
+  particularly to 2150 for hydropower applications). Frequently asked questions about
+  this request: 1. Are all these different outputs really needed (is it a ‘credible
+  minimum set’ of variables and experiments)? We have sought to avoid requesting variables
+  which can be easily derived or estimated from each other, and limited the experiments
+  requested to the most important ones for energy impact research. While many energy
+  modellers would seek higher frequency and many more variables, the request seeks
+  to balance their wishes against feasibility of production (see FAQ 7 below).If hourly
+  data cannot be provided then 3-hourly or 6-hourly versions of the same variables
+  would enable many groups to begin to work with the data but at a scientific cost
+  (lower quality modelling of energy systems) and a community cost (fewer energy research
+  groups will be able to work with the more complex data-processing tasks involved,
+  see FAQs 2 & 8 below).The variables requested are a good approximation to the “minimum
+  set” required to support this community and will go a long way to “Overcoming the
+  disconnect between energy and climate modelling” https://doi.org/10.1016/j.joule.2022.05.010.
+  2. Is there a community who will use this data? There is an international modelling
+  community ready to support the uptake of this output.Equivalent datasets derived
+  from reanalyses are already used by many leading research groups internationally
+  in academia, industry and policy relating to energy (e.g., https://doi.org/10.1016/j.rser.2021.111614).
+  3. Can’t the GCMs be downscaled statistically to provide higher frequency/resolution?
+  Statistical downscaling of GCMs is not an alternative. Many energy-climate applications
+  require high-frequency time-series which are ‘self-consistent’ (in space, time and
+  across variables). This rules out many standard statistical downscaling methods.
+  4. Shouldn’t initiatives like CORDEX provide this high frequency/resolution data
+  for impact models rather than CMIP? Dynamical downscaling of GCMs is not a like-for-like
+  alternative to the wider CMIP ensemble.CORDEX, for example, lags CMIP in time (delaying
+  energy-climate impact assessment) and only downscales a sub-set of GCMs (limiting
+  multi-model risk assessment).It is also very expensive and does not provide universal
+  coverage (in many regions of the world CMIP not CORDEX will be available as an extensive
+  multi-model ensemble). 5. Could RCM emulators provide the required high-frequency
+  data? RCM emulators for downscaling may be an alternative in the long-term but remain
+  experimental and access to training data is highly unequal.While these tools are
+  incredibly promising (e.g., Sup3rCCC), research and development of these techniques
+  remains at an early stage.Deployment of RCM emulators pre-supposes the availability
+  of suitable high-frequency and high-resolution training data (e.g., an extensive
+  dynamical RCM downscaling of reanalysis) which is not available in many regions
+  of the world where energy systems are changing most rapidly. 6. Can high-frequency
+  GCM output be provided only for short timeslices or single ensemble members rather
+  than the whole simulation period across an initial condition ensemble? Providing
+  short timeslices or single ensemble members is not sufficient for robust impact
+  assessment.Energy infrastructure has a long life-span (decades) and it is therefore
+  relevant to understand how it is impacted by long-term climate variability and uncertainty.For
+  example, a recent study showed that life-time output from wind-farms in Germany
+  could vary by as much as 10% based on which 20-year sample of reanalysis is selected:
+  this has profound implications for the optimal siting and composition of European
+  renewable assets https://doi.org/10.5194/wes-4-515-2019.Multi-decadal (and ideally
+  multi-realisation ensembles) samples are required for robust impact assessment and
+  understanding the contributions of natural and anthropogenically-Data Request''s
+  Gridforced future climate scenarios, just as would be expected when assessing more
+  “traditional” climate science metrics (e.g., heatwaves or storm-track/jet movements).
+  7. Does hourly grid-point output from GCMs actually contain information beyond simply
+  interpolating 3-hourly output? There is evidence to suggest that hourly output CMIP-class
+  GCMs contains information that cannot be recovered from coarser (3h/6h) output.
+  Examination of previous CMIP ensembles (particularly HighResMIP via the EU H2020
+  PRIMAVERA project) confirms that there is “information” in hourly gridded GCM outputs
+  (https://ui.adsabs.harvard.edu/abs/2018EGUGA..20.7784G/abstract, following similar
+  methods previous applied to reanalyses herehttps://doi.org/10.1016/j.renene.2014.10.024).Notwithstanding
+  this, the provision of hourly output is vital for creating a strong connection with
+  energy modelling. It naturally “plugs in” to many onward energy models, substantially
+  reducing the burden of technical expertise for users by avoiding the need for up-sampling
+  in time.'
+Experiment Groups:
+- impact_climserv_core_expt
+- scenarios
+- scenarios_extensions-low-medium-high
+- highresmip2-ia
+Variable Groups:
+- impacts_climserv_hourly_core
+- impacts_climserv_hourly_expanded
+- impact_energy_hydropower
+- impact_energy_damaging_other
+- impacts_energy_damaging_wind
+- impact_energy_building_demand
+- Impact_energy_river_temperature
+Opportunity ID: 22
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

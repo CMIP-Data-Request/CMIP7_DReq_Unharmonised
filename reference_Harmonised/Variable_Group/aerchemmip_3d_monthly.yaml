@@ -1,0 +1,119 @@
+Name: aerchemmip_3d_monthly
+Title: 3D Trace gas, aerosol, radiative fluxes, and atmosphere/ocean/climate variables
+  for use in AerChemMIP at monthly timescales
+Priority Level: High
+Justification: This is a request for monthly resolution 3D variables that will satisfy
+  the requirements of the AerChemMIP Opportunity.
+Notes: ''
+Variables:
+- aerosol.sfpm10.tavg-al-hxy-u.mon.glb
+- aerosol.mmrpm2p5.tavg-al-hxy-u.mon.glb
+- aerosol.mmrpm1.tavg-al-hxy-u.mon.glb
+- aerosol.mmraerh2o.tavg-al-hxy-u.mon.glb
+- aerosol.mmroa.tavg-al-hxy-u.mon.glb
+- aerosol.mmrsoa.tavg-al-hxy-u.mon.glb
+- aerosol.mmrbc.tavg-al-hxy-u.mon.glb
+- aerosol.mmrso4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrno3.tavg-al-hxy-u.mon.glb
+- aerosol.mmrnh4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrss.tavg-al-hxy-u.mon.glb
+- aerosol.mmrdust.tavg-al-hxy-u.mon.glb
+- atmos.pfull.tavg-al-hxy-u.mon.glb
+- atmos.phalf.tavg-alh-hxy-u.mon.glb
+- atmos.ta.tavg-al-hxy-u.mon.glb
+- atmos.hus.tavg-al-hxy-u.mon.glb
+- atmos.zg.tavg-al-hxy-u.mon.glb
+- atmos.ua.tavg-al-hxy-u.mon.glb
+- atmos.va.tavg-al-hxy-u.mon.glb
+- aerosol.wa.tavg-al-hxy-u.mon.glb
+- atmos.tntrs.tavg-al-hxy-u.mon.glb
+- atmos.tntrl.tavg-al-hxy-u.mon.glb
+- atmosChem.o3.tavg-al-hxy-u.mon.glb
+- atmosChem.o3ste.tavg-al-hxy-u.mon.glb
+- atmosChem.tropo3ste.tavg-al-hxy-u.mon.glb
+- aerosol.h2o.tavg-al-hxy-u.mon.glb
+- atmosChem.n2o.tavg-al-hxy-u.mon.glb
+- atmosChem.ch4.tavg-al-hxy-u.mon.glb
+- atmos.co2.tavg-al-hxy-u.mon.glb
+- aerosol.co.tavg-al-hxy-u.mon.glb
+- aerosol.hcl.tavg-al-hxy-u.mon.glb
+- aerosol.no2.tavg-al-hxy-u.mon.glb
+- aerosol.no.tavg-al-hxy-u.mon.glb
+- aerosol.c2h6.tavg-al-hxy-u.mon.glb
+- aerosol.c3h6.tavg-al-hxy-u.mon.glb
+- aerosol.c3h8.tavg-al-hxy-u.mon.glb
+- aerosol.ch3coch3.tavg-al-hxy-u.mon.glb
+- atmos.cl.tavg-al-hxy-u.mon.glb
+- atmos.clc.tavg-al-hxy-u.mon.glb
+- aerosol.oh.tavg-al-hxy-u.mon.glb
+- aerosol.photo1d.tavg-al-hxy-u.mon.glb
+- aerosol.jno2.tavg-al-hxy-u.mon.glb
+- aerosol.airmass.tavg-al-hxy-u.mon.glb
+- aerosol.so2.tavg-al-hxy-u.mon.glb
+- aerosol.isop.tavg-al-hxy-u.mon.glb
+- aerosol.hcho.tavg-al-hxy-u.mon.glb
+- atmosChem.dms.tavg-al-hxy-u.mon.glb
+- aerosol.hno3.tavg-al-hxy-u.mon.glb
+- aerosol.pan.tavg-al-hxy-u.mon.glb
+- aerosol.chegpso4.tavg-al-hxy-u.mon.glb
+- aerosol.cheaqpso4.tavg-al-hxy-u.mon.glb
+- aerosol.o3prod.tavg-al-hxy-u.mon.glb
+- aerosol.o3loss.tavg-al-hxy-u.mon.glb
+- atmosChem.chegph2oo1d.tavg-al-hxy-u.mon.glb
+- aerosol.lossch4.tavg-al-hxy-u.mon.glb
+- aerosol.lossco.tavg-al-hxy-u.mon.glb
+- aerosol.lossn2o.tavg-al-hxy-u.mon.glb
+- aerosol.cdnc.tavg-al-hxy-u.mon.glb
+- atmos.mcu.tavg-alh-hxy-u.mon.glb
+- atmos.clw.tavg-al-hxy-u.mon.glb
+- atmos.cli.tavg-al-hxy-u.mon.glb
+- aerosol.aoanh.tavg-al-hxy-u.mon.nh
+- aerosol.nh50.tavg-al-hxy-u.mon.glb
+- atmos.ua.tavg-p19-hxy-air.mon.glb
+- atmos.va.tavg-p19-hxy-air.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- ocean.umo.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vmo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.wmo.tavg-ol-hxy-sea.mon.glb
+- ocean.wo.tavg-ol-hxy-sea.mon.glb
+- aerosol.ec550aer.tavg-al-hxy-u.mon.glb
+- atmosChem.meanage.tavg-al-hxy-u.mon.glb
+- aerosol.conccn.tavg-al-hxy-u.mon.glb
+- atmosChem.h2.tavg-al-hxy-u.mon.glb
+- atmosChem.emih2.tavg-u-hxy-u.mon.glb
+- atmosChem.h2loss.tavg-al-hxy-u.mon.glb
+- atmosChem.dryh2.tavg-u-hxy-u.mon.glb
+- atmosChem.h2prod.tavg-al-hxy-u.mon.glb
+- atmosChem.c2h4.tavg-al-hxy-u.mon.glb
+- atmosChem.c4h10.tavg-al-hxy-u.mon.glb
+- atmosChem.ch3oh.tavg-al-hxy-u.mon.glb
+- atmosChem.c2h5oh.tavg-al-hxy-u.mon.glb
+- atmosChem.tropch4lossoh.tavg-al-hxy-u.mon.glb
+- atmosChem.tropch4loss.tavg-al-hxy-u.mon.glb
+- atmosChem.stratch4loss.tavg-al-hxy-u.mon.glb
+- atmosChem.do3chm.tavg-al-hxy-u.mon.glb
+- atmosChem.tropdo3chm.tavg-al-hxy-u.mon.glb
+- aerosol.ccnp02.tavg-al-hxy-u.mon.glb
+- aerosol.ccn1.tavg-al-hxy-u.mon.glb
+- atmosChem.chepnh4.tavg-al-hxy-u.mon.glb
+- atmosChem.chepno3.tavg-al-hxy-u.mon.glb
+- atmos.hur.tavg-al-hxy-u.mon.glb
+- atmos.mc.tavg-alh-hxy-u.mon.glb
+- atmosChem.wethno3.tavg-al-hxy-u.mon.glb
+- atmosChem.wetno3.tavg-al-hxy-u.mon.glb
+- atmosChem.e90inst.tpt-al-hxy-u.mon.glb
+- atmosChem.o3.tpt-al-hxy-u.mon.glb
+Number of variables in group: 99
+Themes:
+- Atmosphere
+- Earth System
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- RFMIP
+- AerChemMIP2
+- GeoMIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

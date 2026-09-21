@@ -1,0 +1,36 @@
+Name: omip_budgets
+Title: Ocean budget fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table
+  L1)
+Priority Level: Low
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered low priority
+Notes: ''
+Variables:
+- ocean.opottempmint.tavg-u-hxy-sea.yr.glb
+- ocean.ocontempmint.tavg-u-hxy-sea.yr.glb
+- ocean.somint.tavg-u-hxy-sea.yr.glb
+- ocean.rsdoabsorb.tavg-ol-hxy-sea.yr.glb
+- ocean.opottemprmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.opottemppadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.opottemppmdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.opottemppsmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.opottempdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontemptend.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontemprmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontemppadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontemppmdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontemppsmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.ocontempdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.osalttend.tavg-ol-hxy-sea.yr.glb
+- ocean.osaltrmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.osaltpadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.osaltpsmadvect.tavg-ol-hxy-sea.yr.glb
+- ocean.osaltpsmadvect.tavg-ol-hxy-sea.mon.glb
+- ocean.osaltpmdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.osaltdiff.tavg-ol-hxy-sea.yr.glb
+- ocean.opottemptend.tavg-ol-hxy-sea.dec.glb
+Number of variables in group: 23
+Of interest to MIPs:
+- OMIP
+Harmonised DR version: v1.2.2.5

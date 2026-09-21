@@ -1,0 +1,49 @@
+Title: 'Clouds, circulation and climate sensitivity: baseline'
+Description: This opportunity facilitates scientific investigations that fall under
+  the purview of the Cloud Feedback Model Intercomparison Project (CFMIP). These include
+  studies of cloud, precipitation, and circulation processes, feedbacks, and rapid
+  adjustments, model evaluation against observations, climate sensitivity, and pattern
+  effects This "CFMIP-all" flavor of the broader CFMIP opportunity is intended to
+  capture the base set of variables requested from all experiments in the DECK and
+  CFMIP subset of the Fast-Track (12 total experiments).
+Expected Impacts: 'This opportunity addresses the three primary objectives of CFMIP:
+  A) Advance diagnosis and understanding of cloud feedbacks and rapid cloud adjustments
+  in past, present and future climates. B) Assess representations of clouds, their
+  radiative properties, and their feedback mechanisms in climate models to inform
+  model development. C) Understand and evaluate other aspects of climate change that
+  depend on cloud processes, such as climate sensitivity, circulation and precipitation,
+  regional patterns and extremes, and nonlinear behaviour. This opportunity will facilitate
+  the community''s ability to answer the key science questions of CFMIP: 1) What are
+  the physical mechanisms underlying cloud feedbacks and rapid adjustments in nature,
+  and how credibly do models represent these? 2) How and why do cloud feedbacks and
+  adjustments depend on the nature of the climate forcing? 3) How and why do cloud
+  feedbacks and adjustments depend on climate base state? 4) What coupled processes
+  underlie the SST pattern effect, and how and why does this affect cloud feedback?
+  5) What are the mechanisms underlying cloud-circulation coupling and regional precipitation
+  change, and how credibly do models represent these?'
+Justification of Resources: Despite being a large number of variables, we do not envision
+  this being overly burdensome because (1) many variables are already included in
+  the BCVs, and (2) only monthly 2D and 3D fields, daily 2D fields, and fixed fields
+  are requested. No sub-monthly 3D fields are requested. Data is requested only from
+  the DECK and the CFMIP subset of FastTrack.
+Experiment Groups:
+- deck
+- fast-track_cfmip
+- cfmip-additional-nonfasttrack
+Variable Groups:
+- CFMIP-aero
+- CFMIP-daily
+- CFMIP-monthly
+- CFMIP-convective
+- CFMIP-aux
+Opportunity ID: 78
+Themes:
+- Atmosphere
+MIPs - high priority:
+- CFMIP
+- PMIP
+MIPs - lower priority:
+- DAMIP
+- AerChemMIP2
+- RFMIP
+Harmonised DR version: v1.2.2.5

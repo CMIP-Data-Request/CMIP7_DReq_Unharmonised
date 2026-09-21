@@ -1,0 +1,25 @@
+Name: AgWaterCore
+Title: Agricultural water core
+Priority Level: High
+Justification: These variables help agricultural modelers resolve water balances for
+  agricultural fields, including soil pools, fluxes, and extreme conditions. This
+  will help improve agricultural impacts and adaptation experts' ability to analyze
+  drought, flooding, and water resource requirements.
+Notes: ''
+Variables:
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 5
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- DAMIP
+- VIACSAB
+- DCPP
+- CMIP
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

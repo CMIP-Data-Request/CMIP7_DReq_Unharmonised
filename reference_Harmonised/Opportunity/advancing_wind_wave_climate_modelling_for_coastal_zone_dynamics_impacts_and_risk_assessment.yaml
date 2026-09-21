@@ -1,0 +1,79 @@
+Title: Advancing Wind Wave Climate Modelling for Coastal Zone Dynamics, Impacts, and
+  Risk Assessment
+Description: The Coordinated Ocean Wave Climate Project (COWCliP) is an initiative
+  that addresses the critical need for detailed, accurate modelling of wind-driven
+  ocean surface waves. In our rapidly changing climate, understanding how these waves
+  evolve on global and regional scales is essential for predicting coastal hazards,
+  erosion, and other wave-related impacts and supporting offshore renewable energy
+  activities. To achieve this, we need high-resolution wind and sea-ice concentration
+  variables in the CMIP7 dataset. These variables are foundational to accurately model
+  the dynamics of wind-driven waves and their impacts on coastal environments, with
+  significant societal and scientific benefits. The societal benefits of improved
+  wind wave modelling extend far beyond academia. Coastal hazards driven by wind waves
+  pose significant risks to coastal communities, economies, and ecosystems. Currently,
+  around 40% of the global population lives within 100 kilometres of the coast, which
+  equates to more than 3 billion people. This population is projected to increase,
+  further intensifying the vulnerability of coastal areas to hazards such as storm
+  surges, flooding, and erosion. In terms of economic risk, coastal areas are home
+  to major cities, critical infrastructure, and industries like shipping, fisheries,
+  and tourism. According to the World Bank, more than $10 trillion in assets are at
+  risk from coastal flooding and sea level rise by 2050. As climate change intensifies,
+  the frequency of extreme wave events is likely to increase, putting more lives and
+  assets in danger. Additionally, the increasing renewable energy activity (wind,
+  wave) in our seas requires improved wind wave modelling to ensure safety and assess
+  risk during construction and maintenance. For effective wind wave climate modelling,
+  high-resolution temporal and spatial data are essential. Wind patterns can vary
+  significantly over short time scales and distances, and the interaction between
+  wind, waves, and ice requires detailed data to capture these dynamics. CMIP7’s provision
+  of high-resolution wind fields would allow for a more accurate representation of
+  the forces driving ocean waves. Similarly, sea-ice concentration data is critical
+  for understanding how ice attenuates or reflects wave energy, as well as how changing
+  ice cover due to warming temperatures alters wave patterns. Without high-resolution
+  data, models may miss localized phenomena such as extreme wave events or changes
+  in coastal wave energy distribution, which are crucial for understanding and predicting
+  coastal erosion and other hazards. By incorporating finer-scale data into wave models,
+  we can better understand the spatial variability of wave energy, identify vulnerable
+  coastal zones, and assess the future risks posed by changing wave climates.
+Expected Impacts: 'Wind wave spectral numerical models: These variables are essential
+  inputs for numerical models that simulate wind-wave generation, propagation, and
+  transformation. They are used to derive future projections of ocean wind waves under
+  different climate scenarios. Wave climate variability and trends: Surface wind speed
+  and sea ice concentration data can be used to analyze historical and projected trends
+  in wave climate, identifying regions with increasing or decreasing wave energy,
+  which can influence coastal erosion and flooding patterns. Storm surge and extreme
+  event analysis: High-resolution wind data are critical for simulating extreme wave
+  events, storm surges, and their coastal impacts, aiding in disaster preparedness
+  and risk assessments. Polar regions and sea ice dynamics: In polar regions, sea
+  ice concentration plays a crucial role in modulating wave energy. Ice cover reduces
+  wind-wave generation, but as sea ice declines due to climate change, new wave fields
+  can develop, impacting coastal and offshore environments. Wave energy and renewable
+  energy assessments: Wind speed data are used in assessing the potential for wave
+  energy as a renewable resource, identifying suitable locations for wave energy farms
+  based on long-term wave climate data and ensuring appropriate safety and risk assessment
+  during offshore construction and maintenance. Ecosystem impacts: The interaction
+  between wind-driven waves and coastal ecosystems (e.g., coral reefs, mangroves)
+  can be studied using these variables to understand how changes in wave dynamics
+  affect ecosystem health and coastal protection. Ship routing and maritime operations:
+  Future projections of wind wave conditions, based on surface wind data, can inform
+  safer and more efficient ship routing, reducing the risks of dangerous wave conditions
+  at sea.'
+Justification of Resources: '- Critical to Global Coastal Hazard Assessment - Foundational
+  for Wind-Wave Models - Critical for Polar and Ice-Affected Regions - Supporting
+  risk assessment for offshore renewable activity'
+Experiment Groups:
+- historical
+- scenarios
+- deck
+- scenarios_extensions
+Variable Groups:
+- baseline_monthly
+- baseline_daily
+- baseline_subdaily
+- seaice_state_daily_basic
+- cowclip_wind_wave_variables
+Opportunity ID: 24
+Themes:
+- Impacts & Adaptation
+- Ocean & Sea-Ice
+- Atmosphere
+Harmonised DR version: v1.2.2.5

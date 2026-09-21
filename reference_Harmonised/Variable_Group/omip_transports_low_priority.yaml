@@ -1,0 +1,19 @@
+Name: omip_transports_low_priority
+Title: Transport fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table I1)
+Priority Level: Low
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered low priority
+Notes: ''
+Variables:
+- ocean.msftmmpa.tavg-ol-hyb-sea.mon.glb
+- ocean.msftmmpa.tavg-rho-hyb-sea.mon.glb
+- ocean.msftypa.tavg-ol-ht-sea.mon.glb
+- ocean.msftypa.tavg-rho-ht-sea.mon.glb
+- ocean.msftmsmpa.tavg-ol-hyb-sea.mon.glb
+Number of variables in group: 5
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- OMIP
+Harmonised DR version: v1.2.2.5

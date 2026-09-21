@@ -1,0 +1,26 @@
+Name: statistical_downscaling_core_daily
+Title: Empirical Statistical Downscaling and Emulators (CORDEX) core daily
+Priority Level: High
+Justification: 'Core daily variables are used as large-scale fields for empirical
+  statistical downscaling of climate projections (historical and scenario runs) which
+  are typically at daily timescale and at multiple pressure levels. Only the following
+  pressure levels are needed (hPa): 1000, 925, 850, 700, 500, 250, 200'
+Notes: ''
+Variables:
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+Of interest to MIPs:
+- ScenarioMIP
+- HighResMIP
+- DCPP
+- CMIP
+Harmonised DR version: v1.2.2.5

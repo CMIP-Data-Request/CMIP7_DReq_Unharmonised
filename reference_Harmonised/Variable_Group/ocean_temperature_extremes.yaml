@@ -1,0 +1,25 @@
+Name: ocean_temperature_extremes
+Title: Ocean surface temperature metrics collected on a daily frequency.
+Priority Level: High
+Justification: These variables are needed to assess the changes in marine heatwaves.
+Notes: Should only be 0day.thetao [and potentially bigthetao] at 20bar pressure.  No
+  other levels (except surface in 3hr.tos)
+Variables:
+- ocean.tos.tpt-u-hxy-sea.3hr.glb
+- ocean.tossq.tavg-u-hxy-sea.day.glb
+- ocean.thetao.tavg-op20bar-hxy-sea.day.glb
+- ocean.bigthetao.tavg-op20bar-hxy-sea.day.glb
+Number of variables in group: 4
+Themes:
+- Ocean & Sea-Ice
+- Impacts & Adaptation
+Of interest to MIPs:
+- SIMIP
+- OMIP
+- DAMIP
+- CMIP
+- ISMIP7
+- ScenarioMIP
+- GeoMIP
+- CORDEX
+Harmonised DR version: v1.2.2.5

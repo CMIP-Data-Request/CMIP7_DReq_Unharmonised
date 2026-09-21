@@ -1,0 +1,24 @@
+Name: aerchemmip_ocean_salt_and_heat_transport_variables_monthly
+Title: Ocean salt and heat transport variables at monthly timescales for analysing
+  climate responses relevant to AerChemMIP2/RAMIP
+Priority Level: High
+Justification: This group of variables are 1D in spatial scale and output as monthly
+  means. Therefore, this variable group has a small computational burden. These heat
+  and salt transport variables will be used to assess the impact of changes in short-lived
+  climate forcers on ocean circulation.
+Notes: ''
+Variables:
+- ocean.sltovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.sltovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.htovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.htovovrt.tavg-u-hyb-sea.mon.glb
+- aerosol.vt100.tavg-100hPa-hy-air.mon.glb
+Number of variables in group: 5
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- OMIP
+Harmonised DR version: v1.2.2.5

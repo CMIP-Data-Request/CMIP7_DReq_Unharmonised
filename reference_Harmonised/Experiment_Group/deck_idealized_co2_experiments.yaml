@@ -1,0 +1,7 @@
+Name: deck_idealized_co2_experiments
+Title: Idealized co2 deck experiments
+Experiments:
+- 1pctCO2
+- abrupt-4xCO2
+Number of experiments in group: 2
+Harmonised DR version: v1.2.2.5

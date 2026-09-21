@@ -1,0 +1,45 @@
+Name: impacts_climserv_hourly_expanded
+Title: Impacts and Adaptation, Climate Services – expanded list at hourly timescales
+Priority Level: Medium
+Justification: Climate services and climate impact modelling are a vital step in the
+  value chain for understanding and managing the risks of a changing climate. The
+  communities that undertake these activities depend on CMIP data outputs as inputs
+  to onward "impact" models (e.g., for energy, water, agriculture, financial services,
+  health). These impact models can be highly complex with non-linear dependences on
+  meteorological properties. Many of these impact models themselves use only a handful
+  of common surface/near-surface variables but require fine-resolution data in both
+  time and space. Hitherto, the availability of such input data from CMIP has been
+  - at best - patchy. This has inhibited impact modelling by requiring compromises
+  on impact model resolution (e.g., use of daily or monthly rather than sub-daily
+  ) and inter-model comparison (e.g., only a few CMIP models providing relevant output),
+  or prevented the application of CMIP simulations in high-quality impact models completely.
+  The proposal is therefore for CMIP models running 'real world' simulations to output
+  a small set of surface/near-surface climate variables at sub-daily (preferably hourly)
+  grid-point resolution to support the provision of climate impact modelling, climate
+  services and climate adaptation across a wide range of topics, including but not
+  limited to infrastructure, energy, finance, health, agriculture & water. It is therefore
+  tressed that while this request is substantial, it is intended to support a wide
+  range of activities and "downstream" impact communities. These are additional to
+  the "high priority" core list, but add significant value to many use cases.
+Notes: ''
+Variables:
+- atmos.sfcWind.tavg-h10m-hxy-u.1hr.glb
+- atmos.rsdsdiff.tavg-u-hxy-u.1hr.glb
+- atmos.ts.tavg-u-hxy-u.1hr.glb
+- atmos.ps.tpt-u-hxy-u.1hr.glb
+- atmos.psl.tpt-u-hxy-u.1hr.glb
+- atmos.rlds.tavg-u-hxy-u.1hr.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- VIACSAB
+- CORDEX
+- ScenarioMIP
+- HighResMIP
+- DCPP
+- CMIP
+Harmonised DR version: v1.2.2.5

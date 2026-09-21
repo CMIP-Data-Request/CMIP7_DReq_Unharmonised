@@ -1,0 +1,25 @@
+Name: cowclip_wind_wave_variables
+Title: COWCliP Wind wave climate variables
+Priority Level: High
+Justification: Crucial for wind wave climate spectral wave modelling, especially to
+  resolve extremes, such as storms or cyclones.
+Notes: ''
+Variables:
+- atmos.uas.tpt-h10m-hxy-u.1hr.glb
+- atmos.vas.tpt-h10m-hxy-u.1hr.glb
+- atmos.uas.tpt-h10m-hxy-u.3hr.glb
+- atmos.vas.tpt-h10m-hxy-u.3hr.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- atmos.ua.tpt-h100m-hxy-u.1hr.glb
+- atmos.va.tpt-h100m-hxy-u.1hr.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- CORDEX
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

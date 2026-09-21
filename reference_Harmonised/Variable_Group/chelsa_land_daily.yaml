@@ -1,0 +1,34 @@
+Name: CHELSA_land_daily
+Title: Daily climate variables essential for downscaling to high spatial resolution
+  for terrestrial biodiversity impact models
+Priority Level: High
+Justification: Minimal set of variables needed as input for the CHELSA downscaling
+  procedure, which is essential for many terrestrial impact models and part of the
+  ISIMIP protocol.
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.hur.tavg-p19-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.cl.tavg-al-hxy-u.day.glb
+- atmos.clt.tavg-u-hxy-lnd.day.glb
+- land.orog.ti-u-hxy-u.fx.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+Number of variables in group: 19
+Themes:
+- Impacts & Adaptation
+MIP ownership:
+- ISIMIP
+Harmonised DR version: v1.2.2.5

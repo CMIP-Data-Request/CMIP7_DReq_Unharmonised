@@ -1,0 +1,27 @@
+Name: impacts_energy_damaging_wind
+Title: Damaging wind for energy systems
+Priority Level: Medium
+Justification: Specifically for wind projects, projections of wind gust and frost
+  conditions in a future climate are needed as they are required for site suitability
+  studies in the first case and to estimate icing losses on the turbine blades, in
+  the second. For solar PV, an analogue estimation of surface wind gust and hail events
+  in a warmer climate can be of great value. Under the event of severe gusts or hail,
+  PV panels are stowed in a safer position which can lead to production losses. Similar
+  data also likely to be relevant to other aspects of energy system (e.g., transmission
+  lines, nuclear power plant safety etc).
+Notes: ''
+Variables:
+- atmos.wsg.tmax-h10m-hxy-u.mon.glb
+- atmos.wsg.tmax-h100m-hxy-u.mon.glb
+Number of variables in group: 2
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+Of interest to MIPs:
+- VIACSAB
+- HighResMIP
+- DCPP
+- CMIP
+- ScenarioMIP
+- CORDEX
+Harmonised DR version: v1.2.2.5

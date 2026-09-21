@@ -1,0 +1,38 @@
+Title: Water cycle/budget assessment
+Description: In parallel to Earth's energy budget (changes), keeping track of Earth's
+  water is another key "opportunity" that involves flows across numerous realms. The
+  bulk of Earth's water is in the ocean, and even small changes to this reservoir
+  will have very, very large corresponding changes across other realms. Keeping track
+  of the very large latent energy fluxes also ties together Earth's energy and water
+  cycles in a way that should be considered in concert
+Expected Impacts: In a closed system, the flow of water through realms should be traceable
+  - linking terrestrial groundwater use to sea level rise for e.g. Similarly changes
+  to ocean salinity reflect freshwater relocation either within the closed ocean system,
+  or exported to another realm (generally through the atmospheric pathway). A holistic
+  view of the water/energy cycles will require variables saved across realms, and
+  doing this in a coherent way would aid their use in developing and understanding
+  of water cycle changes, what are driving these and how comparable modelled historical
+  changes are to our imperfect observational estimates
+Justification of Resources: This "opportunity" should be considered alongside the
+  parallel proposal for the "energy budget" opportunity, they complement one another
+Experiment Groups:
+- scenarios
+- historical
+- picontrol
+Variable Groups:
+- baseline_monthly
+- seaice_budget_freshwater_monthly
+- ocean_grid
+- int_ocean_budgets
+Opportunity ID: 66
+Themes:
+- Earth System
+- Ocean & Sea-Ice
+- Land & Land-Ice
+- Atmosphere
+MIPs - high priority:
+- PMIP
+MIPs - lower priority:
+- DAMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

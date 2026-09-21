@@ -1,0 +1,35 @@
+Name: ocean_grid
+Title: Ocean model grid information
+Priority Level: High
+Justification: The variables which provide information on the ocean model grid. This
+  is useful for getting the most accurate computations on the different ocean model
+  grid points (u, u, v and w). They are important when looking at ocean transects/sections
+  and computing transports.
+Notes: ''
+Variables:
+- ocean.thkcello.ti-ol-hxy-sea.fx.glb
+- ocean.thkcello.tavg-ol-hxy-sea.mon.glb
+- ocean.thkcello.tavg-ol-hxy-sea.dec.glb
+- ocean.volcello.ti-ol-hxy-sea.fx.glb
+- ocean.volcello.tavg-ol-hxy-sea.yr.glb
+- ocean.volcello.tavg-ol-hxy-sea.dec.glb
+- ocean.volcello.tavg-ol-hxy-sea.mon.glb
+- ocean.deptho.ti-u-hxy-sea.fx.glb
+- ocean.basin.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 10
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- DAMIP
+- DCPP
+- CDRMIP
+- FAFMIP
+- HighResMIP
+- NAHosMIP
+- OMIP
+- RFMIP
+- ScenarioMIP
+- PMIP
+Harmonised DR version: v1.2.2.5

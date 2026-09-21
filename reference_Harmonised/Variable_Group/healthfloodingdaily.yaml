@@ -1,0 +1,27 @@
+Name: HealthFloodingDaily
+Title: Daily flooding health impacts
+Priority Level: High
+Justification: Variables in this group provide information about precipitation, soil
+  moisture, snowpack, and runoff that can lead to dangerous flood conditions that
+  can impact human health.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.pr.tmax-u-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- landIce.snw.tavg-u-hxy-lnd.day.glb
+- land.mrsofc.ti-u-hxy-lnd.fx.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 8
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- ScenarioMIP
+- DAMIP
+- DCPP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

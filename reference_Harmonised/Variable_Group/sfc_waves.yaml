@@ -1,0 +1,44 @@
+Name: sfc_waves
+Title: Ocean surface wave diagnostics
+Priority Level: High
+Justification: Inclusion of the wave model's outputs
+Notes: ''
+Variables:
+- ocean.swhmax.tpt-u-hxy-sea.3hr.glb
+- ocean.swhwindsea.tpt-u-hxy-sea.3hr.glb
+- ocean.swhswell.tpt-u-hxy-sea.3hr.glb
+- ocean.swh.tavg-u-hxy-sea.mon.glb
+- ocean.swhmax.tmax-u-hxy-sea.mon.glb
+- ocean.swhwindsea.tavg-u-hxy-sea.mon.glb
+- ocean.swhswell.tavg-u-hxy-sea.mon.glb
+- ocean.mpwwindsea.tpt-u-hxy-sea.3hr.glb
+- ocean.mpwswell.tpt-u-hxy-sea.3hr.glb
+- ocean.mpw.tavg-u-hxy-sea.mon.glb
+- ocean.mpwswell.tavg-u-hxy-sea.mon.glb
+- ocean.sduo.tpt-u-hxy-sea.3hr.glb
+- ocean.sduo.tavg-u-hxy-sea.mon.glb
+- ocean.sdvo.tpt-u-hxy-sea.3hr.glb
+- ocean.sdvo.tavg-u-hxy-sea.mon.glb
+- ocean.wdirwindsea.tpt-u-hxy-sea.3hr.glb
+- ocean.wdirswell.tpt-u-hxy-sea.3hr.glb
+- ocean.wdir.tavg-u-hxy-sea.mon.glb
+- ocean.wdirwindsea.tavg-u-hxy-sea.mon.glb
+- ocean.wdirswell.tavg-u-hxy-sea.mon.glb
+- ocean.wppwindsea.tpt-u-hxy-sea.3hr.glb
+- ocean.wppswell.tpt-u-hxy-sea.3hr.glb
+- ocean.wpp.tavg-u-hxy-sea.mon.glb
+- ocean.wppwindsea.tavg-u-hxy-sea.mon.glb
+- ocean.wppswell.tavg-u-hxy-sea.mon.glb
+- ocean.mpwwindsea.tavg-u-hxy-sea.mon.glb
+- ocean.wpdir.tavg-u-hxy-sea.mon.glb
+- ocean.wpdirwindsea.tavg-u-hxy-sea.mon.glb
+- ocean.wpdirswell.tavg-u-hxy-sea.mon.glb
+- ocean.wpdirswell.tpt-u-hxy-sea.3hr.glb
+- ocean.wpdirwindsea.tpt-u-hxy-sea.3hr.glb
+- ocean.swh.tpt-u-hxy-sea.3hr.glb
+- ocean.wdir.tpt-u-hxy-sea.3hr.glb
+- ocean.wpdir.tpt-u-hxy-sea.3hr.glb
+- ocean.wpp.tpt-u-hxy-sea.3hr.glb
+- ocean.mpw.tpt-u-hxy-sea.3hr.glb
+Number of variables in group: 36
+Harmonised DR version: v1.2.2.5

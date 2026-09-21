@@ -1,0 +1,25 @@
+Name: seaice_dynamics_basic
+Title: Variables needed for basic assessment of sea ice dynamics
+Priority Level: High
+Justification: Sea ice drifts horizontally, which models simulate, with important
+  implication on sea ice state and their changes. Variables requested are the velocity
+  components and the module (which mean cannot be exactly derived from mean components).
+Notes: ''
+Variables:
+- seaIce.siu.tavg-u-hxy-si.day.glb
+- seaIce.siu.tavg-u-hxy-si.mon.glb
+- seaIce.siv.tavg-u-hxy-si.day.glb
+- seaIce.siv.tavg-u-hxy-si.mon.glb
+- seaIce.sispeed.tavg-u-hxy-si.day.glb
+- seaIce.sispeed.tavg-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 8
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- OMIP
+- ScenarioMIP
+- SIMIP
+Harmonised DR version: v1.2.2.5

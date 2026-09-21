@@ -1,0 +1,28 @@
+Name: land_nitrogen_cycle_tier2
+Title: Land Nitrogen Cycle Variables at Monthly Frequency, tier 2
+Priority Level: Medium
+Justification: These are needed to more finely resolve the global nitrogen cycle
+Notes: ''
+Variables:
+- land.nLeaf.tavg-u-hxy-lnd.mon.glb
+- land.nStem.tavg-u-hxy-lnd.mon.glb
+- land.nRoot.tavg-u-hxy-lnd.mon.glb
+- land.nOther.tavg-u-hxy-lnd.mon.glb
+- land.nLitterCwd.tavg-u-hxy-lnd.mon.glb
+- land.nLitterSurf.tavg-u-hxy-lnd.mon.glb
+- land.nMineralNH4.tavg-u-hxy-lnd.mon.glb
+- land.nMineralNO3.tavg-u-hxy-lnd.mon.glb
+- land.fNgas.tavg-u-hxy-lnd.mon.glb
+- land.fNleach.tavg-u-hxy-lnd.mon.glb
+- land.fNgasNonFire.tavg-u-hxy-lnd.mon.glb
+- land.fNgasFire.tavg-u-hxy-lnd.mon.glb
+- land.nLitterSubSurf.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 13
+Themes:
+- Earth System
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

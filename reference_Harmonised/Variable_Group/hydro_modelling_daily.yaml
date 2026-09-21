@@ -1,0 +1,20 @@
+Name: hydro_modelling_daily
+Title: Minimum variable set for hydrological models at daily timescale
+Priority Level: High
+Justification: Hydrological models simulate the quantity and quality of water in terrestrial
+  water bodies, allowing projections of water security and hazards which will enable
+  assessment of adaptation actions. Precipitation and PET are the required variables
+  for a typical bucket-type hydrological model (https://hess.copernicus.org/articles/26/1755/2022/,
+  Section 2.4).
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.day.glb
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 2
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- CORDEX
+Harmonised DR version: v1.2.2.5

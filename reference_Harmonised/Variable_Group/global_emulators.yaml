@@ -1,0 +1,45 @@
+Name: global_emulators
+Title: Training Emulators of the Global Climate Sytem
+Priority Level: High
+Justification: The requested variables will facilitate the creation of a family of
+  foundation models to enable analysis of CMIP7 simulations using new Artificial Intelligence
+  (AI) methods. AI is revolutionising approaches to the analysis of large an complex
+  datasets and is likely to add huge value to the analysis of CMIP7. [WORK IN PROGRESS]
+Notes: ''
+Variables:
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- atmos.prw.tavg-u-hxy-u.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- land.tslsi.tavg-u-hxy-lsi.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- atmos.psl.tpt-u-hxy-u.6hr.glb
+- atmos.va.tpt-al-hxy-u.6hr.glb
+- atmos.ua.tpt-al-hxy-u.6hr.glb
+- atmos.ta.tpt-al-hxy-u.6hr.glb
+- atmos.ps.tpt-u-hxy-u.6hr.glb
+- atmos.hus.tpt-al-hxy-u.6hr.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- atmos.zg.tpt-p7h-hxy-air.6hr.glb
+- atmos.va.tpt-p7h-hxy-air.6hr.glb
+- atmos.ua.tpt-p7h-hxy-air.6hr.glb
+- atmos.ta.tpt-p7h-hxy-air.6hr.glb
+- atmos.hus.tpt-p7h-hxy-air.6hr.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+Number of variables in group: 32
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

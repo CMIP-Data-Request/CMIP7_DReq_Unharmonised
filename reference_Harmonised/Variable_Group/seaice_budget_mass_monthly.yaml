@@ -1,0 +1,38 @@
+Name: seaice_budget_mass_monthly
+Title: Variables needed for assessing the sea ice mass budget at monthly timeslices
+Priority Level: High
+Justification: This is a request for monthly resolution variables necessary to analyze
+  the evolution of the sea ice mass budget and quantify the physical cause and location
+  of sea ice growth and melt, thus satisfying the requirements of the "Sea ice changes,
+  drivers and impacts" opportunity.
+Notes: ''
+Variables:
+- seaIce.simass.tavg-u-hxy-si.mon.glb
+- seaIce.snw.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassth.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassdyn.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassgrowthwat.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassgrowthbot.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassgrowthsi.tavg-u-hxy-si.mon.glb
+- seaIce.evspsbl.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassmelttop.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassmeltbot.tavg-u-hxy-si.mon.glb
+- seaIce.sidmassmeltlat.tavg-u-hxy-si.mon.glb
+- seaIce.prsn.tavg-u-hxy-si.mon.glb
+- seaIce.snm.tavg-u-hxy-si.mon.glb
+- seaIce.sbl.tavg-u-hxy-si.mon.glb
+- seaIce.sisndmassdyn.tavg-u-hxy-si.mon.glb
+- seaIce.sisndmasssi.tavg-u-hxy-si.mon.glb
+- seaIce.sisndmasswind.tavg-u-hxy-si.mon.glb
+- seaIce.prra.tavg-u-hxy-si.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 20
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- CMIP
+- ScenarioMIP
+- OMIP
+Harmonised DR version: v1.2.2.5

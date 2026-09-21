@@ -1,0 +1,50 @@
+Title: 'Clouds, circulation and climate sensitivity: extension for process-level studies'
+Description: This opportunity facilitates scientific investigations that fall under
+  the purview of the Cloud Feedback Model Intercomparison Project (CFMIP). These include
+  studies of cloud, precipitation, and circulation processes, feedbacks, and rapid
+  adjustments, model evaluation against observations, climate sensitivity, and pattern
+  effects This "CFMIP-amip-amip4K" flavor of the broader CFMIP opportunity is intended
+  to capture variables crucial for detailed evaluation of models against observations
+  (including COSP output) and for process-level studies from two experiments (amip
+  and amip-p4K).
+Expected Impacts: 'This opportunity addresses the three primary objectives of CFMIP:
+  A) Advance diagnosis and understanding of cloud feedbacks and rapid cloud adjustments
+  in past, present and future climates. B) Assess representations of clouds, their
+  radiative properties, and their feedback mechanisms in climate models to inform
+  model development. C) Understand and evaluate other aspects of climate change that
+  depend on cloud processes, such as climate sensitivity, circulation and precipitation,
+  regional patterns and extremes, and nonlinear behaviour. This opportunity will facilitate
+  the community''s ability to answer the key science questions of CFMIP: 1) What are
+  the physical mechanisms underlying cloud feedbacks and rapid adjustments in nature,
+  and how credibly do models represent these? 2) How and why do cloud feedbacks and
+  adjustments depend on the nature of the climate forcing? 3) How and why do cloud
+  feedbacks and adjustments depend on climate base state? 4) What coupled processes
+  underlie the SST pattern effect, and how and why does this affect cloud feedback?
+  5) What are the mechanisms underlying cloud-circulation coupling and regional precipitation
+  change, and how credibly do models represent these?'
+Justification of Resources: These data are crucial for advanced diagnosis and evaluation
+  of cloud, radiation, and precipitation processes in the present-day and warmed climate.
+  Despite the large number of requested fields variables, some of which are at sub-monthly
+  and 3D resolution, these data re requested for only 2 experiments (amip and amip-p4K).
+  Also, the sub-hourly data is requested only at select cfSites locations.
+Experiment Groups:
+- cfmip_amip_amip4K
+- cfmip-additional-nonfasttrack
+Variable Groups:
+- CFMIP_cfSites
+- CFMIP_daily_3D
+- CFMIP_cosp_extra
+- CFMIP_monthly_diurnal
+- CFMIP-aero
+- CFMIP-daily
+- CFMIP-monthly
+- CFMIP-convective
+- CFMIP-aux
+Opportunity ID: 79
+Themes:
+- Atmosphere
+MIPs - high priority:
+- CFMIP
+MIPs - lower priority:
+- DAMIP
+Harmonised DR version: v1.2.2.5

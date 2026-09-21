@@ -1,0 +1,17 @@
+Name: synoptic_systems_and_impacts
+Title: This an experiment group that accompanies the synoptic_systems_and_impact opportunity
+Experiments:
+- 1pctCO2
+- abrupt-4xCO2
+- amip
+- amip-p4K
+- esm-hist
+- esm-piControl
+- hist-aer
+- hist-GHG
+- hist-nat
+- historical
+- G7-1p5K-SAI
+- piControl
+Number of experiments in group: 12
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,156 @@
+Name: DCPP_Wider
+Title: A wider range of variables needed to understand the sources of prediction skill
+  of DCPP hindcasts, and to better understand impacts of regional climate variability
+  and change
+Priority Level: Medium
+Justification: These variables constitute a wider set of variables that will be used
+  to better understand the predictability of a wider set of variables, including ocean
+  biogeochemistry. They will also be used to better understand the processes shaping
+  regional climate variability and change, and to understand the sources of predictable
+  signals in the DCPP hindcasts. Specifically, the variables requested in DCPP_Wider
+  extend on those in DCPP_Essential by asking for more 3D information, more high-frequency
+  data, more process oriented diagnostic, more biogeochemistry diagnostics, and diagnostics
+  that will be used to understand the impacts of extreme events.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.6hr.glb
+- atmos.pr.tmax-u-hxy-u.6hr.glb
+- atmos.psl.tavg-u-hxy-u.6hr.glb
+- atmos.rv850.tavg-850hPa-hxy-air.6hr.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.6hr.glb
+- atmos.tas.tavg-h2m-hxy-u.6hr.glb
+- atmos.uas.tavg-h10m-hxy-u.6hr.glb
+- atmos.vas.tavg-h10m-hxy-u.6hr.glb
+- atmos.zg.tavg-1000hPa-hxy-air.6hr.glb
+- atmos.ta.tavg-p39-hy-air.mon.glb
+- atmos.ua.tavg-p39-hy-air.mon.glb
+- atmos.hus.tavg-p19-hxy-u.mon.glb
+- atmos.prsn.tavg-u-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- atmos.rlds.tavg-u-hxy-u.mon.glb
+- atmos.rlutcs.tavg-u-hxy-u.mon.glb
+- atmos.rsutcs.tavg-u-hxy-u.mon.glb
+- atmos.tauu.tavg-u-hxy-u.mon.glb
+- atmos.tauv.tavg-u-hxy-u.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- atmos.rsdt.tavg-u-hxy-u.day.glb
+- atmos.rsut.tavg-u-hxy-u.day.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- atmos.hfls.tavg-u-hxy-u.day.glb
+- atmos.hfss.tavg-u-hxy-u.day.glb
+- atmos.hur.tavg-p19-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rls.tavg-u-hxy-u.day.glb
+- atmos.rlut.tavg-u-hxy-u.day.glb
+- atmos.rss.tavg-u-hxy-u.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- ocean.mlotst.tavg-u-hxy-sea.day.glb
+- landIce.snd.tavg-u-hxy-lnd.day.glb
+- ocean.t20d.tavg-u-hxy-sea.day.glb
+- atmos.tauu.tavg-u-hxy-u.day.glb
+- atmos.tauv.tavg-u-hxy-u.day.glb
+- atmos.tdps.tavg-h2m-hxy-u.day.glb
+- land.cLand.tavg-u-hxy-lnd.mon.glb
+- atmos.co2.tavg-h2m-hxy-u.mon.glb
+- land.cSoil.tavg-u-hxy-lnd.mon.glb
+- atmos.tdps.tavg-h2m-hxy-u.mon.glb
+- atmos.epfy.tavg-p39-hy-air.mon.glb
+- atmos.epfz.tavg-p39-hy-air.mon.glb
+- atmos.utendepfd.tavg-p39-hy-air.mon.glb
+- atmos.vtem.tavg-p39-hy-air.mon.glb
+- atmos.wtem.tavg-p39-hy-air.mon.glb
+- land.baresoilFrac.tavg-u-hxy-u.yr.glb
+- land.cropFrac.tavg-u-hxy-u.yr.glb
+- land.grassFrac.tavg-u-hxy-u.yr.glb
+- land.residualFrac.tavg-u-hxy-u.yr.glb
+- land.shrubFrac.tavg-u-hxy-u.yr.glb
+- land.treeFrac.tavg-u-hxy-u.yr.glb
+- land.vegFrac.tavg-u-hxy-u.yr.glb
+- land.cLitter.tavg-u-hxy-lnd.mon.glb
+- land.gpp.tavg-u-hxy-lnd.mon.glb
+- land.lai.tavg-u-hxy-lnd.mon.glb
+- land.nbp.tavg-u-hxy-lnd.mon.glb
+- land.npp.tavg-u-hxy-lnd.mon.glb
+- land.ra.tavg-u-hxy-lnd.mon.glb
+- land.rh.tavg-u-hxy-lnd.mon.glb
+- ocnBgchem.chl.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.co3.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.co3.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.co3satarag.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.co3satarag.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.day.glb
+- ocnBgchem.o2.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.o2.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.ph.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.ph.tavg-ols-hxy-sea.day.glb
+- ocnBgchem.phyc.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.phyc.tavg-ols-hxy-sea.day.glb
+- ocean.thetao.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.dfe.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissic.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.epsi.tavg-d100m-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.fgco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.mon.glb
+- ocean.msftm.tavg-rho-hyb-sea.mon.glb
+- ocean.msftmmpa.tavg-ol-hyb-sea.mon.glb
+- ocnBgchem.nh4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.no3.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.no3.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.ph.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phyc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phyc.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.po4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.pp.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.si.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.si.tavg-ols-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.spco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.talk.tavg-ol-hxy-sea.mon.glb
+- ocean.tauuo.tavg-u-hxy-sea.mon.glb
+- ocean.tauvo.tavg-u-hxy-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.volo.tavg-u-hm-sea.mon.glb
+- ocean.wmo.tavg-ol-hxy-sea.mon.glb
+- ocean.wo.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zooc.tavg-ol-hxy-sea.mon.glb
+- ocean.zossq.tavg-u-hxy-sea.mon.glb
+- ocean.zostoga.tavg-u-hm-sea.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- seaIce.ts.tavg-u-hxy-si.day.glb
+- seaIce.sithick.tavg-u-hxy-si.day.glb
+- seaIce.sifllattop.tavg-u-hxy-si.mon.glb
+- seaIce.siflsenstop.tavg-u-hxy-si.mon.glb
+- seaIce.snd.tavg-u-hxy-sn.mon.glb
+- seaIce.sistrxdtop.tavg-u-hxy-si.mon.glb
+- seaIce.sistrydtop.tavg-u-hxy-si.mon.glb
+- seaIce.ts.tavg-u-hxy-si.mon.glb
+- seaIce.siu.tavg-u-hxy-si.mon.glb
+- seaIce.siv.tavg-u-hxy-si.mon.glb
+- land.cVeg.tavg-u-hxy-lnd.mon.glb
+- land.cProduct.tavg-u-hxy-lnd.mon.glb
+- ocnBgchem.chl.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissoc.tavg-ol-hxy-sea.mon.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+Number of variables in group: 131
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- DCPP
+Harmonised DR version: v1.2.2.5

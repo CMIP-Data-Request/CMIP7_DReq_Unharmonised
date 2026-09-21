@@ -1,0 +1,23 @@
+Name: paleo_ocean_3D
+Title: quantities of the ocean (3D) for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.wo.tavg-ol-hxy-sea.mon.glb
+- ocean.opottemptend.tavg-ol-hxy-sea.yr.glb
+Number of variables in group: 6
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

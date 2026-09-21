@@ -1,0 +1,32 @@
+Name: AgWaterExt
+Title: Agricultural water extended
+Priority Level: Medium
+Justification: These variables provide more extensive information to help agricultural
+  modelers resolve water balances for agricultural fields, including soil pools, fluxes,
+  and extreme conditions. This will help improve agricultural impacts and adaptation
+  experts' ability to analyze drought, flooding, and water resource requirements.
+Notes: ''
+Variables:
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrsofc.ti-u-hxy-lnd.fx.glb
+- land.rzwc.tavg-u-hxy-lnd.day.glb
+- land.irrLut.tavg-u-hxy-u.day.glb
+- land.irrDem.tavg-u-hxy-u.day.glb
+- land.irrSurf.tavg-u-hxy-u.day.glb
+- land.irrGw.tavg-u-hxy-u.day.glb
+Number of variables in group: 12
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- DAMIP
+- ScenarioMIP
+- CMIP
+- HighResMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

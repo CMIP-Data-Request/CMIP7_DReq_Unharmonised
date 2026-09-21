@@ -1,0 +1,36 @@
+Name: land_nitrogen_cycle_tier1
+Title: Land nitrogen cycle pools and fluxes at monthly frequency, high priority
+Priority Level: High
+Justification: These are needed to close the nitrogen budget on land
+Notes: ''
+Variables:
+- land.nVeg.tavg-u-hxy-lnd.mon.glb
+- land.nLitter.tavg-u-hxy-lnd.mon.glb
+- land.nSoil.tavg-u-hxy-lnd.mon.glb
+- land.nProduct.tavg-u-hxy-lnd.mon.glb
+- land.nLand.tavg-u-hxy-lnd.mon.glb
+- land.nMineral.tavg-u-hxy-lnd.mon.glb
+- land.fBNF.tavg-u-hxy-lnd.mon.glb
+- land.fNdep.tavg-u-hxy-lnd.mon.glb
+- land.fNfert.tavg-u-hxy-lnd.mon.glb
+- land.fNOx.tavg-u-hxy-lnd.mon.glb
+- land.fN2O.tavg-u-hxy-lnd.mon.glb
+- land.fNloss.tavg-u-hxy-lnd.mon.glb
+- land.fNLandToOcean.tavg-u-hxy-lnd.mon.glb
+- land.fNnetmin.tavg-u-hxy-lnd.mon.glb
+- land.fNup.tavg-u-hxy-lnd.mon.glb
+- land.fNVegSoil.tavg-u-hxy-lnd.mon.glb
+- land.fNVegLitter.tavg-u-hxy-lnd.mon.glb
+- land.fNLitterSoil.tavg-u-hxy-lnd.mon.glb
+- land.fNProduct.tavg-u-hxy-lnd.mon.glb
+- land.fNAnthDisturb.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 20
+Themes:
+- Earth System
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

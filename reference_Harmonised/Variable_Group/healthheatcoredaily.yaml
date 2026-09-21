@@ -1,0 +1,22 @@
+Name: HealthHeatCoreDaily
+Title: Heat health daily impacts
+Priority Level: High
+Justification: Variables in this group are very commonly used to understand the effects
+  of extreme heat and cold on human health, including compounding events with high
+  humidity.
+Notes: ''
+Variables:
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+Number of variables in group: 3
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- CMIP
+- VIACSAB
+- DCPP
+- HighResMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

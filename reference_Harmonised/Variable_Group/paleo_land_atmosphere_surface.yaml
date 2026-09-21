@@ -1,0 +1,46 @@
+Name: paleo_land_atmosphere_surface
+Title: quantities of the atmosphere and land surface for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.prc.tavg-u-hxy-u.mon.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.ts.tavg-u-hxy-u.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- atmos.clt.tavg-u-hxy-u.mon.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.mon.glb
+- atmos.tauu.tavg-u-hxy-u.mon.glb
+- atmos.tauv.tavg-u-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- atmos.tdps.tavg-h2m-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rsus.tavg-u-hxy-u.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 27
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+- Atmosphere
+- Land & Land-Ice
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

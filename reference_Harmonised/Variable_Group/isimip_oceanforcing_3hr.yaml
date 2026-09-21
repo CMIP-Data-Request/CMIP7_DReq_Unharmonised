@@ -1,0 +1,36 @@
+Name: ISIMIP_oceanforcing_3hr
+Title: ISIMIP 3-hourly atmosphere-ocean surface fluxes
+Priority Level: High
+Justification: 'The 3-hourly atmosphere-ocean surface fluxes (freshwater, heat, and
+  momentum) are required input, that will allow for a bias-adjustment of the oceanic
+  forcings provided within ISIMIP. So far the oceanic forcing is not bias-adjusted
+  although that is quite critical for the regional marine ecosystem and fisheries
+  models that are calibrated by observational data. For a test case (sensitivity experiment
+  in ISIMIP3b) we have developed a method to bypass the need for the fluxes. However,
+  that is restricted to a specific ESM. The 3-hourly fluxes will allow for a more
+  straight forward bias-adjustment of other ESMs, too. The approach is described in
+  Lengaigne et al. (2024) (https://essopenarchive.org/users/717160/articles/1151003-an-ocean-only-framework-for-correcting-future-cmip-oceanic-projections-from-their-present-day-biases)
+  and also described in the ISIMIP3b protocol paper (Frieler et al., 2024, to be submitted
+  and available on request). Variables mandatory for bias adjustment: 3h.tauuo, 3h.tauvo,
+  3h.hfds, 3h.rsntds, 3h.friver, 3h.wfo Additional variables to close budget but not
+  mandatory: 3h.ficeberg, 3h.flandice, 3h.sfdsi, 3h.hfrunoffds'
+Notes: ''
+Variables:
+- ocean.tauuo.tavg-u-hxy-sea.3hr.glb
+- ocean.tauvo.tavg-u-hxy-sea.3hr.glb
+- ocean.hfds.tavg-u-hxy-sea.3hr.glb
+- ocean.rsntds.tavg-u-hxy-sea.3hr.glb
+- ocean.friver.tavg-u-hxy-sea.3hr.glb
+- ocean.wfo.tavg-u-hxy-sea.3hr.glb
+- ocean.ficeberg.tavg-ol-hxy-sea.3hr.glb
+- ocean.flandice.tavg-u-hxy-sea.3hr.glb
+- ocean.sfdsi.tavg-u-hxy-sea.3hr.glb
+- ocean.hfrunoffds.tavg-ol-hxy-sea.3hr.glb
+Number of variables in group: 10
+Themes:
+- Impacts & Adaptation
+MIP ownership:
+- ISIMIP
+Of interest to MIPs:
+- FireMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,20 @@
+Name: marine_bgc_fishmip
+Title: Marine ecosystem data for fisheries impact modelling
+Priority Level: Medium
+Justification: Collection of data to support the modelling of marine ecosystem and
+  fisheries to investigate changes and impacts
+Notes: '[TL 04/10/24: modified according to the merge discussion on github]'
+Variables:
+- ocnBgchem.intppdiat.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppcalc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppdiaz.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppmisc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intpppico.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intppnano.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+- Earth System
+MIP ownership:
+- FishMIP
+Harmonised DR version: v1.2.2.5

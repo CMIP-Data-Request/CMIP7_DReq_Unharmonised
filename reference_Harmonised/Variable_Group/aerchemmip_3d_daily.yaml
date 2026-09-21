@@ -1,0 +1,24 @@
+Name: aerchemmip_3d_daily
+Title: 3D winds and ozone data at daily timescales for analysis in AerChemMIP2
+Priority Level: Medium
+Justification: This request is for 3D wind and ozone data for analysis in AerChemMIP2.
+  Although the data is high frequency, it is a small number of variables and was included
+  in the CMIP6 request. The variables will be used to examine atmospheric dynamical
+  responses in the CMIP simulations.
+Notes: ''
+Variables:
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmosChem.o3.tavg-p39-hy-air.mon.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+Number of variables in group: 4
+Themes:
+- Atmosphere
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- GeoMIP
+- ScenarioMIP
+- VolMIP
+- RAMIP
+Harmonised DR version: v1.2.2.5

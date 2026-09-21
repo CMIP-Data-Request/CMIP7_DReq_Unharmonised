@@ -1,0 +1,55 @@
+Title: Atmospheric dynamics and variability
+Description: The opportunity includes the most relevant variables and experiments
+  to address the main goals of DynVarMIP, which focuses on the dynamics and variability
+  of the stratosphere-troposphere system. In this opportunity we define requirements
+  for diagnosing the atmospheric circulation and variability across temporal scales
+  and for evaluating the momentum and heat budgets, both resolved and unresolved in
+  the models. These analyses of dynamical processes are crucial for identifying the
+  sources of circulation biases in climate models and advance understanding of the
+  atmospheric response to both natural variability and human-induced changes. These
+  biases in atmospheric dynamics significantly contribute to uncertainties in regional
+  climate forecasts, precipitation trends, and the occurrence of extreme events.
+Expected Impacts: 'The opportunity mainly follows the CMIP6 DynVarMIP data request
+  published in Gerber and Manzini (2016), which has already made possible the assessment
+  of stratospheric mean climate, variability, and change, as well as of the stratosphere-troposphere
+  dynamical coupling in climate models. Also, the original data request proved extremely
+  helpful in detecting the intermodel differences in dynamics and transport in the
+  free atmosphere and identifying the underlying physical processes causing this spread.
+  The outcome includes high impact studies on Sudden Stratospheric Warmings, stratospheric
+  polar vortex, Brewer-Dobson circulation, stratosphere-troposphere coupling and tropospheric
+  large-scale circulation, listed in <https://dynvarmip.github.io/publications/>.
+  Key questions that require the variables and experiments defined in this opportunity
+  include: - In what ways do resolved and parameterized dynamical processes lead to
+  persistent biases in climate models, particularly in the mean state and atmospheric
+  variability, including the position, intensity, and frequency of blocking events,
+  storm tracks, and the stratospheric polar vortex? - How does the stratosphere influence
+  climate variability on a range of time scales? - How do atmospheric dynamics shape
+  the climate’s response to human-induced changes, such as global warming and ozone
+  depletion, and what role do they play in adding uncertainty to future climate projections?
+  - What is the significance of stratosphere-troposphere interactions in driving extreme
+  weather and climate events?'
+Justification of Resources: The required variables and experiments are crucial for
+  assessing dynamical processes and their future changes, one of the key uncertainties
+  in future climate projections (Shepherd et al. Climatic Change, 2018). Most of the
+  required variables are either included in other groups or are zonal mean fields,
+  and thus imply a small computational and storage burden. The reason to include the
+  zonal mean of basic variables such as wind and temperature is to include more vertical
+  levels, crucial for stratosphere-troposphere coupling studies. Transformed Eulerian
+  Mean variables are central and widely used in the analyses of momentum budget in
+  the free atmosphere. The requested tendencies from unresolved processes are necessary
+  for closing the momentum and energy budgets and proved helpful for attributing the
+  causes of intermodel differences and biases.
+Experiment Groups:
+- dynvar
+Variable Groups:
+- dynvar_basic
+- dynvar_advanced
+Opportunity ID: 9
+Themes:
+- Atmosphere
+MIPs - lower priority:
+- TIPMIP
+- PMIP
+- DAMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

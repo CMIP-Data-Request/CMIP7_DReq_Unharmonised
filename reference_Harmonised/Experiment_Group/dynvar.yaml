@@ -1,0 +1,30 @@
+Name: dynvar
+Title: The group of experiments of highest interest for DynVarMIP
+Experiments:
+- 1pctCO2
+- abrupt-4xCO2
+- amip
+- amip-p4K
+- scen7-h
+- historical
+- scen7-m
+- G7-1p5K-SAI
+- piControl
+- esm-hist
+- esm-piControl
+- esm-scen7-h
+- esm-scen7-m
+- scen7-l
+- scen7-ml
+- esm-scen7-l
+- esm-scen7-ml
+- scen7-h-ext
+- scen7-m-ext
+- scen7-ml-ext
+- scen7-l-ext
+- esm-scen7-h-ext
+- esm-scen7-m-ext
+- esm-scen7-ml-ext
+- esm-scen7-l-ext
+Number of experiments in group: 25
+Harmonised DR version: v1.2.2.5

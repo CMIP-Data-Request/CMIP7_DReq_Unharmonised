@@ -1,0 +1,59 @@
+Title: Empirical Statistical Downscaling and Emulators
+Description: This opportunity covers empirical-statistical downscaling (ESD) activities
+  in CORDEX, including hybrid downscaling (emulators). These tools are trained using
+  large-scale fields from reanalysis (or RCM driving GCMs, in the case of emulators)
+  and can then be applied to compatible fields in the GCMs (e.g. CMIP7 output). This
+  requires a common set of standard levels sampling the atmospheric column. Machine
+  learning-based statistical approaches are now used to emulate the behavior of high-resolution
+  climate models such as RCMs or CPRCMs. When trained, those tools have the capacity
+  to replace the dynamical downscaling approaches for a variety of applications such
+  as creating multi-member ensembles or emulating a SSP not run with the emulated
+  RCMs. Emulators need GCM inputs to work. Both standard ESD techniques and emulators
+  require a similar set of variables including daily temperature, wind, moisture and
+  geopotential height across the atmosphere. The sub-daily temporal resolution is
+  an opportunity for downscaling at a sub-daily scale, which is increasingly demanded.
+  Ideally, GCMs should use a common extrapolation algorithm below ground, or let those
+  areas as NaN. Surface pressure is key to deal with these areas. An additional set
+  of variables which could save much processing is monthly aggregated precipitation
+  (monthly wet-day frequency and monthly wet-day mean precipitation, both with a 1
+  mm/day threshold). While these statistics can be estimated from daily data, such
+  a job is computationally demanding and makes such statistics inaccessible. The wet-day
+  frequency and mean precipitation are two key parameters that can be used as both
+  predictor and predictand for downscaling 24-hr precipitation statistics (e.g. DOI:10.5194/egusphere-2024-1463).
+  ESD can be applied to larger ensembles and it is feasible to downscale decadal predictions
+  (DCPP experiment) if these pressure-level fields are saved. This CORDEX request
+  is similar to CMIP6, but with a temporal extension in the past to cover the GWL+0
+  and in the future, as 2100 is too soon now. Extension to 1850 is more important
+  than extension to 2150. If the full period data are too much to store, the period
+  1901-1949 could be skipped (i.e. 1850-1900 for GWL+0 reference, and 1950-2150 for
+  historical+scenario).
+Expected Impacts: As dynamical downscaling takes long to be available, ESD is the
+  method of choice in many climate services (e.g. in Spain or Germany) to provide
+  timely downscaled information after major CMIP cycles. Also, it is the only method
+  that can reach point information, using station data as predictands. Therefore,
+  this opportunity provides input for many local studies, where historical records
+  are available and need to be projected into the future.
+Justification of Resources: Daily 3D data on an standardized set of levels covering
+  the troposphere allow the use of predictor fields ESD and emulators compatible with
+  the training set. Cost-effective ESD and emulators have the potential to fill gaps
+  in the costly dynamical downscaling simulations. In this sense, despite requesting
+  a single member in the ensemble size, the more members provide inputs for ESD, the
+  better these models can be used to sample the internal variability uncertainty,
+  which is underexplored in the CORDEX dynamical downscaling activity due to computational
+  constraints.
+Experiment Groups:
+- scenarios
+- historical
+- dcpp
+Variable Groups:
+- statistical_downscaling_core_daily
+- statistical_downscaling_core_6hourly
+- statistical_downscaling_extended
+- global_emulators
+Opportunity ID: 80
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

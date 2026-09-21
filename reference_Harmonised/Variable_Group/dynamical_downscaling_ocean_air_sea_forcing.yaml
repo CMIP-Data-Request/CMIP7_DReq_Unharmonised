@@ -1,0 +1,30 @@
+Name: dynamical_downscaling_ocean_air_sea_forcing
+Title: Dynamical Downscaling Ocean air/sea forcing (CLIVAR/CORDEX)
+Priority Level: High
+Justification: 'Dynamical downscaling of the ocean requires hourly forcing fields
+  at the air sea interface for specific variables. The following variables should
+  also be stored hourly (not available hourly right now): 3hr.prsn 3hr.tauuo 3hr.tauvo'
+Notes: ''
+Variables:
+- atmos.huss.tpt-h2m-hxy-u.1hr.glb
+- atmos.uas.tpt-h10m-hxy-u.1hr.glb
+- atmos.vas.tpt-h10m-hxy-u.1hr.glb
+- atmos.rsds.tavg-u-hxy-u.1hr.glb
+- atmos.rlds.tavg-u-hxy-u.1hr.glb
+- atmos.psl.tpt-u-hxy-u.1hr.glb
+- atmos.pr.tavg-u-hxy-u.1hr.glb
+- atmos.prsn.tavg-u-hxy-u.3hr.glb
+- ocean.tauuo.tavg-u-hxy-sea.3hr.glb
+- ocean.tauvo.tavg-u-hxy-sea.3hr.glb
+- atmos.tas.tavg-h2m-hxy-u.1hr.glb
+Number of variables in group: 11
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

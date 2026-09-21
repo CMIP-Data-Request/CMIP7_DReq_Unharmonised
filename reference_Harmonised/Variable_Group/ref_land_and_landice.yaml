@@ -1,0 +1,34 @@
+Name: ref_land_and_landice
+Title: Variables that are needed for the land and land ice diagnostics planned for
+  the Rapid Evaluation Framework (REF)
+Priority Level: High
+Justification: This is the set of variables that would be needed for the planned land
+  and land ice diagnostics and metrics for the Rapid Evaluation Framework. The variable
+  group will be linked with the "Rapid Evaluation Framework" opportunity, and is essential
+  for the evaluation of the new AR7 fast track simulations on a routine basis.
+Notes: ''
+Variables:
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+- land.gpp.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+- land.lai.tavg-u-hxy-lnd.mon.glb
+- land.mrso.tavg-u-hxy-lnd.mon.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.nep.tavg-u-hxy-lnd.mon.glb
+- land.cLand.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-d100cm-hxy-lnd.mon.glb
+- land.nbp.tavg-u-hxy-lnd.mon.glb
+- land.cVeg.tavg-u-hxy-lnd.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+- land.ra.tavg-u-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- land.rh.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 18
+Themes:
+- Land & Land-Ice
+Of interest to MIPs:
+- LMIP
+Harmonised DR version: v1.2.2.5

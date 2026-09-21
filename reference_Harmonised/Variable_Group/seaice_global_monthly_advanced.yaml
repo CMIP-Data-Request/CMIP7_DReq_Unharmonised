@@ -1,0 +1,21 @@
+Name: seaice_global_monthly_advanced
+Title: Net sea ice mass transport through the four straits of the Arctic Ocean (Fram
+  Strait, Canadian Arctic Archipelago, Barents Sea Opening, Bering Strait)
+Priority Level: Medium
+Justification: In order to understand Arctic sea ice changes, it is useful to know
+  how much area / mass / snow mass goes through some key passages (Fram Strait, Canadian
+  Arctic Archipelago, Barents Sea Opening, Bering Strait).
+Notes: ''
+Variables:
+- seaIce.simassacrossline.tavg-u-ht-u.mon.glb
+- seaIce.siareaacrossline.tavg-u-ht-u.mon.glb
+- seaIce.sisnmassacrossline.tavg-u-ht-u.mon.glb
+Number of variables in group: 3
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- OMIP
+- CMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

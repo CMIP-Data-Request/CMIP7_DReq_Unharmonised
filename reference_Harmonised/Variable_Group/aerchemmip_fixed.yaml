@@ -1,0 +1,26 @@
+Name: aerchemmip_fixed
+Title: AerChemMIP Time-Invariant Variables
+Priority Level: High
+Justification: This group of variables contains time-invariant and fixed variables
+  that will be required for analysis of CMIP7 simulations, including those included
+  in AerChemMIP2. The request here is small and should be provided, when relevant,
+  by all modelling centres. The variables AERfx.o3ref and/or AERfx.ch4ref are only
+  relevant when the model includes diagnostic radiation calls for ozone and/or methane.
+Notes: ''
+Variables:
+- atmosChem.o3ref.ti-al-hxy-u.fx.glb
+- atmosChem.ch4ref.ti-al-hxy-u.fx.glb
+- atmos.areacella.ti-u-hxy-u.fx.glb
+- land.orog.ti-u-hxy-u.fx.glb
+- atmos.sftlf.ti-u-hxy-u.fx.glb
+- atmosChem.o3ref.tclm-al-hxy-u.mon.glb
+Number of variables in group: 6
+Themes:
+- Atmosphere
+- Earth System
+- Impacts & Adaptation
+Of interest to MIPs:
+- AerChemMIP2
+- RFMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

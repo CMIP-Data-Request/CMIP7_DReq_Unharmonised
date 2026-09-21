@@ -1,0 +1,43 @@
+Name: seaice_state_daily_advanced
+Title: Variables needed to assess the influence of processes related to high frequency
+  variability on sea ice evolution and change
+Priority Level: Medium
+Justification: A daily version of the seaice_state_monthy_advanced in connection with
+  another recommended variable group (seaice_budget_energy_daily, additional recommendation)
+  is needed to assess the influence of atmospheric rivers, cyclones, and other forms
+  of synoptic variability that have been shown to substantially influence sea ice
+  evolution and are hypothesized to be tightly tied to feedbacks associated with Polar
+  Amplification and the related inter-model spread.
+Notes: ''
+Variables:
+- seaIce.ts.tavg-u-hxy-si.day.glb
+- seaIce.sitempsnic.tavg-u-hxy-si.day.glb
+- seaIce.sitempbot.tavg-u-hxy-si.day.glb
+- seaIce.siage.tavg-u-hxy-si.day.glb
+- seaIce.sifb.tavg-u-hxy-si.day.glb
+- seaIce.sihc.tavg-u-hxy-sea.day.glb
+- seaIce.sisnhc.tavg-u-hxy-si.day.glb
+- seaIce.siitdconc.tavg-u-hxy-si.day.glb
+- seaIce.siitdthick.tavg-u-hxy-si.day.glb
+- seaIce.siitdsnconc.tavg-u-hxy-si.day.glb
+- seaIce.siitdsnthick.tavg-u-hxy-si.day.glb
+- seaIce.sisaltmass.tavg-u-hxy-si.day.glb
+- seaIce.sisali.tavg-u-hxy-si.day.glb
+- seaIce.simpconc.tavg-u-hxy-si.day.glb
+- seaIce.simpeffconc.tavg-u-hxy-si.day.glb
+- seaIce.simprefrozen.tavg-u-hxy-simp.day.glb
+- seaIce.simpthick.tavg-u-hxy-si.day.glb
+- seaIce.sirdgconc.tavg-u-hxy-si.day.glb
+- seaIce.sithick.tavg-u-hxy-sir.day.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+Number of variables in group: 21
+Themes:
+- Ocean & Sea-Ice
+- Atmosphere
+Of interest to MIPs:
+- CMIP
+- PAMIP
+- SIMIP
+- CERESMIP
+Harmonised DR version: v1.2.2.5

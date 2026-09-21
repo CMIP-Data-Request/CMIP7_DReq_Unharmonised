@@ -1,0 +1,31 @@
+Name: AgModelHourly
+Title: Hourly climate drivers for agricultural modeling
+Priority Level: Low
+Justification: Some agricultural models require hourly outputs in order to understand
+  interactions between the diurnal cycle and agricultural production and impacts.
+  This information is important to identify more acute conditions within a given day,
+  allowing a better representation of processes like water and temperature stresses.
+  This information is also likely to support applications of farm labor health.
+Notes: 'I&A author team ask that the cross-thematic steering group be made aware that
+  if hourly is rejected it would still be valuable to have 3hourly versions of the
+  same variables (less good and causes more limitations but would be better than current
+  situation). Open to negotiation for an alternative sub-daily output resolution.
+
+  Note by Alex Ruane, posted by @Briony Turner 16 September 2024'
+Variables:
+- atmos.pr.tavg-u-hxy-u.1hr.glb
+- atmos.hurs.tavg-h2m-hxy-u.1hr.glb
+- atmos.rsds.tavg-u-hxy-u.1hr.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.1hr.glb
+- atmos.tas.tavg-h2m-hxy-u.1hr.glb
+Number of variables in group: 5
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- HighResMIP
+- VIACSAB
+- CMIP
+- ScenarioMIP
+- DCPP
+- DAMIP
+Harmonised DR version: v1.2.2.5

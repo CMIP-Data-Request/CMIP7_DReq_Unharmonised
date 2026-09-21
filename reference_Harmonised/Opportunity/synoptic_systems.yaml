@@ -1,0 +1,37 @@
+Title: Synoptic systems
+Description: This set of variables can be used to identify synoptic systems through
+  standard feature tracking approaches and examine their surface impacts and the cloud
+  radiative effect associated with them, as well as to diagnose Eulerian metrics of
+  storm tracks. The high priority list of variables contains those that are necessary
+  for basic storm tracking algorithms or methods used to identify blocking, MJO, etc,
+  as well as variables used for Eulerian storm track metrics and for quantifying the
+  cloud radiative effects of storms. This high priority list also contains vertically
+  integrated water vapor transports for tracking atmospheric rivers, as well as variables
+  such as high frequency precipitation and temperature to examine the impacts of storms.
+  The medium priority list of variables consist of other high frequency variables
+  on different pressure levels that can be useful for classifying different synoptic
+  systems e.g., identifying monsoon low pressure systems, distinguishing tropical
+  from extra-tropical cyclones, and computing upper level shear.
+Expected Impacts: 'There are many reasons to examine synoptic systems, their trends,
+  and their impacts. Here are a few: (1) Assessing whether models can reproduce historical
+  storm track trends (https://www.nature.com/articles/s41612-024-00640-2) (2) Diagnosing
+  the origins of solar radiation biases in models (https://journals.ametsoc.org/view/journals/clim/27/1/jcli-d-13-00169.1.xml)
+  (3) Diagnosing how extra-tropical storms are expected to change in the future (https://journals.ametsoc.org/view/journals/clim/26/16/jcli-d-12-00573.1.xml)'
+Justification of Resources: It is essential to assess the dynamics of weather systems
+  in models and assess how these weather systems and impacts are going to change in
+  the future. This work can also yield insights into model fidelity into other atmospheric
+  processes such as clouds and radiation through synoptic storm system composites.
+Experiment Groups:
+- synoptic_systems_and_impacts
+- scenarios
+Variable Groups:
+- synoptic_systems_high_priority
+- synoptic_systems_low_priority
+Opportunity ID: 63
+Themes:
+- Atmosphere
+- Impacts & Adaptation
+MIPs - lower priority:
+- PMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

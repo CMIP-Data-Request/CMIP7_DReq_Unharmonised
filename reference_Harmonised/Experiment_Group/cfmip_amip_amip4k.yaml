@@ -1,0 +1,7 @@
+Name: cfmip_amip_amip4K
+Title: AMIP and AMIP+4K experiments for intensive CFMIP analysis
+Experiments:
+- amip
+- amip-p4K
+Number of experiments in group: 2
+Harmonised DR version: v1.2.2.5

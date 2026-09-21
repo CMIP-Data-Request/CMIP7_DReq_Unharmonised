@@ -1,0 +1,48 @@
+Name: dynamical_downscaling_aerosols_chemistry
+Title: Dynamical Downscaling Aerosols and chemistry core (CORDEX)
+Priority Level: High
+Justification: Output from global climate models are needed to drive regional climate
+  models at their lateral boundaries. Up to now, the variables needed were mainly
+  limited to atmospheric variables (hus, ta, ua, va, ps) every 6 hours (6hrPlev) as
+  well as some surface variables (tos, siconc...). However, new components of the
+  climate system are now included in more and more regional models, such as aerosols
+  and chemistry. Therefore, associated variables (such as aerosol concentrations)
+  are also needed. The minimum would be to have all aerosol and chemistry species
+  concentrations in monthly frequency in historical and scenario simulations. If possible,
+  daily and average diurnal cycles would be helpful. The list of species depends on
+  each GCM, for aerosols (mmr*), and for chemistry a few species are included explicitly
+  (bry, cly, co, h2o2, hcl, hno3, n2o, noy, o3, oh, so2, ...) but this list is model-dependent.
+  The diurnal cycle is important for chemistry variables which have a strong diurnal
+  cycle.
+Notes: ''
+Variables:
+- aerosol.mmrdust.tavg-al-hxy-u.mon.glb
+- aerosol.mmrnh4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrno3.tavg-al-hxy-u.mon.glb
+- aerosol.mmroa.tavg-al-hxy-u.mon.glb
+- aerosol.mmrsoa.tavg-al-hxy-u.mon.glb
+- aerosol.mmrso4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrss.tavg-al-hxy-u.mon.glb
+- aerosol.bry.tavg-p39-hy-air.mon.glb
+- aerosol.cly.tavg-p39-hy-air.mon.glb
+- aerosol.noy.tavg-p39-hy-air.mon.glb
+- aerosol.co.tavg-al-hxy-u.mon.glb
+- aerosol.oh.tavg-al-hxy-u.mon.glb
+- aerosol.hcl.tavg-al-hxy-u.mon.glb
+- aerosol.hno3.tavg-al-hxy-u.mon.glb
+- atmosChem.n2o.tavg-al-hxy-u.mon.glb
+- atmosChem.o3.tavg-al-hxy-u.mon.glb
+- aerosol.so2.tavg-al-hxy-u.mon.glb
+- aerosol.mmrbc.tavg-al-hxy-u.mon.glb
+Number of variables in group: 18
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

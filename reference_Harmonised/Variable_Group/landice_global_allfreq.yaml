@@ -1,0 +1,65 @@
+Name: landice_global_allfreq
+Title: Variables for diagnosing ice sheet climate forcing and interactions
+Priority Level: High
+Justification: These are variables from Earth System Models requested by ISMIP7 in
+  addition to baseline_fixed and baseline_monthly for creating forcings for standalone
+  ice sheet model runs and for comparing behaviour with coupled ESM-ISMs. Summary
+  ISMIP7 needs this set to create forcings for all the offline ice sheet models -
+  RANKING MUST NOT BE CONSIDERED FOR THIS GROUP. It contains 46 single level surface
+  variables at frequencies ranging from 6hrs to monthly
+Notes: ''
+Variables:
+- atmos.prra.tavg-u-hxy-u.mon.glb
+- seaIce.siconca.tavg-u-hxy-u.day.glb
+- ocean.ficeberg.tavg-u-hxy-sea.mon.glb
+- ocean.hfgeou.tavg-u-hxy-sea.mon.glb
+- ocean.so.tavg-u-hm-sea.mon.glb
+- ocean.thetao.tavg-u-hm-sea.mon.glb
+- landIce.sftflf.ti-u-hxy-u.fx.glb
+- landIce.sftgrf.ti-u-hxy-u.fx.glb
+- ocean.flandice.tavg-u-hxy-sea.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.6hr.glb
+- atmos.ts.tavg-u-hxy-u.6hr.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.6hr.glb
+- atmos.huss.tavg-h2m-hxy-u.6hr.glb
+- atmos.ps.tavg-u-hxy-u.6hr.glb
+- atmos.prra.tavg-u-hxy-u.6hr.glb
+- atmos.prsn.tavg-u-hxy-u.6hr.glb
+- atmos.rsds.tavg-u-hxy-u.6hr.glb
+- atmos.rlds.tavg-u-hxy-u.6hr.glb
+- landIce.acabf.tavg-u-hxy-is.mon.glb
+- landIce.hfls.tavg-u-hxy-is.mon.glb
+- landIce.hfss.tavg-u-hxy-is.mon.glb
+- landIce.icem.tavg-u-hxy-is.mon.glb
+- landIce.litemptop.tavg-u-hxy-is.mon.glb
+- landIce.mrro.tavg-u-hxy-is.mon.glb
+- landIce.orog.tavg-u-hxy-is.mon.glb
+- landIce.prra.tavg-u-hxy-is.mon.glb
+- landIce.prsn.tavg-u-hxy-is.mon.glb
+- landIce.rlds.tavg-u-hxy-is.mon.glb
+- landIce.rlus.tavg-u-hxy-is.mon.glb
+- landIce.rsds.tavg-u-hxy-is.mon.glb
+- landIce.rsus.tavg-u-hxy-is.mon.glb
+- landIce.sbl.tavg-u-hxy-lnd.mon.glb
+- landIce.sbl.tavg-u-hxy-is.mon.glb
+- landIce.sftflf.tavg-u-hxy-u.mon.glb
+- landIce.sftgrf.tavg-u-hxy-u.mon.glb
+- land.sftgif.tavg-u-hxy-u.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-is.mon.glb
+- landIce.snrefr.tavg-u-hxy-is.mon.glb
+- landIce.snicem.tavg-u-hxy-is.mon.glb
+- landIce.snm.tavg-u-hxy-lnd.mon.glb
+- landIce.snm.tavg-u-hxy-is.mon.glb
+- landIce.tas.tavg-h2m-hxy-is.mon.glb
+- landIce.tsn.tavg-u-hxy-is.mon.glb
+- landIce.tsn.tavg-u-hxy-lnd.mon.glb
+- landIce.ts.tavg-u-hxy-is.mon.glb
+Number of variables in group: 46
+Themes:
+- Land & Land-Ice
+MIP ownership:
+- ISMIP7
+Of interest to MIPs:
+- ISMIP7
+Harmonised DR version: v1.2.2.5

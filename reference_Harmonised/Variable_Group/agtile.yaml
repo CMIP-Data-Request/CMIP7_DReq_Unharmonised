@@ -1,0 +1,26 @@
+Name: AgTile
+Title: Agricultural tile
+Priority Level: Low
+Justification: The agricultural tiles within a larger grid cell may have a substantially
+  different local climate than the full grid cell, which may lead to enhanced or reduced
+  extreme conditions of high relevance for agricultural impacts applications. This
+  variable group provides agricultural cell information to support such investigations.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-crp.day.glb
+- atmos.tas.tmax-h2m-hxy-crp.day.glb
+- atmos.tas.tmin-h2m-hxy-crp.day.glb
+- atmos.hurs.tmin-h2m-hxy-crp.day.glb
+- land.irrLut.tavg-u-hxy-multi.mon.glb
+Number of variables in group: 5
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- DAMIP
+- CMIP
+- ScenarioMIP
+- LUMIP
+- DCPP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

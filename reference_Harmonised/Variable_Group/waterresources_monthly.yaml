@@ -1,0 +1,29 @@
+Name: WaterResources_monthly
+Title: Flood and drought risk assessment at monthly timescale
+Priority Level: High
+Justification: Future projections of hydroclimatic hazards at regional scale are essential
+  for assessing what adaptation actions and resilience building measures are needed
+  to ensure water security. The most widely-used drought index for drought assessments,
+  the Standardized Precipitation-Evapotranspiration Index (SPEI), requires the potential
+  evapotranspiration (PET) variable. The frequency required depends on the region,
+  monthly data might suffice in some places (notably in the tropics where interannual
+  variability is often more pronounced). Thus, we request this variable group at monthly
+  timescale, also taking into account the limited computational capacity in the Global
+  South which might only allow the analysis of monthly data.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- land.evspsblpot.tavg-u-hxy-lnd.mon.glb
+- land.mrso.tavg-u-hxy-lnd.mon.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- CMIP
+- HighResMIP
+- CORDEX
+Harmonised DR version: v1.2.2.5

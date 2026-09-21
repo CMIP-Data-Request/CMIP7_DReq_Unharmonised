@@ -1,0 +1,77 @@
+Title: Understanding the role of atmospheric composition for air quality and climate
+  change
+Description: 'This represents the list of variables from experiments that are most
+  relevant for scientific investigations into trace gas and aerosol budgets, the role
+  of trace gas and aerosol short-lived climate forcers (SLCFs) in atmospheric composition
+  changes, including air quality, and their impact on climate forcing and climate
+  responses, including any effects from climate feedbacks on sources and sinks of
+  SLCFs. Specifically, this opportunity addresses the four primary objectives of Phase
+  2 of the Aerosol and Chemistry Model Intercomparison Project (AerChemMIP2): 1) How
+  has process understanding and associated impact assessments advanced for global
+  and regional atmospheric composition changes, radiative forcing, and climate responses?
+  2) How important are climate feedbacks on natural SLCF emissions and sinks, in addition
+  to changes in atmospheric composition and their radiative effects? 3) What is the
+  relative importance of climate change and emissions of SLCFs for atmospheric composition
+  and air quality over the historical period and into the future? 4) What future climate
+  benefits and trade-offs are expected from improving air quality and/or from policies
+  for improved sustainability? This opportunity builds on the success of AerChemMIP
+  in CMIP6 and aims to exploit new model capability that was not available in the
+  CMIP6 ensemble of models. It will also address new scientific questions.'
+Expected Impacts: Analysis of the AerChemMIP simulations in CMIP6, along with the
+  use of the DECK, historical and ScenarioMIP simulations led to advancing our understanding
+  of the role of SLCFs in climate forcing, atmospheric composition, air quality, climate
+  feedbacks and climate responses. As an example, AerChemMIP provided the first consistent
+  calculation of Effective Radiative Forcing (ERF) for a wide range of speciated forcing
+  agents, which was a vital contribution to the sixth Assessment Report of the Intergovernmental
+  Panel on Climate Change (AR6). Inclusion of these diagnostics and experiments will
+  facilitate that assessment for AR7. A review paper by Griffiths et al. 2024 (https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2528/)
+  provides an assessment of how many of these variables and experiments were used
+  to advance our understanding of the role of SLCFs. Quoting from that paper, "AerChemMIP
+  contributed to the development of the WGI IPCC AR6, being referenced in the Summary
+  for Policymakers, Chapters 4, 6, 7, and the Atlas, as well as contributing important
+  assessment/evaluation papers that underpin the Report. " Here, we reviewed the CMIP6
+  data request (some variables were removed) and add new variables to exploit new
+  model capability (e.g., nitrate aerosol, methane emissions-driven capability, interactive
+  fires, hydrogen) in CMIP7 and to address new scientific questions (e.g., climate
+  mitigation potential of volatile organic compounds). For example, high frequency
+  output of air quality relevant constituents over the historical period and in the
+  future pathways will be used in health impact assessments.
+Justification of Resources: The resource requirements of this opportunity are high.
+  However, this is the only opportunity that will advance our understanding of the
+  role of short-lived climate forcers in atmospheric composition, climate forcing
+  and climate responses. Using AerChemMIP from CMIP6 as a guide, only this opportunity
+  will be able to provide an assessment of present-day effective radiative forcings
+  (and climate responses) for speciated short-lived climate forcers for AR7. Analysis
+  of historical and future air quality will only be possible with this opportunity,
+  with relevant high frequency atmospheric constituent output from these experiments
+  vital for conducting health impact and vegetation damage assessments.
+Experiment Groups:
+- aerchemmip
+- deck
+- fast-track
+- historical
+- scenarios
+Variable Groups:
+- aerchemmip_fixed
+- aerchemmip_CFsites
+- aerchemmip_ocean_salt_and_heat_transport_variables_monthly
+- aerchemmip_2d_subdaily
+- aerchemmip_2d_daily
+- aerchemmip_3d_daily
+- aerchemmip_2d_monthly
+- aerchemmip_2dZ_monthly
+- aerchemmip_3d_monthly
+- baseline_monthly
+Opportunity ID: 5
+Themes:
+- Atmosphere
+- Earth System
+- Impacts & Adaptation
+MIPs - high priority:
+- AerChemMIP2
+MIPs - lower priority:
+- DCPP
+- FireMIP
+- PMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

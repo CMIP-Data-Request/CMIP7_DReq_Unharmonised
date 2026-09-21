@@ -1,0 +1,63 @@
+Title: Water Security and Freshwater Ecosystem Services
+Description: Future projections of hydroclimatic hazards and their effects on the
+  ecosystems and water resources are essential for assessing what adaptation actions
+  and resilience building measures are needed to ensure water security, ecosystem
+  services and planetary health.
+Expected Impacts: Variables requested in theWaterResources\_daily**, **WaterResources\_monthly
+  and****WaterResources\_subdailyare for direct use (including processed variables
+  such as runoff and soil moisture) for flood and drought risk assessment. Ideally
+  these variables could be provided at subdaily timescale as some high-impact hydrometeorological
+  hazards such as flash flooding occur at very short timescale. Variables requested
+  in the Hydro\_modelling\_daily and****Hydro\_modelling\_subdaily are a smaller range
+  of variables (precipitation and PET) for hydrological simulations, using bucket-type/watershed
+  models.For the subdaily set of variables, we request in extra for hourly precipitation
+  as it is shown to be able to enable more robust hydrological simulations (<https://www.sciencedirect.com/science/article/pii/S2214581823002756?via%3Dihub#da0005>).
+  Variables requested in the impact\_energy\_hydropower are used for hydropower modelling
+  applications. Variables requested in the biodiv\_freshwater\_daily variable group
+  are used in process-explicit as well as statistical biodiversity and ecosystem models.These
+  span models for predicting spatiotemporal distribution and abundances of species
+  or functional types, to models of fish migration and disease spread. This variable
+  group thus supports a broad set of use cases to model the positive and negative
+  contributions of Nature to people. PET calculation variable groups are useful for
+  the validation of evspsblpot and to calculate potential evapotranspiration from
+  raw variables.
+Justification of Resources: Climate change has a dramatic effect on the water cycle,
+  increasing the risk of floods and droughts, and changing groundwater and river flow
+  regimes, with important effects for water security, ecosystem services, natural
+  hazards and the direct and indirect effects on human health. Freshwater ecosystems
+  have experienced the most severe habitat degradation and losses in biodiversity
+  and require urgent actions to halt biodiversity loss and restore ecosystem health.
+  Improved freshwater biodiversity and ecosystem modelling based on high resolution
+  climatic predictors will directly contribute to the efforts of IPBES to improve
+  understanding of biodiversity and ecosystem services changes and improve scenario
+  work. Due to the highly uncertain nature of and strong internal variability affecting
+  precipitation simulated by the models, large ensemble simulations are needed to
+  capture the plausible range of variability which is crucial for risk assessment
+  for water resources and ensures well-informed adaptation actions.
+Experiment Groups:
+- historical
+- scenarios
+- fast-track
+- dcpp
+- damip_experiment_group
+- picontrol
+- highresmip2-ia
+Variable Groups:
+- WaterResources_daily
+- WaterResources_monthly
+- WaterResources_subdaily
+- hydro_modelling_daily
+- hydro_modelling_subdaily
+- impact_energy_hydropower
+- WaterResourcesPET_daily
+- WaterResourcesPET_monthly
+- biodiv_freshwater_daily
+Opportunity ID: 67
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+MIPs - lower priority:
+- DCPP
+- PMIP
+Harmonised DR version: v1.2.2.5

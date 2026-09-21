@@ -1,0 +1,45 @@
+Name: dynamical_downscaling_ocean_biogeochemistry_forcing
+Title: Dynamical Downscaling Ocean biogeochemistry forcing (CLIVAR/CORDEX)
+Priority Level: High
+Justification: 'Dynamical downscaling of the ocean biogeochemistry requires monthly
+  3D-global forcing fields for specific variables. The following variables are still
+  missing: * Dissolved inorganic N from rivers * Dissolved inorganic P from rivers
+  * Dissolved inorganic Si from rivers'
+Notes: ''
+Variables:
+- ocnBgchem.phyc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phydiat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phydiaz.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phycalc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phypico.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phymisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zooc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmicro.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmeso.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zmisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chl.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chldiat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chldiaz.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chlpico.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chlmisc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.no3.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.po4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.si.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissic.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.talk.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissoc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dfe.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.icfriver.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.ocfriver.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.phyc.tavg-ols-hxy-sea.mon.glb
+Number of variables in group: 26
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

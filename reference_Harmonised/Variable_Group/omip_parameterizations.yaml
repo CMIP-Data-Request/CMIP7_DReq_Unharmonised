@@ -1,0 +1,24 @@
+Name: omip_parameterizations
+Title: Ocean parameterizations employed for OMIP in CMIP6 (Griffies et al., 2016,
+  Table N1)
+Priority Level: Low
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered low priority
+Notes: ''
+Variables:
+- ocean.difvho.tavg-ol-hxy-sea.yr.glb
+- ocean.difvso.tavg-ol-hxy-sea.yr.glb
+- ocean.tnpeo.tavg-u-hxy-sea.yr.glb
+- ocean.diftrblo.tavg-ol-hxy-sea.yr.glb
+- ocean.diftrelo.tavg-ol-hxy-sea.yr.glb
+- ocean.tnkebto.tavg-u-hxy-sea.yr.glb
+- ocean.difmxylo.tavg-ol-hxy-sea.yr.glb
+- ocean.difmxybo.tavg-ol-hxy-sea.yr.glb
+- ocean.dispkexyfo.tavg-u-hxy-sea.yr.glb
+Number of variables in group: 9
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- OMIP
+Harmonised DR version: v1.2.2.5

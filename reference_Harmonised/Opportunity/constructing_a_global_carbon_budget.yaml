@@ -1,0 +1,33 @@
+Title: Constructing a Global Carbon Budget
+Description: This data is needed to construct a closed global carbon budget, and relating
+  emissions to CO2 concentrations
+Expected Impacts: In Concentration-driven experiments, this is needed to infer CO2
+  emissions and quantify feedbacks. In CO2 emissions-driven experiments, this is needed
+  to trace carbon flows and understand the partitioning of emissions into different
+  land, ocean, and atmosphere pools
+Justification of Resources: This is needed to understand the relationship between
+  CO2 emissions and concentrations, which is fundamental to the concept of an Earth
+  System Model and a variety of global change problems.
+Experiment Groups:
+- fast-track
+- historical
+- scenarios
+Variable Groups:
+- land_carbon_cycle_tier1
+- land_carbon_cycle_tier2
+- atmosphere_carbon_cycle_tier1
+- ocean_carbon_cycle_tier1
+- ocean_carbon_cycle_tier2
+Opportunity ID: 18
+Themes:
+- Earth System
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIPs - high priority:
+- PMIP
+MIPs - lower priority:
+- DCPP
+- TIPMIP
+- C4MIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

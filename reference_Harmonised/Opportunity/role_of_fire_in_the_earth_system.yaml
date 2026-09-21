@@ -1,0 +1,76 @@
+Title: Role of fire in the Earth system
+Description: 'Fire, as the primary form of terrestrial ecosystem disturbance on a
+  global scale, is an important Earth system process. It is regulated by weather,
+  vegetation characteristics, and human activities, and at the same time, it feeds
+  back to them in multiple ways, such as affecting vegetation structure and composition,
+  carbon, nitrogen, water and energy cycles, surface climate, atmospheric circulation
+  and composition, air quality, and human health. With the increasing occurrence of
+  fires, especially the big ones, understanding fire regime changes and their impacts
+  is more critical than ever. Despite its importance, our current understanding of
+  these complex dynamics and cross-sphere feedback remains limited. Currently, most
+  Earth system models (ESMs) incorporate fire modeling. In CMIP6, 19 models submitted
+  outputs of fire variables, and this number is expected to grow in CMIP7. FireMIP
+  data in CMIP7 is designed to enhance our understanding of fire dynamics and the
+  role of fire in the Earth system, as well as the uncertainty. This dataset consists
+  of a number of basic variables and is crucial for several reasons: (1) Analyzing
+  fire regime evolution: The data allows researchers to study how fire patterns have
+  changed from the past to the present and to project future changes under various
+  climate and socio-economic scenarios. This information is vital for long-term environmental
+  planning and policy-making. (2) Improving Earth System Models: By evaluating burned
+  area fraction and biomass burning emissions, FireMIP enables the assessment and
+  improvement of fire simulations in coupled Earth System Models. This leads to more
+  accurate climate predictions and a better understanding of the Earth''s complex
+  systems. (3) Advancing scientific understanding: The data quantifies how fires and
+  changes in fire regimes affect ecosystems, climate, and the environment. This helps
+  in understanding the interconnected nature of Earth''s systems. By encouraging no-fire
+  and no-fire-change simulations, FireMIP data allows scientists to isolate and study
+  the specific impacts of fire on various Earth system processes, deepening our knowledge
+  of global environmental changes. (4) Informing policy and management: Insights gained
+  from FireMIP data can shape global fire management policies and inform climate change
+  mitigation strategies, contributing to more effective environmental stewardship.'
+Expected Impacts: '(1) Fire variables (burned area fraction and biomass burning carbon
+  emissions) will be utilized to: a) Analyze historical changes in fire patterns and
+  project future scenarios under various climate and socio-economic conditions, informing
+  long-term environmental planning and policy-making. b) Assess and improve fire simulations
+  in coupled Earth System Models, leading to more accurate climate predictions and
+  a deeper understanding of Earth''s complex systems. (2) A comprehensive set of variables
+  including carbon, nitrogen, water, and energy cycle parameters; vegetation distribution
+  and structure; climate indicators (e.g., temperature, precipitation, wind speed,
+  permafrost depth, sea ice and snow coverage fraction, sea surface temperature);
+  and atmospheric circulation, composition, and chemistry will be analyzed to: a)
+  evaluate the skill in modeling the relationship between fire with factors of climate,
+  ecosystems and environment. b) understand the drivers behind changing fire regimes,
+  the impacts of fire and fire changes, and underlying cross-sphere feedbacks between
+  fire and various Earth system components.'
+Justification of Resources: 'Most variables proposed for FireMIP are regularly used
+  in Earth system modeling and are essential for: (1) Assessing model performance
+  in simulating fire dynamics and Earth system interactions and facilitating meaningful
+  inter-model comparisons. (2) Understanding fire''s role in climate change, ecosystem
+  dynamics, and atmospheric composition and quantifying the uncertainties. (3) Informing
+  climate change adaptation and mitigation strategies. The strong overlap between
+  FireMIP variables and existing baseline variables minimizes additional computational
+  costs while providing significant scientific insights. We can provide further details
+  on specific variables as needed during the finalization of the data request.'
+Experiment Groups:
+- picontrol
+- historical
+- scenarios
+- firemip_deck_subset
+- firemip_fast-track_subset
+- firemip-nonfasttrack
+Variable Groups:
+- FireMIP_monthly
+- FireMIP_daily
+Opportunity ID: 31
+Themes:
+- Land & Land-Ice
+- Earth System
+- Atmosphere
+- Ocean & Sea-Ice
+- Impacts & Adaptation
+MIPs - high priority:
+- FireMIP
+MIPs - lower priority:
+- PMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

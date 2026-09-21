@@ -1,0 +1,28 @@
+Name: CFMIP-convective
+Title: CFMIP convection variables
+Priority Level: High
+Justification: Convection-related fields and temperature tendencies useful for understanding
+  responses of clouds to climate change.
+Notes: ''
+Variables:
+- atmos.clivic.tavg-u-hxy-u.day.glb
+- atmos.clwvic.tavg-u-hxy-u.day.glb
+- atmos.reffclic.tavg-al-hxy-ccl.mon.glb
+- atmos.reffclis.tavg-al-hxy-scl.mon.glb
+- atmos.reffclwc.tavg-al-hxy-ccl.mon.glb
+- atmos.reffclws.tavg-al-hxy-scl.mon.glb
+- atmos.tnhuspbl.tavg-al-hxy-u.mon.glb
+- atmos.tnhusscp.tavg-al-hxy-u.mon.glb
+- atmos.tntd.tavg-al-hxy-u.mon.glb
+- atmos.tntpbl.tavg-al-hxy-u.mon.glb
+- atmos.tntrl.tavg-al-hxy-u.mon.glb
+- atmos.tntrlcs.tavg-al-hxy-u.mon.glb
+- atmos.tntrs.tavg-al-hxy-u.mon.glb
+- atmos.tntrscs.tavg-al-hxy-u.mon.glb
+- atmos.tntscp.tavg-al-hxy-u.mon.glb
+Number of variables in group: 15
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

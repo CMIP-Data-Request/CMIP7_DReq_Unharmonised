@@ -1,0 +1,14 @@
+Name: omip_surface_fluxes_high_priority
+Title: Surface flux fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table
+  K2)
+Priority Level: High
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered high priority
+Notes: ''
+Variables:
+- ocean.wfo.tavg-u-hxy-sea.mon.glb
+- ocean.wfcorr.tavg-u-hxy-sea.mon.glb
+- ocean.hfds.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 3
+Harmonised DR version: v1.2.2.5

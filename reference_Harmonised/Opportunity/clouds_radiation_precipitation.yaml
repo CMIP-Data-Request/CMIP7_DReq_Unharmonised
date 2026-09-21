@@ -1,0 +1,41 @@
+Title: Clouds, radiation & precipitation
+Description: Simulating clouds with global climate models is challenging as the relevant
+  physics involves many nonlinear processes covering a wide range of spatial and temporal
+  scales. As key components of the hydrological cycle and the climate system, an evaluation
+  of clouds from models used for climate projections is an important prerequisite
+  for assessing the confidence in the results from these models. So far, a quantitative
+  evaluation of the representation of clouds in CMIP models with satellite observations
+  has been challenging as only a limited number of parameters from a limited number
+  of models has been available from satellite simulators. This opportunity aims at
+  a quantitative evaluation of cloud parameters, radiation and precipitation using
+  output from satellite simulators that has not been available in CMIP6. Focus will
+  be on the coupled (historical) simulation to assess how well cloud are represented
+  in the model configurations used for the projections. The sensitivities of cloud
+  properties to climate change will then be investigated using the scenario simulations.
+  Combining the daily cycle of cloud properties with precipitation and radiation fields
+  will allow for a more process-based analysis and improved understanding of biases
+  in and sensitivities of clouds in the coupled models.
+Expected Impacts: 'If a huge part of all CMIP7 models provide these requested variables
+  it might be possible for us to answer e.g. the following science questions: How
+  well is the representation of clouds in the newest model generation on different
+  spatial and temporal scales in the coupled model configurations used for the projections?
+  How well can climate models reproduce the daily cycle of cloud properties, radiation
+  fields and precipitation and what are biases connected to relevant processes and
+  how do there sensitivities change under different scenarios of climate change?'
+Justification of Resources: As we include mainly 2D fields in this opportunity the
+  amount of resources is kept to a minimum.
+Experiment Groups:
+- historical
+- scenarios
+Variable Groups:
+- clouds_basic_average
+- clouds_basic_instantaneous
+- cosp_output
+Opportunity ID: 71
+Themes:
+- Atmosphere
+MIPs - lower priority:
+- PMIP
+- DAMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

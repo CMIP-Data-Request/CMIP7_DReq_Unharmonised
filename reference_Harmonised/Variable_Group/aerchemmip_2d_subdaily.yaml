@@ -1,0 +1,36 @@
+Name: aerchemmip_2d_subdaily
+Title: Surface and atmospheric fields at sub-daily timescales for analysis in AerChemMIP,
+  including air quality and climate responses to SLCFs
+Priority Level: High
+Justification: This variable group is requesting a range of 2D variables at sub-daily
+  timescales. Examples include variables at the surface that are relevant to air quality
+  (e.g, ozone, particulate matter with a diameter less than 2.5 um, etc. ); Other
+  variables are requested to understand aerosol extinction and backscatter, as well
+  as variables to analyse climate responses due to changes in short-lived climate
+  forcers (e.g, surface temperature).
+Notes: ''
+Variables:
+- aerosol.bs550aer.tpt-al-hxy-u.6hr.glb
+- aerosol.ec550aer.tpt-al-hxy-u.6hr.glb
+- atmos.zg.tpt-500hPa-hxy-air.6hr.glb
+- atmos.rv850.tpt-850hPa-hxy-air.6hr.glb
+- atmos.pr.tpt-u-hxy-u.6hr.glb
+- atmos.ps.tavg-u-hxy-u.1hr.glb
+- atmos.tas.tavg-h2m-hxy-u.1hr.glb
+- aerosol.o3.tavg-h2m-hxy-u.1hr.glb
+- aerosol.sfpm25.tavg-h2m-hxy-u.1hr.glb
+- aerosol.no2.tavg-h2m-hxy-u.1hr.glb
+- atmos.uas.tpt-h10m-hxy-u.1hr.glb
+- atmos.vas.tpt-h10m-hxy-u.1hr.glb
+Number of variables in group: 12
+Themes:
+- Atmosphere
+- Impacts & Adaptation
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- GeoMIP
+- ScenarioMIP
+- RAMIP
+- CMIP
+Harmonised DR version: v1.2.2.5

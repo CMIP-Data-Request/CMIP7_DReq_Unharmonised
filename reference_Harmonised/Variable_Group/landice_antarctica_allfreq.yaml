@@ -1,0 +1,80 @@
+Name: landice_antarctica_allfreq
+Title: Variables for diagnosing Greenland ice sheet behaviour and climate interactions
+Priority Level: Medium
+Justification: These are variables from Ice Sheet Models requested by ISMIP7 for diagnosing
+  the behaviour and sea level contribution from Antarctica in standalone ice sheet
+  model runs and for comparing behaviour with coupled ESM-ISMs
+Notes: ''
+Variables:
+- landIce.lithk.ti-u-hxy-is.fx.ata
+- landIce.topg.ti-u-hxy-gis.fx.ata
+- land.areacellg.ti-u-hxy-u.fx.ata
+- landIce.hfgeoubed.ti-u-hxy-gis.fx.ata
+- landIce.acabf.tavg-u-hxy-is.mon.ata
+- atmos.prsn.tavg-u-hxy-is.mon.ata
+- atmos.ts.tavg-u-hxy-is.mon.ata
+- atmos.tas.tavg-h2m-hm-is.mon.ata
+- landIce.libmassbf.tavg-u-hxy-fis.mon.ata
+- landIce.icem.tavg-u-hxy-is.mon.ata
+- landIce.libmassbf.tavg-u-hxy-gis.mon.ata
+- landIce.litemptop.tavg-u-hxy-is.mon.ata
+- landIce.snrefr.tavg-u-hxy-is.mon.ata
+- atmos.hfls.tavg-u-hxy-is.mon.ata
+- landIce.licalvf.tavg-u-hxy-is.mon.ata
+- landIce.tsn.tavg-u-hxy-is.mon.ata
+- land.orog.tavg-u-hxy-is.mon.ata
+- landIce.lifmassbf.tavg-u-hxy-is.mon.ata
+- landIce.snicem.tavg-u-hxy-is.mon.ata
+- landIce.snm.tavg-u-hxy-is.mon.ata
+- landIce.litempbot.tavg-u-hxy-gis.mon.ata
+- landIce.litempbot.tavg-u-hxy-fis.mon.ata
+- landIce.mrroLi.tavg-u-hxy-is.mon.ata
+- atmos.rlds.tavg-u-hxy-is.mon.ata
+- atmos.rlus.tavg-u-hxy-is.mon.ata
+- atmos.prra.tavg-u-hxy-is.mon.ata
+- landIce.snc.tavg-u-hxy-is.mon.ata
+- atmos.rsus.tavg-u-hxy-is.mon.ata
+- landIce.sbl.tavg-u-hxy-is.mon.ata
+- atmos.hfss.tavg-u-hxy-is.mon.ata
+- atmos.rsds.tavg-u-hxy-is.mon.ata
+- landIce.xvelsurf.tavg-u-hxy-is.yr.ata
+- land.orog.tavg-u-hxy-is.yr.ata
+- landIce.sftflf.tavg-u-hxy-u.yr.ata
+- landIce.zvelsurf.tavg-u-hxy-is.yr.ata
+- landIce.licalvf.tavg-u-hxy-is.yr.ata
+- landIce.yvelbase.tavg-u-hxy-is.yr.ata
+- landIce.sftgrf.tavg-u-hxy-u.yr.ata
+- landIce.yvelsurf.tavg-u-hxy-is.yr.ata
+- landIce.libmassbf.tavg-u-hxy-gis.yr.ata
+- landIce.topg.tavg-u-hxy-gis.yr.ata
+- landIce.lifmassbf.tavg-u-hxy-is.yr.ata
+- landIce.strbasemag.tavg-u-hxy-is.yr.ata
+- landIce.acabf.tavg-u-hxy-is.yr.ata
+- landIce.lithk.tavg-u-hxy-is.yr.ata
+- landIce.modelcellareai.tavg-u-hxy-u.yr.ata
+- landIce.yvelmean.tavg-u-hxy-is.yr.ata
+- land.sftgif.tavg-u-hxy-u.yr.ata
+- landIce.tendlicalvf.tavg-u-hm-is.yr.ata
+- landIce.limnsw.tavg-u-hm-is.yr.ata
+- landIce.litempbot.tavg-u-hxy-gis.yr.ata
+- landIce.lim.tavg-u-hm-is.yr.ata
+- landIce.libmassbf.tavg-u-hxy-fis.yr.ata
+- landIce.litemptop.tavg-u-hxy-is.yr.ata
+- landIce.snc.tavg-u-hxy-is.yr.ata
+- landIce.iareagr.tavg-u-hm-gis.yr.ata
+- landIce.iareafl.tavg-u-hm-fis.yr.ata
+- landIce.hfgeoubed.tavg-u-hxy-gis.yr.ata
+- landIce.zvelbase.tavg-u-hxy-is.yr.ata
+- landIce.litempbot.tavg-u-hxy-fis.yr.ata
+- landIce.tendacabf.tavg-u-hm-is.yr.ata
+- landIce.xvelbase.tavg-u-hxy-is.yr.ata
+- landIce.tendlibmassbf.tavg-u-hm-is.yr.ata
+- landIce.xvelmean.tavg-u-hxy-is.yr.ata
+Number of variables in group: 64
+Themes:
+- Land & Land-Ice
+MIP ownership:
+- ISMIP7
+Of interest to MIPs:
+- ISMIP7
+Harmonised DR version: v1.2.2.5

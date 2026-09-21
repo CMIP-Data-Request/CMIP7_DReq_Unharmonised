@@ -1,0 +1,35 @@
+Name: biodiv_land_daily
+Title: Daily climate variables essential for biodiversity modelling, including dynamic
+  vegetation models
+Priority Level: High
+Justification: Minimal variable set to allow model-based impact assessments on terrestrial
+  ecosystems and calculation of additional indices relevant for impact assessments
+  on terrestrial ecosystems such as aridity index, fire weather index, growing degree
+  days, etc.
+Notes: ''
+Variables:
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.prc.tavg-u-hxy-u.day.glb
+- atmos.cl.tavg-al-hxy-u.day.glb
+- atmos.ts.tavg-u-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- land.mrsol.tavg-sl-hxy-lnd.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+- atmos.pfull.tavg-al-hxy-u.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 21
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,24 @@
+Name: impact_energy_building_demand
+Title: Data for modelling energy demand in built environment
+Priority Level: Medium
+Justification: Within buildings, weather influences the demand for heating / cooling
+  as well as electrified supply (via air, water, or ground-source heat pumps). The
+  energy consumption (and therefore burden on the grid when charging) of electric
+  vehicles is influenced by weather for heating/ cooling and overcoming air/wind resistance.
+Notes: ''
+Variables:
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.tsl.tavg-sl-hxy-lnd.day.glb
+Number of variables in group: 2
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+Of interest to MIPs:
+- ScenarioMIP
+- DCPP
+- HighResMIP
+- VIACSAB
+- CMIP
+- CORDEX
+Harmonised DR version: v1.2.2.5

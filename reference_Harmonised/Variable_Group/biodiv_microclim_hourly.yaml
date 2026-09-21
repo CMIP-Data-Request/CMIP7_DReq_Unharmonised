@@ -1,0 +1,22 @@
+Name: biodiv_microclim_hourly
+Title: Minimal set of variables for physics-based microclimate models as input for
+  ecophysiological models.
+Priority Level: High
+Justification: Minimal set of variables needed as input for physics-based microclimate
+  models, which are essential for ecophysiological models of organism heat and water
+  balance.
+Notes: ''
+Variables:
+- atmos.clt.tavg-u-hxy-u.1hr.30S-90S
+- atmos.tas.tavg-h2m-hxy-u.1hr.glb
+- atmos.hurs.tavg-h2m-hxy-u.1hr.glb
+- atmos.rsds.tavg-u-hxy-u.1hr.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.1hr.glb
+- atmos.rlds.tavg-u-hxy-u.1hr.glb
+- atmos.ps.tpt-u-hxy-u.1hr.glb
+- atmos.pr.tavg-u-hxy-u.1hr.glb
+- land.orog.ti-u-hxy-u.fx.glb
+Number of variables in group: 9
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

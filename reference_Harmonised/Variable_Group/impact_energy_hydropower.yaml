@@ -1,0 +1,25 @@
+Name: impact_energy_hydropower
+Title: Impacts and Adaptation, Energy – minimal variables for hydropower modelling
+Priority Level: High
+Justification: Many energy systems around the world are heavily dominated by hydropower
+  for electricity production (storage and run-of-river). This is a minimal set of
+  variables designed to model the availability of hydropower in energy system models.
+Notes: ''
+Variables:
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- land.mrrob.tavg-u-hxy-lnd.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.evspsbl.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 4
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+Of interest to MIPs:
+- VIACSAB
+- CORDEX
+- ScenarioMIP
+- HighResMIP
+- DCPP
+- CMIP
+Harmonised DR version: v1.2.2.5

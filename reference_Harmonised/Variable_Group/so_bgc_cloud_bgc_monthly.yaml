@@ -1,0 +1,69 @@
+Name: SO_BGC-cloud_BGC_monthly
+Title: Southern Ocean BGC-Cloud BGC Variables at monthly timeslices
+Priority Level: High
+Justification: Biogeochemical variables of interest to the Southern Ocean BGC to Clouds
+  opportunity. We are interested in exploring the natural sources of aerosol from
+  the Southern Ocean and Antarctic margins, and how they interact with clouds and
+  radiation. Information about the oceanic biogeochemistry is important for understanding
+  the sources of natural aerosol, such as dimethyl sulfide and primary marine organics;
+  to understand how biogeochemistry influences and is influenced by atmospheric, sea
+  ice and oceanic conditions and to test relationships and potential offline parameterisations
+  for future model development.
+Notes: ''
+Variables:
+- ocnBgchem.bacc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chlcalc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chldiat.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chldiaz.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chlmisc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chlpico.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.dissic.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.intdic.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intdoc.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intparag.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpbfe.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpbn.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpbp.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpbsi.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpcalcite.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpn2.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpoc.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.nh4.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.ph.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phycalc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phydiat.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phydiaz.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phypico.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phymisc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.zmeso.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.zmicro.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.zmisc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.zooc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.calc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.chl.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.dfe.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.dmso.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.graz.tavg-ol-hxy-sea.mon.30S-90S
+- ocnBgchem.intpp.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intppcalc.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intppdiat.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intppdiaz.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intppmisc.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intppnitrate.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.intpppico.tavg-u-hxy-sea.mon.30S-90S
+- ocnBgchem.no3.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.phyc.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.pp.tavg-ols-hxy-sea.mon.30S-90S
+- ocnBgchem.spco2.tavg-u-hxy-sea.mon.30S-90S
+Number of variables in group: 44
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- CFMIP
+- RFMIP
+- ScenarioMIP
+- CMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,87 @@
+Title: Changes in marine biogeochemical cycles and ecosystem processes
+Description: The marine ecosystem plays many important roles in the Earth System.
+  This includes absorbing approximately 50% of the atmospheric CO2, long term sequestration
+  of carbon through export to deep water, generating oxygen, and so much more. The
+  marine ecosystem is also susceptible to the impacts of climate change, including
+  e.g. heat stress, ocean acidification, habitat loss, eutrophication, changes in
+  stratification, and alteration of primary and secondary productions. In addition,
+  the marine ecosystem also provides several important ecosystem services that need
+  to be understood in both the historical period and in the future. These include
+  marine food webs, carbon sequestration, food production, flood protection, tourism,
+  cultural, symbolic and recreational and even aesthetic benefits. This opportunity
+  is composed by a baseline set of variables that have already been widely used in
+  CMIP6 and already exist in most ESMs, along with a number of selected variable groups
+  whose inclusion in the DR will extend the scientific purpose toward relevant ecosystem
+  processes and downstream applications.
+Expected Impacts: Ocean Biogeochemistry (BGC) models are essential tools in understanding
+  the interactions between the physical, chemical, and biological processes that occur
+  in the ocean system. In CMIP6, the marine ecosystem components were used to project
+  the future of Marine Protected areas, to understand the effect of zooplankton grazing
+  on carbon export, to understand global scale marine primary production, to assess
+  the ultimate fate of anthropogenic carbon in the Earth system, as a basis for downscaling
+  to regional marine ecosystem models, to understand changes in river nutrients outputs,
+  and much more. In addition, despite it's significance as the ultimate destination
+  of sequestrated marine carbon and more, the benthic (sea floor) environment is currently
+  under-represented in CMIP6 models, datasets and publications. As the last generation
+  of CMIP models lead to uncertain projections of changes in ocean net primary production,
+  an attribution exercise to identify the drivers of such uncertainty across different
+  ESMs is necessary and encouraged by IPCC and IPBES initiatives. An improved monitoring
+  of biological carbon sink state and dynamics will lead to a quantification of multi-centennial
+  ocean carbon sink dynamics with respect to emissions reduction pathways and the
+  assessment of existing model-based and process-based uncertainty. The combination
+  of core and expanded climate drivers is crucial in fisheries modelling because these
+  variables directly influence the health and distribution of marine species, as well
+  as the overall ecosystem. In the long-term, these data will translate into useful
+  information for more sustainable fisheries, improved conservation strategies, and
+  enhanced resilience of marine ecosystems.
+Justification of Resources: 'The baseline variable group on marine biogeochemistry
+  request: - Marine biogeochemistry baseline [marine_bgc_baseline] represents the
+  harmonised set of variables that most ESMs should be capable of providing, to sustain
+  inter-comparison studies (https://doi.org/10.1007/s40641-020-00160-0, https://doi.org/10.5194/bg-17-3439-2020)
+  and address the baseline changes in marine biogeochemical cycles and processes.
+  The following scientific topics extends the baseline variable group scope and represent
+  tailored variable groups within the overarching opportunity objectives: - Sea ice
+  biogeochemistry [marine_bgc_seaice]: this is a novel set of variables intended to
+  deal with new ESM features and collect information on the sea ice-pelagic interface
+  exchanges and dynamics. - Marine sediments [marine_bgc_sediments]: To better understand
+  the role that ocean sediments play in ocean biogeochemical cycles and the coupled
+  carbon-climate system, it is essential to first evaluate how models compare in simulating
+  benthic fluxes to better understand model strengths and weaknesses. - Biological
+  carbon sink [marine_bgc_carbon_sink]: the proposed set of variables builds on recent
+  work to bring together a process-based understanding of the carbon sink that encompasses
+  biology and physics (https://doi.org/10.1073/pnas.2204369119). - Uncertainty in
+  changing net primary production [marine_bgc_pp_uncertainty]: the variable group
+  aims to reduce the well-known uncertainties in net primary production (https://doi.org/10.3389/fclim.2021.738224)
+  in order to better constrain changes from future projections. - Fisheries board
+  [marine_bgc_fisheries]: this set of variables, including specific depths of isothermal
+  thresholds, will support the prediction of habitat suitability and species movement,
+  to disclose more insights for fisheries management and the protection of marine
+  biodiversity. - Fishmip applications [marine_bgc_fishmip]: Variables included in
+  this variable group expansion specifically address the requirements of the FishMIP
+  community to enable an ensemble of fish and ecosystem model projections of future
+  consumer biomass and fisheries yield changes, as well as assessment of adaptation
+  and mitigation actions.'
+Experiment Groups:
+- historical
+- scenarios
+- picontrol
+- scenarios_extensions-low-medium-high
+Variable Groups:
+- baseline_monthly
+- marine_bgc_baseline
+- marine_bgc_seaice
+- marine_bgc_sediments
+- marine_bgc_carbon_sink
+- marine_bgc_pp_uncertainty
+- marine_bgc_fishmip
+- marine_bgc_fisheries
+Opportunity ID: 44
+Themes:
+- Earth System
+- Ocean & Sea-Ice
+- Impacts & Adaptation
+MIPs - high priority:
+- FishMIP
+MIPs - lower priority:
+- PMIP
+Harmonised DR version: v1.2.2.5

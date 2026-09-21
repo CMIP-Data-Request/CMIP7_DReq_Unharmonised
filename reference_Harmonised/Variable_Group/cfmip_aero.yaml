@@ -1,0 +1,44 @@
+Name: CFMIP-aero
+Title: CFMIP aerosol relevant variables
+Priority Level: Low
+Justification: Aerosol-related fields helpful for characterizing climate. This is
+  a low priority variable group.
+Notes: ''
+Variables:
+- aerosol.ccldncl.tavg-u-hxy-ccl.day.glb
+- atmos.cldnci.tavg-u-hxy-cl.day.glb
+- atmos.cldnvi.tavg-u-hxy-u.day.glb
+- atmos.loadbc.tavg-u-hxy-u.day.glb
+- atmos.loaddust.tavg-u-hxy-u.day.glb
+- atmos.loadnh4.tavg-u-hxy-u.day.glb
+- atmos.loadno3.tavg-u-hxy-u.day.glb
+- atmos.loadoa.tavg-u-hxy-u.day.glb
+- atmos.loadpoa.tavg-u-hxy-u.day.glb
+- atmos.loadso4.tavg-u-hxy-u.day.glb
+- atmos.loadsoa.tavg-u-hxy-u.day.glb
+- atmos.loadss.tavg-u-hxy-u.day.glb
+- atmos.reffcclwtop.tavg-u-hxy-ccl.day.glb
+- atmos.reffsclwtop.tavg-u-hxy-scl.day.glb
+- atmos.rsdscsdiff.tavg-u-hxy-u.day.glb
+- atmos.scldncl.tavg-u-hxy-scl.day.glb
+- aerosol.abs550aer.tavg-u-hxy-u.mon.glb
+- aerosol.cdnc.tavg-al-hxy-u.mon.glb
+- atmosChem.dms.tavg-al-hxy-u.mon.glb
+- aerosol.mmrbc.tavg-al-hxy-u.mon.glb
+- aerosol.mmrdust.tavg-al-hxy-u.mon.glb
+- aerosol.mmrnh4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrno3.tavg-al-hxy-u.mon.glb
+- aerosol.mmroa.tavg-al-hxy-u.mon.glb
+- aerosol.mmrso4.tavg-al-hxy-u.mon.glb
+- aerosol.mmrss.tavg-al-hxy-u.mon.glb
+- aerosol.od550aer.tavg-u-hxy-u.mon.glb
+- aerosol.od550lt1aer.tavg-u-hxy-u.mon.glb
+- aerosol.so2.tavg-al-hxy-u.mon.glb
+- atmos.rsdsdiff.tavg-u-hxy-u.day.glb
+- aerosol.mmrsoa.tavg-al-hxy-u.mon.glb
+Number of variables in group: 31
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

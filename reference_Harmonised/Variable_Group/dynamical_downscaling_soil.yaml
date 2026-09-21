@@ -1,0 +1,24 @@
+Name: dynamical_downscaling_soil
+Title: Dynamical Downscaling Soil (CORDEX)
+Priority Level: Medium
+Justification: Realistic atmospheric simulations on climate time scales require a
+  coupled land surface model (LSM) to implicitly solve the heat and mass exchanges
+  between the atmosphere and the land surface, including those involving vegetation,
+  which are central to the hydrological cycle. The use of LSMs in regional climate
+  simulations, in turn, requires high frequency 3D fields of soil temperature and
+  moisture at specified soil depths, which ideally should be sourced from the same
+  global climate simulations used to force the atmospheric model.
+Notes: ''
+Variables:
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+- land.tsl.tavg-sl-hxy-lnd.mon.glb
+Number of variables in group: 2
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

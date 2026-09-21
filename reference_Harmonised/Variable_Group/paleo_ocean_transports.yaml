@@ -1,0 +1,35 @@
+Name: paleo_ocean_transports
+Title: ocean transports for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.msftm.tavg-rho-hyb-sea.mon.glb
+- ocean.msfty.tavg-rho-ht-sea.mon.glb
+- ocean.msfty.tavg-ol-ht-sea.mon.glb
+- ocean.sltovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.sltovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.hfbasin.tavg-u-hyb-sea.mon.glb
+- ocean.htovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.htovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.hfx.tavg-u-hxy-sea.mon.glb
+- ocean.hfy.tavg-u-hxy-sea.mon.glb
+- ocean.sltbasin.tavg-u-hyb-sea.mon.glb
+- ocean.hfx.tavg-ol-hxy-sea.mon.glb
+- ocean.hfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfx.tavg-ol-hxy-sea.mon.glb
+- ocean.sfx.tavg-u-hxy-sea.mon.glb
+- ocean.sfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfy.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 18
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

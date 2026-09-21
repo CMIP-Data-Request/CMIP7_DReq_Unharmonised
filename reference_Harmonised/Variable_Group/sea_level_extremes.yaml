@@ -1,0 +1,28 @@
+Name: sea_level_extremes
+Title: High-frequency surface variability
+Priority Level: High
+Justification: This product is important for impacts, ice sheet forcing, and coastal
+  impacts. It is critically different between eddy-permitting and coarse-resolution
+  models, which should be part of the sea level assessment (AR6 Fig. 9.12).
+Notes: ''
+Variables:
+- ocean.zos.tavg-u-hxy-sea.day.glb
+- ocean.zossq.tavg-u-hxy-sea.mon.glb
+- ocean.zostoga.tavg-u-hm-sea.day.glb
+Number of variables in group: 3
+Themes:
+- Impacts & Adaptation
+- Ocean & Sea-Ice
+- Land & Land-Ice
+Of interest to MIPs:
+- SIMIP
+- OMIP
+- GeoMIP
+- TIPMIP
+- FAFMIP
+- ScenarioMIP
+- HighResMIP
+- ISMIP7
+- CMIP
+- SOFIAMIP
+Harmonised DR version: v1.2.2.5

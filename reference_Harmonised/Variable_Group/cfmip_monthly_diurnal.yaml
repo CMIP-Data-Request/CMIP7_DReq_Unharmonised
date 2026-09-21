@@ -1,0 +1,18 @@
+Name: CFMIP_monthly_diurnal
+Title: Monthly climatologies of hourly-resolved TOA fluxes
+Priority Level: High
+Justification: Monthly climatologies of hourly-resolved TOA fluxes essential for characterizing
+  the diurnal cycle of clouds and related fields.
+Notes: ''
+Variables:
+- atmos.rlut.tclmdc-u-hxy-u.1hr.glb
+- atmos.rlutcs.tclmdc-u-hxy-u.1hr.glb
+- atmos.rsdt.tclmdc-u-hxy-u.1hr.glb
+- atmos.rsut.tclmdc-u-hxy-u.1hr.glb
+- atmos.rsutcs.tclmdc-u-hxy-u.1hr.glb
+Number of variables in group: 5
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,21 @@
+Name: aerchemmip
+Title: All AerChemMIP simulations
+Experiments:
+- hist-piAer
+- hist-piAQ
+- piClim-CH4
+- esm-scen7-vl-AQ
+- piClim-aer
+- piClim-NOx
+- piClim-SO2
+- piClim-ODS
+- piClim-N2O
+- esm-scen7-vl-Aer
+- esm-scen7-h-AQ
+- esm-scen7-h-Aer
+- scen7-h-Aer
+- scen7-h-AQ
+- scen7-vl-Aer
+- scen7-vl-AQ
+Number of experiments in group: 16
+Harmonised DR version: v1.2.2.5

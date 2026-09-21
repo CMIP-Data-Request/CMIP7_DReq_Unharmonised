@@ -1,0 +1,80 @@
+Name: landice_greenland_allfreq
+Title: Variables for diagnosing Greenland ice sheet behaviour and climate interactions
+Priority Level: Medium
+Justification: These are variables from Ice Sheet Models requested by ISMIP7 for diagnosing
+  the behaviour and sea level contribution from Greenland in standalone ice sheet
+  model runs and for comparing behaviour with coupled ESM-ISMs
+Notes: ''
+Variables:
+- land.areacellg.ti-u-hxy-u.fx.grl
+- landIce.hfgeoubed.ti-u-hxy-gis.fx.grl
+- landIce.lithk.ti-u-hxy-is.fx.grl
+- landIce.topg.ti-u-hxy-gis.fx.grl
+- landIce.acabf.tavg-u-hxy-is.mon.grl
+- atmos.hfls.tavg-u-hxy-is.mon.grl
+- atmos.hfss.tavg-u-hxy-is.mon.grl
+- landIce.icem.tavg-u-hxy-is.mon.grl
+- landIce.litempbot.tavg-u-hxy-fis.mon.grl
+- landIce.licalvf.tavg-u-hxy-is.mon.grl
+- landIce.litemptop.tavg-u-hxy-is.mon.grl
+- landIce.lifmassbf.tavg-u-hxy-is.mon.grl
+- landIce.libmassbf.tavg-u-hxy-fis.mon.grl
+- landIce.litempbot.tavg-u-hxy-gis.mon.grl
+- landIce.libmassbf.tavg-u-hxy-gis.mon.grl
+- landIce.mrroLi.tavg-u-hxy-is.mon.grl
+- land.orog.tavg-u-hxy-is.mon.grl
+- atmos.prsn.tavg-u-hxy-is.mon.grl
+- atmos.prra.tavg-u-hxy-is.mon.grl
+- atmos.rlds.tavg-u-hxy-is.mon.grl
+- atmos.rsds.tavg-u-hxy-is.mon.grl
+- atmos.rlus.tavg-u-hxy-is.mon.grl
+- atmos.rsus.tavg-u-hxy-is.mon.grl
+- landIce.snicem.tavg-u-hxy-is.mon.grl
+- landIce.snrefr.tavg-u-hxy-is.mon.grl
+- landIce.snm.tavg-u-hxy-is.mon.grl
+- landIce.sbl.tavg-u-hxy-is.mon.grl
+- landIce.snc.tavg-u-hxy-is.mon.grl
+- atmos.tas.tavg-h2m-hm-is.mon.grl
+- atmos.ts.tavg-u-hxy-is.mon.grl
+- landIce.tsn.tavg-u-hxy-is.mon.grl
+- landIce.acabf.tavg-u-hxy-is.yr.grl
+- landIce.hfgeoubed.tavg-u-hxy-gis.yr.grl
+- landIce.iareafl.tavg-u-hm-fis.yr.grl
+- landIce.iareagr.tavg-u-hm-gis.yr.grl
+- landIce.libmassbf.tavg-u-hxy-fis.yr.grl
+- landIce.libmassbf.tavg-u-hxy-gis.yr.grl
+- landIce.licalvf.tavg-u-hxy-is.yr.grl
+- landIce.lifmassbf.tavg-u-hxy-is.yr.grl
+- landIce.lim.tavg-u-hm-is.yr.grl
+- landIce.limnsw.tavg-u-hm-is.yr.grl
+- landIce.litempbot.tavg-u-hxy-fis.yr.grl
+- landIce.litempbot.tavg-u-hxy-gis.yr.grl
+- landIce.litemptop.tavg-u-hxy-is.yr.grl
+- landIce.lithk.tavg-u-hxy-is.yr.grl
+- landIce.modelcellareai.tavg-u-hxy-u.yr.grl
+- land.orog.tavg-u-hxy-is.yr.grl
+- landIce.sftflf.tavg-u-hxy-u.yr.grl
+- land.sftgif.tavg-u-hxy-u.yr.grl
+- landIce.sftgrf.tavg-u-hxy-u.yr.grl
+- landIce.snc.tavg-u-hxy-is.yr.grl
+- landIce.strbasemag.tavg-u-hxy-is.yr.grl
+- landIce.tendacabf.tavg-u-hm-is.yr.grl
+- landIce.tendlibmassbf.tavg-u-hm-is.yr.grl
+- landIce.tendlicalvf.tavg-u-hm-is.yr.grl
+- landIce.topg.tavg-u-hxy-gis.yr.grl
+- landIce.xvelbase.tavg-u-hxy-is.yr.grl
+- landIce.xvelmean.tavg-u-hxy-is.yr.grl
+- landIce.xvelsurf.tavg-u-hxy-is.yr.grl
+- landIce.yvelbase.tavg-u-hxy-is.yr.grl
+- landIce.yvelmean.tavg-u-hxy-is.yr.grl
+- landIce.yvelsurf.tavg-u-hxy-is.yr.grl
+- landIce.zvelbase.tavg-u-hxy-is.yr.grl
+- landIce.zvelsurf.tavg-u-hxy-is.yr.grl
+Number of variables in group: 64
+Themes:
+- Land & Land-Ice
+MIP ownership:
+- ISMIP7
+Of interest to MIPs:
+- ISMIP7
+Harmonised DR version: v1.2.2.5

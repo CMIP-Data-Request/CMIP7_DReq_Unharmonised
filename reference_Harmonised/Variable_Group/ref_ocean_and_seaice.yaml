@@ -1,0 +1,38 @@
+Name: ref_ocean_and_seaice
+Title: Variables that are needed for the ocean and sea ice diagnostics planned for
+  the Rapid Evaluation Framework (REF)
+Priority Level: High
+Justification: This is the set of variables that would be needed for the planned ocean
+  and sea ice diagnostics and metrics for the Rapid Evaluation Framework. The variable
+  group will be linked with the "Rapid Evaluation Framework" opportunity, and is essential
+  for the evaluation of the new AR7 fast track simulations on a routine basis.
+Notes: ''
+Variables:
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.sieqthick.tavg-u-hxy-si.mon.glb
+- ocean.volcello.tavg-ol-hxy-sea.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.msfty.tavg-ol-ht-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.wo.tavg-ol-hxy-sea.mon.glb
+- ocean.hfbasin.tavg-u-hyb-sea.mon.glb
+- ocean.hfy.tavg-u-hxy-sea.mon.glb
+- ocean.hfx.tavg-u-hxy-sea.mon.glb
+- atmos.areacella.ti-u-hxy-u.fx.glb
+- ocean.hfx.tavg-ol-hxy-sea.mon.glb
+- ocean.hfy.tavg-ol-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 21
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- OMIP
+- SIMIP
+Harmonised DR version: v1.2.2.5

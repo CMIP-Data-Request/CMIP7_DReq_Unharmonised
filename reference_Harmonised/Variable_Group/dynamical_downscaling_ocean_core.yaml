@@ -1,0 +1,35 @@
+Name: dynamical_downscaling_ocean_core
+Title: Dynamical Downscaling Ocean (CORDEX) core
+Priority Level: High
+Justification: There is an emerging need for regional downscaling of global climate
+  models for the ocean (physics, biogeochemistry, sea ice) to provide refined and
+  more regional-to-local information on marine environment past and projections changes,
+  to support ocean climate services and for climate adaptation. A set of variables
+  are needed to force regional ocean models at their lateral boundaries, and at the
+  air-sea interface for forced models. Omon.tos is requested here, but already covered
+  by the variable group dynamical_downscaling_core (by Oday.tos), in case this is
+  also stored.
+Notes: ''
+Variables:
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.zostoga.tavg-u-hm-sea.mon.glb
+- ocean.friver.tavg-u-hxy-sea.mon.glb
+- ocean.ficeberg.tavg-ol-hxy-sea.mon.glb
+- ocean.masscello.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 11
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+- ISMIP7
+Harmonised DR version: v1.2.2.5

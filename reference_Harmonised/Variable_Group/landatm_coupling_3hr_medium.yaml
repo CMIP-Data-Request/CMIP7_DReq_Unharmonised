@@ -1,0 +1,32 @@
+Name: landatm_coupling_3hr_medium
+Title: Land-Atmosphere Coupling at 3 h time means or at an instantaneous point 3 hPt
+  (medium priority)
+Priority Level: Medium
+Justification: 'This variable group allows for adequate characterization of sub-daily
+  coupling processes between the land and the atmosphere, based on Findell et al.
+  (2024), doi: 10.5194/gmd-17-1869-2024'
+Notes: ''
+Variables:
+- atmos.rlds.tavg-u-hxy-u.3hr.glb
+- atmos.rlus.tavg-u-hxy-u.3hr.glb
+- atmos.rsds.tavg-u-hxy-u.3hr.glb
+- atmos.rsus.tavg-u-hxy-u.3hr.glb
+- land.hfdsl.tavg-u-hxy-lnd.3hr.glb
+- land.evspsblveg.tavg-u-hxy-u.3hr.glb
+- land.evspsblsoi.tavg-u-hxy-u.3hr.glb
+- land.tran.tavg-u-hxy-u.3hr.glb
+- atmos.hus.tpt-p6-hxy-air.3hr.glb
+- atmos.ua.tpt-p6-hxy-air.3hr.glb
+- atmos.va.tpt-p6-hxy-air.3hr.glb
+- atmos.wap.tpt-p6-hxy-air.3hr.glb
+- atmos.ta.tpt-p6-hxy-air.3hr.glb
+- land.mrsol.tavg-d100cm-hxy-lnd.3hr.glb
+Number of variables in group: 14
+Themes:
+- Land & Land-Ice
+Of interest to MIPs:
+- LUMIP
+- CMIP
+- HighResMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

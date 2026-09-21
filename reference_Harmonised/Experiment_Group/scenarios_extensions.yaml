@@ -1,0 +1,19 @@
+Name: scenarios_extensions
+Title: Experiment group for the extension scenario experiments
+Experiments:
+- scen7-h-ext
+- scen7-hl-ext
+- scen7-vl-ext
+- scen7-ln-ext
+- esm-scen7-hl-ext
+- esm-scen7-vl-ext
+- esm-scen7-ln-ext
+- scen7-m-ext
+- scen7-ml-ext
+- scen7-l-ext
+- esm-scen7-h-ext
+- esm-scen7-m-ext
+- esm-scen7-ml-ext
+- esm-scen7-l-ext
+Number of experiments in group: 14
+Harmonised DR version: v1.2.2.5

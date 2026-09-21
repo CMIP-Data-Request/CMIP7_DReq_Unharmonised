@@ -1,0 +1,24 @@
+Name: dynamical_downscaling_ocean_air_sea_biogeochemistry_forcing
+Title: Dynamical Downscaling Ocean air-sea biogeochemistry forcing (CLIVAR/CORDEX)
+Priority Level: High
+Justification: Dynamical downscaling of the ocean air-sea biogeochemistry requires
+  daily 3D-global forcing fields for specific variables.
+Notes: ''
+Variables:
+- aerosol.drydust.tavg-u-hxy-u.mon.glb
+- atmosChem.drynoy.tavg-u-hxy-u.mon.glb
+- aerosol.wetdust.tavg-u-hxy-u.mon.glb
+- atmosChem.wetnoy.tavg-u-hxy-u.mon.glb
+- ocnBgchem.fsn.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.spco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.fsfe.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

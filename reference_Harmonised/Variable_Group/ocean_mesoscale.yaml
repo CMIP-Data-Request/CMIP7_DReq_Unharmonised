@@ -1,0 +1,36 @@
+Name: ocean_mesoscale
+Title: Variables necessary to describe the role of ocean mesoscales in the climate
+  system
+Priority Level: High
+Justification: 'Condition: for models with an ocean resolution of 1/4° of higher,
+  and ocean parameterizations that allow mesoscale eddies to develop (weak or absent
+  GM) Justification: Ocean models with a grid resolution of 1/4° or better represent
+  the ocean mesoscale dynamics (instability of currents and eddies). Analyzing climate
+  change in these models requires more variables, or variables at different frequencies,
+  compared with non-eddying ocean models. Salt flux should be added but has no CMOR
+  name (CF standard name: Ocean Salt X Transport). Daily 3D ocean state (uo, vo, thetao,
+  so) should also be added to this group, but perhaps as time slices?'
+Notes: ''
+Variables:
+- ocean.zos.tavg-u-hxy-sea.day.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.sos.tavg-u-hxy-sea.day.glb
+- ocean.sfx.tavg-ol-hxy-sea.mon.glb
+- ocean.sfy.tavg-ol-hxy-sea.mon.glb
+- ocean.uos.tavg-u-hxy-sea.day.glb
+- ocean.vos.tavg-u-hxy-sea.day.glb
+- ocean.hfx.tavg-ol-hxy-sea.mon.glb
+- ocean.hfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfx.tavg-u-hxy-sea.mon.glb
+- ocean.sfy.tavg-u-hxy-sea.mon.glb
+- ocean.hfx.tavg-u-hxy-sea.day.glb
+- ocean.hfy.tavg-u-hxy-sea.day.glb
+- ocean.thetao.tavg-op20bar-hxy-sea.day.glb
+- ocean.mlotst.tavg-u-hxy-sea.day.glb
+Number of variables in group: 15
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

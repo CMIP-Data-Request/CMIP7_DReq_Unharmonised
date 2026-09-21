@@ -1,0 +1,33 @@
+Name: AgModelExpandedDaily
+Title: Expanded daily climate drivers for agricultural modeling
+Priority Level: High
+Justification: This variable group contains a deeper set of variables needed for more
+  complex agricultural modeling and impacts applications. The additional variables
+  allow for better representation of drought stress, water requirements, and extreme
+  impacts. Many of the top agricultural models (e.g., in the Agricultural Model Intercomparison
+  and Improvement Project, AgMIP) have the ability to utilize this additional information
+  along with more complex process representation and parameterizations within their
+  models.
+Notes: ''
+Variables:
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rlus.tavg-u-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+Number of variables in group: 10
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- ScenarioMIP
+- HighResMIP
+- DAMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

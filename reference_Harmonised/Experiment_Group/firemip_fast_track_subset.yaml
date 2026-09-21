@@ -1,0 +1,12 @@
+Name: firemip_fast-track_subset
+Title: Subset of experiments from fast-track to support fire assessment
+Experiments:
+- dcppB-forecast-cmip6
+- land-hist
+- hist-nat
+- hist-aer
+- hist-GHG
+- historical
+- esm-hist
+Number of experiments in group: 7
+Harmonised DR version: v1.2.2.5

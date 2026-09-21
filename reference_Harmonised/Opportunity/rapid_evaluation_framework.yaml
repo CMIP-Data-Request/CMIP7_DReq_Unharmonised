@@ -1,0 +1,42 @@
+Title: Rapid Evaluation Framework
+Description: The CMIP Panel agreed on providing a Rapid Evaluation Framework (REF)
+  for new simulations that become available from upcoming CMIP phases. The idea is
+  to evaluate and benchmark the newly available simulations as soon as they are uploaded
+  to ESGF with metrics and diagnostics that are available through different open-source
+  evaluation and benchmarking tools. The REF is envisioned to be available already
+  for the Fast Track simulations, however, the available metrics and diagnostics will
+  be limited to a temporal resolution of monthly mean data and a community selection
+  of of about five metrics/diagnostics per realm. Results will be publicly displayed
+  for the community to see.
+Expected Impacts: The suggested metrics/diagnostics for the REF to be available for
+  the Fast Track simulations are in a first instance very basic evaluations and are
+  not expected to require very specific variables. However, the impact of the publicly
+  available evaluation and benchmarking results should be big since the community
+  can get a quick overview of available simulations and their characteristics that
+  might be interesting for different applications and analyses.
+Justification of Resources: This opportunity does not ask for additional variables
+  or experiments. In the contrary, it will make use of the already proposed experiments
+  and will provide an overview of the characteristics of the simulations of these
+  experiments (e.g. Fast Track).
+Experiment Groups:
+- fast-track
+- deck
+Variable Groups:
+- ref_atmosphere
+- ref_land_and_landice
+- ref_ocean_and_seaice
+- ref_earth_system
+- ref_impacts_and_adaptation
+Opportunity ID: 55
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+- Land & Land-Ice
+- Earth System
+- Impacts & Adaptation
+MIPs - high priority:
+- PMIP
+MIPs - lower priority:
+- DCPP
+- TIPMIP
+Harmonised DR version: v1.2.2.5

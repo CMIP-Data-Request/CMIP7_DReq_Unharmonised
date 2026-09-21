@@ -1,0 +1,28 @@
+Name: baseline_fixed
+Title: ESM Baseline Climate Variables
+Priority Level: Core
+Justification: ''
+Notes: 'As outlined in Baseline Climate Variables paper: https://doi.org/10.5194/egusphere-2024-2363'
+Variables:
+- land.slthick.ti-sl-hxy-lnd.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.basin.ti-u-hxy-u.fx.glb
+- ocean.deptho.ti-u-hxy-sea.fx.glb
+- ocean.hfgeou.ti-u-hxy-sea.fx.glb
+- ocean.masscello.ti-ol-hxy-sea.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.thkcello.ti-ol-hxy-sea.fx.glb
+- atmos.areacella.ti-u-hxy-u.fx.glb
+- land.mrsofc.ti-u-hxy-lnd.fx.glb
+- land.orog.ti-u-hxy-u.fx.glb
+- land.rootd.ti-u-hxy-lnd.fx.glb
+- land.sftgif.ti-u-hxy-u.fx.glb
+- atmos.sftlf.ti-u-hxy-u.fx.glb
+Number of variables in group: 14
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

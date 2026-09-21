@@ -1,0 +1,67 @@
+Title: Core Climate Services
+Description: 'Minimum variable set of high frequency, low precision outputs to revolutionise
+  climate impact modelling and climate services Climate services and climate impact
+  modelling are a vital step in the value chain for understanding and managing the
+  risks of a changing climate. The communities that undertake these activities depend
+  on CMIP data outputs as inputs to onward "impact" models (e.g., for energy, water,
+  agriculture, financial services, health). These impact models can be highly complex
+  with non-linear dependences on meteorological properties. Many of these impact models
+  themselves use only a handful of common surface/near-surface variables but require
+  fine-resolution data in both time and space. Hitherto, the availability of such
+  input data from CMIP has been - at best - patchy. This has inhibited impact modelling
+  by requiring compromises on impact model resolution (e.g., use of daily or monthly
+  rather than sub-daily ) and inter-model comparison (e.g., only a few CMIP models
+  providing relevant output), or prevented the application of CMIP simulations in
+  high-quality impact models completely. The proposal is therefore for CMIP models
+  running ''real world'' simulations to output a small set of surface/near-surface
+  climate variables at sub-daily (preferably hourly) grid-point resolution to support
+  the provision of climate impact modelling, climate services and climate adaptation
+  across a wide range of topics, including but not limited to infrastructure, energy,
+  finance, health, agriculture & water. It is therefore tressed that while this request
+  is substantial, it is intended to support a wide range of activities and "downstream"
+  impact communities. This opportunity requests data throughout the entire simulation
+  period. However, if high temporal resolution data is difficult to provide for the
+  entire period, this opportunity can be supported with data from the following time
+  subsets: hist72 and histext + whole timeseries (2021-2100): first preference, hist43
+  and histext + whole timeseries (2021-2100): second preference, hist43 and histext
+  + scenario30mid + scenario20: third preference, hist43 and histext + scenario20mid
+  + scenario20: fourth preference, hist20 and histext + scenario20mid + scenario20:
+  fifth preference. histext is included because the I&A community would like historical
+  data that are as close to the present as possible.'
+Expected Impacts: 'Use cases in climate services and impact modelling are many and
+  varied. High frequency data in this requests underpins many different areas of activity
+  (though in some applicaitons additional data may also be required). Examples include:
+  **Power system planning **(design and operation of high-renewables electricity systems
+  for decarbonisation) - uses detailed optimisation models to represent complex internal
+  dynamics. Require minimum hourly resolution. **Sub-daily Extreme Analysis (CORDEX,
+  Climate Services).** **SurgeMIP (storm surge community) **- storm surge**.** **Building
+  energy use modelling.**'
+Justification of Resources: See description. This is to underpin a very wide range
+  of climate service activities in support of climate impact assessment and climate
+  adaptation. The onward modelling often requires higher frequency data than has previously
+  been provided by CMIP creating a substantial barrier to climate service provision.
+  This proposal hopes to overcome this barrier. See, https://doi.org/10.1016/j.joule.2022.05.010
+  for a detailed discussion in the energy sector, but please note that the Impacts
+  and Adaptation group emerged many demands for hourly data needs across multiple
+  sectors. We feel this request brings together the needs of this disparate community
+  in an efficient and feasible way for the future.
+Experiment Groups:
+- impact_climserv_core_expt
+- scenarios
+- highresmip2-ia
+Variable Groups:
+- impacts_climserv_hourly_core
+- impacts_climserv_hourly_expanded
+Opportunity ID: 20
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIPs - high priority:
+- ISIMIP
+MIPs - lower priority:
+- DCPP
+- TIPMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,24 @@
+Name: baseline_subdaily
+Title: ESM Baseline Climate Variables
+Priority Level: Core
+Justification: ''
+Notes: 'As outlined in Baseline Climate Variables paper: https://doi.org/10.5194/egusphere-2024-2363'
+Variables:
+- atmos.huss.tpt-h2m-hxy-u.3hr.glb
+- atmos.pr.tavg-u-hxy-u.3hr.glb
+- atmos.tas.tpt-h2m-hxy-u.3hr.glb
+- atmos.uas.tpt-h10m-hxy-u.3hr.glb
+- atmos.vas.tpt-h10m-hxy-u.3hr.glb
+- atmos.hurs.tavg-h2m-hxy-u.6hr.glb
+- atmos.ta.tpt-p3-hxy-air.6hr.glb
+- atmos.ua.tpt-p3-hxy-air.6hr.glb
+- atmos.va.tpt-p3-hxy-air.6hr.glb
+- atmos.pr.tavg-u-hxy-u.1hr.glb
+Number of variables in group: 10
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,32 @@
+Name: aerchemmip_2dZ_monthly
+Title: Zonal mean trace gases and dynamical fields on pressure levels and at monthly
+  timescales for analysis in AerChemMIP
+Priority Level: High
+Justification: This is a request for monthly resolution zonal mean variables that
+  will satisfy the requirements of the AerChemMIP2 Opportunity.
+Notes: ''
+Variables:
+- atmos.ta.tavg-p39-hy-air.mon.glb
+- atmos.ua.tavg-p39-hy-air.mon.glb
+- atmos.va.tavg-p39-hy-air.mon.glb
+- atmos.zg.tavg-p39-hy-air.mon.glb
+- atmosChem.meanage.tavg-p39-hy-air.mon.glb
+- atmosChem.o3.tavg-p39-hy-air.mon.glb
+- atmosChem.n2o.tavg-p39-hy-air.mon.glb
+- aerosol.hno3.tavg-p39-hy-air.mon.glb
+- atmosChem.ch4.tavg-p39-hy-air.mon.glb
+- aerosol.h2o.tavg-p39-hy-air.mon.glb
+- aerosol.cly.tavg-p39-hy-air.mon.glb
+- aerosol.bry.tavg-p39-hy-air.mon.glb
+- aerosol.noy.tavg-p39-hy-air.mon.glb
+- aerosol.hcl.tavg-p39-hy-air.mon.glb
+- aerosol.oh.tavg-p39-hy-air.mon.glb
+- aerosol.ho2.tavg-p39-hy-air.mon.glb
+Number of variables in group: 16
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- AerChemMIP2
+- GeoMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

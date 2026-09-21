@@ -1,0 +1,38 @@
+Title: Accurate assessment of land-atmosphere coupling
+Description: 'This set of data will allow for adequate characterization of sub-daily
+  coupling processes between the land and atmosphere. Increasing the time resolution
+  of model output describing components of land–atmosphere coupling and processes
+  within the land–atmosphere interface is essential to fully and accurately model,
+  understand, and predict theseprocesses and to compare modeled processes with observational
+  datasets. The data request described here will allow us to compare coupled Earth
+  system and climate models with observations from field campaigns and to compare
+  both diurnal and long-term properties of L–A interactions in different models and
+  during model development. More details can be found in this paper: <https://doi.org/10.5194/gmd-17-1869-2024>'
+Expected Impacts: 'Local L–A coupling (LoCo) metrics capture relevant L–A processes,
+  highlighting the impact of soil and vegetation states on surface flux partitioning
+  and the impact of surface fluxes on boundary layer (BL) growth and development and
+  the entrainment of air above the BL. Higher-frequency model output will (i)allow
+  for more direct comparison with observational field campaigns on process-relevant
+  timescales, (ii)enable demonstration of inter-model spread in L–A coupling processes,
+  and (iii)aid in targeted identification of sources of deficiencies and opportunities
+  for improvement of the models. More details can be found in this paper: <https://doi.org/10.5194/gmd-17-1869-2024>'
+Justification of Resources: 'A time slice simulation of historical run could help
+  understanding the land-atmosphere coupling in Earth system models and comparing
+  modeled processes with observational datasets. More scientific evidence could be
+  found in a recent GMD paper: https://doi.org/10.5194/gmd-17-1869-2024'
+Experiment Groups:
+- historical
+- scenarios
+Variable Groups:
+- landatm_coupling_3hA
+- landatm_coupling_3hr_medium
+Opportunity ID: 1
+Themes:
+- Land & Land-Ice
+- Atmosphere
+MIPs - high priority:
+- HighResMIP
+MIPs - lower priority:
+- LUMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

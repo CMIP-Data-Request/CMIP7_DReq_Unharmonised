@@ -1,0 +1,18 @@
+Name: FireMIP_daily
+Title: FireMIP variables at daily timeslices
+Priority Level: High
+Justification: Add several cloud and aerosol variables according to group review comments.
+Notes: ''
+Variables:
+- atmos.cldnvi.tavg-u-hxy-u.day.glb
+- atmos.loadbc.tavg-u-hxy-u.day.glb
+- atmos.loadoa.tavg-u-hxy-u.day.glb
+- atmos.loadpoa.tavg-u-hxy-u.day.glb
+Number of variables in group: 4
+Themes:
+- Earth System
+MIP ownership:
+- FireMIP
+Of interest to MIPs:
+- FireMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,59 @@
+Name: tipmip_extended
+Title: Tipping Points Modeling Intercomparison Project extended variable group
+Priority Level: Medium
+Justification: These variables are those which will be included as baseline diagnostics
+  within the Tipping Points Modeling Comparison Project and allow for offline, domain-specific
+  experiments.
+Notes: '[TL 14/11/24: set priority to Medium]'
+Variables:
+- atmos.prc.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.ts.tavg-u-hxy-u.day.glb
+- land.mrsll.tavg-sl-hxy-lnd.mon.glb
+- land.mrsol.tavg-sl-hxy-lnd.mon.glb
+- land.burntFractionAll.tavg-u-hxy-u.mon.glb
+- land.fFireAll.tavg-u-hxy-lnd.mon.glb
+- land.fFireNat.tavg-u-hxy-lnd.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-sl-hxy-lnd.mon.glb
+- land.mrsfl.tavg-sl-hxy-lnd.mon.glb
+- landIce.hfss.tavg-u-hxy-is.mon.glb
+- landIce.rsus.tavg-u-hxy-is.mon.glb
+- landIce.rlds.tavg-u-hxy-is.mon.glb
+- landIce.rlus.tavg-u-hxy-is.mon.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.friver.tavg-u-hxy-sea.mon.glb
+- ocean.hfbasin.tavg-u-hyb-sea.mon.glb
+- ocean.hfbasinpmadv.tavg-u-hyb-sea.mon.glb
+- ocean.htovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.htovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.masscello.tavg-ol-hxy-sea.mon.glb
+- ocean.masso.tavg-u-hm-sea.mon.glb
+- ocean.mlotst.tmax-u-hxy-sea.mon.glb
+- ocean.mlotst.tmin-u-hxy-sea.mon.glb
+- ocean.msfty.tavg-ol-ht-sea.mon.glb
+- ocean.pbo.tavg-u-hxy-sea.mon.glb
+- ocean.thkcello.tavg-ol-hxy-sea.mon.glb
+- ocean.volo.tavg-u-hm-sea.mon.glb
+- ocean.hfx.tavg-u-hxy-sea.mon.glb
+- ocean.hfy.tavg-u-hxy-sea.mon.glb
+- ocean.sltovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.sltovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.hfx.tavg-ol-hxy-sea.mon.glb
+- ocean.hfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfx.tavg-ol-hxy-sea.mon.glb
+- ocean.sfx.tavg-u-hxy-sea.mon.glb
+- ocean.sfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfy.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 42
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- TIPMIP
+Harmonised DR version: v1.2.2.5

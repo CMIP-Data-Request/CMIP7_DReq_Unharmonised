@@ -1,0 +1,27 @@
+Name: seaice_state_daily_basic
+Title: Variables needed for assessment of sea ice changes at the sub-seasonal time
+  scale
+Priority Level: High
+Justification: This is a request for daily resolution variables necessary to analyze
+  the evolution of the sea ice characteristics at the sub-seasonal scale, such as
+  the day of year when a certainty property is met during the seasonal development
+  of the ice cover.
+Notes: ''
+Variables:
+- seaIce.sitimefrac.tavg-u-hxy-sea.day.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- seaIce.siconca.tavg-u-hxy-u.day.glb
+- seaIce.sithick.tavg-u-hxy-si.day.glb
+- seaIce.snd.tavg-u-hxy-sn.day.glb
+- seaIce.ts.tavg-u-hxy-si.day.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+Number of variables in group: 8
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- OMIP
+- ScenarioMIP
+- CMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,13 @@
+Name: impact_climserv_core_expt
+Title: Core experiments needed for climate service provision
+Experiments:
+- hist-aer
+- hist-GHG
+- hist-nat
+- dcppB-forecast-cmip6
+- land-hist
+- G7-1p5K-SAI
+- esm-hist
+- historical
+Number of experiments in group: 8
+Harmonised DR version: v1.2.2.5

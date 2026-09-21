@@ -1,0 +1,25 @@
+Name: atmospheric_transports
+Title: Variables needed to characterize energy and moisture transports
+Priority Level: High
+Justification: Atmospheric energy and moisture transports influence the evolution
+  and characteristics of the sea ice pack and thus Polar Amplification. Evidence exists
+  that the processes and feedbacks between the ice pack and the atmosphere that are
+  central to Polar Amplification unfold at high frequency, which is why we request
+  atmospheric transports at both the monthly and daily frequency.
+Notes: ''
+Variables:
+- atmos.intuadse.tavg-u-hxy-u.day.glb
+- atmos.intvadse.tavg-u-hxy-u.day.glb
+- atmos.intuaw.tavg-u-hxy-u.day.glb
+- atmos.intvaw.tavg-u-hxy-u.day.glb
+- atmos.intuadse.tavg-u-hxy-u.mon.glb
+- atmos.intvadse.tavg-u-hxy-u.mon.glb
+- atmos.intuaw.tavg-u-hxy-u.mon.glb
+- atmos.intvaw.tavg-u-hxy-u.mon.glb
+Number of variables in group: 8
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- PAMIP
+Harmonised DR version: v1.2.2.5

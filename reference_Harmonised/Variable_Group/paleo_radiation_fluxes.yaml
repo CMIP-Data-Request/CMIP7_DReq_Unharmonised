@@ -1,0 +1,33 @@
+Name: paleo_radiation_fluxes
+Title: various radiation fluxes for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- atmos.rsutcs.tavg-u-hxy-u.mon.glb
+- atmos.rlut.tavg-u-hxy-u.day.glb
+- atmos.rlutcs.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rlds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- atmos.rlus.tavg-u-hxy-u.mon.glb
+- atmos.rsdscs.tavg-u-hxy-u.mon.glb
+- atmos.rsuscs.tavg-u-hxy-u.mon.glb
+- atmos.rldscs.tavg-u-hxy-u.mon.glb
+- atmos.hfls.tavg-u-hxy-u.day.glb
+- atmos.hfss.tavg-u-hxy-u.day.glb
+- atmos.rsdt.tavg-u-hxy-u.day.glb
+- atmos.rsut.tavg-u-hxy-u.day.glb
+Number of variables in group: 14
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

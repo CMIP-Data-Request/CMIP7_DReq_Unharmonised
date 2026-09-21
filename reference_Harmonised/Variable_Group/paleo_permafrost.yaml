@@ -1,0 +1,105 @@
+Name: paleo_permafrost
+Title: permafrost and selected land-ice related variables for quantifying the state
+  of the land-based cryosphere
+Priority Level: High
+Justification: The land and land ice author theme suggested to enable for opportunity
+  ID 51 - Paleoclimate research across time scales - also the study of permafrost.
+  This variable group collects the various variables that have been suggested by the
+  community as relevant towards fulfilling this goal. The priority level of the whole
+  variable group is graded as high priority towards enabling permafrost research in
+  CMIP7, but higher frequency variables (daily resolution) are for more specific tasks
+  (forcing for surface energy balance, offline permafrost, offline carbon/ecosystem,
+  permafrost landscape models) and may be considered of lower priority than monthly
+  mean variables that are an absolute necessity to diagnose and evaluate the state
+  of permafrost. We also include land-ice related variables that will help to understand
+  the state of ice sheets.
+Notes: ''
+Variables:
+- land.tsl.tavg-sl-hxy-lnd.mon.glb
+- land.mrsol.tavg-sl-hxy-lnd.mon.glb
+- land.mrsll.tavg-sl-hxy-lnd.mon.glb
+- land.mrsfl.tavg-sl-hxy-lnd.mon.glb
+- landIce.snc.tavg-u-hxy-lnd.mon.glb
+- landIce.snd.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-sl-hxy-lnd.mon.glb
+- aerosol.depdust.tavg-u-hxy-u.mon.glb
+- land.burntFractionAll.tavg-u-hxy-u.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.prra.tavg-u-hxy-lnd.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.ts.tavg-u-hxy-u.mon.glb
+- atmos.co2.tavg-h2m-hxy-u.mon.glb
+- land.tsl.tavg-sl-hxy-lnd.day.glb
+- land.mrsol.tavg-sl-hxy-lnd.day.glb
+- land.mrsll.tavg-sl-hxy-lnd.day.glb
+- land.mrsfl.tavg-sl-hxy-lnd.day.glb
+- land.sftlaf.ti-u-hxy-u.fx.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- atmos.hfls.tavg-u-hxy-u.mon.glb
+- atmos.hfss.tavg-u-hxy-u.mon.glb
+- atmos.hurs.tavg-h2m-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.mon.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.prsn.tavg-u-hxy-u.mon.glb
+- atmos.rlds.tavg-u-hxy-u.mon.glb
+- atmos.rlus.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.uas.tavg-h10m-hxy-u.mon.glb
+- atmos.vas.tavg-h10m-hxy-u.mon.glb
+- atmos.prra.tavg-u-hxy-u.mon.glb
+- landIce.acabf.tavg-u-hxy-is.mon.glb
+- landIce.hfls.tavg-u-hxy-is.mon.glb
+- landIce.hfss.tavg-u-hxy-is.mon.glb
+- landIce.icem.tavg-u-hxy-is.mon.glb
+- landIce.litemptop.tavg-u-hxy-is.mon.glb
+- landIce.mrro.tavg-u-hxy-is.mon.glb
+- landIce.orog.tavg-u-hxy-is.mon.glb
+- landIce.prra.tavg-u-hxy-is.mon.glb
+- landIce.prsn.tavg-u-hxy-is.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- landIce.rlds.tavg-u-hxy-is.mon.glb
+- landIce.rlus.tavg-u-hxy-is.mon.glb
+- landIce.rsds.tavg-u-hxy-is.mon.glb
+- landIce.rsus.tavg-u-hxy-is.mon.glb
+- landIce.sbl.tavg-u-hxy-u.mon.glb
+- landIce.sbl.tavg-u-hxy-is.mon.glb
+- landIce.sftflf.tavg-u-hxy-u.mon.glb
+- land.sftgif.tavg-u-hxy-u.mon.glb
+- landIce.sftgrf.tavg-u-hxy-u.mon.glb
+- landIce.snc.tavg-u-hxy-is.mon.glb
+- landIce.snrefr.tavg-u-hxy-is.mon.glb
+- landIce.snicem.tavg-u-hxy-is.mon.glb
+- landIce.snm.tavg-u-hxy-lnd.mon.glb
+- landIce.snm.tavg-u-hxy-is.mon.glb
+- landIce.tas.tavg-h2m-hxy-is.mon.glb
+- landIce.ts.tavg-u-hxy-is.mon.glb
+- landIce.tsn.tavg-u-hxy-lnd.mon.glb
+- landIce.tsn.tavg-u-hxy-is.mon.glb
+- ocean.hfgeou.tavg-u-hxy-sea.mon.glb
+- landIce.sftgrf.ti-u-hxy-u.fx.glb
+- landIce.sftflf.ti-u-hxy-u.fx.glb
+- ocean.flandice.tavg-u-hxy-sea.mon.glb
+- atmos.ts.tavg-u-hxy-u.day.glb
+Number of variables in group: 78
+Themes:
+- Land & Land-Ice
+- Earth System
+- Ocean & Sea-Ice
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

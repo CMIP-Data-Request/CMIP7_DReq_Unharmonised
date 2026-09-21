@@ -1,0 +1,9 @@
+Name: firemip_deck_subset
+Title: Subset of deck experiments for FireMIP opportunity
+Experiments:
+- piClim-4xCO2
+- piClim-anthro
+- piClim-control
+- piControl
+Number of experiments in group: 4
+Harmonised DR version: v1.2.2.5

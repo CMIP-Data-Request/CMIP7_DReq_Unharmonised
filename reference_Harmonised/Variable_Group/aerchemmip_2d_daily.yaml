@@ -1,0 +1,64 @@
+Name: aerchemmip_2d_daily
+Title: 2D trace gas, aerosol and climate variables at daily timescales for use in
+  AerChemMIP2
+Priority Level: High
+Justification: This request is for a set of 2D variables as daily means for use in
+  AerChemMIP2. These variables cover atmospheric composition variables that are relevant
+  to air quality (e.g., so2, co, different aerosol components, and PM) as well as
+  relevant atmospheric and climate variables (e.g., wind speed, radiative fluxes,
+  air temperature, precipitation) for understanding atmospheric composition and their
+  impact on climate.
+Notes: ''
+Variables:
+- aerosol.sfpm10.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm1.tavg-h2m-hxy-u.day.glb
+- aerosol.so2.tavg-h2m-hxy-u.day.glb
+- aerosol.co.tavg-h2m-hxy-u.day.glb
+- aerosol.sfpm25.tavg-h2m-hxy-u.day.glb
+- aerosol.mmraerh2o.tavg-h2m-hxy-u.day.glb
+- aerosol.mmroa.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrsoa.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrbc.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrso4.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrno3.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrnh4.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrss.tavg-h2m-hxy-u.day.glb
+- aerosol.mmrdust.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- aerosol.ua.tavg-10hPa-hxy-air.day.glb
+- aerosol.zg.tavg-10hPa-hxy-air.day.glb
+- atmos.zg.tavg-1000hPa-hxy-air.day.glb
+- atmos.zg.tavg-500hPa-hxy-air.day.glb
+- aerosol.toz.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rsdscs.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rlus.tavg-u-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.bldep.tmax-u-hxy-u.day.glb
+- atmos.bldep.tmin-u-hxy-u.day.glb
+- aerosol.cod.tavg-u-hxy-u.day.glb
+- aerosol.od550aer.tavg-u-hxy-u.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+Number of variables in group: 39
+Themes:
+- Atmosphere
+- Impacts & Adaptation
+- Earth System
+Of interest to MIPs:
+- AerChemMIP2
+- RFMIP
+- GeoMIP
+- ScenarioMIP
+- RAMIP
+- VolMIP
+Harmonised DR version: v1.2.2.5

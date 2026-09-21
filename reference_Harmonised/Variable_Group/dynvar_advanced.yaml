@@ -1,0 +1,51 @@
+Name: dynvar_advanced
+Title: Extended set of variables for atmospheric dynamics and transport diagnostics
+Priority Level: Medium
+Justification: This variable group is linked to the DynVarMIP opportunity and extends
+  the set of dynvar_basic variables with a more detailed information on the parameterized
+  forcings. Diagnostics of atmospheric momentum and energy transport are needed to
+  investigate the origin of circulation biases in climate models and to understand
+  the details of atmospheric circulation responses to natural and anthropogenic forcing.
+  Variables of this group have already proved helpful in attributing parts of the
+  CMIP6 circulation intermodel-spread to differences in unresolved driving (Abalos
+  et al., 2021, ACP; Karpechko et al., 2024, JGR-A; Hájková and Šácha, 2023, CliDyn).
+  The group includes a combination of zonal mean fields with reduced vertical level
+  3D fields and thus implies a reduced storage burden. Although medium priority, we
+  highly recommend this group of variables for the attention of the modeling centers,
+  because at a low cost this variable group has a potential to significantly contribute
+  to the elucidation of the circulation model biases in the free atmosphere.
+Notes: ''
+Variables:
+- atmos.utendnogw.tavg-p19-hxy-air.mon.glb
+- atmos.utendogw.tavg-p19-hxy-air.mon.glb
+- atmos.vtendnogw.tavg-p19-hxy-air.mon.glb
+- atmos.vtendogw.tavg-p19-hxy-air.mon.glb
+- atmos.tauuogw.tavg-p19-hxy-air.mon.glb
+- atmos.tauvogw.tavg-p19-hxy-air.mon.glb
+- atmos.tauvnogw.tavg-p19-hxy-air.mon.glb
+- atmos.tauunoegw.tavg-p19-hxy-air.mon.glb
+- atmos.utendogw.tavg-p19-hxy-air.day.glb
+- atmos.utendnogw.tavg-p19-hxy-air.day.glb
+- atmos.vtendnogw.tavg-p19-hxy-air.day.glb
+- atmos.vtendogw.tavg-p19-hxy-air.day.glb
+- atmos.tntrlcs.tavg-p39-hy-air.mon.glb
+- atmos.tntrscs.tavg-p39-hy-air.mon.glb
+- atmos.tntc.tavg-p39-hy-air.mon.glb
+- atmos.tntscp.tavg-p39-hy-air.mon.glb
+- atmos.tntnogw.tavg-p39-hy-air.mon.glb
+- atmos.tntogw.tavg-p39-hy-air.mon.glb
+- atmos.psitem.tavg-p39-hy-air.day.glb
+- atmos.tauupbl.tavg-u-hxy-u.day.glb
+- atmos.tauvpbl.tavg-u-hxy-u.day.glb
+- atmos.tauunowgw.tavg-p19-hxy-air.mon.glb
+Number of variables in group: 22
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- DynVarMIP
+- GeoMIP
+- HighResMIP
+- VolMIP
+- HT-MIP/VolMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

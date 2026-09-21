@@ -1,0 +1,64 @@
+Title: Dynamical Downscaling
+Description: High-resolution climate simulations performed with RCMs are more and
+  more used to feed climate services on a wealth of applications. CORDEX model output
+  is an authoritative source of downscaled data due to the controlled and coordinated
+  experimental setup. CORDEX dynamical downscaling activity (and other RCMs) require
+  high-frequency lateral boundary conditions from GCMs for the historical and scenario
+  periods. This CORDEX request is similar to CMIP6, but with a temporal extension
+  in the past to cover the GWL+0 and in the future, as 2100 is too soon now. Extension
+  to 1850 is more important than extension to 2150. If the full period data are too
+  much to store, the period 1901-1949 could be skipped (i.e. 1850-1900 for GWL+0 reference,
+  and 1950-2150 for historical+scenario). In addition, ISIMIP plans to initialize
+  (continental) high-resolution (0.1° x 0.1°) branches based on a dynamical downscaling
+  of the considered global climate model simulations. Mainly building on associated
+  CORDEX simulations, ISIMIP additionally needs at least 100 years of high-resolution
+  picontrol climate simulations. Within the impact modelling activities the picontrol
+  data is important to create 'no climate change' reference simulations where impact
+  only change in terms of Direct Human Forcings such as changes in land use, water
+  and agricultural management etc. We are requesting 6hr data for the standard CORDEX
+  resolution of about 12 km (which would also be sufficient for a downscaling of the
+  picontrol for ISIMIP), but higher frequency (3hr?) could be needed for direct nesting
+  of km-scale simulations, likely to be performed by the time of CORDEX-CMIP7. This
+  would apply for GCM simulations with a grid spacing below ~40km (HighResMIP?). To
+  support this opportunity, it is not necessary to provide ALL the requested variable
+  groups. Rather, please select the variable groups for the subtopics you wish to
+  support (soil, ocean, ocean biogeochemistry, air-sea, air-sea biogeochemistry, aerosols-chemistry).
+  In case of doubt, please contact the VIACS advisory board co-chairs via [https://viacsab.gerics.de/](https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fviacsab.gerics.de%2F&data=05%7C02%7CElisabeth.Dingley%40ext.esa.int%7C7441713f38064c97e9c408dea1efda08%7C9a5cacd02bef4dd7ac5c7ebe1f54f495%7C0%7C0%7C639126248701395959%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=6RbwpsbyBL%2B73j8uxuFx9fYQoxXBqcsPPMfcrPEh2ZI%3D&reserved=0)
+  or [info@isimip.org](mailto:info@isimip.org) for ISIMIP-related questions.
+Expected Impacts: The 3D data requested from the historical and scenario experiments
+  are essential to perform dynamical downscaling. In the ongoing CORDEX-CMIP6 initiative,
+  worldwide, more than 600 simulations are planned (250+ finished; [https://wcrp-cordex.github.io/simulation-status/CMIP6\_downscaling\_plans.html](https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwcrp-cordex.github.io%2Fsimulation-status%2FCMIP6_downscaling_plans.html&data=05%7C02%7CElisabeth.Dingley%40ext.esa.int%7C7441713f38064c97e9c408dea1efda08%7C9a5cacd02bef4dd7ac5c7ebe1f54f495%7C0%7C0%7C639126248701432112%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jmW5Zr6G6lmcOMyergcUTX0hJVb%2B85Boi9eG28WoF68%3D&reserved=0))
+  drawing from similar boundary forcings. These simulations are highly requested by
+  downstream climate services. The additional provision of 6-houly data of 100 years
+  of picontrol experiments would enable the ISIMIP impact modelling community to start
+  high-resolution impact simulations based on a dynamical downscaling of the considered
+  global CMIP7-based climate-related forcings. The picontrol reference impact model
+  simulation will allow for a separation of the effects of climate change from the
+  effects of changing Direct Human Forcings (see above).
+Justification of Resources: 'Downscaling is a key step in filling the gap between
+  CMIP7 global climate model experiments and the activity of the communities dealing
+  with vulnerability, impacts and adaptation studies. Dynamical downscaling requires
+  6-hourly 3D-global forcing fields for specific variables. Further details can be
+  found, e.g., here: Giorgi, F. (2019). Thirty Years of Regional Climate Modeling:
+  Where Are We and Where Are We Going next? Journal of Geophysical Research: Atmospheres,
+  124(11), 5696–5723. https://doi.org/10.1029/2018JD030094'
+Experiment Groups:
+- scenarios
+- historical
+- picontrol
+Variable Groups:
+- dynamical_downscaling_core
+- dynamical_downscaling_ocean_core
+- dynamical_downscaling_aerosols_chemistry
+- dynamical_downscaling_ocean_air_sea_biogeochemistry_forcing
+- dynamical_downscaling_ocean_air_sea_forcing
+- dynamical_downscaling_ocean_biogeochemistry_forcing
+- dynamical_downscaling_soil
+Opportunity ID: 81
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Ocean & Sea-Ice
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

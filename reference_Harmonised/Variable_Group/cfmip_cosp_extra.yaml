@@ -1,0 +1,33 @@
+Name: CFMIP_cosp_extra
+Title: Additional COSP outputs
+Priority Level: High
+Justification: Additional COSP simulator outputs useful for detailed characterization
+  of clouds and rigorous comparison to satellite observations
+Notes: ''
+Variables:
+- atmos.cfadDbze94.tavg-h40-hxy-air.mon.glb
+- atmos.cfadLidarsr532.tavg-h40-hxy-air.mon.glb
+- atmos.clcalipsoice.tavg-h40-hxy-air.mon.glb
+- atmos.clcalipsoliq.tavg-h40-hxy-air.mon.glb
+- atmos.climodis.tavg-u-hxy-u.mon.glb
+- atmos.clwmodis.tavg-u-hxy-u.mon.glb
+- atmos.jpdftaureicemodis.tavg-u-hxy-u.day.glb
+- atmos.jpdftaureicemodis.tavg-u-hxy-u.mon.glb
+- atmos.jpdftaureliqmodis.tavg-u-hxy-u.day.glb
+- atmos.jpdftaureliqmodis.tavg-u-hxy-u.mon.glb
+- atmos.parasolRefl.tavg-u-hxy-sea.mon.glb
+- atmos.parasolRefl.tavg-u-hxy-sea.day.glb
+- atmos.clmodis.tavg-p7c-hxy-air.mon.glb
+- atmos.clmodisice.tavg-p7c-hxy-air.mon.glb
+- atmos.clmodisiceReff.tavg-u-hxy-u.mon.glb
+- atmos.clmodisliquid.tavg-p7c-hxy-air.mon.glb
+- atmos.clmodisliquidReff.tavg-u-hxy-u.mon.glb
+- atmos.clivimodis.tavg-u-hxy-u.mon.glb
+- atmos.clwvimodis.tavg-u-hxy-u.mon.glb
+- atmos.cltmodis.tavg-u-hxy-u.mon.glb
+Number of variables in group: 20
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

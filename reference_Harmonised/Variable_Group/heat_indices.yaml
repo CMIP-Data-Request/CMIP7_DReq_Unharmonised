@@ -1,0 +1,14 @@
+Name: Heat_Indices
+Title: Adding missing heat indices
+Priority Level: Medium
+Justification: Required by the impacts and adaptation group for health impacts
+Notes: ''
+Variables:
+- atmos.wbgt.tavg-h2m-hxy-u.day.glb
+- atmos.wbgt.tmax-h2m-hxy-u.day.glb
+- atmos.noaahi2m.tavg-h2m-hxy-u.day.glb
+- atmos.noaahi2m.tmax-h2m-hxy-u.day.glb
+Number of variables in group: 4
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

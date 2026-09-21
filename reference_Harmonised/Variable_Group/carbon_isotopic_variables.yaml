@@ -1,0 +1,37 @@
+Name: carbon_isotopic_variables
+Title: Land and Ocean carbon Isotope variables at Monthly Frequency
+Priority Level: Low
+Justification: Carbon isotopes are an observable quantity that can be used to benchmark
+  the fluxes and turnover rates of carbon in land and ocean pools, and on land the
+  coupling between the carbon and water cycles
+Notes: ''
+Variables:
+- land.c14Veg.tavg-u-hxy-lnd.mon.glb
+- land.c14Land.tavg-u-hxy-lnd.mon.glb
+- land.c14Litter.tavg-u-hxy-lnd.mon.glb
+- land.c14Soil.tavg-u-hxy-lnd.mon.glb
+- land.gppc14.tavg-u-hxy-lnd.mon.glb
+- land.rhc14.tavg-u-hxy-lnd.mon.glb
+- land.rac14.tavg-u-hxy-lnd.mon.glb
+- land.netAtmosLandC14Flux.tavg-u-hxy-lnd.mon.glb
+- land.c13Veg.tavg-u-hxy-lnd.mon.glb
+- land.c13Soil.tavg-u-hxy-lnd.mon.glb
+- land.c13Litter.tavg-u-hxy-lnd.mon.glb
+- land.c13Land.tavg-u-hxy-lnd.mon.glb
+- land.rhc13.tavg-u-hxy-lnd.mon.glb
+- land.gppc13.tavg-u-hxy-lnd.mon.glb
+- land.rac13.tavg-u-hxy-lnd.mon.glb
+- land.netAtmosLandC13Flux.tavg-u-hxy-lnd.mon.glb
+- ocnBgchem.fg13co2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.dissi13c.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissi13c.tavg-ols-hxy-sea.mon.glb
+- ocnBgchem.dissi14c.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.fg14co2abio.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.dissi14cabio.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissi14cabio.tavg-ols-hxy-sea.mon.glb
+Number of variables in group: 23
+Themes:
+- Earth System
+Of interest to MIPs:
+- C4MIP
+Harmonised DR version: v1.2.2.5

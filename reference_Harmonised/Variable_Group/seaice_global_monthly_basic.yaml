@@ -1,0 +1,27 @@
+Name: seaice_global_monthly_basic
+Title: Integrated total hemispheric diagnostics
+Priority Level: High
+Justification: Very popular characterizations of sea ice are area, extent and volume,
+  integrated over each hemisphere. Similarly, snow on sea ice can be characterised
+  by its total mass. The diagnostics demanded here represent the best estimates from
+  the modelling groups, expert of their model and the corresponding land masks and
+  grids.
+Notes: ''
+Variables:
+- seaIce.sivol.tavg-u-hm-u.mon.nh
+- seaIce.sivol.tavg-u-hm-u.mon.sh
+- seaIce.siarea.tavg-u-hm-u.mon.nh
+- seaIce.siarea.tavg-u-hm-u.mon.sh
+- seaIce.siextent.tavg-u-hm-u.mon.nh
+- seaIce.siextent.tavg-u-hm-u.mon.sh
+- seaIce.sisnmass.tavg-u-hm-si.mon.nh
+- seaIce.sisnmass.tavg-u-hm-si.mon.sh
+Number of variables in group: 8
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- OMIP
+- CMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,7 @@
+Name: firemip-nonfasttrack
+Title: FireMIP experiments for CMIP7 (experiments are not in the Fast Track)
+Experiments:
+- hist-noFire
+- esm-s7h-noFireChange
+Number of experiments in group: 2
+Harmonised DR version: v1.2.2.5

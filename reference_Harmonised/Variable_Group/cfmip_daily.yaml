@@ -1,0 +1,76 @@
+Name: CFMIP-daily
+Title: Essential daily CFMIP variables
+Priority Level: High
+Justification: Essential daily fields for analysis of clouds, cloud feedbacks, and
+  closely related quantities.
+Notes: ''
+Variables:
+- atmos.albisccp.tavg-u-hxy-cl.day.glb
+- atmos.ccb.tavg-u-hxy-ccl.day.glb
+- atmos.cct.tavg-u-hxy-ccl.day.glb
+- atmos.clcalipso.tavg-220hPa-hxy-air.day.glb
+- atmos.clivi.tavg-u-hxy-u.day.glb
+- atmos.clcalipso.tavg-840hPa-hxy-air.day.glb
+- atmos.cltcalipso.tavg-u-hxy-u.day.glb
+- atmos.clcalipso.tavg-560hPa-hxy-air.day.glb
+- atmos.cltisccp.tavg-u-hxy-u.day.glb
+- atmos.clwvi.tavg-u-hxy-u.day.glb
+- atmos.pctisccp.tavg-u-hxy-cl.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.rldscs.tavg-u-hxy-u.day.glb
+- atmos.rlutcs.tavg-u-hxy-u.day.glb
+- atmos.rsdscs.tavg-u-hxy-u.day.glb
+- atmos.rsdt.tavg-u-hxy-u.day.glb
+- atmos.rsuscs.tavg-u-hxy-u.day.glb
+- atmos.rsut.tavg-u-hxy-u.day.glb
+- atmos.rsutcs.tavg-u-hxy-u.day.glb
+- atmos.ta.tavg-700hPa-hxy-air.day.glb
+- atmos.wap.tavg-500hPa-hxy-air.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.tossq.tavg-u-hxy-sea.day.glb
+- atmos.clt.tavg-u-hxy-u.day.glb
+- atmos.hfls.tavg-u-hxy-u.day.glb
+- atmos.hfss.tavg-u-hxy-u.day.glb
+- atmos.hur.tavg-p19-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmos.prc.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.rlus.tavg-u-hxy-u.day.glb
+- atmos.rlut.tavg-u-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rsus.tavg-u-hxy-u.day.glb
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+- seaIce.siconc.tavg-u-hxy-u.day.glb
+- seaIce.sithick.tavg-u-hxy-si.day.glb
+- seaIce.siu.tavg-u-hxy-si.day.glb
+- seaIce.siv.tavg-u-hxy-si.day.glb
+- landIce.snc.tavg-u-hxy-lnd.day.glb
+- landIce.snw.tavg-u-hxy-lnd.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- land.tslsi.tavg-u-hxy-lsi.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.wap.tavg-p19-hxy-u.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+- atmos.rluscs.tavg-u-hxy-u.day.glb
+Number of variables in group: 63
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

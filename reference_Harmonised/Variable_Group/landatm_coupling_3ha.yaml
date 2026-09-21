@@ -1,0 +1,28 @@
+Name: landatm_coupling_3hA
+Title: Land-Atmosphere Coupling at 3 h time means or at an instantaneous point 3 hPt
+Priority Level: High
+Justification: 'This variable group allows for adequate characterization of sub-daily
+  coupling processes between the land and the atmosphere, based on Findell et al.
+  (2024), doi: 10.5194/gmd-17-1869-2024'
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.3hr.glb
+- atmos.hfss.tavg-u-hxy-u.3hr.glb
+- atmos.hfls.tavg-u-hxy-u.3hr.glb
+- atmos.tas.tpt-h2m-hxy-u.3hr.glb
+- atmos.huss.tpt-h2m-hxy-u.3hr.glb
+- atmos.ps.tpt-u-hxy-u.3hr.glb
+- land.mrsol.tpt-d10cm-hxy-lnd.3hr.glb
+- land.tslsi.tpt-u-hxy-lsi.3hr.glb
+- atmos.bldep.tpt-u-hxy-u.3hr.glb
+- land.srfrad.tavg-u-hxy-u.3hr.glb
+Number of variables in group: 10
+Themes:
+- Atmosphere
+- Land & Land-Ice
+Of interest to MIPs:
+- HighResMIP
+- CMIP
+- LUMIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

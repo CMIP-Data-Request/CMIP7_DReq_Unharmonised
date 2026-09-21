@@ -1,0 +1,19 @@
+Name: WaterResourcesPET_monthly
+Title: Additional Water Resources variables for calculating potential evapotranspiration
+Priority Level: Medium
+Justification: This is for the purpose of calculating potential evapotranspiration
+  (PET) using Penman-Monteith equation, to be compared with the variable evspsblpot
+  (the PET CMOR variable), and just in case if it cannot be provided given its very
+  low rank in CMIP6, that it needs to be calculated from this extra set of variables.
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.rss.tavg-u-hxy-u.mon.glb
+- atmos.rls.tavg-u-hxy-u.mon.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

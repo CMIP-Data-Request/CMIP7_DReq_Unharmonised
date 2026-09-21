@@ -1,0 +1,85 @@
+Name: dynvar_basic
+Title: High priority variables for atmospheric dynamics, transport and variability
+Priority Level: High
+Justification: This variable group is linked to the Atmospheric dynamics and variability
+  opportunity, linked to DynVarMIP. It includes the minimum variables necessary to
+  quantify the dynamics of the troposphere and stratosphere, in particular the momentum
+  and thermodynamic balance components, using standard diagnostic methods. Variables
+  of this group are widely used in publications to study atmospheric dynamics and
+  transport processes including highly relevant phenomena like atmospheric blocking,
+  Sudden Stratospheric Warmings or the stratospheric Brewer-Dobson circulation and
+  how they are impacted by natural variability and human induced changes. The group
+  includes mainly zonal mean fields and thus implies a reduced storage burden. Several
+  of the variables are already in other more general variable groups.
+Notes: ''
+Variables:
+- atmos.ta.tavg-p39-hy-air.mon.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.uas.tavg-h10m-hxy-u.mon.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.mon.glb
+- atmos.ta.tavg-p19-hxy-air.mon.glb
+- atmos.ua.tavg-p19-hxy-air.mon.glb
+- atmos.va.tavg-p19-hxy-air.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- atmos.zg.tavg-p19-hxy-air.mon.glb
+- atmos.zg.tavg-p39-hy-air.day.glb
+- atmos.zg.tavg-p39-hy-air.mon.glb
+- atmos.ua.tavg-p39-hy-air.day.glb
+- atmos.ua.tavg-p39-hy-air.mon.glb
+- atmos.epfy.tavg-p39-hy-air.day.glb
+- atmos.epfy.tavg-p39-hy-air.mon.glb
+- atmos.epfz.tavg-p39-hy-air.day.glb
+- atmos.epfz.tavg-p39-hy-air.mon.glb
+- atmos.vtem.tavg-p39-hy-air.day.glb
+- atmos.vtem.tavg-p39-hy-air.mon.glb
+- atmos.wtem.tavg-p39-hy-air.day.glb
+- atmos.wtem.tavg-p39-hy-air.mon.glb
+- atmos.utendepfd.tavg-p39-hy-air.day.glb
+- atmos.utendepfd.tavg-p39-hy-air.mon.glb
+- atmos.utendnogw.tavg-p39-hy-air.day.glb
+- atmos.utendnogw.tavg-p39-hy-air.mon.glb
+- atmos.utendogw.tavg-p39-hy-air.day.glb
+- atmos.utendvtem.tavg-p39-hy-air.day.glb
+- atmos.utendwtem.tavg-p39-hy-air.day.glb
+- atmosChem.meanage.tavg-p39-hy-air.mon.glb
+- atmos.tauu.tavg-u-hxy-u.day.glb
+- atmos.tauv.tavg-u-hxy-u.day.glb
+- atmos.ta.tavg-p39-hy-air.day.glb
+- atmos.tntmp.tavg-p39-hy-air.day.glb
+- atmos.tntrl.tavg-p39-hy-air.day.glb
+- atmos.tntrs.tavg-p39-hy-air.day.glb
+- atmos.tntmp.tavg-p39-hy-air.mon.glb
+- atmos.tntrl.tavg-p39-hy-air.mon.glb
+- atmos.tntrs.tavg-p39-hy-air.mon.glb
+- atmos.tauuogw.tavg-p39-hy-air.day.glb
+- atmos.tauvogw.tavg-p39-hy-air.day.glb
+- atmos.tauvnogw.tavg-p39-hy-air.day.glb
+- atmos.tauunoegw.tavg-p39-hy-air.day.glb
+- atmos.hus.tavg-p19-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.utendogw.tavg-p39-hy-air.mon.glb
+- atmos.tauunowgw.tavg-p39-hy-air.day.glb
+- atmos.wap.tavg-p19-hxy-u.day.glb
+- atmos.hus.tavg-p19-hxy-u.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+Number of variables in group: 60
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- DynVarMIP
+- GeoMIP
+- PAMIP
+- VolMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

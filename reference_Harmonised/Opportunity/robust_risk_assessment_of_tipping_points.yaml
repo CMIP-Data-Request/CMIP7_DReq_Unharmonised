@@ -1,0 +1,55 @@
+Title: Robust Risk Assessment of Tipping Points
+Description: Several components of the Earth system are highly susceptible to reaching
+  a critical threshold – a tipping point – beyond which amplifying feedbacks can result
+  in abrupt and/or irreversible changes in response to anthropogenic climate change.
+  Crossing a tipping point can lead the systems to transition to an alternative state,
+  often with reduced resilience to perturbations and recovery. Once triggered, the
+  tipping of one of these elements can have far-reaching impacts on the global climate,
+  ecosystems and humankind. Recent assessments have highlighted the increasing risk
+  for potential tipping, in particular beyond 1.5°C global warming, and also stressed
+  the large $uncertainties associated with so far limited systematic efforts to investigate
+  tipping across models. TIPMIP aims to close this gap by addressing tipping points
+  across domains. Therefore, understanding the dynamics of tipping systems and associated
+  risks is crucial for developing effective strategies to mitigate and adapt to the
+  impacts of global environmental change. It has been identified as a topic of high
+  interest for many IPCC member states and is subject of a dedicated expert meeting
+  before the first AR7 lead author meeting.
+Expected Impacts: The opportunity will allow to evaluate key large scale tipping elements
+  such as ice-sheet collapse, permafrost carbon release, tropical forest dieback and
+  weakening of the Atlantic meridional ocean circulation as well as possible feedbacks
+  associated with each individual tipping element. Outputs will be used to evaluate
+  the uncertainties associated with identifying the existence of tipping points in
+  the biogeophysical Earth system; the critical thresholds and temperature/warming
+  levels which may induce tipping; as well as the interactions and feedbacks between
+  (possible) tipping elements. Outputs may be then used by impact models and other
+  end-user groups to evaluate the downstream consequences of tipping in the Earth
+  system on human society.
+Justification of Resources: 'Almost all variables proposed for TIPMIP comply with
+  standard Earth system modeling output, and serve two major purposes: (1) Analysing
+  ESMs with respect to tipping points across all protocols. (2) Serving as forcing
+  input for uncoupled/offline component models (e.g. standalone ice sheet models)
+  in follow-up tailored tipping experiments. There is a strong overlap between TIPMIP
+  variables and existing baseline variables, minimising additional computational costs
+  while providing the base for a cross-domain analysis of tipping points.'
+Experiment Groups:
+- picontrol
+- scenarios
+- historical
+- tipmip-experiments
+Variable Groups:
+- tipmip_baseline
+- tipmip_extended
+Opportunity ID: 82
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIPs - high priority:
+- TIPMIP
+- PMIP
+MIPs - lower priority:
+- FireMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

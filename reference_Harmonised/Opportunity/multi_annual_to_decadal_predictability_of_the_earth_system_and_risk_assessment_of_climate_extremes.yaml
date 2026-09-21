@@ -1,0 +1,54 @@
+Title: Multi-annual-to-decadal predictability of the Earth System and risk assessment
+  of climate extremes
+Description: Coordinated CMIP experiments will be used to assess the predictability
+  of global and regional climate as well as to understand the mechanisms yielding
+  prediction skill in different parts of the Earth’s climate system. Furthermore,
+  by leveraging the large datasets including DCPP hindcasts, comprehensive risk assessments
+  can be performed for climate related extremes, including high impact weather events
+  such as windstorms and precipitation, flooding, drought, marine heat waves.
+Expected Impacts: Climate predictions are used to study climate variability and climate
+  change relevant to decision-making from a few seasons to ten years ahead. The enhanced
+  list of variables compared to previous CMIP phases of decadal prediction experiments
+  will allow the study of new aspects of climate predictability, including climate
+  extremes and carbon cycle. The availability of high temporal frequency data will
+  lead to improved physical understanding of processes shaping extremes and high-impact
+  events and improved understanding of the differences between models and how they
+  represent risks.
+Justification of Resources: The demand for climate information, especially about future
+  changes and the potential for climate extremes, has grown in demand for numerous
+  sectors including energy, agriculture, water and ecosystem management, and human
+  health. Therefore, reliable climate predictions are essential for long-term planning,
+  for climate risk assessments and climate adaptation strategies. Furthermore, extreme
+  events, such as high-impact weather events, or marine heat waves, can have large
+  impacts on human health, society and ecosystems, but are, by definition, rare events
+  and require large datasets to properly quantify and understand.CMIP experiments,
+  and especially those related to DCPP, have potential to help fulfill this demand,
+  and to underpin the development of robust climate services. To do so successfully
+  requires the production of high temporal frequency data across the globe in a range
+  of variables and across a range of domains, including atmospheric, oceanic, ice,
+  and biogeochemical processes.
+Experiment Groups:
+- dcpp
+- historical
+- picontrol
+- climate_extreme
+- dcpp-cmip6-exps
+Variable Groups:
+- DCPP_Essential
+- DCPP_Wider
+- baseline_daily
+- baseline_subdaily
+Opportunity ID: 54
+Themes:
+- Earth System
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIPs - high priority:
+- DCPP
+MIPs - lower priority:
+- TIPMIP
+- DAMIP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

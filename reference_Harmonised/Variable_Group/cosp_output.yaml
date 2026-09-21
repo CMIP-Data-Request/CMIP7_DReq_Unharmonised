@@ -1,0 +1,35 @@
+Name: cosp_output
+Title: COSP output for evaluating clouds
+Priority Level: High
+Justification: Simulating clouds with global climate models is challenging as the
+  relevant physics involves many nonlinear processes covering a wide range of spatial
+  and temporal scales. As key components of the hydrological cycle and the climate
+  system, an evaluation of clouds from models used for climate projections is an important
+  prerequisite for assessing the confidence in the results from these models. So far,
+  a quantitative evaluation of the representation of clouds in CMIP models with satellite
+  observations has been challenging as only a limited number of parameters from a
+  limited number of models has been available from satellite simulators. This variable
+  group aims at supporting a quantitative evaluation of cloud parameters, radiation
+  and precipitation using output from satellite simulators that has not been available
+  in CMIP6.
+Notes: ''
+Variables:
+- atmos.cltisccp.tavg-u-hxy-u.mon.glb
+- atmos.cltcalipso.tavg-u-hxy-u.mon.glb
+- atmos.pctisccp.tavg-u-hxy-cl.mon.glb
+- atmos.cltmodis.tavg-u-hxy-u.mon.glb
+- atmos.cltisccp.tavg-u-hxy-u.day.glb
+- atmos.cltcalipso.tavg-u-hxy-u.day.glb
+- atmos.pctisccp.tavg-u-hxy-cl.day.glb
+- atmos.cltcalipso.tpt-u-hxy-u.3hr.glb
+- atmos.clisccp.tavg-p7c-hxy-air.mon.glb
+- atmos.clivimodis.tavg-u-hxy-u.mon.glb
+- atmos.clwvimodis.tavg-u-hxy-u.mon.glb
+- atmos.clcalipso.tavg-h40-hxy-air.mon.glb
+- atmos.clmodis.tavg-p7c-hxy-air.mon.glb
+- atmos.clmodisice.tavg-p7c-hxy-air.mon.glb
+- atmos.clmodisliquid.tavg-p7c-hxy-air.mon.glb
+Number of variables in group: 15
+Themes:
+- Atmosphere
+Harmonised DR version: v1.2.2.5

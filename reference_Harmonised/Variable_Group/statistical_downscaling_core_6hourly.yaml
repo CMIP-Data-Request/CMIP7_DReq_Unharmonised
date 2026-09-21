@@ -1,0 +1,28 @@
+Name: statistical_downscaling_core_6hourly
+Title: Empirical Statistical Downscaling and Emulators (CORDEX) core 6hourly
+Priority Level: Medium
+Justification: 'Core 6-hourly variables are used as large-scale fields for empirical
+  statistical downscaling of climate projections (historical and scenario runs) which
+  are required for the increasingly demanded sub-daily timescale. At least the following
+  pressure levels are needed (hPa): 1000, 925, 850, 700, 500, 250, 200 The variables
+  are defined on different pressure levels that are needed (we couldn''t define new
+  variables on different vertical coordinates, as there was a variable name conflict).'
+Notes: ''
+Variables:
+- atmos.hus.tpt-p7h-hxy-air.6hr.glb
+- atmos.ta.tpt-p3-hxy-air.6hr.glb
+- atmos.ua.tpt-p3-hxy-air.6hr.glb
+- atmos.va.tpt-p3-hxy-air.6hr.glb
+- atmos.zg.tpt-p7h-hxy-air.6hr.glb
+- atmos.psl.tpt-u-hxy-u.6hr.glb
+- atmos.ps.tpt-u-hxy-u.6hr.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+Of interest to MIPs:
+- ScenarioMIP
+- HighResMIP
+- DCPP
+- CMIP
+Harmonised DR version: v1.2.2.5

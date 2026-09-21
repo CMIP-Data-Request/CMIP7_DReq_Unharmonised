@@ -1,0 +1,6 @@
+Name: dcpp
+Title: All DCPP CMIP7 experiments
+Experiments:
+- dcppB-forecast-cmip6
+Number of experiments in group: 1
+Harmonised DR version: v1.2.2.5

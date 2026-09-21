@@ -1,0 +1,50 @@
+Name: DAMIP_daily
+Title: Daily variables of high priority for DAMIP
+Priority Level: High
+Justification: The proposed set of monthly variables are considered high priority
+  for DAMIP to assess changes in the climate system and the role of forcings in driving
+  those changes. - daily temperature, precipitation, humidity and surface wind variables
+  for assessing compound extremes, their changes, and the role of forcings in those
+  changes (tas, tasmax, tasmin, pr, prsn, hurs, huss, day.sfcWind, day.sfcWindmax.
+  - surface fluxes and hydrological variables for assessing the processes involved
+  in temperature extremes (mrros, rsds, rlds, prw) - circulation related variables
+  for assessing the circulation associated with extremes and more generally how features
+  like the storm tracks are changing under different forcings. psl, ps, zg, ua, va,
+  wap, ta (Note that I submitted a storm tracking data request that included fields
+  at 6 hourly for the purpose of storm tracking and Eulerian metrics, but the use
+  of daily was suggested from the DAMIP group - perhaps a discussion needs to be had
+  about whether this can be optimized by considering only 6 hourly at a wider range
+  of pressure levels or whether we should consider both daily and 6 hourly for these
+  circulation related variables)
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- atmos.prsn.tavg-u-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.huss.tavg-h2m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.sfcWind.tmax-h10m-hxy-u.day.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.psl.tavg-u-hxy-u.day.glb
+- atmos.ps.tavg-u-hxy-u.day.glb
+- atmos.prw.tavg-u-hxy-u.day.glb
+- atmos.ua.tavg-p19-hxy-air.day.glb
+- atmos.va.tavg-p19-hxy-air.day.glb
+- atmos.wap.tavg-p19-hxy-u.day.glb
+- atmos.ta.tavg-p19-hxy-air.day.glb
+- atmos.uas.tavg-h10m-hxy-u.day.glb
+- atmos.vas.tavg-h10m-hxy-u.day.glb
+- atmos.zg.tavg-p19-hxy-air.day.glb
+- atmos.hurs.tmin-h2m-hxy-u.day.glb
+Number of variables in group: 23
+Themes:
+- Atmosphere
+- Impacts & Adaptation
+Of interest to MIPs:
+- DAMIP
+Harmonised DR version: v1.2.2.5

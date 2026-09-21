@@ -1,0 +1,23 @@
+Name: marine_bgc_fisheries
+Title: Vulnerability, Impacts, Adaptation and Climate Services (VIACS) of Additional
+  fisheries modeling and impacts output
+Priority Level: Medium
+Justification: Daily and monthly variables to support fisheries modeling and impacts
+  studies
+Notes: '16/09/24 Added amon.t17d and emon.ppalg to this variable group (Charlotte
+  Pascoe)
+
+  [04/10/24 TL : modified according to the merge discussion on github]
+
+  [11/11/24 TL revised priority after ES-Team review]'
+Variables:
+- ocnBgchem.pp.tavg-ol-hxy-sea.mon.glb
+- ocean.t17d.tavg-u-hxy-sea.mon.glb
+- ocean.t20d.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-op20bar-hxy-sea.day.glb
+- ocnBgchem.detoc.tavg-ol-hxy-sea.day.glb
+- ocnBgchem.dissoc.tavg-ol-hxy-sea.day.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

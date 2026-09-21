@@ -1,0 +1,58 @@
+Title: Detection and Attribution
+Description: This set of variables consists of a number of basic variables that are
+  needed for quantifying both how the mean climate and its variability are changing
+  over time and for understanding the mechanisms involved. On the monthly timescale
+  it includes fields for assessing global mean temperature, hydrological, sea level,
+  and circulation changes in both the atmosphere and ocean as well as top of atmosphere
+  and surface fluxes for diagnosing energy balances. Fields for understanding the
+  role of clouds in the climate system are requested, as are fields for quantifying
+  changes in the ocean circulation. We also request variables that would help to understand
+  the origins of difference in co2 forcing among simulations when run in emissions
+  driven mode and quantities that can be used to diagnose the various forcings that
+  the climate is being influenced by in each simulation. We also suggest that zonal
+  mean (or 3D) atmospheric temperature at high vertical resolution to allow the upper
+  levels to be examined would be beneficial to better capture stratospheric satellite
+  weighting functions. We also suggest daily fields that can be used to understand
+  the time evolution of compound extremes and daily surface fluxes that can be used
+  to understand those extremes. Daily variables that can be used to look at changes
+  in synoptic features such as storm tracks are also requested.
+Expected Impacts: There are many use cases for these data. There are examples in Simpson
+  et al (2023) 10.1175/JCLI-D-22-0666.1 where temperature, surface fluxes, and ocean
+  circulation fields were used to diagnose the impacts of aerosol forcing on the climate
+  system. There are numerous examples where people have used quantities that describe
+  the aerosol amount in the atmosphere along with surface temperature to attribute
+  the historical evolution of the climate system to different forcings e.g., <https://doi.org/10.1175/JCLI-D-21-0656.1>.
+  As an example of the use of high frequency data in DAMIP simulations, the recent
+  study of Chemke and Coumou (2024) 10.1038/s41612-024-00640-2 demonstrated that aerosol
+  forcing in CMIP6 could explain the observed weakening of the summertime storm tracks
+  but that this was not reproduced with CMIP5 forcings.
+Justification of Resources: Most of the variables that are proposed here are regularly
+  used and fall under the baseline set of variables category. We consider these variables
+  to be essential for assessing the behavior of models and understanding the role
+  of forcings in the climate system. Given the strong overlap between these and baseline
+  variables, I won't elaborate further her, but I'd be happy to as we are finalizing
+  the data request.
+Experiment Groups:
+- damip_experiment_group
+Variable Groups:
+- DAMIP_monthly
+- DAMIP_daily
+- ocean_grid
+- ocean_grid_low_priority
+Opportunity ID: 26
+Themes:
+- Impacts & Adaptation
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Atmosphere
+- Earth System
+MIPs - high priority:
+- DAMIP
+- PMIP
+MIPs - lower priority:
+- FireMIP
+- DCPP
+- TIPMIP
+- DAMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

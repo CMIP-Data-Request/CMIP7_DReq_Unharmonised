@@ -1,0 +1,23 @@
+Name: WaterResources_subdaily
+Title: Flood and drought risk assessment at subdaily timescale
+Priority Level: Medium
+Justification: Future projections of hydroclimatic hazards at regional scale are essential
+  for assessing what adaptation actions and resilience building measures are needed
+  to ensure water security. As some of these high-impact hazards such as flash flooding
+  occur at very short timescale, ideally precipitation data could be supplied at hourly
+  sampling frequency, and runoff and soil moisture data at 3-hourly.
+Notes: ''
+Variables:
+- atmos.pr.tavg-u-hxy-u.1hr.glb
+- land.mrro.tavg-u-hxy-lnd.3hr.glb
+- land.mrsol.tpt-d10cm-hxy-lnd.3hr.glb
+- land.mrros.tavg-u-hxy-lnd.3hr.glb
+Number of variables in group: 4
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- CORDEX
+- CMIP
+- HighResMIP
+Harmonised DR version: v1.2.2.5

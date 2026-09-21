@@ -1,0 +1,19 @@
+Name: ocean_grid_low_priority
+Title: ocean_grid_low_priority
+Priority Level: Low
+Justification: ''
+Notes: ''
+Variables:
+- ocean.dxto.ti-u-hxy-u.fx.glb
+- ocean.dxuo.ti-u-hxy-u.fx.glb
+- ocean.dxvo.ti-u-hxy-u.fx.glb
+- ocean.dyto.ti-u-hxy-u.fx.glb
+- ocean.dyvo.ti-u-hxy-u.fx.glb
+- ocean.dyuo.ti-u-hxy-u.fx.glb
+- ocean.thkcelluo.tavg-ol-hxy-sea.mon.glb
+- ocean.thkcellvo.tavg-ol-hxy-sea.mon.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 9
+Themes:
+- Ocean & Sea-Ice
+Harmonised DR version: v1.2.2.5

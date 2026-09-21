@@ -1,0 +1,25 @@
+Name: omip_transports_medium_priority
+Title: Transport fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table I1)
+Priority Level: Medium
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered medium priority
+Notes: ''
+Variables:
+- ocean.hfx.tavg-u-hxy-sea.mon.glb
+- ocean.hfy.tavg-u-hxy-sea.mon.glb
+- ocean.htovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.htovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.sltovgyre.tavg-u-hyb-sea.mon.glb
+- ocean.sltovovrt.tavg-u-hyb-sea.mon.glb
+- ocean.mfo.tavg-u-ht-sea.mon.glb
+- ocean.sfx.tavg-ol-hxy-sea.mon.glb
+- ocean.sfy.tavg-ol-hxy-sea.mon.glb
+- ocean.hfx.tavg-ol-hxy-sea.mon.glb
+- ocean.hfy.tavg-ol-hxy-sea.mon.glb
+- ocean.sfy.tavg-u-hxy-sea.mon.glb
+- ocean.sfx.tavg-u-hxy-sea.mon.glb
+- ocean.hfacrossline.tavg-u-ht-sea.mon.glb
+- ocean.sfacrossline.tavg-u-ht-sea.mon.glb
+Number of variables in group: 15
+Harmonised DR version: v1.2.2.5

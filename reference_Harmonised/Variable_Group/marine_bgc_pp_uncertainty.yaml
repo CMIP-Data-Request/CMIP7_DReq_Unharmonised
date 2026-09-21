@@ -1,0 +1,30 @@
+Name: marine_bgc_pp_uncertainty
+Title: variables linked to ocean productivity at monthly time scale
+Priority Level: Medium
+Justification: Constrain CMIP projections of changes in ocean net primary production
+Notes: '[TL 04/10/24: modified according to the merge discussion on github]'
+Variables:
+- ocnBgchem.limfediat.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limnpico.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limndiat.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limnmisc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limncalc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limndiaz.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limfepico.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limfediaz.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limfecalc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limfemisc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limirrcalc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limirrdiat.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limirrdiaz.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limirrmisc.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.limirrpico.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 15
+Themes:
+- Impacts & Adaptation
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- OMIP
+- FishMIP
+Harmonised DR version: v1.2.2.5

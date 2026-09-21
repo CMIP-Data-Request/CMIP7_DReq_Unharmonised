@@ -1,0 +1,29 @@
+Name: mixed_layer_extremes
+Title: mixed_layer_extremes
+Priority Level: High
+Justification: Upper ocean dynamics are well-mixed vertically over the mixed layer.
+  This means that the heat capacity and inertia of this layer are what responds to
+  surface forcing, approximately. The depth of this layer is therefore critical for
+  understanding the impacts of air-sea fluxes.
+Notes: It is important to use 10m as the reference for temperature and density to
+  calculate the mixed layer as a difference from that level.  http://dx.doi.org/10.5194/gmd-16-3849-2023
+Variables:
+- ocean.mlotst.tavg-u-hxy-sea.day.glb
+- ocean.mlotst.tmax-u-hxy-sea.mon.glb
+- ocean.mlotst.tmin-u-hxy-sea.mon.glb
+Number of variables in group: 3
+Themes:
+- Ocean & Sea-Ice
+MIP ownership:
+- OMIP
+- PAMIP
+- SIMIP
+- PMIP
+- FAFMIP
+- DCPP
+- SOFIAMIP
+- RFMIP
+- CMIP
+- C4MIP
+- PPEMIP
+Harmonised DR version: v1.2.2.5

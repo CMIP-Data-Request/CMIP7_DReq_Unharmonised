@@ -1,0 +1,21 @@
+Name: marine_bgc_carbon_sink
+Title: Biological Carbon Pump Variables
+Priority Level: Medium
+Justification: Highlighted as a key process-based uncertainty in the marine carbon
+  cycle (https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EF004375), that is
+  largely uncharacterised within CMIP6 (https://doi.org/10.1073/pnas.2204369119),
+  with potentially significant impact on ocean carbon sink over centennial timescales
+  particularly w.r.t. net zero/net negative emissions (10.21203/rs.3.rs-3921898/v1)
+Notes: '[TL 04/10/24: modified according to the merge discussion on github]
+
+  [TL 14/11/24: move priority to medium]'
+Variables:
+- ocnBgchem.o2sat.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-ol-hxy-sea.mon.glb
+Number of variables in group: 3
+Themes:
+- Earth System
+Of interest to MIPs:
+- FishMIP
+Harmonised DR version: v1.2.2.5

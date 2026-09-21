@@ -1,0 +1,28 @@
+Name: paleo_ocean
+Title: quantities of the ocean for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- ocean.tauuo.tavg-u-hxy-sea.mon.glb
+- ocean.tauvo.tavg-u-hxy-sea.mon.glb
+- ocean.wfo.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.mlotst.tavg-u-hxy-sea.mon.glb
+- ocean.ficeberg.tavg-u-hxy-sea.mon.glb
+- ocean.so.tavg-u-hm-sea.mon.glb
+- ocean.thetao.tavg-u-hm-sea.mon.glb
+Number of variables in group: 11
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

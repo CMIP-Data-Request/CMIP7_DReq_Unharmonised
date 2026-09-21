@@ -1,0 +1,64 @@
+Title: Southern Ocean Biogeochemistry to Clouds
+Description: 'The Southern Ocean and Antarctic represent the best region on the planet
+  to study near ‘pre-industrial’ conditions in terms of aerosol-cloud-climate interactions.
+  It is also one of the most poorly modelled regions on the planet in terms of aerosol
+  and cloud interactions; has been identified as a region of great uncertainty with
+  respect to cloud feedbacks and aerosol-cloud radiative forcing that contribute to
+  uncertainties in climate equilibrium; and is a difficult region to evaluate models
+  due to sparse observations. We are proposing this opportunity to better coordinate
+  modelling efforts in this region to understand how natural aerosol in this region
+  impact clouds and radiation. This opportunity will cross disciplines and experiments,
+  taking advantage of already proposed MIPs and centralizing information for efficient
+  use by end users. This opportunity aligns with a current initiative to consolidate
+  observational efforts in the Southern Ocean to understand these same issues (Mallet
+  et al. 2023: https://doi.org/10.1525/elementa.2022.00130).'
+Expected Impacts: CMIP models have had a long-standing radiative bias over the Southern
+  Ocean, which has been attributed in part to challenges in simulating the commonly
+  occurring and radiatively important low-level clouds that contain both ice and liquid
+  phases. One reason for this is the lack of Southern Ocean/Antarctic informed parameterisations
+  relating clouds to aerosol and aerosol to biogeochemistry. As models become more
+  aerosol-aware, the interaction of biogeochemistry, aerosol and cloud becomes more
+  important to understand and evaluate. This combination of aerosol (including their
+  precursors) and cloud data will allow us to evaluate this system in a holistic way.
+  By taking advantage of pre-proposed experiments, we can understand how this system
+  might respond to different forcings. One such example would be to specifically look
+  at the cloud-radiative feedback over the Southern Ocean, which has been identified
+  as one of the most uncertain on the globe. Aerosol originating from the Southern
+  high latitudes contribute to the overall Southern Ocean aerosol population that
+  drive the cloud-radiative feedback and in turn have likely impacts on the ice extent
+  and biology along the marginal ice zone. By considering the aerosol-cloud system
+  as a whole, evaluating processes from aerosol flux through to the radiative balance
+  to the cryosphere, we may gain a better understanding of what may be likely or unlikely
+  in the future.
+Justification of Resources: Aerosol-cloud interaction has been identified in previous
+  CMIPs as one of the most uncertain aspects of the global-radiative balance. The
+  Southern Ocean, which makes up over 15% of the globe's surface area, contributes
+  in large part to this uncertainty, both due to its size and its difficulty to accurately
+  simulate. Having a concentrated effort on understanding this system will be of great
+  benefit to both understanding the past, present and future of our planet, as well
+  as for future model development. This opportunity will reduce barriers to end users
+  who are investigating this system, who often work in interdisciplinary teams and
+  are not necessarily modelers themselves. We have aimed to reduce the burden on data
+  resources by requesting new variable groups only for the Southern Ocean and Antarctic,
+  limiting the number of fields that use full model height, and only requesting monthly
+  means.
+Experiment Groups:
+- historical
+- scenarios
+- fast-track
+- picontrol
+- deck
+Variable Groups:
+- SO_BGC-cloud_atmos_composition_monthly
+- SO_BGC-cloud_BGC_monthly
+- SO_BGC-cloud_met_monthly
+- SO_BGC-cloud_cloudvars_monthly
+- SO_BGC-cloud_ocean_monthly
+Opportunity ID: 61
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+- Earth System
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

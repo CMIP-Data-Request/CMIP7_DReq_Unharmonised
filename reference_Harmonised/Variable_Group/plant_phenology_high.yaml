@@ -1,0 +1,19 @@
+Name: plant_phenology_high
+Title: Land variables at vegetation type level - high priority
+Priority Level: High
+Justification: This group of variables aggregates the primary variables at the vegetation
+  type level. These variables can substitute a series of variables used in CMIP6.
+  For example, gppVgt will contain the information previously given by gppTree, gppGrass,
+  and gppShrub. Moreover, this group of variables could be used as primary variables
+  in assessing phenology simulated by models and the relative impact for future projections
+  at the vegetation type level.
+Notes: ''
+Variables:
+- land.laiVgt.tavg-u-hxy-multi.day.glb
+- land.gppVgt.tavg-u-hxy-multi.day.glb
+- land.landCoverFrac.tavg-u-hxy-u.mon.glb
+Number of variables in group: 3
+Themes:
+- Land & Land-Ice
+- Earth System
+Harmonised DR version: v1.2.2.5

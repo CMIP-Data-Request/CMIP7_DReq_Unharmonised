@@ -1,0 +1,45 @@
+Name: seaice_budget_energy_daily
+Title: Variables needed for assessing the sea ice energy budget at daily timescales
+Priority Level: High
+Justification: This is a request for daily resolution variables is necessary to analyze
+  the evolution of the sea ice energy budget and to understand the drivers of high-frequency
+  sea ice mass tendencies, thus satisfying the requirements of the "Sea ice changes,
+  drivers and impacts" opportunity. The daily time scale is critical to understanding
+  the role the high frequency atmospheric variability (such as Atmospheric Rivers)
+  on sea ice trends and Polar Amplification.
+Notes: This variable group includes heat fluxes relevant to sea ice both from the
+  sea ice and the atmospheric components. This is because, depending on the model,
+  the full decomposition of the different fluxes might be available only in one component
+  or the others, so to make sure all the terms to close the sea ice energy budget
+  are present we request them in both components.
+Variables:
+- seaIce.sihc.tavg-u-hxy-sea.day.glb
+- seaIce.sisnhc.tavg-u-hxy-si.day.glb
+- seaIce.rsds.tavg-u-hxy-si.day.glb
+- seaIce.rsus.tavg-u-hxy-si.day.glb
+- seaIce.siflswdbot.tavg-u-hxy-si.day.glb
+- seaIce.rlds.tavg-u-hxy-si.day.glb
+- seaIce.rlus.tavg-u-hxy-si.day.glb
+- seaIce.siflsenstop.tavg-u-hxy-si.day.glb
+- seaIce.siflsensbot.tavg-u-hxy-si.day.glb
+- seaIce.sifllattop.tavg-u-hxy-si.day.glb
+- seaIce.siflcondtop.tavg-u-hxy-si.day.glb
+- seaIce.siflcondbot.tavg-u-hxy-si.day.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlus.tavg-u-hxy-u.day.glb
+- atmos.rsus.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+- atmos.hfls.tavg-u-hxy-u.day.glb
+- atmos.hfss.tavg-u-hxy-u.day.glb
+Number of variables in group: 20
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- CMIP
+- ScenarioMIP
+- OMIP
+- CERESMIP
+Harmonised DR version: v1.2.2.5

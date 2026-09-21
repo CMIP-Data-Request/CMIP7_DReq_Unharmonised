@@ -1,0 +1,14 @@
+Name: temperature_variability_opportunity
+Title: The experiment group that aligns with the proposed temperature variability
+  opportunity.
+Experiments:
+- 1pctCO2-bgc
+- 1pctCO2-rad
+- hist-aer
+- hist-GHG
+- hist-nat
+- dcppB-forecast-cmip6
+- G7-1p5K-SAI
+- land-hist
+Number of experiments in group: 8
+Harmonised DR version: v1.2.2.5

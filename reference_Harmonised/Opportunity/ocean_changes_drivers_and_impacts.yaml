@@ -1,0 +1,85 @@
+Title: Ocean Changes, Drivers and Impacts
+Description: The ocean is a key component of the climate system, storing 90% of the
+  excess energy trapped in the earth system and absorbing about 25% of the CO2 emitted
+  by human activities. Large-scale ocean circulation systems transport heat across
+  latitudes, basins, and depths. Consequently, changes in the ocean circulation, heat
+  content, and its capacity to store CO2 impact the atmospheric and land warming.
+  Physical ocean changes, especially warming and salinification/freshening, drive
+  sea level rise and impact ocean ecosystems. It is essential to understand changes
+  in ocean properties and circulations, and to evaluate rigorously the budgets of
+  heat and salt. Of special interest are a few key processes.is the The Meridional
+  Ocean Circulation (MOC) is one, because its rate of decrease in the future climate
+  is highly uncertain and a complete shutdown of the Atlantic MOC would have huge
+  consequences on climate worldwide. The ocean mixed layer depth (MLD) is another,
+  because it is the conduit for communication between the ocean and atmosphere. Properties
+  of the polar oceans are another, because these regions are part of the Polar Amplification
+  processes where the climate change signal is strongest. Key roles for the oceans
+  in the global climate system are acting as a reservoir for the carbon and energy
+  budgets. Tropical variability, such as ENSO, is a dominant process in determining
+  ensemble spread and internal variability in energy budgets as well as dominant patterns
+  of air-sea exchanges. Changes to other ocean transports can also be important (e.g.,
+  gyres, boundary currents, interbasin exchanges), which should be compared in effect
+  to changes to the stratification and regional properties of the oceans (e.g., temperature
+  and salinity). Finally, thermosteric and halosteric sea level are key components
+  of total sea level, and often set the regional patterns of variability.
+Expected Impacts: The understanding of the mechanisms driving ocean changes is key
+  for climate projections. For example, how does the strength of the Antarctic Circumpolar
+  current relate to the absorption of CO2 in the Southern Ocean; how do the heat exchanges
+  between the North Atlantic and the Arctic impact sea-ice and land-ice melt and the
+  stability of ice shelves; how does the ocean stratification in eastern boundary
+  upwelling systems evolve and affect the vertical transport of nutrients that feed
+  this rich ecosystems; what is the status of ocean sinks; etc. A better understanding
+  of these mechanisms is key to project future sea-ice, regional sea level rise, atmosphere-ocean
+  interaction, ocean biogeochemistry and sea life.
+Justification of Resources: 'Understanding changes in the ocean is critical for understanding
+  their impacts. This goes beyond assessing the energy and salinity budget at the
+  global scale: variables are needed over the full depth of the ocean to understand
+  the links between circulation and water mass properties: transports of key ocean
+  currents; individual components of meridional fluxes, due to resolved velocities
+  as well as parameterized processes; thermohaline circulation; heat transports to
+  help understand how the ocean redistributes heat and its impact; transports of salt
+  to understand the impact of the global water mass cycle on the salinity distribution.
+  Higher resolution ocean models that allow the development of mesoscale dynamics
+  will improve our understanding of ocean variability and provide more realistic assessments
+  of uncertainties in the heat and salt budgets. The ocean model intercomparisons
+  and related papers are relevant both to assessment reports and model development.
+  In this case, the collection of compatible variables in CMIP runs as in forced runs
+  provides opportunities for a broad perspective on these models. These are the fundamental
+  comparison variables for ocean model intercomparison. As OMIP is not part of the
+  Fast Track, it is critical that these variables be retained in key Fast Track experiments.'
+Experiment Groups:
+- deck
+- fast-track
+- scenarios
+- historical
+- scenarios_extensions
+Variable Groups:
+- baseline_monthly
+- baseline_fixed
+- ocean_grid
+- ocean_mesoscale
+- ocean_meridional_overturning_streamfunctions
+- omip_scalars_low_priority
+- omip_scalars_high_priority
+- omip_transports_high_priority
+- omip_vectors_high_priority
+- omip_surface_fluxes_medium_priority
+- omip_budgets
+- omip_parameterizations
+- omip_momentum_fluxes_high_priority
+- omip_transports_low_priority
+- omip_surface_fluxes_high_priority
+- omip_transports_medium_priority
+- int_ocean_budgets
+- ocean_grid_low_priority
+Opportunity ID: 47
+Themes:
+- Ocean & Sea-Ice
+- Impacts & Adaptation
+- Atmosphere
+- Earth System
+MIPs - lower priority:
+- DCPP
+- PMIP
+- DAMIP
+Harmonised DR version: v1.2.2.5

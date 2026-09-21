@@ -1,0 +1,29 @@
+Name: Impact_energy_river_temperature
+Title: River temperature for thermal power plants
+Priority Level: High
+Justification: Electricity generation through thermal power plants use river for cooling.
+  On the other hand, river temperature is needed to study and avoid any major impact
+  on biodiversity. Since river temperature is not provided by climate models, a hydrological
+  thermal model is needed for its computation based on climate variables. Here are
+  the needed variables.
+Notes: ''
+Variables:
+- atmos.tas.tpt-h2m-hxy-u.3hr.glb
+- atmos.rsds.tavg-u-hxy-u.3hr.glb
+- atmos.hurs.tpt-h2m-hxy-u.3hr.glb
+- atmos.uas.tpt-h10m-hxy-u.3hr.glb
+- atmos.vas.tpt-h10m-hxy-u.3hr.glb
+- atmos.rlds.tavg-u-hxy-u.3hr.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+Of interest to MIPs:
+- VIACSAB
+- CORDEX
+- HighResMIP
+- ScenarioMIP
+- CMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

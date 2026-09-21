@@ -1,0 +1,52 @@
+Title: Diagnosing Radiative Forcing
+Description: This opportunity enables the diagnosis of radiative forcing - the perturbation
+  in Earth's radiative energy budget directly due to a change in composition, such
+  as rising greenhouse gas concentrations or aerosol emissions. Fundamentally, all
+  anthropogenically-induced climate change is a response to the energy imbalance caused
+  by the radiative forcing. Therefore, the systematic diagnosis of radiative forcing
+  in climate models is crucial for interpreting projections of climate change, evaluating
+  the climate impacts of proposed emission reduction strategies, and for understanding
+  and ultimately reducing climate model uncertainty. The opportunity is dedicated
+  to quantifying the total or "effective" radiative forcing in CMIP simulations, along
+  with its components such as the instantaneous radiative forcing and radiative adjustments.
+  The contents of the opportunity will enable users to employ common, well-established
+  methods for diagnosing radiative forcing globally and is particularly relevant for
+  participation in the Radiative Forcing Model Intercomparison Project (RFMIP). The
+  request consists entirely of monthly output, mostly for standard variables that
+  are also included in the CMIP7 Baseline data request.
+Expected Impacts: The data and experiments referenced in this opportunity will enable
+  a comprehensive diagnosis of radiative forcing in CMIP7, which is key for model
+  evaluation and scientific understanding. For example, the radiative fluxes can be
+  directly used to estimate the effective radiative forcing in fixed-SST or, when
+  combined with regression techniques, in fully coupled simulations. Then, radiation
+  diagnostic tools like radiative kernels can be applied to the output of the atmospheric
+  state (e.g. temperature, humidity) to further decompose the effective radiative
+  forcing and understand its physical drivers and sources of uncertainty.
+Justification of Resources: Given its focus on low-frequency output, this opportunity
+  will not be burdensome to data providers and will provide a considerable return
+  on investment, considering that the diagnosis of radiative forcing is fundamental
+  to a variety of science applications. Furthermore, three experiments now required
+  as part of the DECK (piClim-control, piClim-4xCO2, piClim-anthro) are designed for
+  radiative forcing diagnosis and will serve little scientific value without the output
+  contained in this opportunity.
+Experiment Groups:
+- deck
+- fast-track
+- historical
+- scenarios
+Variable Groups:
+- radiativeforcing_monthly
+Opportunity ID: 72
+Themes:
+- Atmosphere
+MIPs - high priority:
+- RFMIP
+- CFMIP
+- AerChemMIP2
+MIPs - lower priority:
+- DCPP
+- PMIP
+- DAMIP
+- GeoMIP
+- RFMIP
+Harmonised DR version: v1.2.2.5

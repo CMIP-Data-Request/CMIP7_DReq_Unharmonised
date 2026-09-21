@@ -1,0 +1,28 @@
+Name: CFMIP_daily_3D
+Title: Daily resolution 3D atmospheric fields
+Priority Level: High
+Justification: Daily 3D fields necessary for investigating cloud processes and cloud
+  feedback
+Notes: ''
+Variables:
+- atmos.cl.tavg-al-hxy-u.day.glb
+- atmos.clcalipso.tavg-h40-hxy-air.day.glb
+- atmos.cli.tavg-al-hxy-u.day.glb
+- atmos.clisccp.tavg-p7c-hxy-air.day.glb
+- atmos.clw.tavg-al-hxy-u.day.glb
+- atmos.hur.tavg-al-hxy-u.day.glb
+- atmos.hus.tavg-al-hxy-u.day.glb
+- atmos.mc.tavg-alh-hxy-u.day.glb
+- atmos.pfull.tavg-al-hxy-u.day.glb
+- atmos.phalf.tavg-alh-hxy-u.day.glb
+- atmos.ta.tavg-al-hxy-u.day.glb
+- atmos.ua.tavg-al-hxy-u.day.glb
+- atmos.va.tavg-al-hxy-u.day.glb
+- atmos.wap.tavg-al-hxy-u.day.glb
+- atmos.zg.tavg-al-hxy-u.day.glb
+Number of variables in group: 15
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

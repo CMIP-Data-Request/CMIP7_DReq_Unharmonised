@@ -1,0 +1,16 @@
+Name: omip_scalars_low_priority
+Title: Scalar fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table H1)
+Priority Level: Low
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered low priority
+Notes: ''
+Variables:
+- ocean.zossq.tavg-u-hxy-sea.mon.glb
+- ocean.tossq.tavg-u-hxy-sea.mon.glb
+- ocean.sossq.tavg-u-hxy-sea.mon.glb
+- ocean.mlotstsq.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 4
+Of interest to MIPs:
+- OMIP
+Harmonised DR version: v1.2.2.5

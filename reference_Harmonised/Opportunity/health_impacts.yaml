@@ -1,0 +1,69 @@
+Title: Health Impacts
+Description: Outputs in this opportunity allow for further analysis of human health
+  impacts across a range of major hazard types, including heat and humidity extremes,
+  flooding, and air pollution.
+Expected Impacts: This opportunity allows investigations of acute health risks related
+  to heat and cold stress, including heat stroke and heat exhaustion. The core heat-health
+  variable group allows for investigation of a number of heat-humidity analyses that
+  reflects how the human body's ability to regulate its temperature depends on both
+  temperature and the ability of perspiration to evaporate. Additional variables allow
+  for more complex indices and biophysical energy balances including radiation and
+  wind speed. Heat-health impacts are particularly important for young and old populations,
+  outdoor construction and agricultural workers, tourism, and disaster preparation
+  associated with heatwaves. Direct analysis and connections to hydrologic models
+  for projecting changes in extreme flood conditions, which may require variables
+  indicating large-scale conditions that may be conducive to flood conditions including
+  snow pack, near-saturated soils, and heavy rainfall events. These variables are
+  requested by health experts to understand future threats to settlements and populations
+  at risk of floods, which also has implications for settlements, disaster reduction,
+  socioeconomic development priorities, migration, and adaptation actions. Outputs
+  will be used to investigate changing mixing ratios of particulate matter, NO2, and
+  O3 may affect human health. In order to anticipate future health crises, experts
+  have interest in the regional patterns and time evolution of dangerous air pollution
+  conditions as well as interactions between the climate system and air pollution
+  (e.g., temperature and humidity conditions that may be conducive to chemical reactions,
+  circulation patterns, and acute extremes). This information cannot be determined
+  only from emissions data and projections. Daily outputs are of highest priority,
+  with hourly outputs also allowing for further resolution of acute air pollution
+  conditions.
+Justification of Resources: Heat impacts are of high interest to the general population
+  and a large number of public, private, civil society, and non-governmental organizations.
+  Climate adaptation planning benefits from forewarning of the shifting distribution
+  of heat waves and their distinctive characteristics (including interaction with
+  humidity). Health impacts experts are creating more accurate and more representative
+  (but sometimes more complex) health indices, and providing these variables will
+  allow for prominent climate risk and proactive planning work, either with direct
+  CMIP7 outputs or through further bias-adjusted information. Air pollution outputs
+  are important demonstrations of ESMs' atmospheric chemistry modules, with projections
+  allowing a large number of human health air pollution impact evaluations. Including
+  variables beyond the particulate matter physical parameters helps to track air pollution
+  conditions that may be more confidently represented in ESMs. Daily outputs are of
+  highest priority, with sub-daily outputs allowing for more complex and detailed
+  analyses. Flooding outputs allow for more detailed hydrologic modeling and analysis
+  of the changing intensity, frequency, and duration of high water events that can
+  be used for engineering and disaster reduction planning.
+Experiment Groups:
+- deck
+- historical
+- scenarios
+- damip_experiment_group
+- dcpp
+- aerchemmip
+- highresmip2-ia
+Variable Groups:
+- HealthHeatCoreDaily
+- HeatHealthExpandedDaily
+- HealthPollutionDaily
+- HealthPollutionhourly
+- HealthFloodingDaily
+- Heat_Indices
+Opportunity ID: 37
+Themes:
+- Impacts & Adaptation
+- Atmosphere
+- Land & Land-Ice
+MIPs - lower priority:
+- DCPP
+- FireMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

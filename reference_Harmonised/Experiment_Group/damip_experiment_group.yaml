@@ -1,0 +1,23 @@
+Name: damip_experiment_group
+Title: All experiments relevant to the DAMIP opportunity
+Experiments:
+- 1pctCO2
+- 1pctCO2-bgc
+- 1pctCO2-rad
+- abrupt-4xCO2
+- amip
+- amip-p4K
+- amip-piForcing
+- esm-hist
+- esm-piControl
+- hist-aer
+- hist-GHG
+- hist-nat
+- hist-piAer
+- hist-piAQ
+- historical
+- dcppB-forecast-cmip6
+- piClim-anthro
+- piControl
+Number of experiments in group: 18
+Harmonised DR version: v1.2.2.5

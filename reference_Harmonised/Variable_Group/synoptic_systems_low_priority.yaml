@@ -1,0 +1,26 @@
+Name: synoptic_systems_low_priority
+Title: Lower priority variables for analysis of synoptic systems and their impacts
+Priority Level: Medium
+Justification: These are the lower priority variables attached to the synoptic systems
+  and impacts opportunity. These variables are high frequency (daily or 6 hourly instantaneous)
+  versions of existing fields but on different pressure levels. hur700 is useful for
+  looking at the dynamical controls on clouds associated with synoptic systems, hur100
+  is useful to distinguish between different tropical systems, hur850 and h500 can
+  be used to detect monsoon low pressure systems and examine convection/MCS and frontal
+  environments. zg700 and zg925 (along with the existing 850 hPa level version can
+  be used to classify various types of low-pressure systems. ua200 and va200 along
+  with the 250 hPa version of these fields can be used to compute deep layer shear.
+Notes: ''
+Variables:
+- atmos.hur.tavg-700hPa-hxy-air.day.glb
+- atmos.hur.tpt-100hPa-hxy-u.6hr.glb
+- atmos.hur.tpt-850hPa-hxy-air.6hr.glb
+- atmos.hur.tpt-500hPa-hxy-air.6hr.glb
+- atmos.zg.tpt-700hPa-hxy-u.6hr.glb
+- atmos.zg.tpt-925hPa-hxy-u.6hr.glb
+- atmos.ua.tpt-200hPa-hxy-u.6hr.glb
+- atmos.va.tpt-200hPa-hxy-u.6hr.glb
+Number of variables in group: 8
+Themes:
+- Atmosphere
+Harmonised DR version: v1.2.2.5

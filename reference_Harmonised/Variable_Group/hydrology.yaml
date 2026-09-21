@@ -1,0 +1,52 @@
+Name: hydrology
+Title: Hydrology and Freshwater Systems
+Priority Level: Medium
+Justification: These variables are requested for the hydrology and freshwater resources
+  opportunity, aggregating information related to terrestrial water storage, lakes,
+  rivers and estuaries, runoff, groundwater, permafrost, snow, and glaciers. These
+  do not include other water cycle variables (e.g., precipitation or evaporation fluxes,
+  etc.) covered in the baseline variables. Requested frequencies are mostly daily
+  and monthly, with few fixed variables. Please see related opportunity description
+  for use cases.
+Notes: ''
+Variables:
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- land.depthl.ti-u-hxy-u.fx.glb
+- land.sftlaf.ti-u-hxy-u.fx.glb
+- atmos.sftlf.ti-u-hxy-u.fx.glb
+- land.sw.tavg-u-hxy-lnd.day.glb
+- land.dsw.tavg-u-hxy-lnd.day.glb
+- landIce.tpf.tavg-u-hxy-lnd.day.glb
+- land.dgw.tavg-u-hxy-lnd.day.glb
+- land.qgwr.tavg-u-hxy-lnd.day.glb
+- seaIce.snw.tavg-u-hxy-si.mon.glb
+- ocean.friver.tavg-u-hxy-sea.mon.glb
+- land.rivo.tavg-u-hxy-lnd.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- land.mrsll.tavg-sl-hxy-lnd.day.glb
+- land.mrsfl.tavg-sl-hxy-lnd.day.glb
+- land.mrtws.tavg-u-hxy-lnd.day.glb
+- land.drivw.tavg-u-hxy-lnd.day.glb
+- land.wtd.tavg-u-hxy-lnd.day.glb
+- landIce.pflw.tavg-u-hxy-lnd.day.glb
+- atmos.snmsl.tavg-u-hxy-lnd.day.glb
+- seaIce.siitdsnconc.tavg-u-hxy-si.day.glb
+- seaIce.siitdsnthick.tavg-u-hxy-si.day.glb
+- landIce.snw.tavg-u-hxy-lnd.day.glb
+- landIce.snc.tavg-u-hxy-lnd.day.glb
+- landIce.snd.tavg-u-hxy-lnd.day.glb
+- landIce.snm.tavg-u-hxy-lnd.day.glb
+- seaIce.snd.tavg-u-hxy-sn.day.glb
+- land.sftgif.ti-u-hxy-u.fx.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+- land.mrrob.tavg-u-hxy-lnd.day.glb
+- land.mrro.tavg-u-hxy-lnd.3hr.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+- land.mrsofc.ti-u-hxy-lnd.fx.glb
+Number of variables in group: 35
+Themes:
+- Land & Land-Ice
+- Impacts & Adaptation
+Harmonised DR version: v1.2.2.5

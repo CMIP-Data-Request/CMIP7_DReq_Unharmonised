@@ -1,0 +1,27 @@
+Name: HeatHealthExpandedDaily
+Title: Expanded daily climate drivers for heat health impacts
+Priority Level: Medium
+Justification: Variables in this group allow for more in-depth analysis of the health
+  impacts of heat and cold. Additional variables allow for more complex heat-health
+  indices (including humidity and radiation) and investigations of wind chill.
+Notes: ''
+Variables:
+- atmos.tas.tmax-h2m-hxy-u.day.glb
+- atmos.tas.tavg-h2m-hxy-u.day.glb
+- atmos.tas.tmin-h2m-hxy-u.day.glb
+- atmos.hurs.tavg-h2m-hxy-u.day.glb
+- atmos.hurs.tmax-h2m-hxy-u.day.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.day.glb
+- atmos.rsds.tavg-u-hxy-u.day.glb
+- atmos.rlds.tavg-u-hxy-u.day.glb
+Number of variables in group: 8
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- CMIP
+- VIACSAB
+- ScenarioMIP
+- DAMIP
+- HighResMIP
+- DCPP
+Harmonised DR version: v1.2.2.5

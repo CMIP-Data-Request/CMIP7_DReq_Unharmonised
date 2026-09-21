@@ -1,0 +1,33 @@
+Name: int_ocean_budgets
+Title: Vertically Integrated Ocean Energy and Salt Contents Monthly Mean Over Pressure
+  Layers
+Priority Level: High
+Justification: These are fundamental to the earth's energy budget and hydrologic change,
+  and due to new numerical schemes and vertical discretizations, it is important to
+  calculate them consistently with the model formulation and equation of state. Also,
+  observations occur at hydrostatic pressure levels and then are vertically-integrated
+  and mapped, so this formulation allows for direct comparison to observations.
+Notes: ''
+Variables:
+- ocean.scint.tavg-op4-hxy-sea.mon.glb
+- ocean.pfscint.tavg-op4-hxy-sea.mon.glb
+- ocean.absscint.tavg-op4-hxy-sea.mon.glb
+- ocean.chcint.tavg-op4-hxy-sea.mon.glb
+- ocean.phcint.tavg-op4-hxy-sea.mon.glb
+Number of variables in group: 5
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- OMIP
+- PMIP
+- FAFMIP
+- CDRMIP
+- DCPP
+- GeoMIP
+- CMIP
+- LongRunMIP
+- ScenarioMIP
+- HighResMIP
+- WhatIfMIP
+Harmonised DR version: v1.2.2.5

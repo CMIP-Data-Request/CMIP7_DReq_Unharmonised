@@ -1,0 +1,22 @@
+Name: seaice_budget_area_monthly
+Title: Variables needed for assessing the sea ice area budget at monthly timeslices
+Priority Level: High
+Justification: This is a request for monthly resolution variables necessary to analyze
+  the evolution of the sea ice area budget and quantify how the sea ice cover is changing,
+  thus satisfying the requirements of the "Sea ice changes, drivers and impacts" opportunity.
+Notes: ''
+Variables:
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.sidconcth.tavg-u-hxy-sea.mon.glb
+- seaIce.sidconcdyn.tavg-u-hxy-sea.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 5
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- SIMIP
+- CMIP
+- ScenarioMIP
+- OMIP
+Harmonised DR version: v1.2.2.5

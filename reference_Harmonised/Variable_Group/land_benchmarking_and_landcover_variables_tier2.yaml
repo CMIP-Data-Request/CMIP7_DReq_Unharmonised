@@ -1,0 +1,35 @@
+Name: land_benchmarking_and_landcover_variables_tier2
+Title: Land physical and landcover variables needed for benchmarking and understanding
+  carbon, nitrogen, and CH4 cycle changes at monthly frequency
+Priority Level: Medium
+Justification: Land variables needed for benchmarking and attribution of carbon and
+  nitrogen cycle changes at finer granularity, and for diagnosing and understanding
+  wetland CH4 fluxes
+Notes: ''
+Variables:
+- land.mrtws.tavg-u-hxy-lnd.mon.glb
+- land.vegHeight.tavg-u-hxy-veg.mon.glb
+- land.vegHeight.tavg-u-hxy-tree.mon.glb
+- land.vegHeight.tavg-u-hxy-ng.mon.glb
+- land.vegHeight.tavg-u-hxy-shb.mon.glb
+- land.treeFracNdlEvg.tavg-u-hxy-u.mon.glb
+- land.treeFracNdlDcd.tavg-u-hxy-u.mon.glb
+- land.treeFracBdlEvg.tavg-u-hxy-u.mon.glb
+- land.treeFracBdlDcd.tavg-u-hxy-u.mon.glb
+- land.grassFracC3.tavg-u-hxy-u.mon.glb
+- land.grassFracC4.tavg-u-hxy-u.mon.glb
+- land.cropFracC3.tavg-u-hxy-u.mon.glb
+- land.cropFracC4.tavg-u-hxy-u.mon.glb
+- land.pastureFracC3.tavg-u-hxy-u.mon.glb
+- land.pastureFracC4.tavg-u-hxy-u.mon.glb
+- land.wetlandFrac.tavg-u-hxy-u.mon.glb
+- land.wetlandCH4.tavg-u-hxy-lnd.mon.glb
+- land.wetlandCH4cons.tavg-u-hxy-lnd.mon.glb
+- land.wetlandCH4prod.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 19
+Themes:
+- Earth System
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+Harmonised DR version: v1.2.2.5

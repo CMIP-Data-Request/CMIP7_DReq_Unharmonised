@@ -1,0 +1,54 @@
+Title: Ice sheet mass loss, contributions to sea level rise and freshwater flux input
+  to the climate system
+Description: The output for this opportunity will allow the historical and future
+  behaviour of the Greenland and Antarctic ice sheets to simulated and assessed. The
+  mass loss from these ice sheets is a key contributor to future sea level rise, and
+  their freshwater input to the climate system provides an important forcing for ocean
+  circulation and carbon and heat uptake. Ice sheets are also a key potential tipping
+  element in the Earth System, and characterising this aspect of their future evolution
+  may have huge societal impact. This Opportunity comes from the ice sheet modelling
+  community via ISMIP7 but other MIPs concerned with ice sheet behaviour, primarily
+  TIPMIP and MISOMIP may use these variables. It requests climate model variables
+  that characterise the boundaries of ice sheet regions from the atmosphere, land
+  and ocean domains, as well as ice sheet state variables themselves.
+Expected Impacts: The data requested from the Historical and Scenario simulations
+  will primarily be used to create boundary conditions for a large ensemble of standalone
+  Ice Sheet Model (ISMs) simulations under the auspices of ISMIP7, although some ESMs
+  in CMIP7 may conduct these simulations with ice sheet components coupled in as well.
+  This combination output from ESM and ISM simulations will allow the future contribution
+  of the icesheets to sea level rise to be projected and the model and scenario uncertainty
+  of those projections to be characterised. In addition to ISMIP7, other MIPs concerned
+  with ice sheet behaviour, primarily TIPMIP and MISOMIP may use these variables.
+  Quantifying future sea level rise contributes to CMIP and WCRP efforts on the Long-term
+  response of the climate system, safe landing climates and tipping points.
+Justification of Resources: Atmosphere and land domain variables requested are primarily
+  surface fields at frequencies from subdaily to monthly. A few full-depth ocean state
+  variables are requested at monthly frequency. These will be assessed to inform potential
+  subselection of the most appropriate climate models to use to generate mass balance
+  boundary conditions for a large ensemble of downstream ice sheet model simulations.
+  Earth System models that contain ice sheets are also requested to provide ice sheet
+  state variables to characterise the ice sheet behaviour and impact on sea level.
+Experiment Groups:
+- scenarios
+- historical
+- picontrol
+- ismip7-scenario-extensions
+Variable Groups:
+- baseline_monthly
+- baseline_fixed
+- landice_global_allfreq
+- landice_greenland_allfreq
+- landice_antarctica_allfreq
+- ocean_grid
+- ocean_grid_low_priority
+Opportunity ID: 39
+Themes:
+- Land & Land-Ice
+MIPs - high priority:
+- PMIP
+- ISMIP7
+MIPs - lower priority:
+- TIPMIP
+- MISOMIP2
+- SOFIAMIP
+Harmonised DR version: v1.2.2.5

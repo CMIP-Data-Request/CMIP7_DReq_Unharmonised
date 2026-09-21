@@ -1,0 +1,9 @@
+Name: irrmip-nonfasttrack
+Title: IRRMIP experiments
+Experiments:
+- hist-noirr
+- hist-irr
+- amip-irr
+- amip-noirr
+Number of experiments in group: 4
+Harmonised DR version: v1.2.2.5

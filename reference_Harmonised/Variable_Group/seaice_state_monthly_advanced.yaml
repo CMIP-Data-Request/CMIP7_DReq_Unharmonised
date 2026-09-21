@@ -1,0 +1,38 @@
+Name: seaice_state_monthly_advanced
+Title: Variables needed for process-based understanding of monthly basic state
+Priority Level: Medium
+Justification: This is a request for monthly resolution variables necessary to allow
+  process understanding of the the state of the sea-ice cover, its spatial distribtution
+  and temporal evolution, beyond what is available from the seaice_state_monthly_basic
+  variable group.
+Notes: ''
+Variables:
+- seaIce.sitempsnic.tavg-u-hxy-si.mon.glb
+- seaIce.sitempbot.tavg-u-hxy-si.mon.glb
+- seaIce.siage.tavg-u-hxy-si.mon.glb
+- seaIce.sifb.tavg-u-hxy-si.mon.glb
+- seaIce.sihc.tavg-u-hxy-sea.mon.glb
+- seaIce.sisnhc.tavg-u-hxy-si.mon.glb
+- seaIce.siitdconc.tavg-u-hxy-si.mon.glb
+- seaIce.siitdthick.tavg-u-hxy-si.mon.glb
+- seaIce.siitdsnconc.tavg-u-hxy-si.mon.glb
+- seaIce.siitdsnthick.tavg-u-hxy-si.mon.glb
+- seaIce.sisaltmass.tavg-u-hxy-si.mon.glb
+- seaIce.sisali.tavg-u-hxy-si.mon.glb
+- seaIce.simpconc.tavg-u-hxy-si.mon.glb
+- seaIce.simpeffconc.tavg-u-hxy-si.mon.glb
+- seaIce.simprefrozen.tavg-u-hxy-simp.mon.glb
+- seaIce.simpthick.tavg-u-hxy-simp.mon.glb
+- seaIce.sirdgconc.tavg-u-hxy-si.mon.glb
+- seaIce.sithick.tavg-u-hxy-sir.mon.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.areacello.ti-u-hxy-u.fx.glb
+Number of variables in group: 20
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- CMIP
+- SIMIP
+- ScenarioMIP
+- OMIP
+Harmonised DR version: v1.2.2.5

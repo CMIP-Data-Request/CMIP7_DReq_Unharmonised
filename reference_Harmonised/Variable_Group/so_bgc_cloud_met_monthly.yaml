@@ -1,0 +1,61 @@
+Name: SO_BGC-cloud_met_monthly
+Title: Southern Ocean BGC-Cloud Meteorological Variables at monthly timeslices
+Priority Level: High
+Justification: Meteorological variables of interest to the Southern Ocean BGC to Clouds
+  opportunity. We want to understand how natural aerosol interact with cloud and radiation
+  and this cannot be fully understood without some knowledge of the background atmospheric
+  state. We have requested atmospheric data required to disentangle meteorological
+  influences on aerosol-cloud interactions, such as the large-scale dynamics that
+  drive aerosol and moisture transport. These variables are a subset of those in the
+  baseline request.
+Notes: ''
+Variables:
+- atmos.prra.tavg-u-hxy-u.mon.30S-90S
+- atmos.tas.tavg-h2m-hxy-u.mon.30S-90S
+- atmos.rlut.tavg-u-hxy-u.mon.30S-90S
+- atmos.pr.tavg-u-hxy-u.mon.30S-90S
+- ocean.tos.tavg-u-hxy-sea.mon.30S-90S
+- atmos.rlutcs.tavg-u-hxy-u.mon.30S-90S
+- atmos.hfls.tavg-u-hxy-u.mon.30S-90S
+- atmos.hfss.tavg-u-hxy-u.mon.30S-90S
+- atmos.hur.tavg-p19-hxy-air.mon.30S-90S
+- atmos.hurs.tavg-h2m-hxy-u.mon.30S-90S
+- atmos.hus.tavg-p19-hxy-u.mon.30S-90S
+- atmos.huss.tavg-h2m-hxy-u.mon.30S-90S
+- atmos.pfull.tclm-al-hxy-u.mon.30S-90S
+- atmos.prc.tavg-u-hxy-u.mon.30S-90S
+- atmos.prsn.tavg-u-hxy-u.mon.30S-90S
+- atmos.prw.tavg-u-hxy-u.mon.30S-90S
+- atmos.ps.tavg-u-hxy-u.mon.30S-90S
+- atmos.psl.tavg-u-hxy-u.mon.30S-90S
+- atmos.rlds.tavg-u-hxy-u.mon.30S-90S
+- atmos.rldscs.tavg-u-hxy-u.mon.30S-90S
+- atmos.rlus.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsds.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsdscs.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsdt.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsuscs.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsus.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsutcs.tavg-u-hxy-u.mon.30S-90S
+- atmos.rsut.tavg-u-hxy-u.mon.30S-90S
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.30S-90S
+- atmos.tas.tmaxavg-h2m-hxy-u.mon.30S-90S
+- atmos.tas.tminavg-h2m-hxy-u.mon.30S-90S
+- atmos.ta.tavg-p19-hxy-air.mon.30S-90S
+- atmos.ts.tavg-u-hxy-u.mon.30S-90S
+- atmos.ua.tavg-p19-hxy-air.mon.30S-90S
+- atmos.uas.tavg-h10m-hxy-u.mon.30S-90S
+- atmos.va.tavg-p19-hxy-air.mon.30S-90S
+- atmos.vas.tavg-h10m-hxy-u.mon.30S-90S
+- atmos.wap.tavg-p19-hxy-air.mon.30S-90S
+- atmos.zg.tavg-p19-hxy-air.mon.30S-90S
+Number of variables in group: 39
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CMIP
+- AerChemMIP2
+- ScenarioMIP
+- CFMIP
+- RFMIP
+Harmonised DR version: v1.2.2.5

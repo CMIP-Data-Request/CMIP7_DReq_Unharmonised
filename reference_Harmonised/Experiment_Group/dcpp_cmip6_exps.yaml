@@ -1,0 +1,10 @@
+Name: dcpp-cmip6-exps
+Title: DCPP Fast Track predictions initialized in 2025 or 2026 will require CMIP6
+  hindcasts as a pre-requisite. This has been discussed with the CMIP panel and the
+  WIP. This Experiment group contains the relevant experiments to enable this.
+Experiments:
+- dcppA-hindcast
+- dcppB-forecast
+- dcppA-assim
+Number of experiments in group: 3
+Harmonised DR version: v1.2.2.5

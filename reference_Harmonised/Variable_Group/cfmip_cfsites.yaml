@@ -1,0 +1,105 @@
+Name: CFMIP_cfSites
+Title: Sub-hourly data at specified "cfSites" locations
+Priority Level: High
+Justification: Sub-hourly fields at specified "cfSites" locations needed for investigation
+  of cloud process and feedbacks
+Notes: ''
+Variables:
+- atmos.ccb.tpt-u-hs-u.subhr.glb
+- atmos.cct.tpt-u-hs-u.subhr.glb
+- atmos.ci.tpt-u-hs-u.subhr.glb
+- atmos.cl.tpt-al-hs-u.subhr.glb
+- atmos.cli.tpt-al-hs-u.subhr.glb
+- atmos.clivi.tpt-u-hs-u.subhr.glb
+- atmos.clt.tpt-u-hs-u.subhr.glb
+- atmos.clw.tpt-al-hs-u.subhr.glb
+- atmos.clwvi.tpt-u-hs-u.subhr.glb
+- atmos.edt.tpt-al-hs-u.subhr.glb
+- atmos.evspsbl.tpt-u-hs-u.subhr.glb
+- atmos.evu.tpt-al-hs-u.subhr.glb
+- atmos.fco2antt.tpt-u-hs-u.subhr.glb
+- atmos.fco2fos.tpt-u-hs-u.subhr.glb
+- atmos.fco2nat.tpt-u-hs-u.subhr.glb
+- atmos.hfls.tpt-u-hs-u.subhr.glb
+- atmos.hfss.tpt-u-hs-u.subhr.glb
+- atmos.hur.tpt-al-hs-u.subhr.glb
+- atmos.hurs.tpt-h2m-hs-u.subhr.glb
+- atmos.hus.tpt-al-hs-u.subhr.glb
+- atmos.huss.tpt-h2m-hs-u.subhr.glb
+- atmos.lat.ti-u-hs-u.fx.glb
+- atmos.lon.ti-u-hs-u.fx.glb
+- atmos.mc.tpt-alh-hs-u.subhr.glb
+- atmos.pfull.tpt-al-hs-u.subhr.glb
+- atmos.phalf.tpt-alh-hs-u.subhr.glb
+- atmos.pr.tpt-u-hs-u.subhr.glb
+- atmos.prc.tpt-u-hs-u.subhr.glb
+- atmos.prsn.tpt-u-hs-u.subhr.glb
+- atmos.prw.tpt-u-hs-u.subhr.glb
+- atmos.ps.tpt-u-hs-u.subhr.glb
+- atmos.psl.tpt-u-hs-u.subhr.glb
+- atmos.rld.tpt-alh-hs-u.subhr.glb
+- atmos.rldcs.tpt-alh-hs-u.subhr.glb
+- atmos.rlds.tpt-u-hs-u.subhr.glb
+- atmos.rldscs.tpt-u-hs-u.subhr.glb
+- atmos.rlu.tpt-alh-hs-u.subhr.glb
+- atmos.rlucs.tpt-alh-hs-u.subhr.glb
+- atmos.rlus.tpt-u-hs-u.subhr.glb
+- atmos.rlut.tpt-u-hs-u.subhr.glb
+- atmos.rlutcs.tpt-u-hs-u.subhr.glb
+- atmos.rsd.tpt-alh-hs-u.subhr.glb
+- atmos.rsdcs.tpt-alh-hs-u.subhr.glb
+- atmos.rsds.tpt-u-hs-u.subhr.glb
+- atmos.rsdscs.tpt-u-hs-u.subhr.glb
+- atmos.rsdt.tpt-u-hs-u.subhr.glb
+- atmos.rsu.tpt-alh-hs-u.subhr.glb
+- atmos.rsucs.tpt-alh-hs-u.subhr.glb
+- atmos.rsus.tpt-u-hs-u.subhr.glb
+- atmos.rsuscs.tpt-u-hs-u.subhr.glb
+- atmos.rsut.tpt-u-hs-u.subhr.glb
+- atmos.rsutcs.tpt-u-hs-u.subhr.glb
+- atmos.rtmt.tpt-u-hs-u.subhr.glb
+- landIce.sbl.tpt-u-hs-u.subhr.glb
+- atmos.sci.tpt-u-hs-u.subhr.glb
+- atmos.sfcWind.tpt-h10m-hs-u.subhr.glb
+- atmos.ta.tpt-al-hs-u.subhr.glb
+- atmos.tas.tpt-h2m-hs-u.subhr.glb
+- atmos.tauu.tpt-u-hs-u.subhr.glb
+- atmos.tauv.tpt-u-hs-u.subhr.glb
+- atmos.tnhus.tpt-al-hs-u.subhr.glb
+- atmos.tnhusa.tpt-al-hs-u.subhr.glb
+- atmos.tnhusc.tpt-al-hs-u.subhr.glb
+- atmos.tnhusd.tpt-al-hs-u.subhr.glb
+- atmos.tnhusmp.tpt-al-hs-u.subhr.glb
+- atmos.tnhusscpbl.tpt-al-hs-u.subhr.glb
+- atmos.tnt.tpt-al-hs-u.subhr.glb
+- atmos.tnta.tpt-al-hs-u.subhr.glb
+- atmos.tntc.tpt-al-hs-u.subhr.glb
+- atmos.tntmp.tpt-al-hs-u.subhr.glb
+- atmos.tntr.tpt-al-hs-u.subhr.glb
+- atmos.tntscpbl.tpt-al-hs-u.subhr.glb
+- atmos.ts.tpt-u-hs-u.subhr.glb
+- atmos.ua.tpt-al-hs-u.subhr.glb
+- atmos.uas.tpt-h10m-hs-u.subhr.glb
+- atmos.va.tpt-al-hs-u.subhr.glb
+- atmos.vas.tpt-h10m-hs-u.subhr.glb
+- atmos.wap.tpt-al-hs-u.subhr.glb
+- atmos.zg.tpt-al-hs-u.subhr.glb
+- atmos.reffclic.tpt-al-hs-ccl.subhr.glb
+- atmos.reffclis.tpt-al-hs-scl.subhr.glb
+- atmos.reffclwc.tpt-al-hs-ccl.subhr.glb
+- atmos.reffclws.tpt-al-hs-scl.subhr.glb
+- atmos.tnhuspbl.tpt-al-hs-u.subhr.glb
+- atmos.tnhusscp.tpt-al-hs-u.subhr.glb
+- atmos.tntd.tpt-al-hs-u.subhr.glb
+- atmos.tntpbl.tpt-al-hs-u.subhr.glb
+- atmos.tntrl.tpt-al-hs-u.subhr.glb
+- atmos.tntrlcs.tpt-al-hs-u.subhr.glb
+- atmos.tntrs.tpt-al-hs-u.subhr.glb
+- atmos.tntrscs.tpt-al-hs-u.subhr.glb
+- atmos.tntscp.tpt-al-hs-u.subhr.glb
+Number of variables in group: 92
+Themes:
+- Atmosphere
+Of interest to MIPs:
+- CFMIP
+Harmonised DR version: v1.2.2.5

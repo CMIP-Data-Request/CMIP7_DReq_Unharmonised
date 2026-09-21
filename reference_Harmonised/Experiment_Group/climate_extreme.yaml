@@ -1,0 +1,11 @@
+Name: climate_extreme
+Title: Climate extreme analysis additional experiments
+Experiments:
+- amip
+- hist-aer
+- hist-GHG
+- hist-nat
+- scen7-m
+- esm-scen7-m
+Number of experiments in group: 6
+Harmonised DR version: v1.2.2.5

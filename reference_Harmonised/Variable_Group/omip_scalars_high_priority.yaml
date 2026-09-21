@@ -1,0 +1,45 @@
+Name: omip_scalars_high_priority
+Title: Scalar fields employed for OMIP in CMIP6 (Griffies et al., 2016, Table H1)
+Priority Level: High
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered high priority
+Notes: ''
+Variables:
+- ocean.zos.tavg-u-hxy-sea.day.glb
+- ocean.sos.tavg-u-hxy-sea.day.glb
+- ocean.masso.tavg-u-hm-sea.mon.glb
+- ocean.pbo.tavg-u-hxy-sea.mon.glb
+- ocean.pso.tavg-u-hxy-sea.mon.glb
+- ocean.volo.tavg-u-hm-sea.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- ocean.zostoga.tavg-u-hm-sea.mon.glb
+- ocean.masscello.tavg-ol-hxy-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.bigthetao.tavg-ol-hxy-sea.mon.glb
+- ocean.bigthetao.tavg-u-hm-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.tob.tavg-u-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.sob.tavg-u-hxy-sea.mon.glb
+- ocean.agessc.tavg-ol-hxy-sea.mon.glb
+- ocean.mlotst.tavg-u-hxy-sea.mon.glb
+- ocean.mlotst.tmax-u-hxy-sea.mon.glb
+- ocean.mlotst.tmin-u-hxy-sea.mon.glb
+- ocean.obvfsq.tavg-ol-hxy-sea.mon.glb
+- ocean.masso.tavg-u-hm-sea.dec.glb
+- ocean.volo.tavg-u-hm-sea.dec.glb
+- ocean.masscello.tavg-ol-hxy-sea.dec.glb
+- ocean.thetao.tavg-ol-hxy-sea.dec.glb
+- ocean.bigthetao.tavg-ol-hxy-sea.dec.glb
+- ocean.so.tavg-ol-hxy-sea.dec.glb
+- ocean.thetao.tavg-u-hm-sea.mon.glb
+- ocean.tos.tavg-u-hm-sea.mon.glb
+- ocean.so.tavg-u-hm-sea.mon.glb
+- ocean.sos.tavg-u-hm-sea.mon.glb
+- ocean.tos.tavg-u-hxy-sea.day.glb
+- ocean.sftof.ti-u-hxy-u.fx.glb
+- ocean.hfgeou.ti-u-hxy-sea.fx.glb
+Number of variables in group: 35
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,17 @@
+Name: omip_momentum_fluxes_high_priority
+Title: Momentum flux into ocean employed for OMIP in CMIP6 (Griffies et al., 2016,
+  Table K4)
+Priority Level: High
+Justification: These are the variables that have been requested for CMIP6 and that
+  are the starting point for the study of ocean drivers and changes in CMIP6 and are
+  considered high priority
+Notes: ''
+Variables:
+- ocean.tauuo.tavg-u-hxy-sea.dec.glb
+- ocean.tauvo.tavg-u-hxy-sea.dec.glb
+Number of variables in group: 2
+Themes:
+- Ocean & Sea-Ice
+Of interest to MIPs:
+- OMIP
+Harmonised DR version: v1.2.2.5

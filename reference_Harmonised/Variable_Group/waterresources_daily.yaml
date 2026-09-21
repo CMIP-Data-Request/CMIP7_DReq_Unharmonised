@@ -1,0 +1,30 @@
+Name: WaterResources_daily
+Title: Flood and drought risk assessment at daily timescale
+Priority Level: High
+Justification: Future projections of hydroclimatic hazards at regional scale are essential
+  for assessing what adaptation actions and resilience building measures are needed
+  to ensure water security. The most widely-used drought index for drought assessments,
+  the Standardized Precipitation-Evapotranspiration Index (SPEI), requires the potential
+  evapotranspiration (PET) variable. Other hydrological variables existed in CMIP6
+  including total, surface and subsurface runoff fluxes, and soil moisture at top
+  and all levels, have been widely used for studying the responses of different types
+  of hydroclimatic hazards to climate change and should continue to be produced.
+Notes: ''
+Variables:
+- land.evspsblpot.tavg-u-hxy-lnd.day.glb
+- atmos.pr.tavg-u-hxy-u.day.glb
+- land.mrso.tavg-u-hxy-lnd.day.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.day.glb
+- land.mrro.tavg-u-hxy-lnd.day.glb
+- land.mrrob.tavg-u-hxy-lnd.day.glb
+- land.mrros.tavg-u-hxy-lnd.day.glb
+Number of variables in group: 7
+Themes:
+- Impacts & Adaptation
+Of interest to MIPs:
+- ScenarioMIP
+- ISMIP7
+- CMIP
+- CORDEX
+- HighResMIP
+Harmonised DR version: v1.2.2.5

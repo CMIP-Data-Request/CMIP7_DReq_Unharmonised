@@ -1,0 +1,48 @@
+Title: Land use change
+Description: Human land-use activities have resulted in large changes to the Earth's
+  surface, with resulting implications for climate. In the future, land-use activities
+  are likely to expand and intensify further to meet growing demands for food, fiber,
+  and energy. The Land Use Model Intercomparison Project (LUMIP) aims to further advance
+  understanding of the impacts of land-use and land-cover change (LULCC) on climate,
+  specifically addressing the following questions. (1)What are the effects of LULCC
+  on climate and biogeochemical cycling (past–future)? (2)What are the impacts of
+  land management on surface fluxes of carbon, water, and energy, and are there regional
+  land-management strategies with the promise to help mitigate climate change? These
+  questions are particularly relevant in investigations of low emission scenarios,
+  which typically rely on significant land-based mitigation to achieve climate targets.
+Expected Impacts: This opportunity request include variables that enable researchers
+  to evaluate the impacts of land use change on biogeophysical and biogeochemical
+  states and fluxes. These variables are requested for historical and scenario simulations
+  and for any specific Land Use Model Intercomparison Project (LUMIP) simulations.
+Justification of Resources: 'This proposal and associated variables is critical for
+  useful assessment of land use change in historical and scenario simulations. This
+  assessment is critical, especially to understand the considerable diversity of land
+  model responses to imposed land use change and the diversity of imposed land use
+  change itself. It is also critical to aid in understanding of the strong diversity
+  of land model representation of the terrestrial carbon sink and the potential for
+  land-based mitigation. The data request is modest in terms of size. Reference is
+  Lawrence, D.M., G.C. Hurtt, A. Arneth, V. Brovkin, K.V. Calvin, A.D. Jones, C.D.
+  Jones, P.J. Lawrence, N. de Noblet-Ducoudre, J. Pongratz, S.I. Seneviratne, and
+  E. Shevliakova, 2016. The Land Use Model Intercomparison Project (LUMIP) contribution
+  to CMIP6: Rationale and experimental design. GMD, 9, doi.org/10.5194/gmd-9-2973-2016.
+  In that paper, the benefits of subgrid information on Land Use Tiles is described
+  in more detail.For CMIP7, the numberof land use tiles has expanded from 4 to 5,
+  by splitting the Primary and Secondary Land tile in a Primary Land Tile and a Secondary
+  Land Tile, in addition to those that are retained (Cropland, Pastureland, and Urban)'
+Experiment Groups:
+- historical
+- scenarios
+- lmip
+Variable Groups:
+- landuse
+Opportunity ID: 43
+Themes:
+- Land & Land-Ice
+MIPs - high priority:
+- LUMIP
+MIPs - lower priority:
+- FireMIP
+- PMIP
+- DAMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

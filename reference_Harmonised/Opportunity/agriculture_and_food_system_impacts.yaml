@@ -1,0 +1,106 @@
+Title: Agriculture and Food System Impacts
+Description: 'Supporting agricultural sector simulations of extreme event response,
+  air pollution, water and land use for impacts and adaptation planning. This opportunity
+  includes variable groups providing information needed for impacts and adaptation
+  planning in the agricultural sector.Included are variable groups related to the
+  minimum inputs required for agricultural modeling, extended agricultural modeling
+  variables that allow for more detailed simulations of extreme event response, water
+  resources, land use, and air pollution. Variable sets include both sub-daily and
+  daily outputs but are grouped according to established applications. This opportunity
+  requests data throughout the entire simulation period. However, if high temporal
+  resolution data is difficult to provide for the entire period, this opportunity
+  can be supported with high resolution data from the following time subsets: hist72
+  and histext + whole timeseries (2021-2100): first preference, hist43 and histext
+  + whole timeseries (2021-2100): second preference, hist43 and histext + scenario30mid
+  + scenario20: third preference, hist43 and histext + scenario20mid + scenario20:
+  fourth preference, hist20 and histext + scenario20mid + scenario20: fifth preference.
+  histext is included because the I&A community would like historical data that are
+  as close to the present as possible.'
+Expected Impacts: Large communities of practice are well established and interested
+  in using climate model outputs for agricultural applications, with previous applications
+  resulting in a large number of high-profile publications and products relevant to
+  policymakers, the private sector, and civil society. These include applications
+  by the Agricultural Model Intercomparison and Improvement Project (AgMIP), who works
+  along with the Inter-Sectoral Impacts Model Intercomparison Project (ISIMIP) to
+  undertake multi-crop-model ensemble projections of future agricultural yields, water
+  requirements, and the downstream ramifications on food prices, food security, socioeconomic
+  development, and geopolitical stability. These process-based models can also investigate
+  adapted land use or management strategies and can also search for regional systems
+  with adaptation and mitigation co-benefits. In addition to process-based crop models,
+  additional applications utilize empirical or machine learning models to anticipate
+  crop risks or viability under different environments. In many cases these models
+  use bias-adjusted versions of these CMIP outputs, but the process is rooted in CMIP
+  outputs being available. Similarly, tile information helps us identify whether agricultural
+  regions have exacerbated or reduced extremes compared to the larger grid cells.
+  Agricultural water resource applications include planning for reactive and proactive
+  adaptation strategies to deal with drought and the repercussions on food production,
+  food trade, and food security.Outputs can also be used to plan large-scale water
+  resource projects like the construction of reservoirs and canal systems.CMIP outputs
+  can drive hydrology models from the global to landscape and local scales, and this
+  information can also aid in more complex agricultural models. There is also great
+  interest in evaluating the viability of different cropping systems including an
+  analysis of whether cropswill fare well given future water requirements and climate
+  conditions. The air pollution variable group within this opportunity allows agricultural
+  experts to understand how air pollution, volcanoes, and geoengineering activities
+  may alter atmospheric chemistry and radiation profiles and lead to direct effects
+  on agricultural production.For example, volcanoes and geoengineering may alter the
+  balance of direct and diffuse solar radiation, which is important for agricultural
+  production. The agricultural land use variable group allows experts to track how
+  the models adjust functional land types and agricultural lands as the climate changes
+  so that they can explore socioeconomic pressures on transitioning regions as well
+  identify additional factors that may be accelerating or resisting such changes.
+Justification of Resources: Agriculture and food security comprise one of the most
+  prominent application areas for climate projections. Providing variables from this
+  opportunity helps CMIP modeling groups to fulfill their aims of providing science
+  that informs societal risk management and planning for adaptation and mitigation
+  strategies. Forewarning of future risks allows for proactive planning and the development
+  of strategies that will be effective, timely, and just. A large community with established
+  models and high-profile products leads to a high likelihood of CMIP output use from
+  this opportunity. The community is especially interested in DECK outputs, historical
+  simulations and ScenarioMIP projections; with additional interest in the core simulations
+  of DAMIP, DCPP, and HighResMIP which would allow for investigations and contextualization
+  around today's climate and agricultural systems. Variable groups include core and
+  enhanced driving information for a variety of crop models (e.g., biophysical process-based
+  models and a variety of empirical and machine learning models), as well as variable
+  groups that allow more nuanced discussion of climate impacts at the intersection
+  of agriculture and water resources. These outputs are likely to be further bias-adjusted
+  before application, but including them in CMIP7 outputs allows for core understanding
+  of mean and distributional shifts that are important to farm and water managers.
+  The enhanced agricultural variable groups within this opportunity allow CMIP outputs
+  to be connected into more complex investigations of future crop yields and agroclimatological
+  extremes. This includes through important fine-scale mechanisms across space and
+  time, as well as through the consequences of near-surface air pollution and upper-atmosphere
+  aerosols that can affect agricultural production in distinct ways. These investigations
+  are critical to understanding acute extremes affecting the food system, and can
+  help the agricultural impacts community evaluate important response risks. Agricultural
+  impacts are highly prominent within climate change policy making and popular discourse,
+  and there are established modeling groups requesting these variable groups.
+Experiment Groups:
+- deck
+- scenarios
+- historical
+- dcpp
+- irrmip-nonfasttrack
+- highresmip2-ia
+Variable Groups:
+- AgModelExpandedDaily
+- AgModelCoreDaily
+- AgCarbon
+- AgWaterCore
+- AgWaterExt
+- AgModelHourly
+- AgTile
+- AgAirPollution
+- AgImpactsMisc
+- AgLandUse
+Opportunity ID: 19
+Themes:
+- Impacts & Adaptation
+- Land & Land-Ice
+- Earth System
+MIPs - high priority:
+- ISIMIP
+MIPs - lower priority:
+- DCPP
+- GeoMIP
+Harmonised DR version: v1.2.2.5

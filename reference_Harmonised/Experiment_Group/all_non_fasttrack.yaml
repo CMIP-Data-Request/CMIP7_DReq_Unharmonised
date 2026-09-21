@@ -1,0 +1,45 @@
+Name: all-non-fasttrack
+Title: ''
+Experiments:
+- amip-m4K
+- amip-p4K-SST-rad
+- amip-p4K-SST-turb
+- dcppA-assim
+- dcppA-hindcast
+- dcppB-forecast
+- esm-s7h-noFireChange
+- hist-noFire
+- highres-future-scen7-m
+- highresSST-p2k-pat
+- hist-1950
+- amip-irr
+- amip-noirr
+- hist-irr
+- hist-noirr
+- esm-scen7-h-ext
+- esm-scen7-hl-ext
+- esm-scen7-l-ext
+- esm-scen7-m-ext
+- esm-scen7-ml-ext
+- esm-scen7-ln-ext
+- esm-scen7-vl-ext
+- scen7-h-ext
+- scen7-hl-ext
+- scen7-l-ext
+- scen7-m-ext
+- scen7-ml-ext
+- scen7-ln-ext
+- scen7-vl-ext
+- tipmip-provisional-esm-up2p0
+- tipmip-provisional-esm-up2p0-gwl1p5
+- tipmip-provisional-esm-up2p0-gwl2p0
+- tipmip-provisional-esm-up2p0-gwl2p0-50y-dn2p0
+- tipmip-provisional-esm-up2p0-gwl3p0
+- tipmip-provisional-esm-up2p0-gwl4p0
+- tipmip-provisional-esm-up2p0-gwl4p0-50y-dn2p0
+- tipmip-provisional-esm-up2p0-gwl4p0-50y-dn2p0-gwl2p0
+- tipmip-provisional-esm-up2p0-gwl5p0
+- highresSST-p4k-pat
+- eocene-5x
+Number of experiments in group: 40
+Harmonised DR version: v1.2.2.5

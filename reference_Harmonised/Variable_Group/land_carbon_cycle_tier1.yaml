@@ -1,0 +1,45 @@
+Name: land_carbon_cycle_tier1
+Title: Land Carbon Cycle Pools and Fluxes, high priority, at monthly time slices
+Priority Level: High
+Justification: These are needed to construct a closed carbon budget of the land carbon
+  cycle
+Notes: ''
+Variables:
+- land.cVeg.tavg-u-hxy-lnd.mon.glb
+- land.cLitter.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-u-hxy-lnd.mon.glb
+- land.cProduct.tavg-u-hxy-lnd.mon.glb
+- land.cLand.tavg-u-hxy-lnd.mon.glb
+- land.cSoil.tavg-d100cm-hxy-lnd.mon.glb
+- land.gpp.tavg-u-hxy-lnd.mon.glb
+- land.npp.tavg-u-hxy-lnd.mon.glb
+- land.ra.tavg-u-hxy-lnd.mon.glb
+- land.rh.tavg-u-hxy-lnd.mon.glb
+- land.fFireAll.tavg-u-hxy-lnd.mon.glb
+- land.fFire.tavg-u-hxy-lnd.mon.glb
+- land.fFireNat.tavg-u-hxy-lnd.mon.glb
+- land.fCLandToOcean.tavg-u-hxy-lnd.mon.glb
+- land.fAnthDisturb.tavg-u-hxy-lnd.mon.glb
+- land.fDeforestToProduct.tavg-u-hxy-lnd.mon.glb
+- land.fDeforestToAtmos.tavg-u-hxy-lnd.mon.glb
+- land.fHarvestToAtmos.tavg-u-hxy-lnd.mon.glb
+- land.fHarvestToProduct.tavg-u-hxy-lnd.mon.glb
+- land.fProductDecomp.tavg-u-hxy-lnd.mon.glb
+- land.fVegLitter.tavg-u-hxy-lnd.mon.glb
+- land.fVegSoil.tavg-u-hxy-lnd.mon.glb
+- land.fLitterSoil.tavg-u-hxy-lnd.mon.glb
+- land.fHarvestToGeologicStorage.tavg-u-hxy-lnd.mon.glb
+- land.cGeologicStorage.tavg-u-hxy-u.mon.glb
+- land.nbp.tavg-u-hxy-lnd.mon.glb
+- land.netAtmosLandCO2Flux.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 27
+Themes:
+- Earth System
+- Land & Land-Ice
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

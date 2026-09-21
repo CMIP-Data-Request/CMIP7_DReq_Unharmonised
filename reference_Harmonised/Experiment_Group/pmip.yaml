@@ -1,0 +1,15 @@
+Name: pmip
+Title: Paleoclimate experiment
+Experiments:
+- abrupt-127k
+- 1pctCO2
+- abrupt-0p5xCO2
+- abrupt-2xCO2
+- abrupt-4xCO2
+- esm-hist
+- esm-piControl
+- historical
+- piControl
+- eocene-5x
+Number of experiments in group: 10
+Harmonised DR version: v1.2.2.5

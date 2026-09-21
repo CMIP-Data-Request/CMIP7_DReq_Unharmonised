@@ -1,0 +1,46 @@
+Name: paleodata_assimilation
+Title: Variables needed to drive forward proxy system models and paleodata assimilation
+  approaches
+Priority Level: High
+Justification: Reconstructions of past climates come a variety of different archives
+  and methods. To better constrain the uncertainties in these reconstructions and
+  compare them with climate models, it is advisable to devise a "forward proxy system
+  model" that computes what a archive's record would look like if had seen the climate
+  simulated by the model. These can then be used to create a reanalysis based all
+  the available reconstructions and GCMs through paleodata assimilation.
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rlds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- atmos.rlus.tavg-u-hxy-u.mon.glb
+- atmos.hfls.tavg-u-hxy-u.mon.glb
+- atmos.hfss.tavg-u-hxy-u.mon.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.zg.tavg-p19-hxy-air.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- ocean.sos.tavg-u-hxy-sea.mon.glb
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.msfty.tavg-ol-ht-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.sw18O.tavg-ol-hxy-sea.mon.glb
+- atmos.pr18O.tavg-u-hxy-u.mon.glb
+- atmos.prsn18O.tavg-u-hxy-u.mon.glb
+- atmos.prsn2h.tavg-u-hxy-u.mon.glb
+- ocean.sw2H.tavg-ol-hxy-sea.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+Number of variables in group: 26
+Themes:
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

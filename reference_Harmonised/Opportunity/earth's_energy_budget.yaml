@@ -1,0 +1,43 @@
+Title: Earth's Energy Budget
+Description: We currently have an inability of directly comparing models (simplified
+  versions of the Earth system) and observations (complicated!). It would be great
+  if we can collect "energy budget" terms across the realms (ocean, land, cryosphere,
+  atmosphere) in a coherent way, so we can most appropriately "close" (or more correctly
+  approximate) energy budget changes in a model that can be contrasted to observations
+Expected Impacts: Having high-level energy budget metrics would be an ideal way of
+  catching problem simulations that may have a very large imbalance that should be
+  considered when interpreting projected fields (e.g. surface air temperature changes,
+  and all the downstream changes that a larger/smaller warming would have on the climate
+  system)
+Justification of Resources: Having energy budget metrics would provide very helpful
+  overview insights that would aid assessing fitness for purpose across numerous downstream
+  uses. It would be possible to capture these metrics in a compact (small storage
+  footprint form), however, these would be most useful in the case that spatially
+  complete fields were saved (potentially through timeslice sums, e.g. decadal sum/average)
+  which allows interpretation of energy flows, and changes to these through the full
+  length of a simulation (e.g. 1850-2022) for historical.
+Experiment Groups:
+- scenarios
+- historical
+- picontrol
+- deck_idealized_co2_experiments
+Variable Groups:
+- baseline_monthly
+- baseline_fixed
+- baseline_daily
+- seaice_budget_energy_monthly
+- ocean_grid
+- int_ocean_budgets
+Opportunity ID: 29
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+- Land & Land-Ice
+- Atmosphere
+MIPs - high priority:
+- PMIP
+MIPs - lower priority:
+- DAMIP
+- GeoMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,39 @@
+Name: ocean_carbon_cycle_tier1
+Title: C4MIP ocean biogeochemical variables at monthly frequency, high priority
+Priority Level: High
+Justification: These variables describe the ocean biogeochemical state, help close
+  the carbon budget, and a number of them can be compared to their observation-based
+  estimates.
+Notes: ''
+Variables:
+- ocnBgchem.no3.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.po4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.o2.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissic.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.ph.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.si.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.chl.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.talk.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dissoc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.dfe.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.nh4.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.phyc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.expc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.zooc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.detoc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.fgco2.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.intpp.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expcalc.tavg-ol-hxy-sea.mon.glb
+- ocnBgchem.spco2.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 19
+Themes:
+- Earth System
+- Ocean & Sea-Ice
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+- ISIMIP
+Harmonised DR version: v1.2.2.5

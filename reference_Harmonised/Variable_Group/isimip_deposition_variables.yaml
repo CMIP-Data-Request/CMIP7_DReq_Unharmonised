@@ -1,0 +1,24 @@
+Name: ISIMIP_deposition_variables
+Title: ISIMIPDeposition
+Priority Level: Low
+Justification: These variables are used to track the effect of atmospheric NOy and
+  NHx deposition which can affect ecosystems, agriculture and water systems.
+Notes: ''
+Variables:
+- atmosChem.wetnh3.tavg-u-hxy-u.day.glb
+- atmosChem.drynh3.tavg-u-hxy-u.day.glb
+- atmosChem.wetnh4.tavg-u-hxy-u.day.glb
+- atmosChem.drynh4.tavg-u-hxy-u.day.glb
+- atmosChem.wetnoy.tavg-u-hxy-u.day.glb
+- atmosChem.drynoy.tavg-u-hxy-u.day.glb
+Number of variables in group: 6
+Themes:
+- Impacts & Adaptation
+MIP ownership:
+- ISIMIP
+Of interest to MIPs:
+- VIACSAB
+- CMIP
+- ScenarioMIP
+- AerChemMIP2
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,23 @@
+Name: atmosphere_carbon_cycle_tier1
+Title: Atmospheric CO2 fields at Monthly frequency
+Priority Level: High
+Justification: These are needed to trace atmospheric CO2, particularly in emissions-driven
+  simulations
+Notes: ''
+Variables:
+- atmos.co2mass.tavg-u-hm-u.mon.glb
+- atmos.co23D.tavg-al-hxy-u.mon.glb
+- atmos.fco2nat.tavg-u-hxy-u.mon.glb
+- atmos.fco2fos.tavg-u-hxy-u.mon.glb
+- atmos.fco2antt.tavg-u-hxy-u.mon.glb
+- atmos.fco2all.tavg-u-hxy-u.mon.glb
+Number of variables in group: 6
+Themes:
+- Earth System
+MIP ownership:
+- C4MIP
+Of interest to MIPs:
+- C4MIP
+- ScenarioMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

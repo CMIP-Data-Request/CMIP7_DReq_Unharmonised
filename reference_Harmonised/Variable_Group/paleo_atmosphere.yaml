@@ -1,0 +1,26 @@
+Name: paleo_atmosphere
+Title: quantities of the atmosphere for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. We illustrate them here in the context of
+  already existing variables.
+Notes: ''
+Variables:
+- atmos.ta.tavg-p19-hxy-air.mon.glb
+- atmos.ua.tavg-p19-hxy-air.mon.glb
+- atmos.va.tavg-p19-hxy-air.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- atmos.hus.tavg-p19-hxy-u.mon.glb
+- atmos.hur.tavg-p19-hxy-air.mon.glb
+- atmos.zg.tavg-p19-hxy-air.mon.glb
+Number of variables in group: 7
+Themes:
+- Atmosphere
+- Land & Land-Ice
+- Ocean & Sea-Ice
+- Earth System
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

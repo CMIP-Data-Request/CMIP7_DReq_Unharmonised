@@ -1,0 +1,102 @@
+Name: DAMIP_monthly
+Title: Monthly variables of high priority for DAMIP
+Priority Level: High
+Justification: 'The proposed set of monthly variables are considered high priority
+  for DAMIP to assess changes in the climate system and the role of forcings in driving
+  those changes. - Basic fields for assessing global mean temperature, hydrological,
+  sea level, and circulation changes: tas, ts, tos, pr, ps, prsn, psl, mrsos, mrros,
+  tauu, tauv, evspsbl, mrro, uas, vas, huss, hurs, ta, ua, va, wap, zos, zostoga,
+  siconc, siconca, sithick, snw, sfcWind - Fluxes for diagnosing surface and top of
+  atmosphere energy balances: hfls, hflss, rlds, rlus, rsds, rsus, rsdt, rsut, rtmt
+  - Quantities for understanding the role of clouds: rsdsc, rsusc, clt, clwvi, clivi
+  - Quantities for diagnosing the change in ocean circulation e.g., examples of the
+  use of DAMIP in analyzing ocean circulation behavior is Menary et al (2020) 10.1029/2020GL088166
+  and Simpson et al (2023) 10.1175/JCLI-D-22-0666.s1 : hfbasin, msftmrho, msftmz,
+  so, thetao, uo, vo - Quantities for understanding differences in co2 concentrations
+  from emissions driven simulations: co2, fgco2, nbp - Quantities for diagnosing the
+  various forcings that the climate system is being influenced by: loadso4, abs550aer,
+  abs550bc, abs550so4, od550aer, od550soa, od550dust, od550volso4, o3ste, tropo3ste
+  - Zonal mean atmospheric temperature at high vertical resolution (AERmonZ.ta) but
+  3D would also work. There''s a desire to have atmospheric temperature with higher
+  vertical resolution at upper levels to better capturing stratospheric satellite
+  weighting functions.'
+Notes: ''
+Variables:
+- atmos.tas.tavg-h2m-hxy-u.mon.glb
+- atmos.ts.tavg-u-hxy-u.mon.glb
+- ocean.tos.tavg-u-hxy-sea.mon.glb
+- atmos.pr.tavg-u-hxy-u.mon.glb
+- atmos.ps.tavg-u-hxy-u.mon.glb
+- atmos.prsn.tavg-u-hxy-u.mon.glb
+- atmos.psl.tavg-u-hxy-u.mon.glb
+- land.mrsol.tavg-d10cm-hxy-lnd.mon.glb
+- atmos.tauu.tavg-u-hxy-u.mon.glb
+- atmos.tauv.tavg-u-hxy-u.mon.glb
+- atmos.hfls.tavg-u-hxy-u.mon.glb
+- atmos.hfss.tavg-u-hxy-u.mon.glb
+- atmos.rlds.tavg-u-hxy-u.mon.glb
+- atmos.rlus.tavg-u-hxy-u.mon.glb
+- atmos.rsds.tavg-u-hxy-u.mon.glb
+- atmos.rsus.tavg-u-hxy-u.mon.glb
+- land.mrros.tavg-u-hxy-lnd.mon.glb
+- atmos.evspsbl.tavg-u-hxy-u.mon.glb
+- land.mrro.tavg-u-hxy-lnd.mon.glb
+- atmos.uas.tavg-h10m-hxy-u.mon.glb
+- atmos.vas.tavg-h10m-hxy-u.mon.glb
+- atmos.huss.tavg-h2m-hxy-u.mon.glb
+- atmos.hurs.tavg-h2m-hxy-u.mon.glb
+- atmos.rsdt.tavg-u-hxy-u.mon.glb
+- atmos.rsut.tavg-u-hxy-u.mon.glb
+- atmos.rtmt.tavg-u-hxy-u.mon.glb
+- atmos.rsdscs.tavg-u-hxy-u.mon.glb
+- atmos.rsuscs.tavg-u-hxy-u.mon.glb
+- atmos.clt.tavg-u-hxy-u.mon.glb
+- atmos.clwvi.tavg-u-hxy-u.mon.glb
+- atmos.clivi.tavg-u-hxy-u.mon.glb
+- atmos.ta.tavg-p19-hxy-air.mon.glb
+- atmos.ua.tavg-p19-hxy-air.mon.glb
+- atmos.va.tavg-p19-hxy-air.mon.glb
+- atmos.wap.tavg-p19-hxy-air.mon.glb
+- ocean.hfbasin.tavg-u-hyb-sea.mon.glb
+- ocean.msftm.tavg-rho-hyb-sea.mon.glb
+- ocean.msftm.tavg-ol-hyb-sea.mon.glb
+- ocean.zos.tavg-u-hxy-sea.mon.glb
+- ocean.zostoga.tavg-u-hm-sea.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.sithick.tavg-u-hxy-si.mon.glb
+- ocean.so.tavg-ol-hxy-sea.mon.glb
+- ocean.thetao.tavg-ol-hxy-sea.mon.glb
+- ocean.uo.tavg-ol-hxy-sea.mon.glb
+- ocean.vo.tavg-ol-hxy-sea.mon.glb
+- atmos.loadso4.tavg-u-hxy-u.mon.glb
+- aerosol.abs550aer.tavg-u-hxy-u.mon.glb
+- aerosol.abs550bc.tavg-u-hxy-u.mon.glb
+- aerosol.abs550dust.tavg-u-hxy-u.mon.glb
+- aerosol.abs550so4.tavg-u-hxy-u.mon.glb
+- aerosol.od550aer.tavg-u-hxy-u.mon.glb
+- aerosol.od550soa.tavg-u-hxy-u.mon.glb
+- aerosol.od550dust.tavg-u-hxy-u.mon.glb
+- atmos.aod550volso4.tavg-u-hxy-u.mon.glb
+- atmos.co2.tclm-u-hm-u.mon.glb
+- atmos.sfcWind.tavg-h10m-hxy-u.mon.glb
+- ocnBgchem.fgco2.tavg-u-hxy-sea.mon.glb
+- land.nbp.tavg-u-hxy-lnd.mon.glb
+- atmosChem.o3ste.tavg-al-hxy-u.mon.glb
+- atmosChem.tropo3ste.tavg-al-hxy-u.mon.glb
+- atmos.ta.tavg-p39-hy-air.mon.glb
+- atmos.rlut.tavg-u-hxy-u.mon.glb
+- ocean.hfds.tavg-u-hxy-sea.mon.glb
+- atmos.rldscs.tavg-u-hxy-u.mon.glb
+- atmos.rlutcs.tavg-u-hxy-u.mon.glb
+- atmos.zg.tavg-p19-hxy-air.mon.glb
+- landIce.snw.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 68
+Themes:
+- Impacts & Adaptation
+- Land & Land-Ice
+- Atmosphere
+- Ocean & Sea-Ice
+- Earth System
+Of interest to MIPs:
+- DAMIP
+Harmonised DR version: v1.2.2.5

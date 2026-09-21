@@ -1,0 +1,27 @@
+Title: Impacts of climate change on aviation
+Description: These variables were requested to support studies focused on the impacts
+  of climate change on the aviation sector. Climate change causes changes on the jet
+  streams that in turn affect wind shear and can cause clear air turbulence as shown
+  in multiple studies (https://doi.org/10.1038/nclimate1866, https://doi.org/10.1007/978-3-319-23630-8\_23,
+  https://doi.org/10.1017/aer.2021.109). The variables in this group allow to diagnose
+  clear air turbulence that is of relevance for passenger safety concerns as well
+  as planning of flight routes and times.
+Expected Impacts: Climate change causes changes on the jet streams that in turn affect
+  wind shear and can cause clear air turbulence as shown in multiple studies (https://doi.org/10.1038/nclimate1866,
+  https://doi.org/10.1007/978-3-319-23630-8\_23, https://doi.org/10.1017/aer.2021.109).
+  The variables in this group allow to diagnose clear air turbulence that is of relevance
+  for passenger safety concerns as well as planning of flight routes and times.
+Justification of Resources: This request comprises a subset of 3 to 5 of the 27 pressure
+  levels of standard variables (temperature, wind components) that can also be used
+  for jet stream diagnostics and other dynamical studies.
+Experiment Groups:
+- impact_climserv_core_expt
+- scenarios
+Variable Groups:
+- aviation_impacts_essential
+Opportunity ID: 41
+Themes:
+- Impacts & Adaptation
+MIPs - lower priority:
+- DCPP
+Harmonised DR version: v1.2.2.5

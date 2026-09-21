@@ -1,0 +1,27 @@
+Name: marine_bgc_sediments
+Title: Ocean sediment biogeochemical cycling and benthic-pelagic exchange variables
+  at monthly timeslices
+Priority Level: Medium
+Justification: The suite of variables requested include essential variables used for
+  evaluating the loss of organic and inorganic carbon, nitrogen, and iron to the sediments.
+Notes: '[26/09/24 T. Lovato:  add new fields upon request of the proposer]
+
+  [04/10/24 TL : modified according to the merge discussion on github]'
+Variables:
+- ocnBgchem.frfe.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.frn.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expcob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expcalcob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expfeob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expnob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.exppob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.expsiob.tavg-u-hxy-sea.mon.glb
+- ocnBgchem.exparagob.tavg-u-hxy-sea.mon.glb
+Number of variables in group: 9
+Themes:
+- Earth System
+Of interest to MIPs:
+- CMIP
+- ScenarioMIP
+- FishMIP
+Harmonised DR version: v1.2.2.5

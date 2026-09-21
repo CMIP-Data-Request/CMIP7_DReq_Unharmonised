@@ -1,0 +1,44 @@
+Name: clouds_basic_instantaneous
+Title: Instantaneous variables for evaluating clouds, radiation and precipitation
+Priority Level: Medium
+Justification: Simulating clouds with global climate models is challenging as the
+  relevant physics involves many nonlinear processes covering a wide range of spatial
+  and temporal scales. As key components of the hydrological cycle and the climate
+  system, an evaluation of clouds from models used for climate projections is an important
+  prerequisite for assessing the confidence in the results from these models. This
+  variable group aims at supporting a process oriented evaluation of cloud parameters,
+  radiation and precipitation of CMIP models. Combining the daily cycle of cloud properties
+  with precipitation and radiation fields will allow for a more process-based analysis
+  and improved understanding of biases in clouds.
+Notes: ''
+Variables:
+- atmos.clic.tpt-al-hxy-u.3hr.glb
+- atmos.clis.tpt-al-hxy-u.3hr.glb
+- atmos.clivi.tpt-u-hxy-u.3hr.glb
+- atmos.clt.tpt-u-hxy-u.3hr.glb
+- atmos.clwc.tpt-al-hxy-u.3hr.glb
+- atmos.clws.tpt-al-hxy-u.3hr.glb
+- atmos.clwvi.tpt-u-hxy-u.3hr.glb
+- atmos.dtauc.tpt-al-hxy-ccl.3hr.glb
+- atmos.dtaus.tpt-al-hxy-scl.3hr.glb
+- atmos.pr.tpt-u-hxy-u.3hr.glb
+- atmos.prw.tpt-u-hxy-u.3hr.glb
+- atmos.rlut.tpt-u-hxy-u.3hr.glb
+- atmos.rlutcs.tpt-u-hxy-u.3hr.glb
+- atmos.rsut.tpt-u-hxy-u.3hr.glb
+- atmos.rsutcs.tpt-u-hxy-u.3hr.glb
+- atmos.reffclic.tpt-al-hxy-ccl.3hr.glb
+- atmos.reffclis.tpt-al-hxy-scl.3hr.glb
+- atmos.reffclwc.tpt-al-hxy-ccl.3hr.glb
+- atmos.reffclws.tpt-al-hxy-scl.3hr.glb
+- atmos.ta.tpt-al-hxy-u.3hr.glb
+- atmos.hus.tpt-al-hxy-u.3hr.glb
+- atmos.rsds.tpt-u-hxy-u.3hr.glb
+- atmos.rsdscs.tpt-u-hxy-u.3hr.glb
+- atmos.rlds.tpt-u-hxy-u.3hr.glb
+- atmos.rldscs.tpt-u-hxy-u.3hr.glb
+- atmos.pfull.tpt-al-hxy-u.3hr.glb
+Number of variables in group: 26
+Themes:
+- Atmosphere
+Harmonised DR version: v1.2.2.5

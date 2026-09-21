@@ -1,0 +1,38 @@
+Title: Plant Phenology
+Description: This is a set of daily variables that would be useful to assess the ability
+  of Earth system models to reproduce the observed changes in plant phenology. The
+  proper representation of the plant's active season impacts the accuracy of the Earth
+  system models in representing energy, carbon, and water exchanges between land and
+  atmosphere. For this reason, the availability of these variables at the vegetation
+  type level can increase our understanding of model limitations (Li et al., 2024,
+  <https://doi.org/10.1175/JCLI-D-23-0179.1>) and their expected future changes.
+Expected Impacts: The historical experiment provides a benchmark to evaluate the model
+  plant phenology biases (e.g. Peano et al., 2021, https://doi.org/10.5194/bg-18-2405-2021)
+  while scenarios supply future changes. The main variable is the leaf area index
+  (lai) commonly used to estimate the main phenophases (e.g. Peano et al., 2019, <https://doi.org/10.1029/2018JG004881>).
+  The variables of carbon exchange between land and atmosphere (i.e. gpp, npp, rh,
+  and ra) allow us to link the biases in productivity with changes in phenology (e.g.
+  Li et al., 2023, [10.22541/essoar.168298711.15374345/v1](https://doi.org/10.22541/essoar.168298711.15374345/v1)).
+  Finally, the landCoverFrac variable provides the relative influence of each vegetation
+  type on the total grid cell.
+Justification of Resources: To realistically simulate terrestrial ecosystem processes
+  and land-atmosphere carbon, energy, and water exchanges, it is crucial that the
+  seasonality and trend of plant phenology are correctly captured by the Earth system
+  models. This opportunity delineates a set of variables and experiments needed to
+  expand our understanding of model weaknesses and strengths.
+Experiment Groups:
+- historical
+- scenarios
+- lmip
+Variable Groups:
+- plant_phenology_medium
+- plant_phenology_high
+Opportunity ID: 53
+Themes:
+- Land & Land-Ice
+- Earth System
+MIPs - high priority:
+- LUMIP
+MIPs - lower priority:
+- PMIP
+Harmonised DR version: v1.2.2.5

@@ -1,0 +1,42 @@
+Title: Benchmarking and Attributing Changes to Global Carbon and other Biogeochemical
+  Cycles
+Description: These variables are needed to benchmark, understand, and attribute changes
+  to the global carbon cycle, as well as other biogeochemical cycles on land and ocean.
+Expected Impacts: Understanding changes to carbon sinks across global change scenarios,
+  and benchmarking the fidelity of land and ocean biogeochemical components of ESMs,
+  is needed to understand the relationship between CO2 emissions, CO2 concentrations,
+  global climate change, and other biogeochemical cycles, across historical, future,
+  and idealized scenarios.
+Justification of Resources: The coupling of carbon and climate as enabled through
+  Earth system models requires benchmarking the fidelity of carbon and other biogeochemical
+  cycles, and attributing changes in carbon sinks to forcings and feedbacks in the
+  Earth system.
+Experiment Groups:
+- fast-track
+- historical
+- scenarios
+Variable Groups:
+- land_carbon_cycle_tier1
+- land_carbon_cycle_tier2
+- land_nitrogen_cycle_tier1
+- land_nitrogen_cycle_tier2
+- carbon_isotopic_variables
+- land_benchmarking_and_landcover_variables_tier1
+- land_benchmarking_and_landcover_variables_tier2
+- atmosphere_carbon_cycle_tier1
+- ocean_carbon_cycle_tier1
+- ocean_carbon_cycle_tier2
+- land_ch4_fluxes
+Opportunity ID: 10
+Themes:
+- Earth System
+- Land & Land-Ice
+- Ocean & Sea-Ice
+MIPs - high priority:
+- C4MIP
+MIPs - lower priority:
+- DCPP
+- PMIP
+- DAMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5

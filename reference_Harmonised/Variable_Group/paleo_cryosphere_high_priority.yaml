@@ -1,0 +1,70 @@
+Name: paleo_cryosphere_high_priority
+Title: High priority quantities of the cryosphere for paleoclimate research
+Priority Level: High
+Justification: Paleoclimate research necessitates specific variables that are not
+  included in the baseline data request. Here we collect all variables that are relevant
+  for improved understanding of the state of the cryosphere, with a focus on sea ice,
+  across time scales.
+Notes: ''
+Variables:
+- seaIce.sieqthick.tavg-u-hxy-si.mon.glb
+- seaIce.siitdthick.tavg-u-hxy-si.mon.glb
+- seaIce.siu.tavg-u-hxy-si.mon.glb
+- seaIce.siv.tavg-u-hxy-si.mon.glb
+- seaIce.sistrxdtop.tavg-u-hxy-si.mon.glb
+- seaIce.sistrydtop.tavg-u-hxy-si.mon.glb
+- seaIce.sistrxubot.tavg-u-hxy-si.mon.glb
+- seaIce.snc.tavg-u-hxy-si.mon.glb
+- seaIce.sistryubot.tavg-u-hxy-si.mon.glb
+- seaIce.snd.tavg-u-hxy-sn.mon.glb
+- seaIce.simpconc.tavg-u-hxy-si.mon.glb
+- seaIce.sitempsnic.tavg-u-hxy-si.mon.glb
+- ocean.hfds.tavg-u-hxy-sea.mon.glb
+- atmos.hfls.tavg-u-hxy-u.mon.glb
+- atmos.hfss.tavg-u-hxy-u.mon.glb
+- seaIce.siitdsnthick.tavg-u-hxy-si.mon.glb
+- seaIce.siitdconc.tavg-u-hxy-si.mon.glb
+- seaIce.sithick.tavg-u-hxy-si.mon.glb
+- seaIce.siconc.tavg-u-hxy-u.mon.glb
+- seaIce.ts.tavg-u-hxy-si.mon.glb
+- seaIce.sispeed.tavg-u-hxy-si.mon.glb
+- seaIce.simass.tavg-u-hxy-si.mon.glb
+- seaIce.snw.tavg-u-hxy-si.mon.glb
+- seaIce.sitimefrac.tavg-u-hxy-sea.mon.glb
+- seaIce.siarea.tavg-u-hm-u.mon.nh
+- seaIce.siarea.tavg-u-hm-u.mon.sh
+- seaIce.sivol.tavg-u-hm-u.mon.nh
+- seaIce.sivol.tavg-u-hm-u.mon.sh
+- seaIce.siextent.tavg-u-hm-u.mon.nh
+- seaIce.siextent.tavg-u-hm-u.mon.sh
+- seaIce.simassacrossline.tavg-u-ht-u.mon.glb
+- ocean.rsds.tavg-u-hxy-ifs.mon.glb
+- ocean.rsus.tavg-u-hxy-ifs.mon.glb
+- land.rsds.tavg-u-hxy-sn.mon.glb
+- land.rsus.tavg-u-hxy-sn.mon.glb
+- seaIce.siareaacrossline.tavg-u-ht-u.mon.glb
+- seaIce.sisnmassacrossline.tavg-u-ht-u.mon.glb
+- seaIce.siconca.tavg-u-hxy-u.mon.glb
+- seaIce.siitdsnconc.tavg-u-hxy-si.mon.glb
+- seaIce.sirdgconc.tavg-u-hxy-si.mon.glb
+- seaIce.sisaltmass.tavg-u-hxy-si.mon.glb
+- seaIce.sisnmass.tavg-u-hm-si.mon.nh
+- seaIce.sisnmass.tavg-u-hm-si.mon.sh
+- seaIce.sistressave.tpt-u-hxy-si.mon.glb
+- seaIce.sistressmax.tpt-u-hxy-si.mon.glb
+- landIce.rsds.tavg-u-hxy-is.mon.glb
+- landIce.rsus.tavg-u-hxy-is.mon.glb
+- seaIce.rsus.tavg-u-hxy-si.mon.glb
+- seaIce.rsds.tavg-u-hxy-si.mon.glb
+- land.rsds.tavg-u-hxy-lnd.mon.glb
+- land.rsus.tavg-u-hxy-lnd.mon.glb
+Number of variables in group: 51
+Themes:
+- Ocean & Sea-Ice
+- Earth System
+- Land & Land-Ice
+MIP ownership:
+- PMIP
+Of interest to MIPs:
+- PMIP
+Harmonised DR version: v1.2.2.5

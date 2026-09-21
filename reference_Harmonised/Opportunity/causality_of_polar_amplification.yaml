@@ -1,0 +1,57 @@
+Title: Causality of Polar Amplification
+Description: Polar Amplification is a fundamental fingerprint of anthropogenic climate
+  change that is driving very different responses in the Arctic and Antarctic regions
+  compared to the rest of the globe. While conventional analysis approaches (using
+  monthly mean model outputs) have provided evidence that evolution and characteristics
+  of the sea ice pack are central to Polar Amplification, there still remains uncertainty
+  of the causal mechanisms and pathways through which Polar Amplification occur. For
+  example, we cannot clearly state which processes (clouds, atmospheric heat transport,
+  ocean heat transport, sea ice albedo feedback, etc.) are most important is causing
+  the sea ice loss and thus Polar Amplification. Evidence exists that the processes
+  and feedbacks between the ice pack, the atmosphere, and the ocean that are central
+  to Polar Amplification unfold at high frequency (e.g., days to weeks) and thus the
+  contributions of high frequency variability (atmospheric rivers and cyclones) to
+  the inter-model spread in Polar Amplification cannot be currently assessed. This
+  opportunity provides the necessary model outputs to determine the contribution of
+  high frequency processes to causing Polar Amplification and their contributions
+  to inter-model spread.
+Expected Impacts: Assessment of the structure of atmospheric heat transport events
+  (cyclones and atmospheric rivers) across climate models, analysis of the model differences
+  in the sea ice and ocean response to high frequency atmospheric variability, determination
+  of the high frequency process fingerprints on long-term climate feedbacks.
+Justification of Resources: The intermodel spread in Polar Amplification is an important
+  source of uncertainty in the future amount of warming that we expect. Moreover,
+  warming that occurs in the polar regions has an outsized effect (with respect to
+  its area) on global sea level rise and changes in the global carbon cycle (via permafrost).
+  Polar climate change also has global implications through modulations of the global
+  thermohaline circulation. The rate of change in the Arctic has implications on the
+  future needs for economic development in the Arctic, geopolitical ramifications
+  (potential future conflict over Arctic natural resources), and adaptation needs.
+  Modeling centers should allocate resources to the assessment of Polar Amplification
+  because of is far reaching impacts on global society and wide spread scientific
+  interest in the topic.
+Experiment Groups:
+- deck
+- scenarios
+- scenarios_extensions
+Variable Groups:
+- baseline_daily
+- seaice_state_daily_basic
+- seaice_state_daily_advanced
+- ocean_mesoscale
+- seaice_budget_energy_daily
+- atmospheric_transports
+Opportunity ID: 13
+Themes:
+- Atmosphere
+- Ocean & Sea-Ice
+- Earth System
+- Land & Land-Ice
+MIPs - high priority:
+- PMIP
+- SIMIP
+MIPs - lower priority:
+- TIPMIP
+- DAMIP
+- FireMIP
+Harmonised DR version: v1.2.2.5
