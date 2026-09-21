@@ -1,0 +1,9 @@
+Title: Short descriptive title of the Variable Group
+Priority Level: Core
+Justification: (Optional) Explanation of why these variables are important.
+Notes: (Optional) Any additional comments about the variable group.
+Variables:
+- aerosol.ccldncl.tavg-u-hxy-ccl.day.glb
+- aerosol.ccldncl.tavg-u-hxy-ccl.mon.glb
+- atmos.albisccp.tavg-u-hxy-cl.day.glb
+- atmos.albisccp.tavg-u-hxy-cl.mon.30S-90S
