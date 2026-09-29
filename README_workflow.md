@@ -17,9 +17,8 @@ It's assumed that the MIP has already registered with the IPO and CVs (registrat
 - Define new request variables (CMOR variables), which will be done in the **WCRP Variable Registry** currently in development
 - Instigate an extensive review process as done for the community consultation that created the Harmonised DR
 
-MIPs are responsible for coordinating with modelling centres to carry out their experiments and provide their requested variables.
-This repository is a technical resource to make data request information easily available to them, it does not imply coordination with them by the CMIP IPO.
-
+MIPs are responsible for coordinating with modelling centres to carry out MIP experiments and publish the requested variables.
+This repository is a technical resource to make data request information easily available to them, it does not imply coordination with modelling centres by the CMIP IPO on behalf of MIPs.
 
 ## How to create a data request
 
