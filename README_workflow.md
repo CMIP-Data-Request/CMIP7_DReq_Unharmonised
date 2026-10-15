@@ -157,6 +157,10 @@ variableRootDD:
 ```
 to retain only `uas` and `vas` at both `day` and `3hr` frequencies.
 This may be useful to produce an initial list of variables when creating a new variable group.
+The list can be then be edited to choose the variables for the group.
+
+⚠️ The inclusion of metadata in the `json` or `csv` file is for information only, to make it easier to select relevant variables. The metadata cannot be edited to change the definition of a variable (for example, its cell methods, dimensions, or CF standard name). Defining *new* variables as part of the Unharmonised DR is *in development* and not yet available.
+
 After editing the list, the another command-line tool can be used to render it in the `yaml` format required to make a pull request in the Unharmonised repo:
 ```bash
 make_variable_group vars.csv my_new_variable_group.yaml
@@ -170,7 +174,7 @@ Users should fill in the rest of the Variable Group template, including specifyi
 
 > If the workflow doesn't work, what do I do?
 
-Please [open an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) describing the problem.
+Please help us improve the tools by [opening an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) describing the problem.
 
 > Why is content stored here as `yaml` files?
 
@@ -179,13 +183,12 @@ Please [open an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmoni
 > I don't like `yaml`, can I use spreadsheets to make a data request?
 
 Yes, provided the information is converted into `yaml` format for the pull request. 
-
-⚠️ *In development: provide a tool to help with this.*
+[See here](#help-with-variable-groups) for guidance on using the DR software to do this.
 
 > Who reviews these pull requests?
 
 MIP requests should be submitted with the approval of MIP leads who have registered their contact info with the CMIP IPO.
-Pull requests are subject to review for technical compliance by a WIP-designated working group who maintain this repository.
+Pull requests will be reviewed for technical compliance by the WIP-Ops (WIP Operations) team, who maintain this repository.
 MIP leads are responsible for the scientific validity of the request.
 
 > Why are experiments/variables listed in groups?
@@ -197,3 +200,17 @@ This makes requests easier to read, encourages re-use of existing groups wher ep
 
 No, the CMIP7 Harmonised DR is focused on Fast Track experiments and is finalised (subject to minor updates when errors are found). 
 Find the latest version of the Harmonised DR [here](https://wcrp-cmip.org/cmip7-data-request-latest).
+
+> How does this process differ from development of the Hamonised DR?
+
+The Harmonised DR is targetted at the CMIP7 AFT and was developed in an extensive community consultation and review process, as described in the[Data request overview paper in CMIP7 GMD special issue](https://doi.org/10.5194/gmd-19-8053-2026) and on the [CMIP7 Data Request website](https://wcrp-cmip.org/cmip-phases/cmip7/cmip7-data-request/).
+The Unharmonised DR has no such development process.
+Scientific review is the responsibility of contributing MIPs, and technical review is aimed only at ensuring experiments and variables listed in a request are compliant with CMIP7 data standards so that they are publishable on ESGF.
+
+> Is Unharmonised DR content versioned as part of the Harmonised DR versioning?
+
+No, they are versioned separately.
+This reflects their different development approaches, and also the fact that the Harmonised DR is now mostly stable pending minor technical updates only when necessary.
+The Unharmonised DR, in contrast, is expected to evolve significantly, determined by MIP constributions on timelines unconstrained by the AFT.
+
+
