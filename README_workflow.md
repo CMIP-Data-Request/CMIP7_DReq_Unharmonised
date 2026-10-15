@@ -32,6 +32,7 @@ A new data request is created by submitting a pull request in this repository. T
 
 See below for explanation of each step. 
 
+
 ### 1. Clone the repository
 
 ```bash
@@ -40,6 +41,7 @@ cd CMIP7_DReq_Unharmonised/
 git checkout -b mip_request
 ```
 replacing `mip_request` with a suitable descriptive name.
+
 
 ### 2. Define a new DR Opportunity
 
@@ -80,8 +82,10 @@ The new group's `yaml` file should remain in the `Experiment_Group` folder.
 
 Similarly, Variable Groups listed in the Opportunity file can be existing ones (from either the Harmonised or Unharmonised DR) or new ones (following the example: `Variable_Group/example_variable_group.yaml`).
 The new group's `yaml` file should remain in the `Variable_Group` folder.
+Variables in a Variable Group `yaml` file should be named by their CMIP7 Compound Name (example: "atmos.uas.tavg-h10m-hxy-u.day.glb").
 
-⚠️ *In development:* tool to help create a variable group from a spreadsheet (csv file) or json listing variables metadata (which can be created by `get_variables_metadata`).
+To help creating variable groups, [see below](#help-with-variable-groups) for some tools.
+
 
 ### 4. Run the validation script
 
@@ -102,6 +106,7 @@ To run the script:
 ```
 If the script finishes without errors, the validation checks have passed.
 
+
 ### 5. Submit pull request for review
 
 ```bash
@@ -115,6 +120,50 @@ The pull request description should indicate:
 
 Once accepted and merged, the Opportunity is part of the Unharmonised DR, accesible to data producers.
 Likewise any new Experiment or Variable Groups, which may potentially be re-used by other MIPs.
+
+
+## Help with Variable Groups
+
+There are several ways to disover DR variables to include in a new Variable Group.
+
+The [DR webviewer variable search](https://cmip-data-request.github.io/cmip7-dreq-webview/variable_search.html) can be used to search for variables of interest.
+They can then be listed in a Variable Group `yaml` file by their CMIP7 Compound Names (example: "atmos.uas.tavg-h10m-hxy-u.day.glb").
+
+The Variables table in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) can be searched using Airtable's filtering/viewing options to isolate variables of interest.
+
+Variable Groups already defined in the Harmonised DR can also be viewed in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) as well as the [DR webviewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest/variable_groups.html).
+
+The DR software has a command-line tool to produce a listing of DR variables and their metadata attributes in `json` or `csv` (spreadsheet) format:
+```bash
+get_variables_metadata v1.2.2.5 vars.json
+```
+or 
+```bash
+get_variables_metadata v1.2.2.5 vars.csv
+```
+By default this produces a list of the almost 2000 variables defined in the Harmonised DR. 
+To isolate only variables of interest, the list can be filtered:
+```bash
+get_variables_metadata v1.2.2.5 vars.csv -f filter_variables.yaml
+```
+where for example the filtering `yaml` file could contain:
+```yaml
+frequency:
+- day
+- 3hr
+variableRootDD:
+- uas
+- vas
+```
+to retain only `uas` and `vas` at both `day` and `3hr` frequencies.
+This may be useful to produce an initial list of variables when creating a new variable group.
+After editing the list, the another command-line tool can be used to render it in the `yaml` format required to make a pull request in the Unharmonised repo:
+```bash
+make_variable_group vars.csv my_new_variable_group.yaml
+```
+where the output file should be some sensible descriptive name.
+This produces a template `yaml` file with the names of variables listed, and also validates the input against DR reference content.
+Users should fill in the rest of the Variable Group template, including specifying a priority level (High, Medium or Low) for the group.
 
 
 ## FAQ
