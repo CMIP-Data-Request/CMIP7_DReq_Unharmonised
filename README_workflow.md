@@ -1,5 +1,5 @@
 
-# Workflow for CMIP7 Unharmonised Data Request
+# Technical Workflow for CMIP7 Unharmonised Data Request
 
 This document explains how a MIP can create a data request for MIP-defined experiments using this git repository and the [DR Software](https://github.com/CMIP-Data-Request/CMIP7_DReq_Software).
 
@@ -129,9 +129,7 @@ There are several ways to disover DR variables to include in a new Variable Grou
 The [DR webviewer variable search](https://cmip-data-request.github.io/cmip7-dreq-webview/variable_search.html) can be used to search for variables of interest.
 They can then be listed in a Variable Group `yaml` file by their CMIP7 Compound Names (example: "atmos.uas.tavg-h10m-hxy-u.day.glb").
 
-The Variables table in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) can be searched using Airtable's filtering/viewing options to isolate variables of interest.
-
-Variable Groups already defined in the Harmonised DR can also be viewed in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) as well as the [DR webviewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest/variable_groups.html).
+The Variables table in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) can be searched using Airtable's filtering/viewing options to isolate variables of interest. Variable Groups already defined in the Harmonised DR can also be viewed in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) as well as the [DR webviewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest/variable_groups.html).
 
 The DR software has a command-line tool to produce a listing of DR variables and their metadata attributes in `json` or `csv` (spreadsheet) format:
 ```bash
@@ -169,14 +167,21 @@ where the output file should be some sensible descriptive name.
 This produces a template `yaml` file with the names of variables listed, and also validates the input against DR reference content.
 Users should fill in the rest of the Variable Group template, including specifying a priority level (High, Medium or Low) for the group.
 
+⚠️ If a `csv` file is used, the file that is input to `make_variable_group` must have the same format as the original `csv` file: the first row gives the column headers, and subsequent rows list the variables.
+
 
 ## FAQ
 
-> If the workflow doesn't work, what do I do?
+> If this workflow doesn't work, what do I do?
 
 Please help us improve the tools by [opening an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) describing the problem.
 
-> Why is content stored here as `yaml` files?
+> Do I need to be a git expert to use this?
+
+Some familiarity with git and github is assumed, but we have tried to make the tools as simple as possible while allowing for automated checks of technical validity (to ensure that requested variables and experiments confirm to CMIP7 data standards making them publishable on ESGF).
+Feedback to improve the process is welcome: you can [open an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) or can [start a dicussion](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/discussions).
+
+> Why is Unharmonised content stored as `yaml` files?
 
 `yaml` files are easily readable by both humans and software.
 
@@ -213,4 +218,8 @@ No, they are versioned separately.
 This reflects their different development approaches, and also the fact that the Harmonised DR is now mostly stable pending minor technical updates only when necessary.
 The Unharmonised DR, in contrast, is expected to evolve significantly, determined by MIP constributions on timelines unconstrained by the AFT.
 
+> Does submitting a request here mean that it will become part of the CMIP8 data request?
+
+Not necessarily, but it could improve its chances. 
+While focused on CMIP7, the Unharmonised DR is also intended to smooth the path toward incorporating community MIP requests into the next iteration of the Harmonised CMIP DR.
 
