@@ -25,51 +25,63 @@ This repository is a technical resource to make data request information easily 
 A new data request is created by submitting a pull request in this repository. The basic procedure is:
 
 1. Clone this repo and checkout a new branch
-2. Define a new DR Opportunity
-3. Define any new Experiment or Variable Groups
-4. Run the validation script to check technical compliance
-5. Submit pull request for review
+2. Define a new Opportunity, and any needed Experiment or Variable Groups
+3. Run the validation script to check technical compliance
+4. Submit pull request for review
 
 See below for explanation of each step. 
 
 
 ### 1. Clone the repository
 
+Clone the git repository and checkout a new branch:
 ```bash
 git clone git@github.com:CMIP-Data-Request/CMIP7_DReq_Unharmonised.git
 cd CMIP7_DReq_Unharmonised/
-git checkout -b mip_request
+git checkout -b name_of_mip
 ```
-replacing `mip_request` with a suitable descriptive name.
+The branch name (`name_of_mip` in the above example) is arbitrary, but it is suggested to use the MIP's name simply to help keep track of different MIPs' requests in the Unharmonised repo.
 
 
-### 2. Define a new DR Opportunity
+### 2. Define an Opportunity, Experiment Groups, and Variable Groups
 
-An "Opportunity" lists the variables requested from a set of experiments and explains why they're requested.
-The explanation can be brief but should cover the basics and, if possible, include links to reference information (such as a MIP documentation paper).
+An "Opportunity" in the DR lists the variables requested from a set of experiments and explains why they're requested.
+Creating a new Opportunity is how a new request is added to the Unharmonised DR.
 
-Start by copying the Opportunity template:
+The experiments and variables requested by an Opportunity are specified by referring to Experiment Groups and Variable Groups.
+These can be new groups created in the Unharmonised DR repo, or existing groups from the Harmonised DR (for example, `DECK` or `baseline_monthly`).
+
+The `yaml` files specifying new Opportunities, Experiment Groups, or Variable Groups can be created in any order (all of the files will be submitted together in a single pull request in [Step 4](#4-submit-pull-request-for-review)).
+The following subsections explain how to create them.
+
+
+#### Creating a new Opportunity
+
+Start by copying the Opportunity template that is provided:
 ```bash
 cd Opportunity/
 cp TEMPLATE_Opportunity.yaml mip_request.yaml
 ```
-replacing `mip_request.yaml` with a descriptive file name. 
+replacing `mip_request.yaml` with a descriptive file name; for examples from the Harmonised DR, look in the `reference_Harmonised/Opportunity` folder.
 The Opportunity file should remain in the `Opportunity` folder.
-Edit the file to describe the new Opportunity.
 
+Edit the file to describe the new Opportunity.
 The Opportunity description can be brief or detailed.
-For examples of Opportunities in the Harmonised DR, see `reference_Harmonised/Opportunity`.
-(Some Harmonised DR Opportunities go into considerable detail but that is not mandatory for the Unharmonised DR.)
-Note that in general there are several ways to view the Harmonised DR content:
+For examples from the Harmonised DR, look at some of the `yaml` files in `reference_Harmonised/Opportunity`.
+Some Harmonised DR Opportunities go into considerable detail, but this is not mandatory for the Unharmonised DR.
+It is valuable include links to reference information, such as a MIP documentation paper, if possible.
+
+The `yaml` files in `reference_Harmonised/Opportunity` are provided so that examples of Harmonised content are easily available in the same format as requested for the Unharmonised content.
+Harmonised DR content can also be viewed using:
 
 - [Airtable](https://bit.ly/CMIP7-DReq-latest)
 - [DR web viewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest)
-- `yaml` files in `reference_Harmonised/`
 
-The choice of viewer is solely a user preference (the content is the same).
+The choice of viewer is solely a user preference; the content is the same. 
+(Note however there is currently no plan to make Unharmonised content available at the above viewers.)
 
 
-### 3. Define any new Experiment or Variable Groups
+#### Creating a new Experiment Group
 
 Experiment Groups listed in the Opportunity file can be:
 
@@ -80,14 +92,20 @@ Experiment Groups listed in the Opportunity file can be:
 To create a new Experiment Group, follow the example file (`Experiment_Group/example_experiment_group.yaml`) and reference the new group from the Opportunity file.
 The new group's `yaml` file should remain in the `Experiment_Group` folder.
 
-Similarly, Variable Groups listed in the Opportunity file can be existing ones (from either the Harmonised or Unharmonised DR) or new ones (following the example: `Variable_Group/example_variable_group.yaml`).
+
+#### Creating a new Variable Group
+
+Similarly to new Experiment Groups, Variable Groups listed in the Opportunity file can be existing ones (from either the Harmonised or Unharmonised DR) or new ones (following the example: `Variable_Group/example_variable_group.yaml`).
 The new group's `yaml` file should remain in the `Variable_Group` folder.
-Variables in a Variable Group `yaml` file should be named by their CMIP7 Compound Name (example: "atmos.uas.tavg-h10m-hxy-u.day.glb").
 
-To help creating variable groups, [see below](#help-with-variable-groups) for some tools.
+Variables in a Variable Group `yaml` file should be named by their CMIP7 Compound Name (example: "atmos.uas.tavg-h10m-hxy-u.day.glb"), as shown in the `yaml` files in `reference_Harmonised/Variable_Group`.
+
+A priority level (High, Medium or Low) should be specified for each Variable Group in its `yaml` file.
+
+For further help in creating variable groups, [see here for some tools](#help-with-variable-groups).
 
 
-### 4. Run the validation script
+### 3. Run the validation script
 
 This performs automated checks for techical compliance.
 These include checking that:
@@ -107,7 +125,7 @@ To run the script:
 If the script finishes without errors, the validation checks have passed.
 
 
-### 5. Submit pull request for review
+### 4. Submit pull request for review
 
 ```bash
 git push -u origin mip_request
@@ -124,27 +142,43 @@ Likewise any new Experiment or Variable Groups, which may potentially be re-used
 
 ## Help with Variable Groups
 
-There are several ways to disover DR variables to include in a new Variable Group.
+Since the whole collection of variables in the Harmonised DR is quite large (roughly 2000 variables), some guidance is provided here on how this collection can be searched to find relevant variables for inclusion in a new Variable Group.
+
+#### DR webviewer variable search
 
 The [DR webviewer variable search](https://cmip-data-request.github.io/cmip7-dreq-webview/variable_search.html) can be used to search for variables of interest.
 They can then be listed in a Variable Group `yaml` file by their CMIP7 Compound Names (example: "atmos.uas.tavg-h10m-hxy-u.day.glb").
 
-The Variables table in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) can be searched using Airtable's filtering/viewing options to isolate variables of interest. Variable Groups already defined in the Harmonised DR can also be viewed in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) as well as the [DR webviewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest/variable_groups.html).
+#### Airtable filters and spreadsheet download
 
-The DR software has a command-line tool to produce a listing of DR variables and their metadata attributes in `json` or `csv` (spreadsheet) format:
+The Variables table in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) can be searched using Airtable's filtering/viewing options to isolate variables of interest. 
+Variable Groups already defined in the Harmonised DR can also be viewed in the [DR Airtable](https://bit.ly/CMIP7-DReq-latest) as well as the [DR webviewer](https://cmip-data-request.github.io/cmip7-dreq-webview/latest/variable_groups.html).
+
+A spreadsheet (`csv` format) listing of DR variables and their metadata attributes can be downloaded from Airtable.
+In the Variables table, go to **MASTER** (near top left), open its drop-down menu, and click "Download CSV". 
+
+
+#### DR software
+
+The DR software has a command-line tool to produce a listing of DR variables and their metadata attributes in `json` or `csv` (spreadsheet) format.
+[See here](https://github.com/CMIP-Data-Request/CMIP7_DReq_Software) for instructions on how to install the DR software.
+
+To produce a `json` file listing all DR variables:
 ```bash
 get_variables_metadata v1.2.2.5 vars.json
 ```
-or 
+To produce the equivalent information in a spreadsheet format, the same command is used but with a filename with `csv` extension  specified as the output:
 ```bash
 get_variables_metadata v1.2.2.5 vars.csv
 ```
-By default this produces a list of the almost 2000 variables defined in the Harmonised DR. 
+
+By default, these output files include the roughly 2000 variables defined in the Harmonised DR. 
 To isolate only variables of interest, the list can be filtered:
 ```bash
 get_variables_metadata v1.2.2.5 vars.csv -f filter_variables.yaml
 ```
-where for example the filtering `yaml` file could contain:
+where `filter_variables.yaml` is a `yaml` file that specifies how to subset the original (large) list of variables.
+For example, if the contents of `filter_variables.yaml` are:
 ```yaml
 frequency:
 - day
@@ -153,21 +187,24 @@ variableRootDD:
 - uas
 - vas
 ```
-to retain only `uas` and `vas` at both `day` and `3hr` frequencies.
-This may be useful to produce an initial list of variables when creating a new variable group.
-The list can be then be edited to choose the variables for the group.
+then only `uas` and `vas` at both `day` and `3hr` frequencies are retained.
 
-⚠️ The inclusion of metadata in the `json` or `csv` file is for information only, to make it easier to select relevant variables. The metadata cannot be edited to change the definition of a variable (for example, its cell methods, dimensions, or CF standard name). Defining *new* variables as part of the Unharmonised DR is *in development* and not yet available.
+A produced `json` or `csv` file listing DR variables may be useful for submitters to examine the metadata attributes of variables and decide which ones to include.
+Note, however, that the inclusion of metadata in the `json` or `csv` file is *for information only*, to make it easier to select relevant variables. 
+The metadata cannot be edited to change the definition of a variable (for example, its cell methods, dimensions, or CF standard name). Defining *new* variables as part of the Unharmonised DR is *in development* and not yet available.
 
-After editing the list, the another command-line tool can be used to render it in the `yaml` format required to make a pull request in the Unharmonised repo:
+If a produced `json` or `csv` file is edited to retain only the variables that are wanted in a new Variable Group, for convenience another command-line tool in the DR Software is available to convert the edited file into a `yaml` for the Variable Group (i.e., a `yaml` file that can be added to the `Variable_Group` folder and submitted as part of the pull request in [Step 4](#4-submit-pull-request-for-review)).
+This is done by running:
 ```bash
 make_variable_group vars.csv my_new_variable_group.yaml
 ```
-where the output file should be some sensible descriptive name.
+where the output file should be some sensible descriptive name (see the `reference_Harmonised/Variable_Group` folder for examples).
 This produces a template `yaml` file with the names of variables listed, and also validates the input against DR reference content.
-Users should fill in the rest of the Variable Group template, including specifying a priority level (High, Medium or Low) for the group.
 
-⚠️ If a `csv` file is used, the file that is input to `make_variable_group` must have the same format as the original `csv` file: the first row gives the column headers, and subsequent rows list the variables.
+⚠️ If a `csv` file is used as the input, the file that is input to `make_variable_group` **must have the same format** as the original `csv` file: the first row gives the column headers, and subsequent rows list the variables.
+
+If `make_variable_group` is used, users should still edit the resulting `yaml` file (`my_new_variable_group.yaml` in the above example) to fill in the descriptive fields.
+This includes specifying a priority level (High, Medium or Low) for the Variable Group.
 
 
 ## FAQ
