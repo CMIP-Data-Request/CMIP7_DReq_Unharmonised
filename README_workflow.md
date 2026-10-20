@@ -133,10 +133,15 @@ The validation script is part of the DR Software ([see here](https://github.com/
 To run the script:
 ```bash
 cd Opportunity/
-validate_DR_opportunity mip_opportunity.yaml v1.2.2.5
+validate_DR_opportunity mip_opportunity.yaml
 ```
 If the script finishes without errors, the validation checks have passed.
 Invoke with `-h` for help (`validate_DR_opportunity -h`).
+By default the latest version of the Harmonised DR is used as the validataion reference.
+Optionally, a specific version can be selected by using the `-dreq` option, for example:
+```bash
+validate_DR_opportunity mip_opportunity.yaml -dreq v1.2.2.5
+```
 
 
 ### 4. Submit pull request for review
