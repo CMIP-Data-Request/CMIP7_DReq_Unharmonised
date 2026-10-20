@@ -27,7 +27,7 @@ This document explains how a data request can be created as part of the Unharmon
 - Instigate an extensive review process of requests as occurred for the community consultation that created the Harmonised DR.
 
 MIPs are responsible for coordinating with modelling centres to carry out MIP experiments and publish the requested variables, which may include estimating the required resources that a modelling centre must commit (such as HPC time to run the experiments and data storage capacity to publish the data).
-This repository is a technical resource to make data request information easily available to them.
+This repository is a technical resource intended to make data request information easily available to modelling centres.
 It does not imply coordination with modelling centres by the CMIP IPO on behalf of MIPs.
 
 
@@ -49,9 +49,9 @@ Clone the git repository and checkout a new branch:
 ```bash
 git clone git@github.com:CMIP-Data-Request/CMIP7_DReq_Unharmonised.git
 cd CMIP7_DReq_Unharmonised/
-git checkout -b name_of_mip
+git checkout -b mip_request
 ```
-The branch name is arbitrary, but it is suggested to use the MIP's name (replacing `name_of_mip`) to help keep track of different MIPs' pull requests.
+The branch name is arbitrary, although it is suggested to use the MIP's name or something equally descriptive (replacing `mip_request` in the above example) to help keep track of different MIPs' pull requests.
 
 
 ### 2. Define an Opportunity, Experiment Groups, and Variable Groups
@@ -71,9 +71,9 @@ The following subsections explain how to create them.
 Start by copying the Opportunity template that is provided:
 ```bash
 cd Opportunity/
-cp TEMPLATE_Opportunity.yaml mip_request.yaml
+cp TEMPLATE_Opportunity.yaml mip_opportunity.yaml
 ```
-replacing `mip_request.yaml` with a descriptive file name; for examples from the Harmonised DR, look in the `reference_Harmonised/Opportunity` folder.
+replacing `mip_opportunity.yaml` with a descriptive file name; for examples from the Harmonised DR, look in the `reference_Harmonised/Opportunity` folder.
 The Opportunity file should remain in the `Opportunity` folder.
 
 Edit the file to describe the new Opportunity.
@@ -127,11 +127,11 @@ These include checking that:
 
 The validation script is part of the DR Software ([see here](https://github.com/CMIP-Data-Request/CMIP7_DReq_Software) for how to install it).
 
-⚠️ *In development* For now use the `unharmonised_dev2` branch. The validation script will be updated.
+⚠️ *In development* DR Software updates reside currently on the `unharmonised_dev2` branch, to be merged before the process is advertised to MIPs.
 
 To run the script:
 ```bash
- validate_DR_opportunity Opportunity/mip_request.yaml mip_request.json v1.2.2.5
+ validate_DR_opportunity Opportunity/mip_opportunity.yaml mip_opportunity.json v1.2.2.5
 ```
 If the script finishes without errors, the validation checks have passed.
 
@@ -144,11 +144,11 @@ git push -u origin mip_request
 Then navigate to the [github repo](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised) and open a pull request for this branch.
 The pull request description should indicate:
 
-- if the validation checks have passed
-- MIP leads endorse the request (if they are not the submitters, their github handles should be tagged)
+- If the validation checks have passed;
+- If MIP leads endorse the request (if they are not the submitters, their github handles should be tagged in the pull request).
 
-Once accepted and merged, the Opportunity is part of the Unharmonised DR, accesible to data producers.
-Likewise any new Experiment or Variable Groups, which may potentially be re-used by other MIPs.
+Once accepted and merged, the Opportunity is part of the Unharmonised DR, accesible to modelling centres.
+Likewise, any new Experiment or Variable Groups become available in the Unharmonised DR to potentially be re-used by other MIPs.
 
 
 ## Help with Variable Groups
