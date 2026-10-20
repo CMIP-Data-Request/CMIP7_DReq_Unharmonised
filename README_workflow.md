@@ -100,13 +100,13 @@ Experiment Groups listed in the Opportunity file can be:
 - from other MIPs, as listed in the `Experiment_Group` folder
 - brand new
 
-To create a new Experiment Group, follow the example file (`Experiment_Group/example_experiment_group.yaml`) and reference the new group from the Opportunity file.
+To create a new Experiment Group, follow the example file (`Experiment_Group/TEMPLATE_Experiment_Group.yaml`) and reference the new group from the Opportunity file.
 The new group's `yaml` file should remain in the `Experiment_Group` folder.
 
 
 #### Creating a new Variable Group
 
-Similarly to new Experiment Groups, Variable Groups listed in the Opportunity file can be existing ones (from either the Harmonised or Unharmonised DR) or new ones (following the example: `Variable_Group/example_variable_group.yaml`).
+Similarly to new Experiment Groups, Variable Groups listed in the Opportunity file can be existing ones (from either the Harmonised or Unharmonised DR) or new ones (following the example: `Variable_Group/TEMPLATE_Variable_Group.yaml`).
 The new group's `yaml` file should remain in the `Variable_Group` folder.
 
 Variables in a Variable Group `yaml` file should be named by their CMIP7 Compound Name (example: "atmos.uas.tavg-h10m-hxy-u.day.glb"), as shown in the `yaml` files in `reference_Harmonised/Variable_Group`.
@@ -131,7 +131,7 @@ The validation script is part of the DR Software ([see here](https://github.com/
 
 To run the script:
 ```bash
- validate_DR_opportunity Opportunity/mip_opportunity.yaml mip_opportunity.json v1.2.2.5
+validate_DR_opportunity Opportunity/mip_opportunity.yaml mip_opportunity.json v1.2.2.5
 ```
 If the script finishes without errors, the validation checks have passed.
 
