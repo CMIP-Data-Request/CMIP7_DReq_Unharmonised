@@ -222,9 +222,10 @@ This includes specifying a priority level (High, Medium or Low) for the Variable
 
 > How long should this process take?
 
-Assuming that a request has passed the automated technical checks (Step 3) and been approved by MIP leads, review of the pull request (Step 4) by the WIP-Ops (WIP Operations) team should be feasible quickly, within roughly a week (a more refined estimate should be possible once we have some experience with the process).
-Prior to reaching this stage, it is up to a MIP to determine how much time is needed to draft its data request.
-The MIP might wish to consult with its community prior to submitting, or mark its pull request as "draft" and invite community comments prior to marking the pull request as MIP-approved and ready for WIP-Ops review (Step 4).
+Assuming that MIP's request has passed the automated technical checks (Step 3), and is scientifically approved by the MIP leads, review of the pull request (Step 4) by the WIP-Ops (WIP Operations) team is expected to take roughly a week (with the caveat that this estimate could be revised once the WIP-Ops team has some experience working with MIPs in this new process).
+However if there are technical errors, the review stage could take longer.
+Prior to reaching this stage, it is up to a MIP to determine how much time is needed to draft its data request. 
+For example, a MIP might wish to consult with its wider community before finalizing and submitting its pull request.
 
 > Will data produced from these requests pass ESGF QC (Quality Control) checks? 
 
