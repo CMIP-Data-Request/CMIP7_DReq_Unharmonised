@@ -1,35 +1,46 @@
 
 # Technical Workflow for CMIP7 Unharmonised Data Request
 
-This document explains how a MIP can create a data request for MIP-defined experiments using this git repository and the [DR Software](https://github.com/CMIP-Data-Request/CMIP7_DReq_Software).
+This document explains how a Community MIP can create a data request for its experiments or other CMIP7 experiments as part of the CMIP7 Unharmonised Data Request (DR).
+The Unharmonised DR is not tied to Assessment Fast Track (AFT) timelines.
 
-It's assumed that the MIP has already registered with the IPO and CVs (registration links can be found [here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Guidance_for_MIPs/)).
+Prior to creating a data request by following the workflow described in this document, a Community MIP should already have:
 
-## What this repository does
+- **Registered as a MIP** with the CMIP IPO
+- Registered the MIP as an **activity** in the CMIP7 CVs (the `activity_id` [Global Attribute](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Global_Attributes/))
+- Registered the MIP's **experiments** in the CMIP7 CVs (the `experiment_id` [Global Attribute](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Global_Attributes/) for each MIP experiment)
 
-- Gather new data requests for MIP experiments, making them easily available to modelling centres and data users
-- Store data requests in a consistent format (allowing DR software tools to work with them)
-- Facilitate technical checks on data request (compliance with metadata standards, etc)
+Registration links for all the above, as well as other guidance for CMIP7 Community MIPs, can be [found here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Guidance_for_MIPs/).
 
-## What this repository does *not* do
+This document explains how a data request can be created as part of the Unharmonised DR by using the tools in this git repository, as well as the [DR Software](https://github.com/CMIP-Data-Request/CMIP7_DReq_Software).
 
-- Register MIPs or experiments (registration links can be found [here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Guidance_for_MIPs/))
-- Define new request variables (CMOR variables), which will be done in the **WCRP Variable Registry** currently in development
-- Instigate an extensive review process as done for the community consultation that created the Harmonised DR
+### What this repository does:
 
-MIPs are responsible for coordinating with modelling centres to carry out MIP experiments and publish the requested variables.
-This repository is a technical resource to make data request information easily available to them, it does not imply coordination with modelling centres by the CMIP IPO on behalf of MIPs.
+- Collect new data requests in a central place, making them easily available to modelling centres, other MIPs, and data users;
+- Store data requests in a consistent format, to facilitate use by software tools;
+- Facilitate technical checks on data request (compliance with metadata standards, etc) that enable produced data to be published on ESGF. 
+
+### What this repository does *not* do:
+
+- Register MIPs or experiments (registration links can be found [here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP7/Guidance_for_MIPs/));
+- Define new data request variables (aka CMOR variables), which instead is planned for the **WCRP Variable Registry** under development;
+- Instigate an extensive review process of requests as occurred for the community consultation that created the Harmonised DR.
+
+MIPs are responsible for coordinating with modelling centres to carry out MIP experiments and publish the requested variables, which may include estimating the required resources that a modelling centre must commit (such as HPC time to run the experiments and data storage capacity to publish the data).
+This repository is a technical resource to make data request information easily available to them.
+It does not imply coordination with modelling centres by the CMIP IPO on behalf of MIPs.
+
 
 ## How to create a data request
 
 A new data request is created by submitting a pull request in this repository. The basic procedure is:
 
 1. Clone this repo and checkout a new branch
-2. Define a new Opportunity, and any needed Experiment or Variable Groups
+2. Define a new Opportunity, and any new Experiment or Variable Groups that the Opportunity references
 3. Run the validation script to check technical compliance
 4. Submit pull request for review
 
-See below for explanation of each step. 
+See below for a detailed explanation of each of these steps. 
 
 
 ### 1. Clone the repository
@@ -40,7 +51,7 @@ git clone git@github.com:CMIP-Data-Request/CMIP7_DReq_Unharmonised.git
 cd CMIP7_DReq_Unharmonised/
 git checkout -b name_of_mip
 ```
-The branch name (`name_of_mip` in the above example) is arbitrary, but it is suggested to use the MIP's name simply to help keep track of different MIPs' requests in the Unharmonised repo.
+The branch name is arbitrary, but it is suggested to use the MIP's name (replacing `name_of_mip`) to help keep track of different MIPs' pull requests.
 
 
 ### 2. Define an Opportunity, Experiment Groups, and Variable Groups
@@ -209,14 +220,27 @@ This includes specifying a priority level (High, Medium or Low) for the Variable
 
 ## FAQ
 
-> If this workflow doesn't work, what do I do?
+> How long should this process take?
+
+Assuming that a request has passed the automated technical checks (Step 3) and been approved by MIP leads, review of the pull request (Step 4) by the WIP-Ops (WIP Operations) team should be feasible quickly, within roughly a week (a more refined estimate should be possible once we have some experience with the process).
+Prior to reaching this stage, it is up to a MIP to determine how much time is needed to draft its data request.
+The MIP might wish to consult with its community prior to submitting, or mark its pull request as "draft" and invite community comments prior to marking the pull request as MIP-approved and ready for WIP-Ops review (Step 4).
+
+> Will data produced from these requests pass ESGF QC (Quality Control) checks? 
+
+Technically compliant requests should enable modelling centres to produce data that will pass QC checks and hence be publishable as CMIP7 data on ESGF.
+Here "technically compliant" means that the requested experiments and variables are defined in the CMIP7 CVs. 
+
+> If the workflow doesn't work, what do I do?
 
 Please help us improve the tools by [opening an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) describing the problem.
 
 > Do I need to be a git expert to use this?
 
-Some familiarity with git and github is assumed, but we have tried to make the tools as simple as possible while allowing for automated checks of technical validity (to ensure that requested variables and experiments confirm to CMIP7 data standards making them publishable on ESGF).
-Feedback to improve the process is welcome: you can [open an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) or can [start a dicussion](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/discussions).
+Some familiarity with git and github is assumed. 
+We have tried to make the tools as simple as possible while still allowing for automated checks of technical validity.
+The technical checks are important to ensure that requested variables and experiments confirm to CMIP7 data standards, making them publishable on ESGF.
+Constructive feedback to help improve the process is welcome: you can [open an issue](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/issues) or can [start a dicussion](https://github.com/CMIP-Data-Request/CMIP7_DReq_Unharmonised/discussions).
 
 > Why is Unharmonised content stored as `yaml` files?
 
@@ -229,21 +253,20 @@ Yes, provided the information is converted into `yaml` format for the pull reque
 
 > Who reviews these pull requests?
 
-MIP requests should be submitted with the approval of MIP leads who have registered their contact info with the CMIP IPO.
+MIP requests should be submitted with the approval of MIP leads (who must have registered their contact info with the CMIP IPO).
 Pull requests will be reviewed for technical compliance by the WIP-Ops (WIP Operations) team, who maintain this repository.
 MIP leads are responsible for the scientific validity of the request.
 
-> Why are experiments/variables listed in groups?
+> Why do experiments and variables need to be listed in Experiment Groups and Variable Groups?
 
-This makes requests easier to read, encourages re-use of existing groups wher epossible, and helps make requests easier to understand. 
-(Variable and experiment lists can get very long.)
+Grouping them together makes data requests easier to read and understand, and encourages re-use of existing groups where possible (including groups from the Harmonised DR).
 
 > Can I request changes to Harmonised DR content by making a pull request in this repo?
 
-No, the CMIP7 Harmonised DR is focused on Fast Track experiments and is finalised (subject to minor updates when errors are found). 
+No. The CMIP7 Harmonised DR is focused on Fast Track experiments and is finalised (subject to minor updates when errors are found). 
 Find the latest version of the Harmonised DR [here](https://wcrp-cmip.org/cmip7-data-request-latest).
 
-> How does this process differ from development of the Hamonised DR?
+> How does this process differ from development of the Harmonised DR?
 
 The Harmonised DR is targetted at the CMIP7 AFT and was developed in an extensive community consultation and review process, as described in the[Data request overview paper in CMIP7 GMD special issue](https://doi.org/10.5194/gmd-19-8053-2026) and on the [CMIP7 Data Request website](https://wcrp-cmip.org/cmip-phases/cmip7/cmip7-data-request/).
 The Unharmonised DR has no such development process.
@@ -252,11 +275,11 @@ Scientific review is the responsibility of contributing MIPs, and technical revi
 > Is Unharmonised DR content versioned as part of the Harmonised DR versioning?
 
 No, they are versioned separately.
-This reflects their different development approaches, and also the fact that the Harmonised DR is now mostly stable pending minor technical updates only when necessary.
+This reflects their different development approaches, and also the fact that the Harmonised DR is now stable pending minor technical updates only when deemed necessary.
 The Unharmonised DR, in contrast, is expected to evolve significantly, determined by MIP constributions on timelines unconstrained by the AFT.
 
 > Does submitting a request here mean that it will become part of the CMIP8 data request?
 
 Not necessarily, but it could improve its chances. 
-While focused on CMIP7, the Unharmonised DR is also intended to smooth the path toward incorporating community MIP requests into the next iteration of the Harmonised CMIP DR.
+While focused on CMIP7, the Unharmonised DR is also intended to smooth the path toward incorporating community MIP requests into future iterations of the Harmonised CMIP DR.
 
