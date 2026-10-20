@@ -76,11 +76,12 @@ cp TEMPLATE_Opportunity.yaml mip_opportunity.yaml
 replacing `mip_opportunity.yaml` with a descriptive file name; for examples from the Harmonised DR, look in the `reference_Harmonised/Opportunity` folder.
 The Opportunity file should remain in the `Opportunity` folder.
 
-Edit the file to describe the new Opportunity.
+Edit the new `yaml` file to describe the new Opportunity by filling in the various fields ("Title", "MIP", etc).
 The Opportunity description can be brief or detailed.
 For examples from the Harmonised DR, look at some of the `yaml` files in `reference_Harmonised/Opportunity`.
-Some Harmonised DR Opportunities go into considerable detail, but this is not mandatory for the Unharmonised DR.
-It is valuable include links to reference information, such as a MIP documentation paper, if possible.
+Some Harmonised DR Opportunities go into considerable detail.
+This could be helpful to justify the request, but it is not strictly mandatory for the Unharmonised DR.
+If possible, include links to relevant references (e.g., MIP documentation paper).
 
 The `yaml` files in `reference_Harmonised/Opportunity` are provided so that examples of Harmonised content are easily available in the same format as requested for the Unharmonised content.
 Harmonised DR content can also be viewed using:
@@ -131,9 +132,11 @@ The validation script is part of the DR Software ([see here](https://github.com/
 
 To run the script:
 ```bash
-validate_DR_opportunity Opportunity/mip_opportunity.yaml mip_opportunity.json v1.2.2.5
+cd Opportunity/
+validate_DR_opportunity mip_opportunity.yaml v1.2.2.5
 ```
 If the script finishes without errors, the validation checks have passed.
+Invoke with `-h` for help (`validate_DR_opportunity -h`).
 
 
 ### 4. Submit pull request for review
